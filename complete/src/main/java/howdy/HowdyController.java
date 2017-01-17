@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+//@EnableAutoConfiguration
 public class HowdyController {
     
     @RequestMapping("/")
@@ -16,7 +17,7 @@ public class HowdyController {
     @RequestMapping("/greeting")
     public String greeting(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
-        return "greeting";
+        return "message";
     }
     
 }
