@@ -1,4 +1,4 @@
-package howdy;
+package com.howdy;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

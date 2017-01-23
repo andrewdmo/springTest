@@ -1,4 +1,4 @@
-package howdy;
+package com.howdy;
 
 public class Greeting {
 
