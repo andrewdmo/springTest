@@ -1,5 +1,7 @@
 package com.howdy;
 
+//@EnableAutoConfiguration
+//@Component
 public class Greeting {
 
     private final long id;

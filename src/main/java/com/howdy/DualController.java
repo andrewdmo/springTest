@@ -1,5 +1,6 @@
 package com.howdy;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.atomic.AtomicLong;
 
 @Controller
+@EnableAutoConfiguration
 public class DualController {
 
     @RequestMapping(value = {"/", "/index"})
@@ -18,7 +20,6 @@ public class DualController {
         model.addAttribute("name", name);
         return "index";
     }
-
 
     @RequestMapping("/mvcgreeting")
     public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Wirl") String name, Model model) {
