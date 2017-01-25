@@ -1,6 +1,5 @@
-package com.howdy;
+package com.herro;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.atomic.AtomicLong;
 
 @Controller
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 public class DualController {
 
     @RequestMapping(value = {"/", "/index"})
@@ -27,7 +26,7 @@ public class DualController {
         return "mvcgreeting";
     }
 
-    //    @RequestMapping("")
+    //    @RequestMapping("/error")
     @ExceptionHandler
     //add URL request feedback later:
     public String error() {
@@ -38,7 +37,7 @@ public class DualController {
     @RestController
     public class restController {
 
-        private static final String template = "Howdy, %s!";
+        private static final String template = "Herro, %s!";
         private final AtomicLong counter = new AtomicLong();
 
         @RequestMapping("/restgreeting")

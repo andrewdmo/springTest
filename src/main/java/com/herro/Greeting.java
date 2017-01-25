@@ -1,6 +1,5 @@
-package com.howdy;
+package com.herro;
 
-//@EnableAutoConfiguration
 //@Component
 public class Greeting {
 

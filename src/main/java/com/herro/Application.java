@@ -1,9 +1,11 @@
-package com.howdy;
+package com.herro;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,9 +15,14 @@ import java.util.Arrays;
 @SpringBootApplication
 @Configuration
 @EnableAutoConfiguration
-public class Application {
+public class Application extends SpringBootServletInitializer {
 
-    public static void main(String[] args) {
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(Application.class);
+    }
+
+    public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
     }
 
