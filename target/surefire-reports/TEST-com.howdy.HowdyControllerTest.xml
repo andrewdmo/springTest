@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.howdy.HowdyControllerTest" time="0.001" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="com.howdy.HowdyControllerTest" time="0.027" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib"/>
@@ -61,7 +61,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="initializationError" classname="com.howdy.HowdyControllerTest" time="0.001">
+  <testcase name="initializationError" classname="com.howdy.HowdyControllerTest" time="0.027">
     <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
 	at org.springframework.util.Assert.state(Assert.java:392)
 	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:173)
@@ -94,9 +94,9 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]></error>
-    <system-out><![CDATA[2017-01-29 18:16:23.357  INFO 12993 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.howdy.HowdyControllerTest], using SpringBootContextLoader
-2017-01-29 18:16:23.358  INFO 12993 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.howdy.HowdyControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2017-01-29 18:16:23.358  INFO 12993 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.howdy.HowdyControllerTest]: HowdyControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+    <system-out><![CDATA[2017-01-29 18:29:10.217  INFO 13130 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.howdy.HowdyControllerTest], using SpringBootContextLoader
+2017-01-29 18:29:10.218  INFO 13130 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.howdy.HowdyControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-01-29 18:29:10.218  INFO 13130 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.howdy.HowdyControllerTest]: HowdyControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
 ]]></system-out>
   </testcase>
 </testsuite>
