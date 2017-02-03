@@ -28,7 +28,7 @@ public class DualController {
 
     //    @RequestMapping("/error")
     @ExceptionHandler
-    //add URL request feedback later:
+    //add URL request query feedback later:
     public String error() {
         return "error";
     }
