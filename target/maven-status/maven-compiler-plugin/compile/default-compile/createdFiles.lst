@@ -1,6 +1,4 @@
-com/herro/SecurityWebApplicationInitializer.class
 com/herro/Greeting.class
 com/herro/Application.class
 com/herro/DualController.class
 com/herro/DualController$restController.class
-com/herro/SecurityConfig.class

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c7c6b949-fb89-49dd-979d-a912079dc4af" name="AWS" url="http://ec2-54-152-75-241.compute-1.amazonaws.com">
+        <fileTransfer host="ec2-54-152-75-241.compute-1.amazonaws.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

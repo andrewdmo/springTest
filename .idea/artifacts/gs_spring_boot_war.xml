@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="gs-spring-boot:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="springTest-0.1.0.war">
-      <element id="artifact" artifact-name="gs-spring-boot:war exploded" />
-    </root>
-  </artifact>
-</component>
