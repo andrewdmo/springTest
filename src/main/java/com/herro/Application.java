@@ -19,6 +19,8 @@ public class Application extends SpringBootServletInitializer {
         SpringApplication.run(Application.class, args);
     }
 
+    //reactivate later:
+
 //    @Bean
 //    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 //        return args -> {

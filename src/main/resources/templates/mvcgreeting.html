@@ -1,10 +1,22 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Stone Mountain</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+    <title>Stone Mountain MVC Greeting!</title>
+
+    <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/static/css/paleoStyle.css}" href="/static/css/paleoStyle.css"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon-194x194.png" sizes="194x194"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="/static/img/android-chrome-192x192.png" sizes="192x192"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon-16x16.png" sizes="16x16"/>
+    <link rel="shortcut icon" href="/static/img/favicon.ico"/>
 </head>
-<body>
+
+
+<body style="text-align: center; margin: 40vh">
 <!--test TL:-->
 <p th:text="'MVC Greetings, ' + ${name} + '!'">MVC Greetings, [default]!</p>
 </body>

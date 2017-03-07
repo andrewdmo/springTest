@@ -1,5 +1,7 @@
 package com.herro;
 
+//import org.springframework.stereotype.Component;
+//
 //@Component
 public class Greeting {
 

@@ -25,6 +25,36 @@ public class DualController {
         return "mvcgreeting";
     }
 
+    @RequestMapping("/paleodemo")
+    public String paleodemo() {
+        return "psindex";
+    }
+
+    @RequestMapping("/psabout")
+    public String psabout() {
+        return "psabout";
+    }
+
+    @RequestMapping("/psarchives")
+    public String psarchives() {
+        return "psarchives";
+    }
+
+    @RequestMapping("/psblog")
+    public String psblog() {
+        return "psblog";
+    }
+
+    @RequestMapping("/pscontact")
+    public String pscontact() {
+        return "pscontact";
+    }
+
+    @RequestMapping("/psportfolio")
+    public String psportfolio() {
+        return "psportfolio";
+    }
+
     @ExceptionHandler
     //add URL request query feedback later:
     public String error() {
@@ -35,7 +65,7 @@ public class DualController {
     @RestController
     public class restController {
 
-        private static final String template = "Stone Mountain greets you, %s!";
+        private static final String template = "Stone Mountain wants to make your day, %s!";
         private final AtomicLong counter = new AtomicLong();
 
         @RequestMapping("/restgreeting")
