@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../animal-shelter/animal-shelter.iml" filepath="$PROJECT_DIR$/../animal-shelter/animal-shelter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tiy-homework-animal-shelter/animalShelter-v1.2-json.iml" filepath="$PROJECT_DIR$/../tiy-homework-animal-shelter/animalShelter-v1.2-json.iml" />
       <module fileurl="file://$PROJECT_DIR$/springTest.iml" filepath="$PROJECT_DIR$/springTest.iml" />
     </modules>
   </component>
