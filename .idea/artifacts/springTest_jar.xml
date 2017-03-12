@@ -2,7 +2,7 @@
   <artifact type="jar" name="springTest:jar">
     <output-path>$PROJECT_DIR$/classes/artifacts/springTest_jar</output-path>
     <root id="archive" name="springTest.jar">
-      <element id="module-output" name="springTest" />
+      <element id="module-output" name="A DeMo" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/1.4.3.RELEASE/spring-boot-starter-actuator-1.4.3.RELEASE.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.6/tomcat-embed-websocket-8.5.6.jar" path-in-jar="/" />
