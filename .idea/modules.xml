@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/A DeMo.iml" filepath="$PROJECT_DIR$/A DeMo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tiy-homework-animal-shelter/animalShelter-v1.2-json.iml" filepath="$PROJECT_DIR$/../tiy-homework-animal-shelter/animalShelter-v1.2-json.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../rockpstiy/tiy-homework-rock-paper-scissors.iml" filepath="$PROJECT_DIR$/../rockpstiy/tiy-homework-rock-paper-scissors.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../styletiy/tiy-homework-style-the-ironyard.iml" filepath="$PROJECT_DIR$/../styletiy/tiy-homework-style-the-ironyard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tiy-homework-rock-paper-scissors/tiy-homework-rock-paper-scissors.iml" filepath="$PROJECT_DIR$/../tiy-homework-rock-paper-scissors/tiy-homework-rock-paper-scissors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tiy-homework-style-the-ironyard/tiy-homework-style-the-ironyard.iml" filepath="$PROJECT_DIR$/../tiy-homework-style-the-ironyard/tiy-homework-style-the-ironyard.iml" />
     </modules>
   </component>
 </project>
