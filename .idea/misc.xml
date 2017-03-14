@@ -7,7 +7,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../bestNoriVersion/src/bestNori/pom.xml" />
+        <option value="$PROJECT_DIR$/../tiy-homework-movie-database/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Nori/pom.xml" />
+        <option value="$PROJECT_DIR$/animalShelter-v1.2-json/pom.xml" />
+        <option value="$PROJECT_DIR$/tiy-movieSQL/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">

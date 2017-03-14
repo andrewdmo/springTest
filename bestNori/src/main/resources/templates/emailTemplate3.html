@@ -1,0 +1,54 @@
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/noriStyle.css}" href="../static/css/noriStyle.css"/>
+    <title th:text="${aProduct.getTitle()}">New email template:</title>
+    <link rel="shortcut icon" href="/static/images/favicon.ico"/>
+
+</head>
+
+<body>
+<div class="container">
+    <br/>
+    <div class="row u-full-width" style="float: right">
+        <!--<div class="one column">-->
+        <div class="twelve columns titlebanner">
+            <h3>Nori®</h3>
+            <h4>Inventory Notification System</h4>
+        </div>
+    </div><!--row-->
+
+
+    <br/>
+    <div class="row">
+        <h2>Store Merchant Template: </h2>
+        <form action="emailTemplate2.html" class="formelements" th:action="@{/emailTextModifications}"
+              th:object="${content}" method="post">
+            <div id="email">
+                <div id="emailContent">
+                    <label>To: </label>
+                    <label name="toField" th:text="*{toField}"></label>
+                    <br/>
+
+                    <label>From: (Please enter your username email) </label>
+                    <label name="fromField" th:text="*{fromField}"></label>
+                    <br/>
+
+                    <label>Subject: </label>
+                    <label name="subjectField" th:text="*{subjectField}"></label>
+                    <br/>
+
+                    <label>Body: </label>
+                    <label name="bodyField" th:text="*{bodyField}"></label>
+                    <input type="hidden" name="id" value="" th:value="*{id}"/>
+                    <h1>Saved Successfully!</h1>
+                </div>
+            </div>
+        </form>
+    </div>
+</div><!--container-->
+</body>
+</html>

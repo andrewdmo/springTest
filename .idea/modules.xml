@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/A DeMo.iml" filepath="$PROJECT_DIR$/A DeMo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../tiy-homework-animal-shelter/animalShelter-v1.2-json.iml" filepath="$PROJECT_DIR$/../tiy-homework-animal-shelter/animalShelter-v1.2-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bestNori/Nori.iml" filepath="$PROJECT_DIR$/bestNori/Nori.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiy-homework-movie-database/movieSQL.iml" filepath="$PROJECT_DIR$/tiy-homework-movie-database/movieSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tiy-homework-rock-paper-scissors/tiy-homework-rock-paper-scissors.iml" filepath="$PROJECT_DIR$/../tiy-homework-rock-paper-scissors/tiy-homework-rock-paper-scissors.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tiy-homework-style-the-ironyard/tiy-homework-style-the-ironyard.iml" filepath="$PROJECT_DIR$/../tiy-homework-style-the-ironyard/tiy-homework-style-the-ironyard.iml" />
     </modules>
