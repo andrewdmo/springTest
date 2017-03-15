@@ -55,6 +55,11 @@ public class DualController {
         return "psportfolio";
     }
 
+    @RequestMapping("/movie_sql")
+    public String movie_sql() {
+        return "movie_sql";
+    }
+
     @ExceptionHandler
     //add URL request query feedback later:
     public String error() {
@@ -65,7 +70,7 @@ public class DualController {
     @RestController
     public class restController {
 
-        private static final String template = "Stone Mountain wants to make your day, %s!";
+        private static final String template = "That punk wants to make your day, %s!";
         private final AtomicLong counter = new AtomicLong();
 
         @RequestMapping("/restgreeting")
