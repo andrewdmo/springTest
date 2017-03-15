@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="nori">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../bestNoriVersion/nori.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

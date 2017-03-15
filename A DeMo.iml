@@ -5,7 +5,6 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <dependency>spring_boot_com.herro.Application</dependency>
-          <file>file://$MODULE_DIR$/src/main/java/as/v1_2/as12.xml</file>
           <file>file://$MODULE_DIR$/src/main/java/com/herro/Application.java</file>
         </fileset>
       </configuration>
@@ -19,10 +18,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tiy-homework-movie-database/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/springTest/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Spring-4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Spring-4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.3.RELEASE" level="project" />

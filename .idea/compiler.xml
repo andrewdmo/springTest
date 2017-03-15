@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="movieSQL" />
-        <module name="Nori" />
-        <module name="springTest" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="A DeMo" target="1.7" />
-      <module name="animalShelter-v1.2-json" target="1.7" />
-      <module name="bestNori" target="1.7" />
-      <module name="movieSQL" target="1.7" />
-      <module name="movieSQL (1) (com.herro)" target="1.7" />
+      <module name="movieSQL" target="1.5" />
       <module name="Nori" target="1.7" />
-      <module name="Nori (1) (Nori)" target="1.7" />
-      <module name="springTest" target="1.7" />
+      <module name="springTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
