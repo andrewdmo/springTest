@@ -60,6 +60,11 @@ public class DualController {
         return "movie_sql";
     }
 
+    @RequestMapping("/rockps")
+    public String rockps() {
+        return "rockps";
+    }
+
     @ExceptionHandler
     //add URL request query feedback later:
     public String error() {
