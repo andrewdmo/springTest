@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Movie_SQL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/static/css/paleoStyle.css}" href="/static/css/paleoStyle.css"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon-194x194.png" sizes="194x194"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="/static/img/android-chrome-192x192.png" sizes="192x192"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon-16x16.png" sizes="16x16"/>
+    <link rel="shortcut icon" href="/static/img/favicon.ico"/>
+</head>
+
+
+<body style="text-align: center">
+<div class="container u-max-full-width">
+    <div class="row" style="height: 20%">
+        <div class="twelve columns">
+            <H6 style="text-shadow: #33C3F0">A simple pSQL database with linking table. Output formats include
+                <a href="/static/scripts/vyoo_public_movie.json">
+                    <u>JSON</u></a>,
+                <a href="/static/scripts/vyoo_public_studio.xml">
+                    <u>XML</u></a>, and
+                <a href="/static/scripts/vyoo_public_dir_genre_link.sql">
+                    <u>SQL Inserts</u></a>.
+            </H6>
+        </div><!--L column-->
+    </div><!--1st row-->
+
+    <div class="row" style="height: 80%">
+        <div class="twelve columns">
+            <a href="index.html">
+                <img src="/static/img/movie_SQLdiagram.png" alt="pSQL Movie DB Diagram" style="width: 100%"/>
+            </a>
+        </div><!--R column-->
+    </div><!--2nd row-->
+
+</div><!--container-->
+</body>
+</html>

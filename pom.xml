@@ -10,12 +10,12 @@
     </parent>
 
     <groupId>com.herro</groupId>
-    <artifactId>springTest</artifactId>
-    <version>0.1.0</version>
-    <packaging>pom</packaging>
+    <artifactId>A_DeMo</artifactId>
     <name>A DeMo</name>
+    <version>0.1.0</version>
+    <packaging>jar</packaging>
 
-<!---->
+    <!---->
     <!--<modules>-->
     <!--<module>springTest</module>-->
     <!--<module>animalShelter-v1.2-json</module>-->
@@ -68,7 +68,20 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <!--<repository>-->
+        <!--<id>springTestRepo</id>-->
+        <!--<name>localRepo</name>-->
+        <!--<url>/.m2/springTest</url>-->
+        <!--</repository>-->
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>com.herro</id>
+            <name>A DeMo</name>
+            <url>file:///Users/andrewdmo/Projects/JARs</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>

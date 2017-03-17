@@ -55,9 +55,9 @@ public class DualController {
         return "psportfolio";
     }
 
-    @RequestMapping("/movie_sql")
-    public String movie_sql() {
-        return "movie_sql";
+    @RequestMapping("/moviesql")
+    public String moviesql() {
+        return "moviesql";
     }
 
     @RequestMapping("/rockps")
@@ -70,6 +70,7 @@ public class DualController {
     public String error() {
         return "error";
     }
+
 
 
     @RestController
