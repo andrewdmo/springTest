@@ -2,10 +2,7 @@ package com.herro;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -13,14 +10,14 @@ import java.util.concurrent.atomic.AtomicLong;
 public class DualController {
 
     @RequestMapping(value = {"/", "/index"})
-    public String index(@RequestParam(value = "name", required = false, defaultValue = "Visitor") String name, Model
+    public String index(@RequestParam(value = "name", required = false, defaultValue = "Tourist") String name, Model
         model) {
         model.addAttribute("name", name);
         return "index";
     }
 
     @RequestMapping("/mvcgreeting")
-    public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Clint") String name, Model model) {
+    public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Tourist") String name, Model model) {
         model.addAttribute("name", name);
         return "mvcgreeting";
     }
@@ -72,18 +69,17 @@ public class DualController {
     }
 
 
-
     @RestController
     public class restController {
 
         private static final String template = "That punk wants to make your day, %s!";
         private final AtomicLong counter = new AtomicLong();
 
-        @RequestMapping("/restgreeting")
-        public Greeting restgreeting(@RequestParam(value = "name", defaultValue = "Clint") String name) {
+        @RequestMapping(path = "/restgreeting", method = RequestMethod.GET)
+        public Greeting restgreeting(@RequestParam(value = "name", defaultValue = "Harry") String name, String description) {
             //ID increases by one every request:
             return new Greeting(counter.incrementAndGet(),
-                String.format(template, name));
+                String.format(template, name)/*, description*/);
         }
     }
 }

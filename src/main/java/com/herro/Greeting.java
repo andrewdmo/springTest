@@ -8,9 +8,10 @@ public class Greeting {
     private final long id;
     private final String content;
 
-    public Greeting(long id, String content) {
+    Greeting(long id, String content/*, String description*/) {
         this.id = id;
         this.content = content;
+//        this.description = description;
     }
 
     public long getId() {
@@ -19,5 +20,9 @@ public class Greeting {
 
     public String getContent() {
         return content;
+    }
+
+    public String getDescription() {
+        return " **** This is a sample JSON / POJO data return from a RESTful service.  Refresh and note the ID increment persisting.  Customize by adding a parameter: /restgreeting?name=YOURNAME **** ";
     }
 }

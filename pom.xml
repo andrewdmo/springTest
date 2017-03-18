@@ -11,7 +11,7 @@
 
     <groupId>com.herro</groupId>
     <artifactId>A_DeMo</artifactId>
-    <name>A DeMo</name>
+    <name>A_DeMo</name>
     <version>0.1.0</version>
     <packaging>jar</packaging>
 
@@ -114,6 +114,7 @@
                 </executions>
             </plugin>
         </plugins>
+        <finalName>A_DeMo</finalName>
     </build>
 
 </project>
