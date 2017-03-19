@@ -1,38 +1,46 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
+    <title>Rock, Paper, JavaScript</title>
 
     <meta charset="UTF-8"/>
-    <title>Rock, Paper, JS</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1"/>
+    <meta name="keywords"
+          content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+    <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
+
     <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/paleoStyle.css}" href="/static/css/paleoStyle.css"/>
+    <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
     <link rel="stylesheet" th:href="@{/static/css/rockps.css}" href="/static/css/rockps.css"/>
 
-    <link rel="shortcut icon" href="/static/img/oldWellFav.png"/>
-    <link rel="icon" type="image/png" href="/static/img/oldWellFav.png"/>
-    <link rel="shortcut icon" type="favicon"
-          href="/static/img/iron-yard-logo.ico"/>
+    <link rel="shortcut icon" href="/static/img/iron-yard-logo.ico"/>
+    <link rel="icon" type="image/png" href="/static/img/iron-yard-logo.ico"/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script language="javascript" src="/static/scripts/rockps.js"></script>
 </head>
-<body>
-<div class="container" style="height: 100%">
 
-    <h3>Rock Paper JavaScript!!</h3>
+<body>
+<div class="container main">
+
+    <h3>Rock, Paper, JavaScript!!</h3>
 
     <form id="actionForm">
         <label>What's your move?</label>
-        <div>
-            <button type="button" value="rock">Rock</button>
-            <button type="button" value="paper">Paper</button>
-            <button type="button" value="scissors">Scissors</button>
-        </div>
+        <div class="row">
+            <button class="button-primary three columns" type="button" value="rock">Rock</button>
+            <button class="button-primary three columns" type="button" value="paper">Paper</button>
+            <button class="button-primary three columns" type="button" value="scissors">Scissors</button>
+        </div><!--button row-->
     </form>
 
-    <h2 id="outcome" class="win"></h2>
-    <h2 id="counter"></h2>
+    <div class="row">
+        <h2 class="win twelve columns" id="outcome"></h2>
+    </div>
+    <div class="row">
+        <h2 class="win twelve columns" id="counter"></h2>
+    </div>
 
     <div id="game">
         <div id="player">
@@ -43,7 +51,7 @@
             <div class="score">Computer: <span></span></div>
             <img class="transparent" src="/static/img/transparent.png"/>
         </div>
-    </div>
+    </div><!--game-->
 
 </div><!--container-->
 </body>

@@ -2,19 +2,24 @@ body {
     font-family: sans-serif;
     text-align: center;
     padding: 0;
-    margin: 0;
-    max-height: 100%;
+    margin: 0; /*position: relative;*/
 }
 
 h3 {
     background-color: darkslategray;
+    opacity: .8;
     color: white;
     margin: 0;
     padding: 0.25em 1em;
 }
 
+.main {
+    height: 100vh;
+    /*position: relative;*/
+}
+
 #outcome {
-    font-size: 10vmax;
+    font-size: 5vmax;
     margin: 0;
 }
 
@@ -37,6 +42,7 @@ h3 {
 
 #game {
     margin: 1em auto;
+    height: 100%;
 }
 
 #game > div {
@@ -69,10 +75,11 @@ h3 {
     margin: 0;
     padding: 0.5em;
     background-color: rgba(255, 255, 255, 0.5);
+    z-index: 4;
 }
 
 #actionForm {
-    font-size: 200%;
+    font-size: 150%;
     padding: 0.25em;
 }
 

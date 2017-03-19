@@ -10,19 +10,19 @@ import java.util.concurrent.atomic.AtomicLong;
 public class DualController {
 
     @RequestMapping(value = {"/", "/index"})
-    public String index(@RequestParam(value = "name", required = false, defaultValue = "Tourist") String name, Model
+    public String index(@RequestParam(value = "name", required = false, defaultValue = "Pilgrim") String name, Model
         model) {
         model.addAttribute("name", name);
         return "index";
     }
 
     @RequestMapping("/mvcgreeting")
-    public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Tourist") String name, Model model) {
+    public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Pilgrim") String name, Model model) {
         model.addAttribute("name", name);
         return "mvcgreeting";
     }
 
-    @RequestMapping("/paleodemo")
+    @RequestMapping(value = {"/paleodemo", "/psindex"})
     public String paleodemo() {
         return "psindex";
     }

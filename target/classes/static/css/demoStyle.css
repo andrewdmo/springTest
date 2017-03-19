@@ -12,11 +12,12 @@ body {
 
 /*@media <400px:*/
 .container {
-    padding: 0 5%
+    padding: 0 5%;
+    height: 200vh;
 }
 
 .main {
-    height: 150vh;
+    height: 100%;
 }
 
 .logo {
@@ -28,16 +29,12 @@ body {
     /*color: #EFEFEF;*/
     text-decoration: none;
     border-radius: 40%;
-    transition: color 0.5s, background-color 0.5s, ease-in-out;
+    transition: width 0.4s, color 0.5s, background-color 0.5s;
 }
 
 .logo:hover {
     color: #CE5526;
     background-color: #B9B9B9;
-    transition: color 0.5s, background-color 0.5s, ease-in-out;
-}
-
-.logo:hover {
     width: 110%;
     transition: width 0.4s ease-in-out;
 }

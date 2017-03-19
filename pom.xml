@@ -15,6 +15,7 @@
     <version>0.1.0</version>
     <packaging>jar</packaging>
 
+
     <!---->
     <!--<modules>-->
     <!--<module>springTest</module>-->
@@ -114,7 +115,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>A_DeMo</finalName>
+        <finalName>A_DeMo-0.3.0</finalName>
     </build>
 
 </project>

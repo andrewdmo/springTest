@@ -23,6 +23,6 @@ public class Greeting {
     }
 
     public String getDescription() {
-        return " **** This is a sample JSON / POJO data return from a RESTful service.  Refresh and note the ID increment persisting.  Customize by adding a parameter: /restgreeting?name=YOURNAME **** ";
+        return " **** This is a sample JSON data return from a RESTful request.  Refresh and note the ID increment persisting.  Customize by adding a parameter: /restgreeting?name=YOURNAME **** ";
     }
 }

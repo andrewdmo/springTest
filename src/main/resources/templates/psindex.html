@@ -1,8 +1,14 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
+    <title>PaleoSun® demo by Andy Moretz</title>
+
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords"
+          content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+    <meta name="description" content="An exemplary example of a responsive Java web stack"/>
+
     <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
     <link rel="stylesheet" th:href="@{/static/css/paleoStyle.css}" href="/static/css/paleoStyle.css"/>
@@ -12,7 +18,6 @@
     <link rel="icon" type="image/png" href="/static/img/android-chrome-192x192.png" sizes="192x192"/>
     <link rel="icon" type="image/png" href="/static/img/favicon-16x16.png" sizes="16x16"/>
     <link rel="shortcut icon" href="/static/img/favicon.ico"/>
-    <title>PaleoSun demo</title>
     <style rel="text/CSS"> iframe[id^='twitter-widget-'] {
         min-width: 0;
         width: 100%;
@@ -27,7 +32,6 @@
                 <a th:href="psindex.html" href="psindex.html" rel="#home" target="_blank">
                     <img src="/static/img/logo-white2x.png" class="logo"
                          alt="PS logo"/> <!--href="/static/img/logowhite@2x.png}"-->
-                    <!--th:href="@{/img/logo-white2x.png}"-->
                 </a>
             </div><!--four columns-->
             <!--<br/>-->
@@ -63,8 +67,11 @@
                     <br/>
                     <a href="psportfolio.html" class="button button-primary">See Our Work</a>
                 </div><!--container six columns-->
-                <div class=" six columns">
-                    <img src="/static/img/Vadim-Gromov-Responsive.jpg" class="u-max-full-width"/>
+                <div class="six columns">
+                    <img th:src="@{/static/img/Vadim-Gromov-Responsive.jpg}"
+                         src="/static/img/Vadim-Gromov-Responsive.jpg" class="u-max-full-width"
+                         style="color-rendering: optimizeSpeed"
+                         alt="[Animated .gif]"/>
                 </div><!--six columns-->
             </div><!--row twoA-->
             <br/>
