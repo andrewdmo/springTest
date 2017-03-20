@@ -24,25 +24,35 @@
 <body>
 <div class="container main">
 
-    <h3>Rock, Paper, JavaScript!!</h3>
-
-    <form id="actionForm">
-        <label>What's your move?</label>
-        <div class="row">
-            <button class="button-primary three columns" type="button" value="rock">Rock</button>
-            <button class="button-primary three columns" type="button" value="paper">Paper</button>
-            <button class="button-primary three columns" type="button" value="scissors">Scissors</button>
-        </div><!--button row-->
-    </form>
-
-    <div class="row">
-        <h2 class="win twelve columns" id="outcome"></h2>
-    </div>
-    <div class="row">
-        <h2 class="win twelve columns" id="counter"></h2>
+    <div class="row" style="height: 10%">
+        <h3>Rock, Paper, JavaScript!!</h3>
     </div>
 
-    <div id="game">
+    <div class="row" style="height: 20%">
+        <form id="actionForm">
+            <label>What's your move?</label>
+            <div class="row"><!--style="margin: 0 auto"-->
+                <div class=" four columns">
+                    <button class="button button-primary" type="button" value="rock">Rock</button>
+                </div>
+                <div class=" four columns">
+                    <button class="button button-primary" type="button" value="paper">Paper</button>
+                </div>
+                <div class=" four columns">
+                    <button class="button button-primary" type="button" value="scissors">Scissors</button>
+                </div>
+            </div><!--button row-->
+        </form>
+    </div>
+
+
+    <div class="row" style="height: 20%">
+        <h2 class="win twelve columns" id="counter" style="display: inline-block"></h2>
+        <h2 class="win twelve columns" id="outcome" style="display: inline-block"></h2>
+    </div>
+
+
+    <div id="game" class="row" style="height: 40%">
         <div id="player">
             <div class="score">Player: <span></span></div>
             <img class="transparent" src="/static/img/transparent.png"/>

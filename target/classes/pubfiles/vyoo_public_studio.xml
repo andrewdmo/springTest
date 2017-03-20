@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<row>
+  <studio_pk>1</studio_pk>
+  <studio_name>Warner Bros.</studio_name>
+</row>
+<row>
+  <studio_pk>2</studio_pk>
+  <studio_name>Paramount</studio_name>
+</row>
+<row>
+  <studio_pk>3</studio_pk>
+  <studio_name>Universal</studio_name>
+</row>
+<row>
+  <studio_pk>4</studio_pk>
+  <studio_name>Columbia</studio_name>
+</row>
+<row>
+  <studio_pk>5</studio_pk>
+  <studio_name>MGM</studio_name>
+</row>
+<row>
+  <studio_pk>6</studio_pk>
+  <studio_name>RKO Radio</studio_name>
+</row>
+<row>
+  <studio_pk>7</studio_pk>
+  <studio_name>Fox</studio_name>
+</row>
+<row>
+  <studio_pk>8</studio_pk>
+  <studio_name>Lucasfilm</studio_name>
+</row>
+<row>
+  <studio_pk>9</studio_pk>
+  <studio_name>DreamWorks</studio_name>
+</row>
+<row>
+  <studio_pk>10</studio_pk>
+  <studio_name>United Artists</studio_name>
+</row>
+</data>

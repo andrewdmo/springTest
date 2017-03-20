@@ -79,7 +79,7 @@
     <distributionManagement>
         <repository>
             <id>com.herro</id>
-            <name>A DeMo</name>
+            <name>A_DeMo</name>
             <url>file:///Users/andrewdmo/Projects/JARs</url>
         </repository>
     </distributionManagement>

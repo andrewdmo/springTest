@@ -1,0 +1,92 @@
+[
+  {
+    "movie_pk": 1,
+    "title": "Batman",
+    "genreid": 7,
+    "Release year": 1989,
+    "studioid": 1,
+    "directorid": 4,
+    "review": 8
+  },
+  {
+    "movie_pk": 4,
+    "title": "Last Crusade",
+    "genreid": 7,
+    "Release year": 1989,
+    "studioid": 2,
+    "directorid": 1,
+    "review": 9
+  },
+  {
+    "movie_pk": 3,
+    "title": "Xmas Vacation",
+    "genreid": 2,
+    "Release year": 1989,
+    "studioid": 1,
+    "directorid": 5,
+    "review": 7
+  },
+  {
+    "movie_pk": 11,
+    "title": "Blade Runner",
+    "genreid": 1,
+    "Release year": 1982,
+    "studioid": 1,
+    "directorid": 3,
+    "review": 9
+  },
+  {
+    "movie_pk": 9,
+    "title": "Mars Attacks",
+    "genreid": 4,
+    "Release year": 1996,
+    "studioid": 1,
+    "directorid": 4,
+    "review": 6
+  },
+  {
+    "movie_pk": 5,
+    "title": "Road House",
+    "genreid": 7,
+    "Release year": 1989,
+    "studioid": 10,
+    "directorid": 6,
+    "review": 4
+  },
+  {
+    "movie_pk": 13,
+    "title": "Gladiator",
+    "genreid": 1,
+    "Release year": 2000,
+    "studioid": 3,
+    "directorid": 3,
+    "review": 8
+  },
+  {
+    "movie_pk": 6,
+    "title": "E.T.",
+    "genreid": 1,
+    "Release year": 1982,
+    "studioid": 3,
+    "directorid": 1,
+    "review": 10
+  },
+  {
+    "movie_pk": 14,
+    "title": "Avengers",
+    "genreid": 8,
+    "Release year": 1998,
+    "studioid": 1,
+    "directorid": 5,
+    "review": 6
+  },
+  {
+    "movie_pk": 2,
+    "title": "Fear and Loathing",
+    "genreid": 2,
+    "Release year": 1998,
+    "studioid": 3,
+    "directorid": 9,
+    "review": 7
+  }
+]

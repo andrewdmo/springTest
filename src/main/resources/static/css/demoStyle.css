@@ -10,14 +10,15 @@ body {
     text-align: center;
 }
 
-/*@media <400px:*/
+/*@media (400px:)*/
+
 .container {
     padding: 0 5%;
-    height: 200vh;
+    height: 100vh;
 }
 
 .main {
-    height: 100%;
+    max-height: 100%;
 }
 
 .logo {
@@ -178,8 +179,8 @@ button.button-primary {
     width: 50%;
     padding: 0;
     color: #EFEFEF;
-    background-color: #CE5526;
-    border-color: #EFEFEF;
+    background-color: #00902e;
+    border-color: #f0ee00;
     transition: width 0.4s ease-in-out;
 }
 
@@ -187,11 +188,17 @@ button.button-primary {
 button.button-primary:hover {
     width: 100%;
     transition: width 0.4s, background-color 0.4s ease-in-out;
-    color: #CE5526;
+    color: #901400;
     background-color: #EFEFEF;
-
+    border-color: #f0ee00;
     z-index: 2;
+}
 
+.button.button-primary:focus,
+button.button-primary:focus {
+    color: #1EAEDB;
+    background-color: #901400;
+    border-color: #1EAEDB;
 }
 
 input[type=text]:focus {

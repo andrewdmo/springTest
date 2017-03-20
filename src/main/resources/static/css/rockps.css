@@ -7,20 +7,16 @@ body {
 
 h3 {
     background-color: darkslategray;
-    opacity: .8;
+    opacity: .6;
     color: white;
     margin: 0;
     padding: 0.25em 1em;
 }
 
-.main {
-    height: 100vh;
-    /*position: relative;*/
-}
-
 #outcome {
     font-size: 5vmax;
     margin: 0;
+    z-index: 4;
 }
 
 #outcome.win {
@@ -84,13 +80,13 @@ h3 {
 }
 
 #actionForm div {
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
-#actionForm button {
-    font-size: 100%;
-    margin-top: 0.25em;
-}
+/*#actionForm button {*/
+/*font-size: 100%;*/
+/*margin-top: 0.25em;*/
+/*}*/
 
 @media (max-width: 450px) {
     #game > div {
