@@ -8,12 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="A DeMo" />
         <module name="A_DeMo" />
+        <module name="A_DeMo_build" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="A DeMo" target="1.7" />
       <module name="A_DeMo" target="1.7" />
+      <module name="A_DeMo_build" target="1.7" />
       <module name="movieSQL" target="1.5" />
+      <module name="nori" target="1.7" />
       <module name="Nori" target="1.7" />
       <module name="springTest" target="1.5" />
     </bytecodeTargetLevel>

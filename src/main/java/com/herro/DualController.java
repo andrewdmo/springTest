@@ -62,6 +62,11 @@ public class DualController {
         return "rockps";
     }
 
+    @RequestMapping("/about")
+    public String about() {
+        return "about";
+    }
+
     @ExceptionHandler
     //add URL request query feedback later:
     public String error() {

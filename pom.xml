@@ -9,20 +9,19 @@
         <version>1.4.3.RELEASE</version>
     </parent>
 
-    <groupId>com.herro</groupId>
     <artifactId>A_DeMo</artifactId>
     <name>A_DeMo</name>
-    <version>0.1.0</version>
+    <version>0.3.0</version>
     <packaging>jar</packaging>
 
 
-    <!---->
-    <!--<modules>-->
-    <!--<module>springTest</module>-->
-    <!--<module>animalShelter-v1.2-json</module>-->
-    <!--<module>../bestNoriVersion/src/main</module>-->
-    <!--<module>../tiy-homework-movie-database</module>-->
-    <!--</modules>-->
+    <modules>
+        <!--<module>../bestNoriVersion</module>-->
+        <!--<module>../A_DeMo</module>-->
+        <!--<module>animalShelter-v1.2-json</module>-->
+        <!--<module>../bestNoriVersion/src/main</module>-->
+        <!--<module>../tiy-homework-movie-database</module>-->
+    </modules>
 
 
     <properties>
@@ -61,6 +60,11 @@
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>1.4.3.RELEASE</version>
+        </dependency>
     </dependencies>
 
 
@@ -81,13 +85,13 @@
         <!--</repository>-->
     </repositories>
 
-    <distributionManagement>
-        <repository>
-            <id>com.herro</id>
-            <name>A_DeMo</name>
-            <url>file:///Users/andrewdmo/Projects/JARs</url>
-        </repository>
-    </distributionManagement>
+    <!--<distributionManagement>-->
+    <!--<repository>-->
+    <!--<id>com.herro</id>-->
+    <!--<name>A_DeMo</name>-->
+    <!--<url>file:///Users/andrewdmo/Projects/JARs</url>-->
+    <!--</repository>-->
+    <!--</distributionManagement>-->
 
     <build>
         <plugins>
