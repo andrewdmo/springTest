@@ -1,6 +1,6 @@
 /*@import*/
 
-/*For build only:*/
+/*For build only, also checkbox in Chrome:*/
 * {
     /*border: 1px solid black*/
 }
@@ -28,15 +28,120 @@ body {
     position: relative;
     /*color: #EFEFEF;*/
     text-decoration: none;
-    border-radius: 25px;
-    transition: width 0.4s, color 0.5s, background-color 0.5s;
+    border: 2px inset transparent;
+    border-radius: 15px; /*don't change*/
+    transition: width 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
 }
 
 .logo:hover {
-    color: #CE5526;
+    border: outset 2px;
+    border-radius: 3px;
     background-color: #B9B9B9;
-    width: 110%;
-    transition: width 0.4s ease-in-out;
+    width: 120%;
+    opacity: .7;
+    transition: width 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+.menubar {
+    z-index: 1;
+    background-color: #b9b9b9;
+    height: 30px !important;
+    width: 100%;
+    /*position: fixed;*/
+    vertical-align: middle;
+    border: 2px inset transparent;
+    border-radius: 15px;
+    transition: border 0.5s, ease-in-out;
+}
+
+.menubar:hover {
+    border: 2px #EE662F outset;
+    transition: border 0.5s, ease-in-out;
+}
+
+menu,
+.menu {
+    z-index: 3;
+    display: inline-block;
+    background-color: #D3D3D3;
+    /*width: auto;*/
+    /*align-self: center;*/
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    color: #0f6b82;
+    text-decoration: none;
+    border: 2px inset transparent;
+    border-radius: 10px;
+    transition: color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+menu:hover,
+.menu:hover {
+    color: #ee662f;
+    /*background-color: transparent;*/
+    border: 2px outset rgba(15, 107, 130, 0.44);
+    border-radius: 1px;
+    transition: color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+menu:focus,
+.menu:focus {
+    border: 2px inset #CE5526;
+    transition: border 0.7s, ease-in-out;
+}
+
+.searchfield {
+    height: 30px !important;
+    width: 30%;
+    opacity: .6;
+    border: 2px outset transparent;
+    border-radius: 10px !important;
+    transition: width 0.5s, opacity 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+.searchfield:hover {
+    opacity: .9;
+    border: inset 2px #CE5526;
+    border-radius: 1px;
+    transition: opacity 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+
+}
+
+.searchfield:focus {
+    opacity: 1;
+    width: 100%;
+
+    transition: width 0.5s, border 0.5s, ease-in-out;
+}
+
+.button.button-primary,
+button.button-primary {
+    width: 50%;
+    padding: 0;
+    opacity: .7;
+    color: #D3D3D3;
+    background-color: #f1682f;
+    border-radius: 15px;
+    border: #0f6b82 inset 2px;
+    transition: width 0.4s, border-radius 0.4s, background-color 0.4s, ease-in-out;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover {
+    width: 100%;
+    transition: width 0.4s, border-radius 0.4s, background-color 0.4s, ease-in-out;
+    color: #f1682f;
+    background-color: #b9b9b9;
+    border: 2px outset;
+    z-index: 3;
+
+}
+
+input[type=text]:focus {
+    width: 100%;
+    z-index: 3;
 }
 
 .top {
@@ -73,6 +178,16 @@ body {
     height: 100%;
     background-color: #505659;
     color: #B9B9B9;
+}
+
+.oneA {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.thumbnails {
+    display: inline-block;
+    width: 100%;
 }
 
 .textcopy {
@@ -124,89 +239,6 @@ body {
     .middle {
         margin: 10% auto 0 auto;
     }
-}
-
-.oneA {
-    width: 100%;
-}
-
-.thumbnails {
-    display: inline-block;
-    width: 100%;
-}
-
-menu,
-.menu {
-    display: inline-block;
-    width: auto;
-    box-sizing: border-box;
-    position: relative;
-    color: #1EAEDB;
-    text-decoration: none;
-    border-radius: 40px;
-    transition: color 0.5s, background-color 0.5s, border-radious 0.5s, ease-in-out;
-}
-
-menu:hover,
-.menu:hover {
-    color: #CE5526;
-    background-color: transparent;
-    border-radius: 80px;
-    transition: color 0.5s, background-color 0.5s,
-    border-radius 0.5s, ease-in-out;
-}
-
-.menubar {
-    background-color: #B9B9B9;
-    border-radius: 10px;
-}
-
-.searchfield {
-    height: 30px !important;
-    width: 30%;
-    opacity: .6;
-    /*not working:*/
-    border-radius: 10px !important;
-    transition: width 0.4s, opacity 0.4s, ease-in-out;
-}
-
-.searchfield:hover {
-    opacity: .9;
-    transition: opacity 0.4s;
-    placeholder: "[Doesn't work]";
-}
-
-.searchfield:focus {
-    height: 30px;
-    width: 100%;
-    transition: width 0.4s, opacity 0.4s, ease-in-out;
-}
-
-.button.button-primary,
-button.button-primary {
-    width: 50%;
-    padding: 0;
-    color: #EFEFEF;
-    background-color: #CE5526;
-    border-radius:;
-    border-color: #EFEFEF;
-    transition: width 0.4s ease-in-out;
-}
-
-.button.button-primary:hover,
-button.button-primary:hover {
-    width: 100%;
-    transition: width 0.4s, background-color 0.4s ease-in-out;
-    color: #CE5526;
-    background-color: #EFEFEF;
-
-    z-index: 2;
-
-}
-
-input[type=text]:focus {
-    width: 100%;
-    z-index: 2;
 }
 
 a.twitter-timeline {
