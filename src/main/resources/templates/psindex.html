@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html"
+>
 <head>
     <title>PaleoSun® demo by Andy Moretz</title>
 
@@ -37,17 +38,25 @@
             <!--<br/>-->
             <div class="eight columns">
                 <div class="row oneA menubar">
-                    <a th:href="@{/psabout.html}" href="psabout.html" class="menu two columns offset-by-one" alt="About" name="about">About</a>
+                    <a th:href="@{/psabout.html}" href="psabout.html" class="menu two columns offset-by-one" alt="About"
+                       name="about">About</a>
                     <a th:href="@{/psportfolio.html}" href="psportfolio.html" class="menu two columns" alt="Portfolio"
                        name="portfolio">Portfolio</a>
-                    <a th:href="@{/psblog.html}" href="psblog.html" class="menu two columns" alt="Blog" name="blog">Blog</a>
-                    <a th:href="@{/psarchives.html}" href="psarchives.html" class="menu two columns" alt="Archives" name="archives">Archives</a>
-                    <a th:href="@{/pscontact.html}" href="pscontact.html" class="menu two columns" alt="Contact" name="contact">Contact</a>
-                </div><!--row oneA-->
-                <div class="row oneB">
-                    <input type="text" class="searchfield u-pull-right" alt="Search" name="search"
-                           placeholder="Search"/>
-                </div><!--row oneB-->
+                    <a th:href="@{/psblog.html}" href="psblog.html" class="menu two columns" alt="Blog"
+                       name="blog">Blog</a>
+                    <a th:href="@{/psarchives.html}" href="psarchives.html" class="menu two columns" alt="Archives"
+                       name="archives">Archives</a>
+                    <a th:href="@{/pscontact.html}" href="pscontact.html" class="menu two columns" alt="Contact"
+                       name="contact">Contact</a>
+                    <!--</div>&lt;!&ndash;row oneA&ndash;&gt;-->
+                    <div class="row oneB">
+                        <input type="text" class="searchfield u-pull-right" style="color: #0F6B82" alt="Search"
+                               name="search"
+                               placeholder="Search"/>
+
+                    </div><!--row oneB-->
+                </div><!--row oneA menubar-->
+
             </div><!--eight columns-->
         </div><!--first row-->
     </div><!--section top-->
@@ -67,12 +76,10 @@
                     <br/>
                     <a href="psportfolio.html" class="button button-primary">See Our Work</a>
                 </div><!--container six columns-->
-                <div class="six columns textcopy">
+                <div class="six columns pic">
                     <img th:src="@{/static/img/Vadim-Gromov-Responsive.jpg}"
-                         src="/static/img/Vadim-Gromov-Responsive.jpg" class="u-max-full-width"
-                         style="color-rendering: optimizeSpeed; border-radius: 15px"
-                         alt="[Animated .gif]"/>
-                </div><!--six columns-->
+                         src="/static/img/Vadim-Gromov-Responsive.jpg" class="u-max-full-width pic"/>
+                </div><!--six columns pic-->
             </div><!--row twoA-->
             <br/>
             <br/>

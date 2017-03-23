@@ -21,7 +21,8 @@ body {
 }
 
 .logo {
-    width: 75%;
+    height: 60px;
+    padding: 5px;
     background-color: #B9B9B9;
     display: inline-block;
     box-sizing: border-box;
@@ -30,33 +31,35 @@ body {
     text-decoration: none;
     border: 2px inset transparent;
     border-radius: 15px; /*don't change*/
-    transition: width 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+    transition: width 0.5s, border 0.5s, opacity 0.5s, border-radius 0.5s, linear;
 }
 
 .logo:hover {
     border: outset 2px;
-    border-radius: 3px;
+    border-radius: 7px;
     background-color: #B9B9B9;
-    width: 120%;
+    width: 110%;
+    height: 110%;
     opacity: .7;
-    transition: width 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+    transition: width 0.5s, border 0.5s, opacity 0.5s, border-radius 0.5s, ease-in-out;
 }
 
 .menubar {
     z-index: 1;
     background-color: #b9b9b9;
-    height: 30px !important;
+    height: 60px !important;
     width: 100%;
     /*position: fixed;*/
     vertical-align: middle;
     border: 2px inset transparent;
     border-radius: 15px;
-    transition: border 0.5s, ease-in-out;
+    transition: border 0.5s, border-radius 0.5s, ease-in-out;
 }
 
 .menubar:hover {
     border: 2px #EE662F outset;
-    transition: border 0.5s, ease-in-out;
+    border-radius: 7px;
+    transition: border 0.5s, border-radius 0.5s, ease-in-out;
 }
 
 menu,
@@ -64,6 +67,7 @@ menu,
     z-index: 3;
     display: inline-block;
     background-color: #D3D3D3;
+    height: 30px;
     /*width: auto;*/
     /*align-self: center;*/
     vertical-align: middle;
@@ -82,7 +86,7 @@ menu:hover,
     color: #ee662f;
     /*background-color: transparent;*/
     border: 2px outset rgba(15, 107, 130, 0.44);
-    border-radius: 1px;
+    border-radius: 3px;
     transition: color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
 }
 
@@ -93,6 +97,7 @@ menu:focus,
 }
 
 .searchfield {
+    display: inline-block;
     height: 30px !important;
     width: 30%;
     opacity: .6;
@@ -103,40 +108,45 @@ menu:focus,
 
 .searchfield:hover {
     opacity: .9;
-    border: inset 2px #CE5526;
-    border-radius: 1px;
-    transition: opacity 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+    /*border: inset 2px #CE5526;*/
+    border-radius: 7px;
+    transition: opacity 0.5s, border-radius 0.5s, linear;
 
 }
 
 .searchfield:focus {
     opacity: 1;
     width: 100%;
-
-    transition: width 0.5s, border 0.5s, ease-in-out;
+    transition: opacity 0.5s, width 0.5s, ease-in-out;
 }
 
 .button.button-primary,
 button.button-primary {
     width: 50%;
     padding: 0;
-    opacity: .7;
+    opacity: .9;
     color: #D3D3D3;
-    background-color: #f1682f;
+    background-color: #ee662f;
     border-radius: 15px;
     border: #0f6b82 inset 2px;
-    transition: width 0.4s, border-radius 0.4s, background-color 0.4s, ease-in-out;
+    transition: width 0.5s, border-radius 0.5s, background-color 0.5s, ease-in-out;
 }
 
 .button.button-primary:hover,
 button.button-primary:hover {
     width: 100%;
-    transition: width 0.4s, border-radius 0.4s, background-color 0.4s, ease-in-out;
-    color: #f1682f;
+    transition: width 0.5s, border-radius 0.5s, background-color 0.5s, ease-in-out;
+    color: #ee662f;
     background-color: #b9b9b9;
     border: 2px outset;
+    border-radius: 6px;
     z-index: 3;
+}
 
+.button.button-primary:focus,
+button.button-primary:focus {
+    border: 2px inset #ee662f;
+    transition: border 0.7s, ease-in-out;
 }
 
 input[type=text]:focus {
@@ -150,10 +160,11 @@ input[type=text]:focus {
     position: fixed;
     opacity: .7;
     z-index: 4;
+    height: 33px;
 }
 
 .first {
-    height: 10%;
+    height: 33px;
     padding-top: 2%;
     margin: 0 auto;
     position: relative;
@@ -162,6 +173,7 @@ input[type=text]:focus {
 
 .middle {
     margin: 30% auto;
+    z-index: 1;
 }
 
 .second {
@@ -185,9 +197,31 @@ input[type=text]:focus {
     vertical-align: middle;
 }
 
+.oneB {
+    height: 30px;
+}
+
 .thumbnails {
     display: inline-block;
     width: 100%;
+}
+
+.pic {
+    color-rendering: optimizeSpeed;
+    padding: 1%;
+    /*height: 100%;*/
+    /*border: none;*/
+    border-radius: 20px !important;
+    filter: brightness(93%) blur(1px);
+    transition: filter 0.5s, border-radius 0.5s, linear;
+}
+
+.pic:hover {
+    color-rendering: optimizeSpeed;
+    /*border: none;*/
+    border-radius: 12px !important;
+    filter: brightness(95%) blur(0px);
+    transition: filter 0.5s, border-radius 0.5s, linear;
 }
 
 .textcopy {
@@ -212,7 +246,7 @@ input[type=text]:focus {
     }
 
     .top {
-        height: 10%;
+        height: 33px;
         padding-top: 2%;
     }
 
