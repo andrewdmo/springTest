@@ -1,6 +1,6 @@
 /*@import*/
 
-/*For build only, also checkbox in Chrome:*/
+/*For build only, can use checkbox in Chrome:*/
 * {
     /*border: 1px solid black*/
 }
@@ -11,48 +11,55 @@ body {
     z-index: 0;
 }
 
-/*@media <400px:*/
+/*/////////////////-400px/////////////*/
+
 .container {
     padding: 0 5%
 }
 
 .main {
-    height: 150vh;
+    /*width: 100vw;*/
 }
 
 .logo {
-    height: 60px;
+    z-index: 1;
+    width: 48%;
+    /*height: 60px;*/
+    /*width: 278px;*/
     padding: 5px;
     background-color: #B9B9B9;
     display: inline-block;
     box-sizing: border-box;
-    position: relative;
-    /*color: #EFEFEF;*/
+    position: absolute;
     text-decoration: none;
     border: 2px inset transparent;
     border-radius: 15px; /*don't change*/
-    transition: width 0.5s, border 0.5s, opacity 0.5s, border-radius 0.5s, linear;
+    transition: transform 0.5s, z-index 0.5s, width 0.5s, height 0.5s, border 0.5s, opacity 0.5s, border-radius 0.5s, linear;
 }
 
 .logo:hover {
+    z-index: 4;
     border: outset 2px;
     border-radius: 7px;
     background-color: #B9B9B9;
-    width: 110%;
-    height: 110%;
+    transform: scale(1.1);
     opacity: .7;
-    transition: width 0.5s, border 0.5s, opacity 0.5s, border-radius 0.5s, ease-in-out;
+    transition: transform 0.5s, z-index 0.5s, width 0.5s, height 0.5s, border 0.5s, opacity 0.5s, border-radius 0.5s, ease-in-out;
 }
 
 .menubar {
-    z-index: 1;
+    z-index: 2;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    float: right;
     background-color: #b9b9b9;
-    height: 60px !important;
-    width: 100%;
-    /*position: fixed;*/
+    /*height: 65px !important;*/
+    width: 48%;
     vertical-align: middle;
     border: 2px inset transparent;
     border-radius: 15px;
+    margin-left: 4%;
     transition: border 0.5s, border-radius 0.5s, ease-in-out;
 }
 
@@ -66,10 +73,10 @@ menu,
 .menu {
     z-index: 3;
     display: inline-block;
+    padding: 3px;
     background-color: #D3D3D3;
     height: 30px;
-    /*width: auto;*/
-    /*align-self: center;*/
+    width: 48%;
     vertical-align: middle;
     text-align: center;
     box-sizing: border-box;
@@ -78,16 +85,17 @@ menu,
     text-decoration: none;
     border: 2px inset transparent;
     border-radius: 10px;
-    transition: color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+    transition: z-index 0.5s, color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
 }
 
 menu:hover,
 .menu:hover {
+    /*z-index: 2;*/
     color: #ee662f;
     /*background-color: transparent;*/
     border: 2px outset rgba(15, 107, 130, 0.44);
     border-radius: 3px;
-    transition: color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+    transition: z-index 0.5s, color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
 }
 
 menu:focus,
@@ -97,6 +105,9 @@ menu:focus,
 }
 
 .searchfield {
+    z-index: 3;
+    margin-bottom: 0;
+    padding: 3%;
     display: inline-block;
     height: 30px !important;
     width: 30%;
@@ -115,6 +126,7 @@ menu:focus,
 }
 
 .searchfield:focus {
+    z-index: 4;
     opacity: 1;
     width: 100%;
     transition: opacity 0.5s, width 0.5s, ease-in-out;
@@ -135,12 +147,13 @@ button.button-primary {
 .button.button-primary:hover,
 button.button-primary:hover {
     width: 100%;
-    transition: width 0.5s, border-radius 0.5s, background-color 0.5s, ease-in-out;
     color: #ee662f;
     background-color: #b9b9b9;
     border: 2px outset;
     border-radius: 6px;
     z-index: 3;
+    transition: width 0.5s, border-radius 0.5s, background-color 0.5s, ease-in-out;
+
 }
 
 .button.button-primary:focus,
@@ -155,64 +168,55 @@ input[type=text]:focus {
 }
 
 .top {
-    /*width: 90%;*/
     margin: 0 auto;
     position: fixed;
     opacity: .7;
-    z-index: 4;
-    height: 33px;
+    /*z-index: 1;*/
+    height: 20vh;
+    display: inline-block;
+    right: 5%;
+    left: 5%;
 }
 
 .first {
-    height: 33px;
-    padding-top: 2%;
-    margin: 0 auto;
-    position: relative;
-    /*position: fixed;*/
+    z-index: 0;
 }
 
 .middle {
-    margin: 30% auto;
+    margin: 20vh auto;
+    /*height: 70vh;*/
     z-index: 1;
-}
-
-.second {
-    height: 70%;
-    position: relative;
+    display: inline-block;
+    /*overflow: visible;*/
 }
 
 .bottom {
-    height: 20%;
-    margin: 10% auto 2% auto;
+    height: 30vh;
+    display: inline-block;
+    margin: 10vh auto 2% auto;
+    border-radius: 15px !important;
 }
 
 .third {
     height: 100%;
     background-color: #505659;
     color: #B9B9B9;
-}
-
-.oneA {
-    width: 100%;
-    vertical-align: middle;
-}
-
-.oneB {
-    height: 30px;
+    border-radius: 15px !important;
 }
 
 .thumbnails {
     display: inline-block;
     width: 100%;
+    border-radius: 15px;
 }
 
 .pic {
     color-rendering: optimizeSpeed;
-    padding: 1%;
+    padding: 1% 0 1% 1%;
     /*height: 100%;*/
     /*border: none;*/
     border-radius: 20px !important;
-    filter: brightness(93%) blur(1px);
+    filter: brightness(90%) blur(1px);
     transition: filter 0.5s, border-radius 0.5s, linear;
 }
 
@@ -220,7 +224,7 @@ input[type=text]:focus {
     color-rendering: optimizeSpeed;
     /*border: none;*/
     border-radius: 12px !important;
-    filter: brightness(95%) blur(0px);
+    filter: brightness(93%) blur(0px);
     transition: filter 0.5s, border-radius 0.5s, linear;
 }
 
@@ -233,46 +237,74 @@ input[type=text]:focus {
 .textcopy.widget {
     width: 25%;
     margin: 0 auto;
+    border-radius: 15px;
 }
+
+/*/////////////////400+px/////////////*/
 
 @media (min-width: 400px) {
     .container {
         padding: 0 5%;
-        width: 100%;
+        transition: all 0.5s;
     }
 
     .logo {
-        width: 50%;
+        width: 48%;
+    }
+
+    .logo:hover {
+        /*width: 60%;*/
     }
 
     .top {
-        height: 33px;
+        height: 20vh;
         padding-top: 2%;
     }
 
-    .middle {
-        margin: 15% auto 0 auto;
+    .menubar {
+        width: 48%;
+        z-index: 3;
+        /*top: 0px;*/
+        /*float: right;*/
     }
 
-    .second {
-        padding-top: 10%;
-        z-index: 1;
-        box-sizing: border-box;
+    .menu {
+        width: 48%;
     }
+
+    /*.twoA {*/
+    /*width: 50%;*/
+    /*right: 0;*/
+    /*}*/
+    .middle {
+        margin: 20vh auto 0 auto;
+    }
+
+    /*.second {*/
+    /*padding-top: 10%;*/
+    /*z-index: 1;*/
+    /*box-sizing: border-box;*/
+    /*}*/
 }
+
+/*/////////////////550+px/////////////*/
 
 @media (min-width: 550px) {
     .container {
         padding: 0 5%;
     }
 
-    .logo {
-        width: 100%;
+    .top {
+        width: 70%;
     }
 
-    .middle {
-        margin: 10% auto 0 auto;
+    .logo {
+        width: 278px;
     }
+
+    /*.middle {*/
+    /*margin: 10% auto 0 auto;*/
+    /*}*/
 }
 
 a.twitter-timeline {
@@ -307,6 +339,3 @@ a.twitter-timeline:focus {
     outline: none;
     border-color: #CE5526;
 }
-
-
-

@@ -1,68 +1,171 @@
 /*For build only:*/
 * {
-    /*border: 1px solid black*/
+    border: 1px solid black
 }
 
 html,
 body {
-    background: url("../img/page-1-home-compressed.jpg") center fixed no-repeat;
+    background: url("../img/IMG_4979.png") center fixed no-repeat;
+    background-size: 100% auto;
     z-index: 0;
-    text-align: center;
 }
 
 /*@media (400px:)*/
 
 .container {
     padding: 0 5%;
-    height: 100vh;
 }
 
 .main {
-    max-height: 100%;
+    height: 150vh;
 }
 
 .logo {
-    width: 100%;
-    background-color: #1EAEDB;
+    max-height: 20vh;
+    width: auto;
+    opacity: 0.8;
+    background: none;
     display: inline-block;
-    box-sizing: border-box;
     position: relative;
-    /*color: #EFEFEF;*/
     text-decoration: none;
-    border-radius: 20px;
-    transition: width 0.1s ease-in-out, color 0.4s, background-color 0.6s, opacity 1.1s;
+    transition: width 0.5s, height 0.5s, opacity 1.1s, ease-in-out;
 }
 
 .logo:hover {
-    color: #CE5526;
-    background-color: #B9B9B9;
-    width: 120%;
-    opacity: .2;
-    transition: width 0.4s ease-in-out, opacity 0.9s;
+    width: 110%;
+    height: 110%;
+    opacity: 1;
+    transition: width 0.5s, height 0.5s, opacity 01.1s, ease-in-out;
 }
 
-.logo.noback {
-    background: none;
+.menubar {
+    z-index: 1;
+    background-color: #b9b9b9;
+    height: 60px !important;
+    width: 100%;
+    /*position: fixed;*/
+    vertical-align: middle;
+    border: 2px inset transparent;
+    border-radius: 15px;
+    transition: border 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+.menubar:hover {
+    border: 2px #EE662F outset;
+    border-radius: 7px;
+    transition: border 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+menu,
+.menu {
+    z-index: 3;
+    display: inline-block;
+    background-color: #D3D3D3;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    color: #0f6b82;
+    text-decoration: none;
+    border: 2px inset transparent;
+    border-radius: 10px;
+    transition: color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+menu:hover,
+.menu:hover {
+    color: #ee662f;
+    /*background-color: transparent;*/
+    border: 2px outset rgba(15, 107, 130, 0.44);
+    border-radius: 3px;
+    transition: color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+menu:focus,
+.menu:focus {
+    border: 2px inset #CE5526;
+    transition: border 0.7s, ease-in-out;
+}
+
+.searchfield {
+    display: inline-block;
+    height: 30px !important;
+    width: 30%;
+    opacity: .6;
+    border: 2px outset transparent;
+    border-radius: 10px !important;
+    transition: width 0.5s, opacity 0.5s, border-radius 0.5s, ease-in-out;
+}
+
+.searchfield:hover {
+    opacity: .9;
+    /*border: inset 2px #CE5526;*/
+    border-radius: 7px;
+    transition: opacity 0.5s, border-radius 0.5s, linear;
+
+}
+
+.searchfield:focus {
+    opacity: 1;
+    width: 100%;
+    transition: opacity 0.5s, width 0.5s, ease-in-out;
+}
+
+.button.button-primary,
+button.button-primary {
+    width: 50%;
+    padding: 0;
+    opacity: 0.9;
+    color: #EFEFEF;
+    background-color: #00902e;
+    border: #f0ee00 inset 2px;
+    transition: width 0.5s, border-radius 0.5s, background-color 0.5s, ease-in-out;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover {
+    width: 100%;
+    color: #901400;
+    background-color: #EFEFEF;
+    border-color: #f0ee00;
+    border-radius: 6px;
+    z-index: 3;
+    transition: width 0.5s, border-radius 0.5s, background-color 0.5s, ease-in-out;
+}
+
+.button.button-primary:focus,
+button.button-primary:focus {
+    color: #1EAEDB;
+    background-color: #901400;
+    border: #1EAEDB 2px inset;
+    transition: border 0.7s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+    z-index: 3;
 }
 
 .top {
-    /*width: 90%;*/
     margin: 0 auto;
     position: fixed;
-    opacity: .8;
+    opacity: .7;
     z-index: 4;
+    height: 25vh;
+    width: 100%;
 }
 
-.first {
-    height: 10%;
-    padding-top: 2%;
-    margin: 0 auto;
-    position: relative;
-    /*position: fixed;*/
-}
+/*.first {*/
+/*height: 33px;*/
+/*padding-top: 2%;*/
+/*margin: 0 auto;*/
+/*position: relative;*/
+/*}*/
 
 .middle {
     margin: 30% auto;
+    z-index: 1;
 }
 
 .second {
@@ -79,6 +182,20 @@ body {
     height: 100%;
     background-color: #505659;
     color: #B9B9B9;
+}
+
+.oneA {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.oneB {
+    height: 30px;
+}
+
+.thumbnails {
+    display: inline-block;
+    width: 100%;
 }
 
 .textcopy {
@@ -103,7 +220,7 @@ body {
     }
 
     .top {
-        height: 10%;
+        height: 33px;
         padding-top: 2%;
     }
 
@@ -130,85 +247,6 @@ body {
     .middle {
         margin: 10% auto 0 auto;
     }
-}
-
-.oneA {
-    width: 100%;
-}
-
-.thumbnails {
-    display: inline-block;
-    width: 100%;
-}
-
-menu,
-.menu {
-    display: inline-block;
-    width: auto;
-    box-sizing: border-box;
-    position: relative;
-    color: #EFEFEF;
-    text-decoration: none;
-    border-radius: 40%;
-    transition: color 0.5s, background-color 0.5s, ease-in-out;
-
-}
-
-menu:hover,
-.menu:hover {
-    color: #CE5526;
-    background-color: #B9B9B9;
-    transition: color 0.5s, background-color 0.5s, ease-in-out;
-}
-
-.searchfield {
-    height: 30px !important;
-    width: 30%;
-    opacity: .6;
-    transition: width 0.4s, opacity 0.4s, ease-in-out;
-}
-
-.searchfield:hover {
-    opacity: .9;
-    transition: opacity 0.4s;
-}
-
-.searchfield:focus {
-    height: 30px;
-    width: 100%;
-    transition: width 0.4s, opacity 0.4s, ease-in-out;
-}
-
-.button.button-primary,
-button.button-primary {
-    width: 50%;
-    padding: 0;
-    color: #EFEFEF;
-    background-color: #00902e;
-    border-color: #f0ee00;
-    transition: width 0.4s ease-in-out;
-}
-
-.button.button-primary:hover,
-button.button-primary:hover {
-    width: 100%;
-    transition: width 0.4s, background-color 0.4s ease-in-out;
-    color: #901400;
-    background-color: #EFEFEF;
-    border-color: #f0ee00;
-    z-index: 2;
-}
-
-.button.button-primary:focus,
-button.button-primary:focus {
-    color: #1EAEDB;
-    background-color: #901400;
-    border-color: #1EAEDB;
-}
-
-input[type=text]:focus {
-    width: 100%;
-    z-index: 2;
 }
 
 /*a.twitter-timeline {*/

@@ -19,35 +19,33 @@
 
 <body>
 <div class="container main">
-    <div class="section top u-max-full-width">
-
-        <div class="row first">
-            <div class="four columns">
-                <a th:href="index" href="/templates/index.html" rel="#home">
-                    <img src="/static/img/adm_nasa_logo.png" class="logo noback"
-                         alt="ADM logo"/>
-                </a>
-            </div><!--four columns-->
-            <div class="eight columns">
-                <div class="row oneA" style="text-align: center">
-                    <a th:href="@{/about.html}" href="about.html" class="menu" alt="About" name="about">About</a>
-                    <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu" alt="Portfolio"
-                       name="portfolio">Portfolio</a>
-                    <a th:href="@{/contact.html}" href="contact.html" class="menu" alt="Contact" name="blog">Contact</a>
-                    <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
-                    <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
-                </div><!--row oneA-->
+    <div class="row top">
+        <div class="four columns">
+            <a th:href="index" href="index.html" rel="#home">
+                <img src="/static/img/adm_nasa_logo.png" class="logo"
+                     alt="ADM logo"/>
+            </a>
+        </div><!--four columns-->
+        <div class="eight columns">
+            <div class="row oneA menubar">
+                <a th:href="@{/about.html}" href="about.html" class="menu two columns offset-by-one" alt="About"
+                   name="about">About</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu two columns" alt="Portfolio"
+                   name="portfolio">Portfolio</a>
+                <a th:href="@{/contact.html}" href="contact.html" class="menu two columns" alt="Contact"
+                   name="blog">Contact</a>
+                <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
+                <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
                 <div class="row oneB">
                     <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
                            name="search"
-                           placeholder="Click, type, but don't hit Return"/>
+                           placeholder="Click, type, but don't expect anything more"/>
                 </div><!--row oneB-->
-            </div><!--eight columns-->
-        </div><!--first row-->
-    </div><!--section top-->
+            </div><!--row oneA menubar-->
 
+        </div><!--eight columns-->
+    </div><!--row top-->
     <br/>
-
     <div class="section middle">
         <p style="text-align: center" th:text="'Welcome to the Demo, ' + ${name} + '!'">[Name]</p>
 

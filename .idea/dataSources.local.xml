@@ -7,7 +7,9 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
+      <introspection-schemas>platafina:public</introspection-schemas>
       <resolve-scope>postgres:public</resolve-scope>
+      <unqualified-resolve-schemas>postgres:public</unqualified-resolve-schemas>
     </data-source>
     <data-source name="moviesql@localhost" uuid="010449ad-5965-4b88-b6a9-a472e69c7a1e">
       <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
@@ -15,7 +17,9 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
+      <introspection-schemas>vyoo:public</introspection-schemas>
       <resolve-scope>postgres:public</resolve-scope>
+      <unqualified-resolve-schemas>postgres:public</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>
