@@ -81,17 +81,18 @@ menu,
     text-decoration: none;
     border: 2px inset transparent;
     border-radius: 10px;
-    transition: z-index 0.5s, color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+    transition: all 0.5s, ease-in-out;
 }
 
 menu:hover,
 .menu:hover {
     /*z-index: 2;*/
     color: #ee662f;
-    /*background-color: transparent;*/
+    opacity: 1.3;
+    background-color: white;
     border: 2px outset rgba(15, 107, 130, 0.44);
     border-radius: 3px;
-    transition: z-index 0.5s, color 0.5s, border 0.5s, border-radius 0.5s, ease-in-out;
+    transition: all 0.5s, ease-in-out;
 }
 
 menu:focus,

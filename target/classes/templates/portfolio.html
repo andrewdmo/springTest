@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>Portfolioio</title>
+    <title>Portfolioio!</title>
 
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -16,14 +16,34 @@
     <link rel="icon" type="image/png" href="/static/img/oldWellFav.png"/>
 </head>
 
-<body style="text-align: center; margin: 40vh">
-<div class="container main">
+<body>
+<div class="container main links">
 
-    <p>[Another painfully generic, yet still touching, ERROR message...]</p>
+    <div style="height: 30vh">
+        [Menu]
+    </div>
+
+    <div class="menubar">
+        <a th:href="@{psindex.html}" href="psindex.html">PaleoDemo</a>
+
+        <a th:href="@{nori.html}" href="nori.html">Nori Notification App</a>
+
+        <a th:href="@{rockps.html}" href="rockps.html">Rock, Paper, JavaScript!</a>
+
+        <a th:href="@{/restgreeting}" href="//restgreeting">RESTfully Yours</a>
+
+        <a th:href="@{mvcgreeting.html}" href="mvcgreeting.html">MVC Query Demo</a>
+
+        <a th:href="@{moviesql.html}" href="moviesql.html">Movie SQL: the Return</a>
+
+        <a>(Restyle the Iron Yard)</a>
+
+        <a></a>
+    </div>
 </div><!--container-->
 
 
-//target=_blank for PS & Nori
+<!--target=_blank (new window) for PS & Nori-->
 
 </body>
 </html>

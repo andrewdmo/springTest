@@ -16,6 +16,11 @@ public class DualController {
         return "index";
     }
 
+    @RequestMapping("/portfolio")
+    public String portfolio() {
+        return "portfolio";
+    }
+
     @RequestMapping("/mvcgreeting")
     public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Pilgrim") String name, Model model) {
         model.addAttribute("name", name);
@@ -81,10 +86,10 @@ public class DualController {
         private final AtomicLong counter = new AtomicLong();
 
         @RequestMapping(path = "/restgreeting", method = RequestMethod.GET)
-        public Greeting restgreeting(@RequestParam(value = "name", defaultValue = "Harry") String name, String description) {
+        public Greeting restgreeting(@RequestParam(value = "name", defaultValue = "Harry", required = false) String name, String description) {
             //ID increases by one every request:
             return new Greeting(counter.incrementAndGet(),
-                String.format(template, name)/*, description*/);
+                String.format(template, name, description));
         }
     }
 }

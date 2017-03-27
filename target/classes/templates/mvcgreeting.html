@@ -18,7 +18,13 @@
 
 
 <body style="text-align: center; margin: 40vh">
-<!--test TL:-->
-<p th:text="'MVC Greetings, ' + ${name} + '!'">name=[MVC default]</p>
+<div class="middle menubar">
+    <!--test TL:-->
+    <p th:text="'MVC Greetings, ' + ${name} + '!'">name=[MVC default]</p>
+    <p th:text="'**** This demonstrates a most elementary Spring MVC controller.'"></p>
+    <p th:text="'As with the REST Greeting, you can customize the template by adding a parameter:  ****'"></p>
+    <p th:text="'/restgreeting?name=YOURNAME'"></p>
+
+</div>
 </body>
 </html>
