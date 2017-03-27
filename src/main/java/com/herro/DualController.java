@@ -72,6 +72,11 @@ public class DualController {
         return "about";
     }
 
+    @RequestMapping("tiystyle")
+    public String tiystyle() {
+        return "tiystyle";
+    }
+
     @ExceptionHandler
     //add URL request query feedback later:
     public String error() {

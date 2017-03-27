@@ -12,14 +12,14 @@
     <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
     <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
-    <link rel="shortcut icon" href="/static/img/adm_nasa_logo.png"/>
-    <link rel="icon" type="image/png" href="/static/img/adm_nasa_logo.png"/>
+    <link rel="shortcut icon" href="/static/img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon.ico"/>
 </head>
 
 
 <body>
 <div class="container main">
-    <div class="row top">
+    <div class="row top primary">
         <div class="four columns">
             <a th:href="index" href="index.html" rel="#home">
                 <img src="/static/img/adm_nasa_logo.png" class="logo"
@@ -28,11 +28,11 @@
         </div><!--four columns-->
         <div class="eight columns">
             <div class="row oneA menubar">
-                <a th:href="@{/about.html}" href="about.html" class="menu two columns offset-by-one" alt="About"
+                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
                    name="about">About</a>
-                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu two columns" alt="Portfolio"
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Portfolio"
                    name="portfolio">Portfolio</a>
-                <a th:href="@{/contact.html}" href="contact.html" class="menu two columns" alt="Contact"
+                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
                    name="blog">Contact</a>
                 <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
                 <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
@@ -47,23 +47,28 @@
         </div><!--eight columns-->
     </div><!--row top-->
     <br/>
-    <div class="section middle">
-        <p style="text-align: center" th:text="'Welcome to the Demo Andy (D) Moretz, ' + ${name} + '!'">[Name]</p>
 
-        <p>It's not finished and probably never will be.</p>
+    <div class="row middle primary">
+        <p style="text-align: center"
+           th:text="'Welcome to the Web Dev Demo of one Andy (D) Moretz, ' + ${name} + '!'">[Name]</p>
+
+        <p>Status: Unfinished</p>
+        <p>Outlook: Unfinished and sunny</p>
         <div class="row second">
             <div class="row twoA">
                 <div class="six columns textcopy">
                     <h6>Don't know Latin:</h6>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget nulla nec
-                    risus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula augue. In at
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
+                    nulla nec
+                    risus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula augue.
+                    In at
                     maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.
                     <br/>
                     Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam condimentum
                     laoreet.
                     <br/>
                     <br/>
-                    <a href="psportfolio.html" class="button button-primary">See Our Work</a>
+                    <a href="portfolio.html" class="button button-primary">Check out my work...</a>
                 </div><!--container six columns-->
                 <div class="six columns pic">
                     <img th:src="@{/img/smileearthnull.png}"
@@ -74,34 +79,46 @@
             <br/>
             <div class="row twoB">
                 <div class="three columns textcopy">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula augue.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
+                        nulla
+                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
+                        augue.
                         In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam condimentum
+                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
+                        condimentum
                         laoreet.</p>
                 </div>
 
                 <div class="three columns textcopy">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula augue.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
+                        nulla
+                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
+                        augue.
                         In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam condimentum
+                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
+                        condimentum
                         laoreet.</p>
                 </div>
 
                 <div class="three columns textcopy">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula augue.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
+                        nulla
+                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
+                        augue.
                         In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam condimentum
+                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
+                        condimentum
                         laoreet.</p>
                 </div>
 
                 <div class="three columns textcopy">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula augue.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
+                        nulla
+                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
+                        augue.
                         In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam condimentum
+                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
+                        condimentum
                         laoreet.</p>
                 </div>
             </div><!--row twoB-->
@@ -109,10 +126,13 @@
             <div class="row twoC">
                 <h4 class="u-max-full-width">Recent Work</h4>
                 <div class="three columns textcopy" style="margin-left: 0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula augue.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
+                        nulla
+                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
+                        augue.
                         In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam condimentum
+                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
+                        condimentum
                         laoreet.</p>
                 </div><!--three columns-->
 
@@ -151,6 +171,7 @@
             </div><!--row twoC-->
         </div><!--second row-->
     </div><!--section middle-->
+
 </div><!--container main-->
 </body>
 </html>

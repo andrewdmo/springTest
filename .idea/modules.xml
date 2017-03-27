@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/A_DeMo.iml" filepath="$PROJECT_DIR$/A_DeMo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tiy-homework-style-the-ironyard/tiy-homework-style-the-ironyard.iml" filepath="$PROJECT_DIR$/../tiy-homework-style-the-ironyard/tiy-homework-style-the-ironyard.iml" />
     </modules>
   </component>
 </project>

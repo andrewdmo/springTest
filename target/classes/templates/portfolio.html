@@ -17,29 +17,79 @@
 </head>
 
 <body>
-<div class="container main links">
+<div class="container main">
 
-    <div style="height: 30vh">
-        [Menu]
-    </div>
+    <!--standard menu:-->
+    <div class="row top">
+        <div class="four columns">
+            <a th:href="index" href="index.html" rel="#home">
+                <img src="/static/img/adm_nasa_logo.png" class="logo"
+                     alt="ADM logo"/>
+            </a>
+        </div><!--four columns-->
+        <div class="eight columns">
+            <div class="row oneA menubar">
+                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
+                   name="about">About</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Portfolio"
+                   name="portfolio">Portfolio</a>
+                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
+                   name="blog">Contact</a>
+                <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
+                <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
+                <div class="row oneB">
+                    <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
+                           name="search"
+                           placeholder="'Search'"/>
 
-    <div class="menubar">
-        <a th:href="@{psindex.html}" href="psindex.html">PaleoDemo</a>
+                </div><!--row oneB-->
+            </div><!--row oneA menubar-->
 
-        <a th:href="@{nori.html}" href="nori.html">Nori Notification App</a>
+        </div><!--eight columns-->
+    </div><!--row top (menu)-->
 
-        <a th:href="@{rockps.html}" href="rockps.html">Rock, Paper, JavaScript!</a>
+    <div class="row middle">
 
-        <a th:href="@{/restgreeting}" href="//restgreeting">RESTfully Yours</a>
+        <div class="row portf">
 
-        <a th:href="@{mvcgreeting.html}" href="mvcgreeting.html">MVC Query Demo</a>
+            <div class="row">
+                <a class="button button-primary" th:href="@{psindex.html}" href="psindex.html">PaleoDemo</a>
+            </div>
 
-        <a th:href="@{moviesql.html}" href="moviesql.html">Movie SQL: the Return</a>
+            <div class="row">
+                <a class="button button-primary" th:href="@{nori.html}" href="nori.html">Nori Notification App
+                </a>
+            </div>
 
-        <a>(Restyle the Iron Yard)</a>
+            <div class="row">
+                <a class="button button-primary" th:href="@{rockps.html}" href="rockps.html">Rock, Paper,
+                    JavaScript!
+                </a>
+            </div>
 
-        <a></a>
-    </div>
+            <div class="row">
+                <a class="button button-primary" th:href="@{/restgreeting}" href="//restgreeting">RESTfully Yours
+                </a>
+            </div>
+
+            <div class="row">
+                <a class="button button-primary" th:href="@{mvcgreeting.html}" href="mvcgreeting.html">MVC Query
+                    Demo
+                </a>
+            </div>
+
+            <div class="row">
+                <a class="button button-primary" th:href="@{moviesql.html}" href="moviesql.html">Movie SQL: the
+                    Return
+                </a>
+            </div>
+
+            <div class="row">
+                <a class="button button-primary">(Restyle the Iron Yard)</a>
+            </div>
+        </div>
+    </div><!--middle-->
+
 </div><!--container-->
 
 

@@ -1,22 +1,24 @@
 html, head, body {
     font-family: "ff-tisa-sans-web", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+    font-family: "ff-tisa-web-pro", serif;
     color: #fff;
     font-weight: 600;
 }
 
 /** {*/
-/*border: 1px solid gray;*/
+    /*border: 1px solid gray;*/
 
 /*}*/
 
 .button,
-button {
+button
+{
     background: #6fbbb7;
     color: #fff;
 }
 
 .button.button-primary,
-button.button-primary {
+button.button-primary{
     background: #6fbbb7;
     color: #fff;
 }
@@ -45,7 +47,6 @@ button.button-primary {
     top: 50%;
     transform: translateY(-50%);
 }
-
 .pressicon {
     display: inline-block;
     box-sizing: border-box;
