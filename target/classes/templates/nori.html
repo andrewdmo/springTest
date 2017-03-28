@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Meet Nori</title>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords"
+          content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+    <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
+
+    <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
+    <link rel="shortcut icon" href="/static/img/faviconNori.ico"/>
+    <link rel="icon" type="image/png" href="/static/img/faviconNori.ico.ico"/>
+</head>
+
+
+<body>
+<div class="container main">
+    <div class="row top primary">
+        <div class="four columns">
+            <a th:href="index.html" href="index.html" rel="#home">
+                <img src="/static/img/adm_nasa_logo.png" class="logo"
+                     alt="ADM logo"/>
+            </a>
+        </div><!--four columns-->
+        <div class="eight columns">
+            <div class="row oneA menubar">
+                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
+                   name="about">About</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Portfolio"
+                   name="portfolio">Portfolio</a>
+                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
+                   name="blog">Contact</a>
+            </div><!--row oneA menubar-->
+        </div><!--eight columns-->
+    </div><!--row top (menu)-->
+
+
+    <div class="row middle primary">
+        <div class="row twoA">
+            <div class="six columns pic">
+                <img th:src="@{../static/img/noriDash (1).png}"
+                     src="../static/img/noriDash (1).png" class="pic"/>
+            </div><!--six columns pic-->
+            <div class="six columns textcopy">
+                <h5>Nori Retail App</h5>
+                <p>
+                    Nori was our final project in Backend Engineering. She's not far from being discharged by the
+                    surgery triage, but currently still pics must suffice. She boasted the only real-time functionality
+                    of all
+                    the projects.</p>
+                <br/>
+                <p>
+                    A one-way POST request is triggered instantly by a sale completion at a Shopify store. This Webhook
+                    prompts the app (packaged JAR w/ Tomcat) to update its local pSQL tables and send an event-specific
+                    email.
+                </p>
+                <br/>
+                <p>
+                    The idea was that by setting specific levels for (high or low selling) items, a store owner could
+                    master their own on-demand inventory supply. Live demo soon
+                </p>
+                <br/>
+            </div><!--container six columns-->
+        </div><!--row twoA-->
+    </div><!--row second primary-->
+
+</div><!--container main-->
+</body>
+</html>

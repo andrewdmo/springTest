@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html"
+      xmlns:http="http://www.w3.org/1999/xhtml">
 <head>
     <title>Contact</title>
 
@@ -14,6 +15,9 @@
     <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
     <link rel="shortcut icon" href="/static/img/oldWellFav.png"/>
     <link rel="icon" type="image/png" href="/static/img/oldWellFav.png"/>
+
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
+
 </head>
 
 <body>
@@ -22,7 +26,7 @@
     <!--standard menu:-->
     <div class="row top">
         <div class="four columns">
-            <a th:href="index" href="index.html" rel="#home">
+            <a th:href="index.html" href="index.html" rel="#home">
                 <img src="/static/img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
@@ -49,8 +53,32 @@
     </div><!--row top (menu)-->
 
     <div class="row middle portf">
-        <p>Contact</p>
-    </div>
+        <p>Find me:</p>
+        <br/>
+        <p><a href="../pubfiles/ADM17eo.pdf" target="_blank">
+            <u>PDF CV</u></a>
+            <a href="../pubfiles/ADM17eo.doc" target="_blank"><u>DOC CV</u></a>
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/pub/andy-moretz/24/a90/5bb">
+
+                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160"
+                     height="25"
+                     border="0" alt="View Andy Moretz's profile on LinkedIn"/>
+            </a></p>
+        <p>
+            <a th:href="@{'http://ec2-52-206-81-235.compute-1.amazonaws.com:9000'}"
+               href="http://ec2-52-206-81-235.compute-1.amazonaws.com:9000">[Current URL]</a></p>
+
+    </div><!--row middle-->
+
+    <!--Nav to main Index:-->
+    <!--<div class="row bottom nav primary">-->
+    <!--<a th:href="index" href="index.html" rel="#home">-->
+    <!--<img src="/static/img/adm_nasa_logo.png" class="navlogo"-->
+    <!--alt="ADM logo"/></a>-->
+    <!--</div>-->
+
 </div><!--container-->
 
 </body>

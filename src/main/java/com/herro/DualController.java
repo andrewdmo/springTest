@@ -72,9 +72,19 @@ public class DualController {
         return "about";
     }
 
-    @RequestMapping("tiystyle")
+    @RequestMapping("/tiystyle")
     public String tiystyle() {
         return "tiystyle";
+    }
+
+    @RequestMapping("/nori")
+    public String nori() {
+        return "nori";
+    }
+
+    @RequestMapping("/contact")
+    public String contact() {
+        return "contact";
     }
 
     @ExceptionHandler

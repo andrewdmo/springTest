@@ -14,6 +14,9 @@
     <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
     <link rel="shortcut icon" href="/static/img/favicon.ico"/>
     <link rel="icon" type="image/png" href="/static/img/favicon.ico"/>
+
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
+
 </head>
 
 
@@ -21,7 +24,7 @@
 <div class="container main">
     <div class="row top primary">
         <div class="four columns">
-            <a th:href="index" href="index.html" rel="#home">
+            <a th:href="index.html" href="index.html" rel="#home">
                 <img src="/static/img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
@@ -30,8 +33,8 @@
             <div class="row oneA menubar">
                 <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
                    name="about">About</a>
-                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Portfolio"
-                   name="portfolio">Portfolio</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Work"
+                   name="portfolio">Work</a>
                 <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
                    name="blog">Contact</a>
                 <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
@@ -170,7 +173,13 @@
                 </div><!--nine columns-->
             </div><!--row twoC-->
         </div><!--second row-->
-    </div><!--section middle-->
+    </div><!--row middle primary-->
+
+    <!--Nav to main Index:-->
+    <!--<div class="row bottom nav primary">-->
+    <!--<a th:href="index" href="index.html" rel="#home">-->
+    <!--<img src="/static/img/adm_nasa_logo.png" class="navlogo"-->
+    <!--alt="ADM logo"/></a>-->
 
 </div><!--container main-->
 </body>

@@ -12,18 +12,16 @@
     <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
     <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
-    <link rel="shortcut icon" href="/static/img/oldWellFav.png"/>
-    <link rel="icon" type="image/png" href="/static/img/oldWellFav.png"/>
+    <link rel="shortcut icon" href="/static/img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon.ico"/>
 </head>
 
 
 <body>
 <div class="container main">
-
-    <!--standard menu:-->
-    <div class="row top">
+    <div class="row top primary">
         <div class="four columns">
-            <a th:href="index" href="index.html" rel="#home">
+            <a th:href="index.html" href="index.html" rel="#home">
                 <img src="/static/img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
@@ -42,10 +40,8 @@
                     <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
                            name="search"
                            placeholder="'Search'"/>
-
                 </div><!--row oneB-->
             </div><!--row oneA menubar-->
-
         </div><!--eight columns-->
     </div><!--row top (menu)-->
 

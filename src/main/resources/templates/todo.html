@@ -19,8 +19,34 @@
 <body style="text-align: center; margin: 40vh">
 <div class="container main">
 
-    <p>[Another painfully generic, yet still touching, ERROR message...]</p>
-</div><!--container-->
+    <!--standard menu:-->
+    <div class="row top">
+        <div class="four columns">
+            <a th:href="index.html" href="index.html" rel="#home">
+                <img src="/static/img/adm_nasa_logo.png" class="logo"
+                     alt="ADM logo"/>
+            </a>
+        </div><!--four columns-->
+        <div class="eight columns">
+            <div class="row oneA menubar">
+                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
+                   name="about">About</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Portfolio"
+                   name="portfolio">Portfolio</a>
+                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
+                   name="blog">Contact</a>
+                <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
+                <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
+                <div class="row oneB">
+                    <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
+                           name="search"
+                           placeholder="'Search'"/>
+
+                </div><!--row oneB-->
+            </div><!--row oneA menubar-->
+
+        </div><!--eight columns-->
+    </div><!--row top (menu)--></div><!--container-->
 
 </body>
 </html>

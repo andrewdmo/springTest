@@ -12,8 +12,8 @@
     <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
     <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
-    <link rel="shortcut icon" href="/static/img/oldWellFav.png"/>
-    <link rel="icon" type="image/png" href="/static/img/oldWellFav.png"/>
+    <link rel="shortcut icon" href="/static/img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/static/img/favicon.ico"/>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <!--standard menu:-->
     <div class="row top">
         <div class="four columns">
-            <a th:href="index" href="index.html" rel="#home">
+            <a th:href="index.html" href="index.html" rel="#home">
                 <img src="/static/img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
@@ -85,7 +85,7 @@
             </div>
 
             <div class="row">
-                <a class="button button-primary">(Restyle the Iron Yard)</a>
+                <a class="button button-primary" th:href="@{tiystyle.html}" href="tiystyle.html">Restyled page</a>
             </div>
         </div>
     </div><!--middle-->
