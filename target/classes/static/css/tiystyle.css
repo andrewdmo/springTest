@@ -6,19 +6,18 @@ html, head, body {
 }
 
 /** {*/
-    /*border: 1px solid gray;*/
+/*border: 1px solid gray;*/
 
 /*}*/
 
 .button,
-button
-{
+button {
     background: #6fbbb7;
     color: #fff;
 }
 
 .button.button-primary,
-button.button-primary{
+button.button-primary {
     background: #6fbbb7;
     color: #fff;
 }
@@ -47,6 +46,7 @@ button.button-primary{
     top: 50%;
     transform: translateY(-50%);
 }
+
 .pressicon {
     display: inline-block;
     box-sizing: border-box;

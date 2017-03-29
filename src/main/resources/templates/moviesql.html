@@ -17,37 +17,39 @@
 </head>
 
 
-<body style="text-align: center; margin: 10% 1% 0;">
-<div class="container main">
-    <div class="row" style="height: 20%">
-        <div class="ten columns offset-by-one">
-            <H6 style="text-shadow: #33C3F0; text-align: center; background-color: rgba(113,113,113,0.53)">A simple pSQL
+<body>
+<div class="container main noscroll">
+    <div class="row" style="height: 30vh; margin:5vh auto 0">
+        <div class="ten columns offset-by-one portf">
+            <H6>A simple pSQL
                 database with linking table.
                 Output formats include
-                <a href="/pubfiles/vyoo_public_movie.json" target="">
+                <a href="../pubfiles/vyoo_public_movie.json" target="">
                     <u>JSON</u></a>,
-                <a href="/pubfiles/vyoo_public_studio.xml" target="">
+                <a href="../pubfiles/vyoo_public_studio.xml" target="">
                     <u>XML</u></a>, and
-                <a href="/pubfiles/vyoo_public_dir_genre_link.sql" target="">
+                <a href="../pubfiles/vyoo_public_dir_genre_link.sql" target="">
                     <u>SQL Inserts</u></a>
             </H6>
-            <p>A globally accessible pSQL DB is present under the hood, but until Spring Security and/or the Nori
-                App are live it'll remain as useful as third-row seating.</p>
+            <p style="font-size: smaller">
+                A globally
+                accessible pSQL DB is present under the hood, but until Spring Security and/or Nori are resurrected
+                it'll remain as useful as third-row seating.</p>
         </div><!--L column-->
     </div><!--1st row-->
 
-    <div class="row middle portf">
+    <div class="row" style="margin-bottom: 10vh">
         <div class="twelve columns">
-            <a href="index.html" style="height: 80%">
-                <img src="/static/img/movie_SQLdiagram.png" alt="pSQL Movie DB Diagram" style="width: 100%"/>
+            <a th:href="@{http://www.rottentomatoes.com}" href="http://www.rottentomatoes.com">
+                <img src="../static/img/movie_SQLdiagram.png" class="pic" alt="pSQL Movie DB Diagram"/>
             </a>
         </div><!--R column-->
     </div><!--2nd row-->
 
     <!--Nav to main Index:-->
     <div class="row bottom nav primary">
-        <a th:href="index.html" href="index.html" rel="#home">
-            <img src="/static/img/adm_nasa_logo.png" class="navlogo"
+        <a th:href="@{/index.html}" href="index.html" rel="#home">
+            <img src="../static/img/adm_nasa_logo.png" class="navlogo"
                  alt="ADM logo"/></a>
     </div>
 
