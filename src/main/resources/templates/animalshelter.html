@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Gimme Animal Shelter</title>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords"
+          content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+    <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
+
+    <link rel="stylesheet" th:href="@{../static/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{../static/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{../static/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
+    <link rel="shortcut icon" href="../static/img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="../static/img/favicon.ico"/>
+</head>
+
+
+<body>
+<div class="container main">
+    <div class="row top primary">
+        <div class="four columns">
+            <a th:href="index.html" href="index.html" rel="#home">
+                <img src="../static/img/adm_nasa_logo.png" class="logo"
+                     alt="ADM logo"/>
+            </a>
+        </div><!--four columns-->
+        <div class="eight columns">
+            <div class="row oneA menubar">
+                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
+                   name="about">About</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Portfolio"
+                   name="portfolio">Portfolio</a>
+                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
+                   name="blog">Contact</a>
+            </div><!--row oneA menubar-->
+        </div><!--eight columns-->
+    </div><!--row top (menu)-->
+
+
+    <div class="row middle primary">
+        <div class="row twoA">
+            <div class="six columns pic">
+                <img th:src="@{../static/img/noahdemopage.png}"
+                     src="../static/img/noahdemopage.png" class="pic"/>
+            </div><!--six columns pic-->
+            <div class="six columns portf">
+                <h5>Animal Shelter</h5>
+                <p>
+                    Animal shelter was our first full Java build. The fauna-saving title is midleading as an Atari
+                    game's: promising but overstates simple gameplay, and the fun doesn't last.</p>
+                <br/>
+                <p>
+                    What does persist are indexed Animal objects! Starting with a simple ArrayList, across 6 different
+                    versions storage includes local JSON and pSQL storage. A.S. also bloomed from being text-based into JSP and full web versions.
+                </p>
+                <br/>
+                <p>
+                    I fell behind building a working version but learned a ton.  Sadly the Shelter is closed but should re-open soon.
+                </p>
+                <br/>
+            </div><!--container six columns-->
+        </div><!--row twoA-->
+    </div><!--row second primary-->
+
+</div><!--container main-->
+</body>
+</html>

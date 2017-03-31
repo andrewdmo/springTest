@@ -9,11 +9,11 @@
           content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
     <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
 
-    <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
-    <link rel="shortcut icon" href="/static/img/favicon.ico"/>
-    <link rel="icon" type="image/png" href="/static/img/favicon.ico"/>
+    <link rel="stylesheet" th:href="@{../static/css/normalize.css}" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{../static/css/skeleton.css}" href="/static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{../static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
+    <link rel="shortcut icon" href="../static/img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="../static/img/favicon.ico"/>
 
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
 
@@ -52,11 +52,26 @@
     <br/>
 
     <div class="row middle primary">
-        <p style="text-align: center"
-           th:text="'Welcome to the Web Dev Demo of one Andy (D) Moretz, ' + ${name} + '!'">[Name]</p>
+        <div class="row first">
 
-        <p>Status: Unfinished</p>
-        <p>Outlook: Unfinished and sunny</p>
+            <h5 class="row portf idx"
+                th:text="'Welcome to the Web Dev Demo of one Andy (D) Moretz, ' + ${name} + ' !!'">[Name]
+            </h5>
+            <br/>
+            <div class="row portf idx">
+                <span>Status: </span><span style="color: #901400">Unfinished</span>
+            </div>
+            <br/>
+            <div class="row portf idx">
+                <span>Outlook:</span><span style="color: #901400">Unfinished</span>
+                and
+                <span style="color: #B3B100">Sunny</span>
+            </div>
+            <br/>
+            <!--add click function!!!-->
+
+        </div><!--first row-->
+
         <div class="row second">
             <div class="row twoA">
                 <div class="six columns textcopy">
@@ -127,7 +142,7 @@
             </div><!--row twoB-->
 
             <div class="row twoC">
-                <h4 class="u-max-full-width">Recent Work</h4>
+                <h4 class=" twelve columns">Recent Work</h4>
                 <div class="three columns textcopy" style="margin-left: 0">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
                         nulla
@@ -139,38 +154,41 @@
                         laoreet.</p>
                 </div><!--three columns-->
 
-                <div class="nine columns">
-                    <div class="row u-max-full-width"><!--twoC top pic row-->
-                        <section class="thumbnails">
-                            <div class="four columns">
-                                <img src="/static/img/agma_360_360_70_int_c1_small.jpg" class="thumbnails"/>
-                            </div>
-                            <div class="four columns">
-                                <img src="/static/img/tweetsie_360_360_70_int_c1_small.jpg" class="thumbnails"/>
-                            </div>
-                            <div class="four columns">
-                                <img src="/static/img/visitcherokeenc_360_360_70_int_c1_small.jpg"
-                                     class="thumbnails"/>
-                            </div>
-                        </section>
+                <div class="nine columns portf">
+                    <div class="row u-max-full-width" style="height:50%"><!--twoC top pic row-->
+                        <div class="six columns pic">
+                            <a th:href="@{/nori}" href="nori.html">
+                                <img src="../static/img/noriItem%20(1).png" class="thumbnails"/>
+                            </a>
+                        </div>
+                        <div class="six columns pic">
+                            <img src="../static/img/IMG_4979.png" class="thumbnails"/>
+                        </div>
                     </div><!--twoC top pic row-->
-                    <br/>
                     <div class="row u-max-full-width"><!--twoC bottom pic row-->
-                        <section class="thumbnails">
-                            <div class="four columns">
-                                <img src="/static/img/tutco-farnam-2015_360_360_int_c1_small.png"
-                                     class="thumbnails"/>
-                            </div>
-                            <div class="four columns">
-                                <img src="/static/img/brmt_360_360_70_int_c1_small.jpg" class="thumbnails"/>
-                            </div>
-                            <div class="four columns">
-                                <img src="/static/img/highland-2_360_360_70_int_c1_small.jpg"
-                                     class="thumbnails"/>
-                            </div>
-                        </section>
+                        <div class="six columns pic">
+                            <img src="../static/img/IMG_0025.png" class="thumbnails"/>
+                        </div>
+                        <div class="six columns pic">
+                            <a th:href="@{/animalshelter.html}"
+                               href="animalshelter.html">
+                                <img src="../static/img/noahdemopagesmall.png" class="thumbnails"
+                                     style="max-height: inherit"/>
+                            </a>
+                        </div>
+                        <!--<div class="six columns pic">-->
+                        <!--<a th:href="@{https://www.highlandbrewing.com/}"-->
+                        <!--href="https://www.highlandbrewing.com/">-->
+                        <!--<img src="/static/img/highland-2_360_360_70_int_c1_small.jpg"-->
+                        <!--class="thumbnails"/>-->
+                        <!--</a>-->
+                        <!--</div>-->
                     </div><!--twoC bottom pic row-->
                 </div><!--nine columns-->
+            </div>
+            <div class="row portf idx">
+                <code style="background-color: #B9B9B9">*
+                    http://ec2-52-206-81-235.compute-1.amazonaws.com:9000/index.html?name=YOURNAME</code>
             </div><!--row twoC-->
         </div><!--second row-->
     </div><!--row middle primary-->

@@ -178,7 +178,8 @@ a {
     z-index: 0;
     width: auto;
     opacity: .9;
-    margin: auto;
+    /*margin: 1vh auto;*/
+    padding: 0 2vh;
     display: inline-block;
     position: relative;
     color: #901400;
@@ -193,6 +194,12 @@ a {
     border: 2px #901400 outset;
     border-radius: 7px;
     transition: all 0.5s ease-in-out;
+}
+
+.portf.idx {
+    color: #0f6b82;
+    /*width: 100%;*/
+    margin: 1vh auto;
 }
 
 .button.button-primary,
@@ -275,6 +282,14 @@ input[type=text]:focus {
     text-align: center;
 }
 
+.first {
+    width: 100%;
+}
+
+.second {
+    margin-top: 5vh;
+}
+
 .third {
     height: 100%;
     background-color: #505659;
@@ -283,28 +298,30 @@ input[type=text]:focus {
 }
 
 .thumbnails {
-    display: inline-block;
     width: 100%;
     border-radius: 15px;
+    overflow: scroll;
 }
 
 .pic {
     color-rendering: optimizeSpeed;
+    display: inline-block;
     width: 100%;
     padding: 1% 0 1% 1%;
     /*height: 100%;*/
     /*border: none;*/
     border-radius: 20px !important;
     filter: brightness(90%) blur(1px);
-    transition: filter 0.5s, border-radius 0.5s, linear;
+    transition: all 0.5s ease-in-out;
 }
 
-.pic:hover {
+.pic:hover,
+.thumbnails:hover {
     color-rendering: optimizeSpeed;
     /*border: none;*/
     border-radius: 12px !important;
     filter: brightness(93%) blur(0px);
-    transition: filter 0.5s, border-radius 0.5s, linear;
+    transition: all 0.5s ease-in-out;
 }
 
 .textcopy {

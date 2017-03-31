@@ -50,53 +50,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5072095">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DualController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/DualController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="855">
-                  <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#565#566#0" expanded="false" />
-                    <element signature="e#599#600#0" expanded="false" />
-                    <element signature="e#932#933#0" expanded="false" />
-                    <element signature="e#964#965#0" expanded="false" />
-                    <element signature="e#1027#1028#0" expanded="false" />
-                    <element signature="e#1059#1060#0" expanded="false" />
-                    <element signature="e#1128#1129#0" expanded="false" />
-                    <element signature="e#1163#1164#0" expanded="false" />
-                    <element signature="e#1224#1225#0" expanded="false" />
-                    <element signature="e#1255#1256#0" expanded="false" />
-                    <element signature="e#1322#1323#0" expanded="false" />
-                    <element signature="e#1356#1357#0" expanded="false" />
-                    <element signature="e#1427#1428#0" expanded="false" />
-                    <element signature="e#1463#1464#0" expanded="false" />
-                    <element signature="e#1528#1529#0" expanded="false" />
-                    <element signature="e#1561#1562#0" expanded="false" />
-                    <element signature="e#1622#1623#0" expanded="false" />
-                    <element signature="e#1653#1654#0" expanded="false" />
-                    <element signature="e#1712#1713#0" expanded="false" />
-                    <element signature="e#1742#1743#0" expanded="false" />
-                    <element signature="e#1807#1808#0" expanded="false" />
-                    <element signature="e#1840#1841#0" expanded="false" />
-                    <element signature="e#1897#1898#0" expanded="false" />
-                    <element signature="e#1926#1927#0" expanded="false" />
-                    <element signature="e#1989#1990#0" expanded="false" />
-                    <element signature="e#2021#2022#0" expanded="false" />
-                    <element signature="e#2116#2117#0" expanded="false" />
-                    <element signature="e#2146#2147#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="93">
-                  <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+                <state relative-caret-position="209">
+                  <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
                   <folding>
                     <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#2;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#code#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -105,8 +72,18 @@
           <file leaf-file-name="tiystyle.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tiystyle.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="538">
-                  <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+                <state relative-caret-position="705">
+                  <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="animalshelter.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/animalshelter.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -116,23 +93,23 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="demoStyle.css" pinned="true" current-in-tab="false">
+          <file leaf-file-name="demoStyle.css" pinned="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+                <state relative-caret-position="302">
+                  <caret line="192" column="14" lean-forward="false" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="14" />
                   <folding>
-                    <marker date="1490792329000" expanded="true" signature="7419:9191" ph="data:image/svg+xml" />
+                    <marker date="1490989984000" expanded="true" signature="7592:9364" ph="data:image/svg+xml" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+                <state relative-caret-position="370">
+                  <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
                   <folding>
                     <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -143,11 +120,21 @@
           <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contact.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
+                <state relative-caret-position="1155">
                   <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
                   <folding>
                     <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="skeleton.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/skeleton.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5730">
+                  <caret line="382" column="7" lean-forward="false" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="7" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -167,15 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button</find>
-      <find>width</find>
-      <find>win</find>
-      <find>module</find>
-      <find>opac</find>
-      <find>z</find>
-      <find>fixed</find>
-      <find>border</find>
-      <find>display</find>
       <find>d</find>
       <find>ease-in-out</find>
       <find>overflow</find>
@@ -197,6 +175,15 @@
       <find>../static/img/styleimgs/</find>
       <find>primary</find>
       <find>--</find>
+      <find>textare</find>
+      <find>animal</find>
+      <find>first4</find>
+      <find>th</find>
+      <find>thum</find>
+      <find>thumb</find>
+      <find>thumbn</find>
+      <find>thumbna</find>
+      <find>thumbnails</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -236,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/rpstiy.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/movie_sql.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/movie.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/movie_SQL.html" />
@@ -266,7 +252,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/herro/service/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/Greeting.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/error.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/nori.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/psabout.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/psblog.html" />
@@ -276,17 +261,19 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/rockps.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/todo.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/psindex.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/DualController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/tiystyle.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/paleoStyle.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/contact.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/DualController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/nori.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/animalshelter.html" />
       </list>
     </option>
   </component>
@@ -364,7 +351,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -611,13 +598,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1645,12 +1632,14 @@
       <workItem from="1490704704913" duration="5259000" />
       <workItem from="1490745880037" duration="2160000" />
       <workItem from="1490751808957" duration="1276000" />
-      <workItem from="1490789929942" duration="2384000" />
+      <workItem from="1490789929942" duration="4709000" />
+      <workItem from="1490873281036" duration="7562000" />
+      <workItem from="1490962079058" duration="8040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324746000" />
+    <option name="totallyTimeSpent" value="342673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1687,15 +1676,17 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Fluid" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="true" content_ui="tabs" />
       <window_info id="HDInsight Spark Submission" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24487334" sideWeight="0.7281831" order="22" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256936" sideWeight="0.49427754" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24487334" sideWeight="0.7281831" order="22" side_tool="true" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22557297" sideWeight="0.46852645" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810616" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32403433" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.050786838" sideWeight="0.49275362" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0751073" sideWeight="0.49275362" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19662243" sideWeight="0.31473532" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13090129" sideWeight="0.5072464" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1704,7 +1695,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="617" />
-      <window_info id="Fluid" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1714,7 +1704,6 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810616" sideWeight="0.54291844" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.49713877" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19662243" sideWeight="0.31473532" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31604344" sideWeight="0.27181688" order="16" side_tool="false" content_ui="tabs" />
@@ -1792,23 +1781,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding>
-            <marker date="1490545532000" expanded="true" signature="22:536" ph="&lt;IfModule mod_expires.c&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pubfiles/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/scripts/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1926,24 +1898,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/nori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="89" column="14" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1965,6 +1926,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1997,13 +1959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/skeleton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3975">
-          <caret line="265" column="25" lean-forward="true" selection-start-line="265" selection-start-column="25" selection-end-line="265" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/rockps.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2022,6 +1977,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2029,43 +1987,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="56" column="58" lean-forward="false" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/DualController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#565#566#0" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#932#933#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#1027#1028#0" expanded="false" />
-            <element signature="e#1059#1060#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-            <element signature="e#1163#1164#0" expanded="false" />
-            <element signature="e#1224#1225#0" expanded="false" />
-            <element signature="e#1255#1256#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#1356#1357#0" expanded="false" />
-            <element signature="e#1427#1428#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
-            <element signature="e#1528#1529#0" expanded="false" />
-            <element signature="e#1561#1562#0" expanded="false" />
-            <element signature="e#1622#1623#0" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
-            <element signature="e#1712#1713#0" expanded="false" />
-            <element signature="e#1742#1743#0" expanded="false" />
-            <element signature="e#1807#1808#0" expanded="false" />
-            <element signature="e#1840#1841#0" expanded="false" />
-            <element signature="e#1897#1898#0" expanded="false" />
-            <element signature="e#1926#1927#0" expanded="false" />
-            <element signature="e#1989#1990#0" expanded="false" />
-            <element signature="e#2021#2022#0" expanded="false" />
-            <element signature="e#2116#2117#0" expanded="false" />
-            <element signature="e#2146#2147#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2606,897 +2529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/andrewdmo/Projects/springTest">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$</OriginalElement>
-          <nodes>
-            <node x="931.0" y="1457.0">$PROJECT_DIR$/src/main/resources/templates/about.html</node>
-            <node x="1239.0" y="388.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/active-network-logo-7fb24783ae9e06e2f5738fa82d3dd322ea4b0eb081d527f7b1a9d2edc4cf0bb7.png</node>
-            <node x="1044.0" y="458.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/ally-bank-logo-32c4ad757ef478e00dc55ec3b0f1c5fa3d70876756b1f40d96e329fcec567fdc.png</node>
-            <node x="2448.0" y="2106.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/amazon-logo-39fa6ad8d708a8ef4c694e986cc360891af4b7aa9c0a695213791eff7141c63a.png</node>
-            <node x="1991.0" y="1283.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/att-logo-6865423b147ca9790782ee71db74c5af310a0151b4b9238ddd1274d999048d07.png</node>
-            <node x="862.0" y="2435.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/benefit-focus-logo-25676a384094eddd8b02e053ccce1d2c555cd57eecabb5e24fd59a2f8ed0df82.png</node>
-            <node x="1316.0" y="1807.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/bi-logo-a04cb666947df1ee103c41b6760bc0b8ea705205ae92ab1ebf872bcdb2e27e60.png</node>
-            <node x="0.0" y="1734.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/boomtown-logo-03780e64d061e8fa68a21feb0bd3761072edb74f1d13d5030e23108f66a56bd4.png</node>
-            <node x="993.0" y="2575.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/bronto-logo-0981b976a17e0fec994190158bd1d3a7b5cae2bbb538597783ef0084042feec2.png</node>
-            <node x="1549.0" y="771.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/chaione-logo-adb99e6f095468e27845616e150e6acf6b791155868e14697547f9747add3e90.png</node>
-            <node x="1854.0" y="2033.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/cloudspace-logo-fe33f4d75cfd176acb0c43bc36a3485e0218a59c4af1a138fb9499268bddb20f.png</node>
-            <node x="2492.0" y="1082.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/coke-logo-3388dc0e1a2246606509b114119f38208cfba066df9c8d23c2b11853ebcf81e2.png</node>
-            <node x="1044.0" y="1030.0">$PROJECT_DIR$/src/main/resources/templates/contact.html</node>
-            <node x="1177.0" y="1667.0">$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css</node>
-            <node x="1517.0" y="1160.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/emcien-logo-11c4eb39a4314d5cfe36aa94d35c9b06a361f44ec5c5b38c87bc10cf098b5d6c.png</node>
-            <node x="667.0" y="856.0">$PROJECT_DIR$/src/main/resources/templates/error.html</node>
-            <node x="1556.0" y="2248.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/fuzzco-logo-7fd3c1c8e371fad9d103e4c87c3e4ca6a4f2b870cbcc960558a826e8a26ce9ca.png</node>
-            <node x="1661.0" y="1478.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/github-logo-929c17a9176a64a93d7ac68a3e0a519d3e1d89b1b563fcfab1636f98f58fade2.png</node>
-            <node x="521.0" y="1422.0">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_2.1.4_jquery.js</node>
-            <node x="1189.0" y="83.0">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_feed.mikle.com_js_fw-loader.js</node>
-            <node x="705.0" y="786.0">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js</node>
-            <node x="1980.0" y="896.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/ibm-design-logo-9df4a75ac65f365c6b1bb44d8c2fb261f5491200b3bae1677c862ed879988a61.png</node>
-            <node x="1386.0" y="1090.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png</node>
-            <node x="2544.0" y="1692.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png</node>
-            <node x="588.0" y="712.0">$PROJECT_DIR$/src/main/resources/templates/index.html</node>
-            <node x="950.0" y="1380.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg</node>
-            <node x="1201.0" y="1527.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo.ico</node>
-            <node x="1019.0" y="1597.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo.svg</node>
-            <node x="1750.0" y="2688.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/microsoft-logo-5a4fb054f062b1bc302c250d3a6e5727920ca528c0439b123b4c5c691d9b85fa.png</node>
-            <node x="557.0" y="936.0">$PROJECT_DIR$/src/main/resources/templates/moviesql.html</node>
-            <node x="776.0" y="1240.0">$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html</node>
-            <node x="531.0" y="1139.0">$PROJECT_DIR$/src/main/resources/templates/nori.html</node>
-            <node x="164.0" y="1129.0">$PROJECT_DIR$/src/main/resources/static/img/noriDash (1).png</node>
-            <node x="1948.0" y="1355.0">$PROJECT_DIR$/src/main/resources/static/css/normalize.css</node>
-            <node x="1596.0" y="1947.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/notre-dame-logo-96659b0cc07884e5434aa7b059a53f63ac133760a008294deb51f63105a16683.png</node>
-            <node x="2107.0" y="502.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/path-logo-69e849c76968c54b1ee1f165412b52a23f1601a7161363038e929d61673544dc.png</node>
-            <node x="1748.0" y="2618.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc.png</node>
-            <node x="636.0" y="1020.0">$PROJECT_DIR$/src/main/resources/templates/portfolio.html</node>
-            <node x="919.0" y="1310.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/prismatic-logo-21449ce0f465b277a8667a99b8be981a131b458718e4f941020b214800920bd9.png</node>
-            <node x="1278.0" y="1020.0">$PROJECT_DIR$/src/main/resources/templates/psabout.html</node>
-            <node x="1018.0" y="738.0">$PROJECT_DIR$/src/main/resources/templates/psarchives.html</node>
-            <node x="1011.0" y="668.0">$PROJECT_DIR$/src/main/resources/templates/psblog.html</node>
-            <node x="1147.0" y="948.0">$PROJECT_DIR$/src/main/resources/templates/pscontact.html</node>
-            <node x="1159.0" y="808.0">$PROJECT_DIR$/src/main/resources/templates/pserror.html</node>
-            <node x="1582.0" y="617.0">$PROJECT_DIR$/src/main/resources/static/img/psfavicon.ico</node>
-            <node x="893.0" y="563.0">$PROJECT_DIR$/src/main/resources/templates/psindex.html</node>
-            <node x="1297.0" y="878.0">$PROJECT_DIR$/src/main/resources/templates/psportfolio.html</node>
-            <node x="779.0" y="1947.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/redhat-logo-023845ec451a12fa12d3e9d59582a0b84d37d22628896c23deee61a04fff6980.png</node>
-            <node x="633.0" y="1352.0">$PROJECT_DIR$/src/main/resources/templates/rockps.html</node>
-            <node x="2047.0" y="1628.0">$PROJECT_DIR$/src/main/resources/static/css/skeleton.css</node>
-            <node x="495.0" y="2505.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/sparc-logo-5bf647f856b2cace787dc5bcb3806002bb4b747bef11f8ead5b7d810378ff4f0.png</node>
-            <node x="1212.0" y="2828.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/spoonflower-logo-23105b5432e9e743ce837ddd52b224933c602b66519af0e9b21ad7b959dd1b01.png</node>
-            <node x="1309.0" y="1737.0">$PROJECT_DIR$/src/main/resources/static/css/tiystyle.css</node>
-            <node x="1543.0" y="1645.0">$PROJECT_DIR$/src/main/resources/templates/tiystyle.html</node>
-            <node x="1160.0" y="1240.0">$PROJECT_DIR$/src/main/resources/templates/todo.html</node>
-            <node x="2083.0" y="2353.0">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/validic-logo-c4d146131b4a8b2f1f443f773c030b12343ede1685e2eebf7ceb1597c4754009.png</node>
-            <node x="401.0" y="798.0">../</node>
-            <node x="1126.0" y="2087.0">../static/img/styleimgs//abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png</node>
-            <node x="1342.0" y="2017.0">../static/img/styleimgs//andrew-faircloth-thumb.png</node>
-            <node x="1658.0" y="318.0">../static/img/styleimgs//atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png</node>
-            <node x="1072.0" y="2318.0">../static/img/styleimgs//cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png</node>
-            <node x="345.0" y="2094.0">../static/img/styleimgs//fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png</node>
-            <node x="468.0" y="1527.0">../static/img/styleimgs//icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png</node>
-            <node x="787.0" y="1877.0">../static/img/styleimgs//icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png</node>
-            <node x="1941.0" y="1702.0">../static/img/styleimgs//julie-rich-thumb.jpg</node>
-            <node x="2223.0" y="1600.0">../static/img/styleimgs//nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png</node>
-            <node x="1437.0" y="1240.0">../static/img/styleimgs//play-icon.png</node>
-            <node x="2064.0" y="1842.0">../static/img/styleimgs//tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png</node>
-            <node x="1570.0" y="1553.0">../static/img/styleimgs//wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png</node>
-            <node x="731.0" y="1090.0">/static/css/demoStyle.css</node>
-            <node x="905.0" y="979.0">/static/css/normalize.css</node>
-            <node x="1096.0" y="361.0">/static/css/paleoStyle.css</node>
-            <node x="369.0" y="1202.0">/static/css/rockps.css</node>
-            <node x="911.0" y="909.0">/static/css/skeleton.css</node>
-            <node x="977.0" y="0.0">/static/img/Vadim-Gromov-Responsive.jpg</node>
-            <node x="990.0" y="1170.0">/static/img/adm_nasa_logo.png</node>
-            <node x="457.0" y="480.0">/static/img/agma_360_360_70_int_c1_small.jpg</node>
-            <node x="1333.0" y="309.0">/static/img/android-chrome-192x192.png</node>
-            <node x="520.0" y="278.0">/static/img/brmt_360_360_70_int_c1_small.jpg</node>
-            <node x="842.0" y="727.0">/static/img/favicon-16x16.png</node>
-            <node x="1110.0" y="598.0">/static/img/favicon-194x194.png</node>
-            <node x="1213.0" y="528.0">/static/img/favicon-32x32.png</node>
-            <node x="1150.0" y="1100.0">/static/img/favicon-96x96.png</node>
-            <node x="501.0" y="1021.0">/static/img/favicon.ico</node>
-            <node x="306.0" y="1016.0">/static/img/faviconNori.ico</node>
-            <node x="223.0" y="1278.0">/static/img/faviconNori.ico.ico</node>
-            <node x="309.0" y="623.0">/static/img/highland-2_360_360_70_int_c1_small.jpg</node>
-            <node x="852.0" y="1631.0">/static/img/iron-yard-logo.ico</node>
-            <node x="1050.0" y="169.0">/static/img/logo-white2x.png</node>
-            <node x="213.0" y="868.0">/static/img/movie_SQLdiagram.png</node>
-            <node x="1155.0" y="1450.0">/static/img/oldWellFav.png</node>
-            <node x="1402.0" y="659.0">/static/img/psfavicon.ico</node>
-            <node x="370.0" y="1348.0">/static/img/transparent.png</node>
-            <node x="275.0" y="377.0">/static/img/tutco-farnam-2015_360_360_int_c1_small.png</node>
-            <node x="596.0" y="550.0">/static/img/tweetsie_360_360_70_int_c1_small.jpg</node>
-            <node x="689.0" y="401.0">/static/img/visitcherokeenc_360_360_70_int_c1_small.jpg</node>
-            <node x="627.0" y="1605.0">/static/scripts/rockps.js</node>
-            <node x="716.0" y="132.0">https://c6.staticflickr.com/9/8583/28916575965_827258e534_m.jpg</node>
-            <node x="1188.0" y="239.0">https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/github-logo-929c17a9176a64a93d7ac68a3e0a519d3e1d89b1b563fcfab1636f98f58fade2.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/contact.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/microsoft-logo-5a4fb054f062b1bc302c250d3a6e5727920ca528c0439b123b4c5c691d9b85fa.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/img/highland-2_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/contact.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/error.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/sparc-logo-5bf647f856b2cace787dc5bcb3806002bb4b747bef11f8ead5b7d810378ff4f0.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/prismatic-logo-21449ce0f465b277a8667a99b8be981a131b458718e4f941020b214800920bd9.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/about.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/img/tutco-farnam-2015_360_360_int_c1_small.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/about.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/tweetsie_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/img/favicon-194x194.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/favicon-16x16.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/nori.html" target="/static/img/faviconNori.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/ibm-design-logo-9df4a75ac65f365c6b1bb44d8c2fb261f5491200b3bae1677c862ed879988a61.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" target="/static/img/movie_SQLdiagram.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/img/favicon-96x96.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/coke-logo-3388dc0e1a2246606509b114119f38208cfba066df9c8d23c2b11853ebcf81e2.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/img/android-chrome-192x192.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/fuzzco-logo-7fd3c1c8e371fad9d103e4c87c3e4ca6a4f2b870cbcc960558a826e8a26ce9ca.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/error.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/about.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/todo.html" target="/static/img/oldWellFav.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/error.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/redhat-logo-023845ec451a12fa12d3e9d59582a0b84d37d22628896c23deee61a04fff6980.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/favicon-32x32.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/bronto-logo-0981b976a17e0fec994190158bd1d3a7b5cae2bbb538597783ef0084042feec2.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/img/tweetsie_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/img/favicon-16x16.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/img/favicon-16x16.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/css/paleoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/active-network-logo-7fb24783ae9e06e2f5738fa82d3dd322ea4b0eb081d527f7b1a9d2edc4cf0bb7.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/img/android-chrome-192x192.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/chaione-logo-adb99e6f095468e27845616e150e6acf6b791155868e14697547f9747add3e90.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="https://c6.staticflickr.com/9/8583/28916575965_827258e534_m.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/img/favicon-32x32.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/img/favicon-194x194.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="/static/scripts/rockps.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/favicon-194x194.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/css/paleoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" target="/static/img/favicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/contact.html" target="/static/img/oldWellFav.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/css/tiystyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/psfavicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/boomtown-logo-03780e64d061e8fa68a21feb0bd3761072edb74f1d13d5030e23108f66a56bd4.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/img/agma_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/logo-white2x.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/nori.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" target="/static/img/favicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/img/brmt_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/highland-2_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/todo.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/img/favicon-32x32.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/img/favicon-96x96.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/brmt_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/nori.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//andrew-faircloth-thumb.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_2.1.4_jquery.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/android-chrome-192x192.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" target="/static/img/favicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/img/favicon-96x96.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/about.html" target="/static/img/oldWellFav.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/Vadim-Gromov-Responsive.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/img/android-chrome-192x192.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="/static/img/iron-yard-logo.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/att-logo-6865423b147ca9790782ee71db74c5af310a0151b4b9238ddd1274d999048d07.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/cloudspace-logo-fe33f4d75cfd176acb0c43bc36a3485e0218a59c4af1a138fb9499268bddb20f.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="../">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/todo.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/contact.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/path-logo-69e849c76968c54b1ee1f165412b52a23f1601a7161363038e929d61673544dc.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/img/favicon-96x96.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/img/favicon-96x96.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/nori.html" target="/static/img/faviconNori.ico.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/img/favicon-32x32.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/img/android-chrome-192x192.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/img/psfavicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/img/psfavicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/img/favicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="/static/img/transparent.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/nori.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/notre-dame-logo-96659b0cc07884e5434aa7b059a53f63ac133760a008294deb51f63105a16683.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/ally-bank-logo-32c4ad757ef478e00dc55ec3b0f1c5fa3d70876756b1f40d96e329fcec567fdc.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/error.html" target="/static/img/favicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/benefit-focus-logo-25676a384094eddd8b02e053ccce1d2c555cd57eecabb5e24fd59a2f8ed0df82.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/css/paleoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/css/paleoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/img/favicon-16x16.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/visitcherokeenc_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_feed.mikle.com_js_fw-loader.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/css/paleoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//play-icon.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/amazon-logo-39fa6ad8d708a8ef4c694e986cc360891af4b7aa9c0a695213791eff7141c63a.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/img/favicon-194x194.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/favicon-96x96.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/img/favicon-32x32.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/error.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/img/favicon-194x194.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/about.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/img/psfavicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/bi-logo-a04cb666947df1ee103c41b6760bc0b8ea705205ae92ab1ebf872bcdb2e27e60.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/nori.html" target="$PROJECT_DIR$/src/main/resources/static/img/noriDash (1).png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="/static/css/rockps.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/contact.html" target="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/img/favicon-16x16.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/img/android-chrome-192x192.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/img/favicon-194x194.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/nori.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/img/favicon-96x96.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/css/paleoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/todo.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/img/android-chrome-192x192.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pscontact.html" target="/static/img/psfavicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/img/favicon-194x194.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/emcien-logo-11c4eb39a4314d5cfe36aa94d35c9b06a361f44ec5c5b38c87bc10cf098b5d6c.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psarchives.html" target="/static/css/paleoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/validic-logo-c4d146131b4a8b2f1f443f773c030b12343ede1685e2eebf7ceb1597c4754009.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="/static/img/adm_nasa_logo.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="../static/img/styleimgs//julie-rich-thumb.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo.svg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/contact.html" target="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/img/favicon-32x32.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psblog.html" target="/static/img/psfavicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/tutco-farnam-2015_360_360_int_c1_small.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psindex.html" target="/static/img/agma_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/pserror.html" target="/static/img/favicon-16x16.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/img/favicon-32x32.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/contact.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/rockps.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" target="/static/css/skeleton.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psportfolio.html" target="$PROJECT_DIR$/src/main/resources/static/img/psfavicon.ico">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/img/visitcherokeenc_360_360_70_int_c1_small.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/todo.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" target="$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/spoonflower-logo-23105b5432e9e743ce837ddd52b224933c602b66519af0e9b21ad7b959dd1b01.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/css/normalize.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/index.html" target="/static/css/demoStyle.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/main/resources/templates/psabout.html" target="/static/img/favicon-16x16.png">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.19812745394140743" x="1201.0" y="679.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JavaScript-modules-diagram//Users/andrewdmo/Projects/springTest/src">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -3615,28 +2647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://MODULES/mdl-A_DeMo">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-A_DeMo</OriginalElement>
-          <nodes>
-            <node x="" y="">mdl-A_DeMo</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="143.0" y="57.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/paleoStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3663,29 +2677,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tiystyle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/moviesql.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="1155">
           <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -3693,33 +2694,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="uml://MODULES/mdl-A_DeMo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-A_DeMo</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-A_DeMo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.556533708766741" x="137.0" y="37.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/andrewdmo/Projects/springTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/about.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/active-network-logo-7fb24783ae9e06e2f5738fa82d3dd322ea4b0eb081d527f7b1a9d2edc4cf0bb7.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/adm_nasa_logo.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/ally-bank-logo-32c4ad757ef478e00dc55ec3b0f1c5fa3d70876756b1f40d96e329fcec567fdc.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/amazon-logo-39fa6ad8d708a8ef4c694e986cc360891af4b7aa9c0a695213791eff7141c63a.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/att-logo-6865423b147ca9790782ee71db74c5af310a0151b4b9238ddd1274d999048d07.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/benefit-focus-logo-25676a384094eddd8b02e053ccce1d2c555cd57eecabb5e24fd59a2f8ed0df82.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/bi-logo-a04cb666947df1ee103c41b6760bc0b8ea705205ae92ab1ebf872bcdb2e27e60.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/boomtown-logo-03780e64d061e8fa68a21feb0bd3761072edb74f1d13d5030e23108f66a56bd4.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/bronto-logo-0981b976a17e0fec994190158bd1d3a7b5cae2bbb538597783ef0084042feec2.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/chaione-logo-adb99e6f095468e27845616e150e6acf6b791155868e14697547f9747add3e90.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/cloudspace-logo-fe33f4d75cfd176acb0c43bc36a3485e0218a59c4af1a138fb9499268bddb20f.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/coke-logo-3388dc0e1a2246606509b114119f38208cfba066df9c8d23c2b11853ebcf81e2.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/contact.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/emcien-logo-11c4eb39a4314d5cfe36aa94d35c9b06a361f44ec5c5b38c87bc10cf098b5d6c.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/error.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/fuzzco-logo-7fd3c1c8e371fad9d103e4c87c3e4ca6a4f2b870cbcc960558a826e8a26ce9ca.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/github-logo-929c17a9176a64a93d7ac68a3e0a519d3e1d89b1b563fcfab1636f98f58fade2.png</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_2.1.4_jquery.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_feed.mikle.com_js_fw-loader.js</node>
+            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/ibm-design-logo-9df4a75ac65f365c6b1bb44d8c2fb261f5491200b3bae1677c862ed879988a61.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo.ico</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo.svg</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/microsoft-logo-5a4fb054f062b1bc302c250d3a6e5727920ca528c0439b123b4c5c691d9b85fa.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/movie_SQLdiagram.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/moviesql.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/nori.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/noriDash (1).png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/normalize.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/notre-dame-logo-96659b0cc07884e5434aa7b059a53f63ac133760a008294deb51f63105a16683.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/path-logo-69e849c76968c54b1ee1f165412b52a23f1601a7161363038e929d61673544dc.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/portfolio.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/prismatic-logo-21449ce0f465b277a8667a99b8be981a131b458718e4f941020b214800920bd9.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/psabout.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/psarchives.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/psblog.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/pscontact.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/pserror.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/psfavicon.ico</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/psindex.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/psportfolio.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/redhat-logo-023845ec451a12fa12d3e9d59582a0b84d37d22628896c23deee61a04fff6980.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/rockps.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/skeleton.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/sparc-logo-5bf647f856b2cace787dc5bcb3806002bb4b747bef11f8ead5b7d810378ff4f0.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/spoonflower-logo-23105b5432e9e743ce837ddd52b224933c602b66519af0e9b21ad7b959dd1b01.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/tiystyle.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/tiystyle.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/todo.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/validic-logo-c4d146131b4a8b2f1f443f773c030b12343ede1685e2eebf7ceb1597c4754009.png</node>
+            <node x="" y="">../</node>
+            <node x="" y="">../static/img/FBprofile.jpg</node>
+            <node x="" y="">../static/img/styleimgs//abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png</node>
+            <node x="" y="">../static/img/styleimgs//andrew-faircloth-thumb.png</node>
+            <node x="" y="">../static/img/styleimgs//atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png</node>
+            <node x="" y="">../static/img/styleimgs//cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png</node>
+            <node x="" y="">../static/img/styleimgs//fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png</node>
+            <node x="" y="">../static/img/styleimgs//icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png</node>
+            <node x="" y="">../static/img/styleimgs//icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png</node>
+            <node x="" y="">../static/img/styleimgs//julie-rich-thumb.jpg</node>
+            <node x="" y="">../static/img/styleimgs//nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png</node>
+            <node x="" y="">../static/img/styleimgs//play-icon.png</node>
+            <node x="" y="">../static/img/styleimgs//tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png</node>
+            <node x="" y="">../static/img/styleimgs//wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png</node>
+            <node x="" y="">/static/css/demoStyle.css</node>
+            <node x="" y="">/static/css/normalize.css</node>
+            <node x="" y="">/static/css/paleoStyle.css</node>
+            <node x="" y="">/static/css/rockps.css</node>
+            <node x="" y="">/static/css/skeleton.css</node>
+            <node x="" y="">/static/img/IMG_4979.png</node>
+            <node x="" y="">/static/img/Vadim-Gromov-Responsive.jpg</node>
+            <node x="" y="">/static/img/adm_nasa_logo.png</node>
+            <node x="" y="">/static/img/agma_360_360_70_int_c1_small.jpg</node>
+            <node x="" y="">/static/img/android-chrome-192x192.png</node>
+            <node x="" y="">/static/img/brmt_360_360_70_int_c1_small.jpg</node>
+            <node x="" y="">/static/img/favicon-16x16.png</node>
+            <node x="" y="">/static/img/favicon-194x194.png</node>
+            <node x="" y="">/static/img/favicon-32x32.png</node>
+            <node x="" y="">/static/img/favicon-96x96.png</node>
+            <node x="" y="">/static/img/favicon.ico</node>
+            <node x="" y="">/static/img/faviconNori.ico</node>
+            <node x="" y="">/static/img/faviconNori.ico.ico</node>
+            <node x="" y="">/static/img/highland-2_360_360_70_int_c1_small.jpg</node>
+            <node x="" y="">/static/img/iron-yard-logo.ico</node>
+            <node x="" y="">/static/img/logo-white2x.png</node>
+            <node x="" y="">/static/img/noriItem%20(1).png</node>
+            <node x="" y="">/static/img/oldWellFav.png</node>
+            <node x="" y="">/static/img/psfavicon.ico</node>
+            <node x="" y="">/static/img/transparent.png</node>
+            <node x="" y="">/static/img/tutco-farnam-2015_360_360_int_c1_small.png</node>
+            <node x="" y="">/static/img/tweetsie_360_360_70_int_c1_small.jpg</node>
+            <node x="" y="">/static/img/visitcherokeenc_360_360_70_int_c1_small.jpg</node>
+            <node x="" y="">/static/scripts/rockps.js</node>
+            <node x="" y="">https://c6.staticflickr.com/9/8583/28916575965_827258e534_m.jpg</node>
+            <node x="" y="">https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.17931896282411747" x="1714.0" y="1591.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/c1/42q14ck55jl0zblsg58h1lfw0000gp/T/modules1.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1.0" y="-2440.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/skeleton.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        <state relative-caret-position="5730">
+          <caret line="382" column="7" lean-forward="false" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/nori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="83" column="54" lean-forward="false" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/DualController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="e#2097#2098#0" expanded="false" />
+            <element signature="e#2135#2136#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="59" column="113" lean-forward="true" selection-start-line="59" selection-start-column="113" selection-end-line="59" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#code#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="302">
+          <caret line="192" column="14" lean-forward="false" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="14" />
           <folding>
-            <marker date="1490792329000" expanded="true" signature="7419:9191" ph="data:image/svg+xml" />
+            <marker date="1490989984000" expanded="true" signature="7592:9364" ph="data:image/svg+xml" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tiystyle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="705">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/animalshelter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3741,10 +2956,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="artifact" />
               <type id="javaee-facet-resources" />
-              <type id="library" />
               <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="library" />
             </show-content>
           </artifact-editor>
           <last-edited>springTest:jar</last-edited>

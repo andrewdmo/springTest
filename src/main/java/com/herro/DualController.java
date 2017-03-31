@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class DualController {
 
     @RequestMapping(value = {"/", "/index"})
-    public String index(@RequestParam(value = "name", required = false, defaultValue = "Pilgrim") String name, Model
+    public String index(@RequestParam(value = "name", required = false, defaultValue = "Pilgrim*") String name, Model
         model) {
         model.addAttribute("name", name);
         return "index";
@@ -85,6 +85,11 @@ public class DualController {
     @RequestMapping("/contact")
     public String contact() {
         return "contact";
+    }
+
+    @RequestMapping("/animalshelter")
+    public String animalshelter() {
+        return "animalshelter";
     }
 
     @ExceptionHandler
