@@ -36,7 +36,7 @@
                 <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
                    name="about">About</a>
                 <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Portfolio"
-                   name="portfolio">Portfolio</a>
+                   name="portfolio">Work</a>
                 <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
                    name="blog">Contact</a>
                 <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
@@ -53,26 +53,56 @@
     </div><!--row top (menu)-->
 
     <div class="row middle portf">
-        <p>Find me:</p>
+        <span><h5>Reach out:</h5></span>
+
+        <div class="row">
+            <a th:href="@{mailto:andeemor@gmail.com}" href="mailto:andeemor@email.com">Email me. It's free!</a>
+        </div>
         <br/>
-        <p><a href="../pubfiles/ADM17eo.pdf" target="_blank">
-            <u>PDF CV</u></a>
-            <a href="../pubfiles/ADM17eo.doc" target="_blank"><u>DOC CV</u></a>
-        </p>
-        <p>
+
+        <div class="row u-max-full-width">
+            <div class="six columns" style="text-align: center">
+                <a href="../pubfiles/ADM17eo.pdf" target="_blank">
+                    <figure class="u-pull-right">
+                        <img class="icon" src="../static/img/pdfIcon.png" alt="pdfCV"/>
+                        <figcaption>PDF CV</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="six columns">
+                <a href="../pubfiles/ADM17eo.doc" target="_blank">
+                    <figure class="u-pull-left">
+                        <img class="icon" src="../static/img/wordIcon.png" alt="docCV"/>
+                        <figcaption>DOC CV</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <br/>
+        <span>
             <a th:href="@{https://www.linkedin.com/pub/andy-moretz/24/a90/5bb}"
-               href="https://www.linkedin.com/pub/andy-moretz/24/a90/5bb" target="_blank">
-
-                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160"
-                     height="25"
-                     border="0" alt="View Andy Moretz's profile on LinkedIn"/>
-            </a></p>
-        <p><a th:href="@{https://medium.com/@andrewdmo}" href="https://medium.com/@andrewdmo">Boot Camp Blog
-        </a></p>
-        <p>
+               href="https://www.linkedin.com/pub/andy-moretz/24/a90/5bb" target="_blank"
+               alt="View Andy Moretz's profile on LinkedIn">
+                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" class="icon li"/>
+            </a></span>
+        <br/>
+        <!--width="160"-->
+        <!--height="25"-->
+        <!--border="0" -->
+        <br/>
+        <span><a th:href="@{https://medium.com/@andrewdmo}" href="https://medium.com/@andrewdmo" target="_blank"><figure><img
+                src="../static/img/mediumIcon%20(1).png" class="icon"/><figcaption>Boot Camp Blog</figcaption></figure></a></span>
+        <span><a th:href="@{https://github.com/andrewdmo}" href="https://github.com/andrewdmo" target="_blank"><figure><img
+                src="../static/img/gitlogo%20(1).png" class="icon"/><figcaption>GitHub Repos</figcaption></figure></a></span>
+        <br/>
+        <div class="row">
             <a th:href="@{'http://ec2-52-206-81-235.compute-1.amazonaws.com:9000'}"
-               href="http://ec2-52-206-81-235.compute-1.amazonaws.com:9000">[Current URL]</a></p>
-
+               href="http://ec2-52-206-81-235.compute-1.amazonaws.com:9000">[Current URL]</a>
+        </div>
+        <div>
+            <code>http://ec2-52-206-81-235.compute-1.amazonaws.com:9000</code>
+        </div>
+        <br/>
     </div><!--row middle-->
 
     <!--Nav to main Index:-->

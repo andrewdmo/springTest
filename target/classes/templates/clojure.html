@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Controlled View of a Model...</title>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords"
+          content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, clojure, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+    <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
+
+    <link rel="stylesheet" th:href="@{../static/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{../static/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{../static/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
+    <link rel="shortcut icon" href="../static/img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="../static/img/favicon.ico"/>
+
+</head>
+
+
+<body>
+<div class="container main">
+
+    <!--standard menu:-->
+    <div class="row top">
+        <div class="four columns">
+            <a th:href="index.html" href="index.html" rel="#home">
+                <img src="/static/img/adm_nasa_logo.png" class="logo"
+                     alt="ADM logo"/>
+            </a>
+        </div><!--four columns-->
+        <div class="eight columns">
+            <div class="row oneA menubar">
+                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
+                   name="about">About</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Portfolio"
+                   name="portfolio">Work</a>
+                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
+                   name="blog">Contact</a>
+                <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
+                <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
+                <div class="row oneB">
+                    <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
+                           name="search"
+                           placeholder="'Search'"/>
+
+                </div><!--row oneB-->
+            </div><!--row oneA menubar-->
+
+        </div><!--eight columns-->
+    </div><!--row top (menu)-->
+
+    <br/>
+    <br/>
+    <div class="row middle">
+
+        <div class="row portf">
+            <div class="six columns">
+                <img th:src="@{../static/img/clojureShot.png}" class="pic thumbnails"/>
+            </div>
+            <div class="six columns">
+                Clojure is hard but fun. Based on the 1960s-era LISP functional language, it still compiles on Java VMs
+                and apparently is great for concurrent programming. It took me days just to get one task down, but did
+                so recursively at least. Clojure is elegant, delicate and maddening, perhaps like a fine ladyfriend. I
+                hope to dedicate some time to its parentheses coming up and see what might be possible.
+            </div>
+        </div>
+
+    </div><!--middle-->
+</div><!--container-->
+</body>
+</html>

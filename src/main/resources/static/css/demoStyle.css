@@ -303,6 +303,30 @@ input[type=text]:focus {
     overflow: scroll;
 }
 
+.icon {
+    height: 10vh;
+    border-radius: 20px !important;
+    filter: brightness(90%) blur(1px);
+    transition: all 0.5s ease-in-out;
+}
+
+.icon:hover {
+    border-radius: 12px !important;
+    filter: brightness(93%) blur(0px);
+    transition: all 0.5s ease-in-out;
+}
+
+.li {
+    width: 160px;
+    height: 25px;
+    border: 0;
+}
+
+.li:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 .pic {
     color-rendering: optimizeSpeed;
     display: inline-block;

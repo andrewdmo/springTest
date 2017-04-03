@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html</OriginalElement>
+  <nodes>
+    <node x="225.0" y="0.0">/Users/andrewdmo/Projects/springTest/src/main/resources/static/img/IMG_0025.png</node>
+    <node x="8.0" y="331.0">/Users/andrewdmo/Projects/springTest/src/main/resources/static/img/IMG_4979.png</node>
+    <node x="118.0" y="70.0">/Users/andrewdmo/Projects/springTest/src/main/resources/static/img/favicon.ico</node>
+    <node x="408.0" y="171.0">/Users/andrewdmo/Library/Preferences/IntelliJIdea2017.1/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js</node>
+    <node x="184.0" y="230.0">/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html</node>
+    <node x="77.0" y="462.0">/Users/andrewdmo/Projects/springTest/src/main/resources/static/img/noahdemopagesmall.png</node>
+    <node x="399.0" y="243.0">../</node>
+    <node x="368.0" y="322.0">../static/img/noriItem%20(1).png</node>
+    <node x="348.0" y="90.0">/static/css/demoStyle.css</node>
+    <node x="270.0" y="392.0">/static/css/normalize.css</node>
+    <node x="63.0" y="146.0">/static/css/skeleton.css</node>
+    <node x="0.0" y="222.0">/static/img/adm_nasa_logo.png</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/static/css/normalize.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/Users/andrewdmo/Projects/springTest/src/main/resources/static/img/favicon.ico">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/Users/andrewdmo/Library/Preferences/IntelliJIdea2017.1/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/Users/andrewdmo/Projects/springTest/src/main/resources/static/img/IMG_0025.png">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="../">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/static/img/adm_nasa_logo.png">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/static/css/skeleton.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/Users/andrewdmo/Projects/springTest/src/main/resources/static/img/noahdemopagesmall.png">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/static/css/demoStyle.css">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="/Users/andrewdmo/Projects/springTest/src/main/resources/static/img/IMG_4979.png">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html" target="../static/img/noriItem%20(1).png">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9042145593869731" x="251.0" y="245.5" />
+  <SelectedNodes>
+    <node>/static/img/adm_nasa_logo.png</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

@@ -92,6 +92,11 @@ public class DualController {
         return "animalshelter";
     }
 
+    @RequestMapping("/clojure")
+    public String clojure() {
+        return "clojure";
+    }
+
     @ExceptionHandler
     //add URL request query feedback later:
     public String error() {

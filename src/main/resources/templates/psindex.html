@@ -41,7 +41,7 @@
                     <a th:href="@{/psabout.html}" href="psabout.html" class="menu two columns offset-by-one" alt="About"
                        name="about">About</a>
                     <a th:href="@{/psportfolio.html}" href="psportfolio.html" class="menu two columns" alt="Portfolio"
-                       name="portfolio">Portfolio</a>
+                       name="portfolio">Work</a>
                     <a th:href="@{/psblog.html}" href="psblog.html" class="menu two columns" alt="Blog"
                        name="blog">Blog</a>
                     <a th:href="@{/psarchives.html}" href="psarchives.html" class="menu two columns" alt="Archives"
@@ -207,10 +207,11 @@
         </div><!--third row-->
     </div><!--section bottom-->
 
+
     <!--Nav to main Index:-->
     <div class="row bottom nav primary">
-        <a th:href="index.html" href="index.html" rel="#home">
-            <img src="/static/img/adm_nasa_logo.png" class="navlogo"
+        <a th:href="@{/index.html}" href="index.html" rel="#home">
+            <img src="../static/img/adm_nasa_logo.png" class="navlogo"
                  alt="ADM logo"/></a>
     </div>
 

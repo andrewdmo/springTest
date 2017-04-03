@@ -44,6 +44,31 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
+.navlogo {
+    z-index: 2;
+    height: 100%;
+    padding: 0;
+    background-color: transparent;
+    display: inline-block;
+    box-sizing: border-box;
+    right: 0;
+    position: absolute;
+    border: 2px inset transparent;
+    border-radius: 15px; /*don't change*/
+    margin: 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.navlogo:hover {
+    z-index: 4;
+    border: outset #901400 2px;
+    border-radius: 7px;
+    background-color: transparent;
+    transform: scale(1.1);
+    opacity: .7;
+    transition: all 0.5s ease-in-out;
+}
+
 .menubar {
     z-index: 2;
     width: 48%;
@@ -187,6 +212,20 @@ input[type=text]:focus {
     display: inline-block;
     margin: 10vh auto 2% auto;
     border-radius: 15px !important;
+}
+
+.bottom.nav {
+    z-index: 2;
+    position: fixed;
+    margin: 0 auto 1% auto;
+    opacity: .7;
+    height: 10vh;
+    display: inline-block;
+    right: 5%;
+    bottom: 0;
+    left: 5%;
+    color: transparent;
+    text-align: center;
 }
 
 .third {
