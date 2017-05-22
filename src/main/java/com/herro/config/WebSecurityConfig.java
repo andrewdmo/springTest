@@ -20,13 +20,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http
             .authorizeRequests()
-            .antMatchers("/", "/index", "/createAcct").permitAll()
+            .antMatchers("/**").permitAll()
+            .antMatchers("/user/**").hasRole("USER");
 //            .anyRequest().authenticated()
-            .and()
-            .formLogin()
-            .loginPage("/login")
-            .permitAll()
-            .failureUrl("/login?error");
+//            .and()
+//            .formLogin()
+//            .loginPage("/login")
+//            .permitAll()
+//            .failureUrl("/login?error");
 //            .permitAll()
 //            .and()
 //            .logout()

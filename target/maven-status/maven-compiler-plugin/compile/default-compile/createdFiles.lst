@@ -1,0 +1,11 @@
+com/herro/DualController$restController.class
+com/herro/config/WebSecurityConfig.class
+com/herro/Application.class
+com/herro/Greeting.class
+as/v1_2/entity/Animal.class
+com/herro/entity/User.class
+com/herro/entity/A_UserPrincipal.class
+as/v1_2/service/MenuService.class
+com/herro/DualController.class
+com/herro/repo/UserRepo.class
+com/herro/service/A_UserDetailsService.class
