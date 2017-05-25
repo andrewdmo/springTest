@@ -1,4 +1,4 @@
-package com.herro;
+package com.herro.entity;
 
 //import org.springframework.stereotype.Component;
 //
@@ -8,7 +8,7 @@ public class Greeting {
     private final long id;
     private final String content;
 
-    Greeting(long id, String content/*, String description*/) {
+    public Greeting(long id, String content/*, String description*/) {
         this.id = id;
         this.content = content;
 //        this.description = description;

@@ -21,12 +21,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http
             .authorizeRequests()
             .antMatchers("/**").permitAll()
-            .antMatchers("/user/**").hasRole("USER");
+            .antMatchers("/user/**").hasRole("USER")
 //            .anyRequest().authenticated()
-//            .and()
-//            .formLogin()
-//            .loginPage("/login")
-//            .permitAll()
+            .and()
+            .formLogin()
+            .loginPage("/login")
+            .loginPage("/login").failureUrl("/login-error");
 //            .failureUrl("/login?error");
 //            .permitAll()
 //            .and()

@@ -3,7 +3,6 @@ package com.herro.service;
 import com.herro.entity.A_UserPrincipal;
 import com.herro.entity.User;
 import com.herro.repo.UserRepo;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -12,7 +11,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class A_UserDetailsService implements UserDetailsService {
 
-    @Autowired
     private UserRepo userRepo;
 
     @Override

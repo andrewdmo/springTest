@@ -6,7 +6,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 
 public class A_UserPrincipal implements UserDetails {
-    private User user;
+
+    private final User user;
 
     public A_UserPrincipal(User user) {
         this.user = user;
@@ -46,5 +47,4 @@ public class A_UserPrincipal implements UserDetails {
     public boolean isEnabled() {
         return false;
     }
-    //...
 }

@@ -1,15 +1,16 @@
 package com.herro.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-@Table
-public class User {
+@Table(name = "users")
+public class User implements Serializable {
 
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private int id;
 
     @Column(nullable = false, unique = true)
     private String username;
@@ -17,7 +18,7 @@ public class User {
     @Column
     private String password;
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -29,7 +30,7 @@ public class User {
         this.password = password;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
