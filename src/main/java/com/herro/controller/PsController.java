@@ -14,27 +14,27 @@ public class PsController {
 
     @RequestMapping("/psabout")
     public String psabout() {
-        return "psabout";
+        return "ps/psabout";
     }
 
     @RequestMapping("/psarchives")
     public String psarchives() {
-        return "psarchives";
+        return "ps/psarchives";
     }
 
     @RequestMapping("/psblog")
     public String psblog() {
-        return "psblog";
+        return "ps/psblog";
     }
 
     @RequestMapping("/pscontact")
     public String pscontact() {
-        return "pscontact";
+        return "ps/pscontact";
     }
 
     @RequestMapping("/psportfolio")
     public String psportfolio() {
-        return "psportfolio";
+        return "ps/psportfolio";
     }
 
     @ExceptionHandler
