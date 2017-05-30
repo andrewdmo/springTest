@@ -5,10 +5,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Welcome to The Iron Yard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="../static/css/normalize.css"/>
-    <link rel="stylesheet" href="../static/css/skeleton.css"/>
-    <link rel="stylesheet" href="../static/css/demoStyle.css"/>
-    <link rel="stylesheet" href="../static/css/tiystyle.css"/>
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
+    <link rel="stylesheet" th:href="@{/css/tiystyle.css}" href="../static/css/tiystyle.css"/>
     <link rel="shortcut icon" type="favicon"
           href="../static/img/tiyStyleImg/iron-yard-logo.ico"/>
 
@@ -23,7 +23,8 @@
             <div class="one-half column">
                 <a title="The Iron Yard"
                    href="https://www.theironyard.com/">
-                    <img src="../static/img/tiyStyleImg/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg"/>
+                    <img th:src="@{/img/tiyStyleImg/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg}"
+                         src="../static/img/tiyStyleImg/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg"/>
                 </a><a title="Campuses"
                        href="https://www.theironyard.com/locations">Campuses</a><a title="Courses"
                                                                                    href="https://www.theironyard.com/courses">Courses</a><a
@@ -56,7 +57,7 @@
                     <span class="mobile-h3">Learn to code. Take charge of your career.</span><br/>
                     <button class="button button-primary"><img
                             alt="Play Icon"
-                            src="../static/img/styleimgs//play-icon.png"/>
+                            th:src="@{/img/tiyStyleImg/play-icon.png}" src="../static/img/tiyStyleImg/play-icon.png"/>
                         <span>Watch the video</span></button>
                 </div>
             </div>
@@ -71,39 +72,46 @@
                 <div class="row u-max-full-width">
                     <div class="three columns pressicon">
                         <a href="https://www.theironyard.com/press"><img
-                                src="../static/img/styleimgs//atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png"
+                                th:src="@{/img/tiyStyleImg/atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png}"
+                                src="../static/img/tiyStyleImg/atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png"
                                 alt="Atlantic logo"/></a>
                     </div>
                     <div class="three columns pressicon">
                         <a href="https://www.theironyard.com/press"><img
-                                src="../static/img/styleimgs//fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png"
+                                th:src="@{/img/tiyStyleImg/fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png}"
+                                src="../static/img/tiyStyleImg/fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png"
                                 alt="Fastco logo"/></a>
                     </div>
                     <div class="three columns pressicon">
                         <a href="https://www.theironyard.com/press"><img
-                                src="../static/img/styleimgs//cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png"
+                                th:src="@{/img/tiyStyleImg/cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png}"
+                                src="../static/img/tiyStyleImg/cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png"
                                 alt="Cnn logo"/></a>
                     </div>
                     <div class="three columns pressicon">
                         <a href="https://www.theironyard.com/press"><img
-                                src="../static/img/styleimgs//tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png"
+                                th:src="@{/img/tiyStyleImg/tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png}"
+                                src="../static/img/tiyStyleImg/tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png"
                                 alt="Tc logo"/></a>
                     </div>
                 </div><!--row-->
                 <div class="row u-max-full-width">
                     <div class="two columns pressicon">
                         <a href="https://www.theironyard.com/press"><img
-                                src="../static/img/styleimgs//abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png"
+                                th:src="@{/img/tiyStyleImg/abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png}"
+                                src="../static/img/tiyStyleImg/abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png"
                                 alt="Abc logo"/></a>
                     </div>
                     <div class="two columns pressicon">
                         <a href="https://www.theironyard.com/press"><img
-                                src="../static/img/styleimgs//nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png"
+                                th:src="@{/img/tiyStyleImg/nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png}"
+                                src="../static/img/tiyStyleImg/nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png"
                                 alt="Nbc logo"/></a>
                     </div>
                     <div class="two columns pressicon">
                         <a href="https://www.theironyard.com/press"><img
-                                src="../static/img/styleimgs//wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png"
+                                th:src="@{/img/tiyStyleImg/wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png}"
+                                src="../static/img/tiyStyleImg/wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png"
                                 alt="Wsj logo"/></a>
                     </div>
                 </div><!--row-->
@@ -380,6 +388,7 @@
                                     <p style="text-align: center;"
                                        class="home-course-title">
                                         <a href="https://www.theironyard.com/courses#front-end-engineering"><img
+                                                th:src="@{/img/tiyStyleImg/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png}"
                                                 src="../static/img/tiyStyleImg/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png"
                                                 alt="Icon front end trim"/></a>
                                     </p>
@@ -398,6 +407,7 @@
                                 <div>
                                     <p style="text-align: center;">
                                         <a href="https://www.theironyard.com/courses#back-end-engineering"><img
+                                                th:src="@{/img/tiyStyleImg/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png}"
                                                 src="../static/img/tiyStyleImg/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png"
                                                 alt="Icon back end trim"/></a>
                                     </p>
@@ -416,7 +426,8 @@
                                 <div>
                                     <p style="text-align: center;">
                                         <a href="https://www.theironyard.com/courses#mobile-engineering"><img
-                                                src="../static/img/styleimgs//icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png"
+                                                th:src="@{/img/tiyStyleImg/icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png}"
+                                                src="../static/img/tiyStyleImg/icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png"
                                                 alt="Icon mobile trim"/></a>
                                     </p>
                                 </div>
@@ -434,7 +445,8 @@
                                 <div>
                                     <p style="text-align: center;">
                                         <a href="https://www.theironyard.com/courses#design"><img
-                                                src="../static/img/styleimgs//icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png"
+                                                th:src="@{/img/tiyStyleImg/icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png}"
+                                                src="../static/img/tiyStyleImg/icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png"
                                                 alt="Icon design trim"/></a>
                                     </p>
                                 </div>
@@ -507,7 +519,8 @@
                                         <div class="image-box ">
                                             <a href="https://www.theironyard.com/stories/andrew-faircloth">
                                                 <img class="front-end-engineering-border"
-                                                     src="../static/img/styleimgs//andrew-faircloth-thumb.png"/>
+                                                     th:src="@{/img/tiyStyleImg/andrew-faircloth-thumb.png}"
+                                                     src="../static/img/tiyStyleImg/andrew-faircloth-thumb.png"/>
                                             </a>
                                         </div>
                                         <p class="story-desc">Andrew
@@ -529,7 +542,8 @@
                                         <div class="image-box ">
                                             <a href="https://www.theironyard.com/stories/julie-rich">
                                                 <img class="front-end-engineering-border"
-                                                     src="../static/img/styleimgs//julie-rich-thumb.jpg"/>
+                                                     th:src="@{/img/tiyStyleImg/julie-rich-thumb.jpg}"
+                                                     src="../static/img/tiyStyleImg/julie-rich-thumb.jpg"/>
                                             </a>
                                         </div>
                                         <p class="story-desc">Julie
@@ -586,98 +600,122 @@
                                 <div class="icon-container centerText">
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/ibm-design-logo-9df4a75ac65f365c6b1bb44d8c2fb261f5491200b3bae1677c862ed879988a61.png}"
                                             src="../static/img/tiyStyleImg/ibm-design-logo-9df4a75ac65f365c6b1bb44d8c2fb261f5491200b3bae1677c862ed879988a61.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/microsoft-logo-5a4fb054f062b1bc302c250d3a6e5727920ca528c0439b123b4c5c691d9b85fa.png}"
                                             src="../static/img/tiyStyleImg/microsoft-logo-5a4fb054f062b1bc302c250d3a6e5727920ca528c0439b123b4c5c691d9b85fa.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/github-logo-929c17a9176a64a93d7ac68a3e0a519d3e1d89b1b563fcfab1636f98f58fade2.png}"
                                             src="../static/img/tiyStyleImg/github-logo-929c17a9176a64a93d7ac68a3e0a519d3e1d89b1b563fcfab1636f98f58fade2.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/amazon-logo-39fa6ad8d708a8ef4c694e986cc360891af4b7aa9c0a695213791eff7141c63a.png}"
                                             src="../static/img/tiyStyleImg/amazon-logo-39fa6ad8d708a8ef4c694e986cc360891af4b7aa9c0a695213791eff7141c63a.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/coke-logo-3388dc0e1a2246606509b114119f38208cfba066df9c8d23c2b11853ebcf81e2.png}"
                                             src="../static/img/tiyStyleImg/coke-logo-3388dc0e1a2246606509b114119f38208cfba066df9c8d23c2b11853ebcf81e2.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/att-logo-6865423b147ca9790782ee71db74c5af310a0151b4b9238ddd1274d999048d07.png}"
                                             src="../static/img/tiyStyleImg/att-logo-6865423b147ca9790782ee71db74c5af310a0151b4b9238ddd1274d999048d07.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/active-network-logo-7fb24783ae9e06e2f5738fa82d3dd322ea4b0eb081d527f7b1a9d2edc4cf0bb7.png}"
                                             src="../static/img/tiyStyleImg/active-network-logo-7fb24783ae9e06e2f5738fa82d3dd322ea4b0eb081d527f7b1a9d2edc4cf0bb7.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/notre-dame-logo-96659b0cc07884e5434aa7b059a53f63ac133760a008294deb51f63105a16683.png}"
                                             src="../static/img/tiyStyleImg/notre-dame-logo-96659b0cc07884e5434aa7b059a53f63ac133760a008294deb51f63105a16683.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/ally-bank-logo-32c4ad757ef478e00dc55ec3b0f1c5fa3d70876756b1f40d96e329fcec567fdc.png}"
                                             src="../static/img/tiyStyleImg/ally-bank-logo-32c4ad757ef478e00dc55ec3b0f1c5fa3d70876756b1f40d96e329fcec567fdc.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/benefit-focus-logo-25676a384094eddd8b02e053ccce1d2c555cd57eecabb5e24fd59a2f8ed0df82.png}"
                                             src="../static/img/tiyStyleImg/benefit-focus-logo-25676a384094eddd8b02e053ccce1d2c555cd57eecabb5e24fd59a2f8ed0df82.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/sparc-logo-5bf647f856b2cace787dc5bcb3806002bb4b747bef11f8ead5b7d810378ff4f0.png}"
                                             src="../static/img/tiyStyleImg/sparc-logo-5bf647f856b2cace787dc5bcb3806002bb4b747bef11f8ead5b7d810378ff4f0.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/boomtown-logo-03780e64d061e8fa68a21feb0bd3761072edb74f1d13d5030e23108f66a56bd4.png}"
                                             src="../static/img/tiyStyleImg/boomtown-logo-03780e64d061e8fa68a21feb0bd3761072edb74f1d13d5030e23108f66a56bd4.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/validic-logo-c4d146131b4a8b2f1f443f773c030b12343ede1685e2eebf7ceb1597c4754009.png}"
                                             src="../static/img/tiyStyleImg/validic-logo-c4d146131b4a8b2f1f443f773c030b12343ede1685e2eebf7ceb1597c4754009.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/redhat-logo-023845ec451a12fa12d3e9d59582a0b84d37d22628896c23deee61a04fff6980.png}"
                                             src="../static/img/tiyStyleImg/redhat-logo-023845ec451a12fa12d3e9d59582a0b84d37d22628896c23deee61a04fff6980.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/emcien-logo-11c4eb39a4314d5cfe36aa94d35c9b06a361f44ec5c5b38c87bc10cf098b5d6c.png}"
                                             src="../static/img/tiyStyleImg/emcien-logo-11c4eb39a4314d5cfe36aa94d35c9b06a361f44ec5c5b38c87bc10cf098b5d6c.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/path-logo-69e849c76968c54b1ee1f165412b52a23f1601a7161363038e929d61673544dc.png}"
                                             src="../static/img/tiyStyleImg/path-logo-69e849c76968c54b1ee1f165412b52a23f1601a7161363038e929d61673544dc.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/bi-logo-a04cb666947df1ee103c41b6760bc0b8ea705205ae92ab1ebf872bcdb2e27e60.png}"
                                             src="../static/img/tiyStyleImg/bi-logo-a04cb666947df1ee103c41b6760bc0b8ea705205ae92ab1ebf872bcdb2e27e60.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/bronto-logo-0981b976a17e0fec994190158bd1d3a7b5cae2bbb538597783ef0084042feec2.png}"
                                             src="../static/img/tiyStyleImg/bronto-logo-0981b976a17e0fec994190158bd1d3a7b5cae2bbb538597783ef0084042feec2.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/fuzzco-logo-7fd3c1c8e371fad9d103e4c87c3e4ca6a4f2b870cbcc960558a826e8a26ce9ca.png}"
                                             src="../static/img/tiyStyleImg/fuzzco-logo-7fd3c1c8e371fad9d103e4c87c3e4ca6a4f2b870cbcc960558a826e8a26ce9ca.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/prismatic-logo-21449ce0f465b277a8667a99b8be981a131b458718e4f941020b214800920bd9.png}"
                                             src="../static/img/tiyStyleImg/prismatic-logo-21449ce0f465b277a8667a99b8be981a131b458718e4f941020b214800920bd9.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/spoonflower-logo-23105b5432e9e743ce837ddd52b224933c602b66519af0e9b21ad7b959dd1b01.png}"
                                             src="../static/img/tiyStyleImg/spoonflower-logo-23105b5432e9e743ce837ddd52b224933c602b66519af0e9b21ad7b959dd1b01.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/cloudspace-logo-fe33f4d75cfd176acb0c43bc36a3485e0218a59c4af1a138fb9499268bddb20f.png}"
                                             src="../static/img/tiyStyleImg/cloudspace-logo-fe33f4d75cfd176acb0c43bc36a3485e0218a59c4af1a138fb9499268bddb20f.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/chaione-logo-adb99e6f095468e27845616e150e6acf6b791155868e14697547f9747add3e90.png}"
                                             src="../static/img/tiyStyleImg/chaione-logo-adb99e6f095468e27845616e150e6acf6b791155868e14697547f9747add3e90.png"/>
                                     </div>
                                     <div class="employer-icon"><img
                                             alt="Media Partners"
+                                            th:src="@{/img/tiyStyleImg/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc.png}"
                                             src="../static/img/tiyStyleImg/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc.png"/>
                                     </div>
                                 </div>
@@ -982,8 +1020,9 @@
                         </ul>
                     </div>
                     <div class="tiy-logo col-xs-4 col-md-4 col-lg-4 ">
-                        <img src="../static/img/tiyStyleImg/iron-yard-logo.svg"
-                             alt="The Iron Yard Logo"/>
+                        <img th:src="@{/img/tiyStyleImg/iron-yard-logo.svg}"
+                             src="../static/img/tiyStyleImg/iron-yard-logo.svg" alt="The Iron Yard Logo"/>
+
                         <div class="copyright">©2016 Iron Yard. All Rights
                             Reserved
                         </div>
@@ -1025,7 +1064,7 @@
 <!--Nav to main Index:-->
 <div class="row bottom nav primary">
     <a th:href="@{/index.html}" href="index.html" rel="#home">
-        <img src="/static/img/adm_nasa_logo.png" class="navlogo"
+        <img th:src="@{/img/adm_nasa_logo.png}" src="/static/img/adm_nasa_logo.png" class="navlogo"
              alt="ADM logo"/></a>
 </div>
 

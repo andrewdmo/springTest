@@ -47,22 +47,22 @@ h3 {
     display: inline-block;
     border: 5px solid black;
     background-color: #EEEEEE;
-    background-image: url(/static/img/questionMark.png);
+    background-image: url(../img/questionMark.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #game > div.rock {
-    background-image: url(/static/img/rock.png);
+    background-image: url(../img/rock.png);
 }
 
 #game > div.paper {
-    background-image: url(/static/img/paper.png);
+    background-image: url(../img/paper.png);
 }
 
 #game > div.scissors {
-    background-image: url(/static/img/scissors.png);
+    background-image: url(../img/scissors.png);
 }
 
 .score {

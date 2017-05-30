@@ -9,9 +9,9 @@
           content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
     <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
 
-    <link rel="stylesheet" th:href="@{../static/css/normalize.css}" href="../static/css/normalize.css"/>
-    <link rel="stylesheet" th:href="@{../static/css/skeleton.css}" href="../static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{../static/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
     <link rel="shortcut icon" href="../static/img/favicon.ico"/>
     <link rel="icon" type="image/png" href="../static/img/favicon.ico"/>
 </head>
@@ -22,7 +22,7 @@
     <div class="row top primary">
         <div class="four columns">
             <a th:href="index.html" href="index.html" rel="#home">
-                <img src="../static/img/adm_nasa_logo.png" class="logo"
+                <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
         </div><!--four columns-->
@@ -42,7 +42,7 @@
     <div class="row middle primary">
         <div class="row twoA">
             <div class="six columns pic">
-                <img th:src="@{../static/img/noahdemopage.png}"
+                <img th:src="@{/img/noahdemopage.png}"
                      src="../static/img/noahdemopage.png" class="pic"/>
             </div><!--six columns pic-->
             <div class="six columns portf">

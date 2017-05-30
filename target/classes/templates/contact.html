@@ -10,9 +10,9 @@
           content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
     <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
 
-    <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="/static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
     <link rel="shortcut icon" href="/static/img/oldWellFav.png"/>
     <link rel="icon" type="image/png" href="/static/img/oldWellFav.png"/>
 
@@ -27,7 +27,7 @@
     <div class="row top">
         <div class="four columns">
             <a th:href="index.html" href="index.html" rel="#home">
-                <img src="/static/img/adm_nasa_logo.png" class="logo"
+                <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
         </div><!--four columns-->
@@ -64,7 +64,7 @@
             <div class="two columns offset-by-four">
                 <a href="../pubfiles/ADM17eo.pdf" target="_blank">
                     <figure>
-                        <img class="icon" src="../static/img/pdfIcon.png" alt="pdfCV"/>
+                        <img class="icon" th:src="@{/img/pdfIcon.png}" src="../static/img/pdfIcon.png" alt="pdfCV"/>
                         <figcaption>PDF CV</figcaption>
                     </figure>
                 </a>
@@ -72,7 +72,7 @@
             <div class="two columns">
                 <a href="../pubfiles/ADM17eo.doc" target="_blank">
                     <figure>
-                        <img class="icon" src="../static/img/wordIcon.png" alt="docCV"/>
+                        <img class="icon" th:src="@{/img/wordIcon.png}" src="../static/img/wordIcon.png" alt="docCV"/>
                         <figcaption>DOC CV</figcaption>
                     </figure>
                 </a>
@@ -91,9 +91,9 @@
         <!--border="0" -->
         <br/>
         <span><a th:href="@{https://medium.com/@andrewdmo}" href="https://medium.com/@andrewdmo" target="_blank"><figure><img
-                src="../static/img/mediumIcon%20(1).png" class="icon"/><figcaption>Boot Camp Blog</figcaption></figure></a></span>
+                th:src="@{/img/mediumIcon.png}" src="../static/img/mediumIcon.png" class="icon"/><figcaption>Boot Camp Blog</figcaption></figure></a></span>
         <span><a th:href="@{https://github.com/andrewdmo}" href="https://github.com/andrewdmo" target="_blank"><figure><img
-                src="../static/img/gitlogo%20(1).png" class="icon"/><figcaption>GitHub Repos</figcaption></figure></a></span>
+                th:src="@{/img/gitlogo.png}" src="../static/img/gitlogo.png" class="icon"/><figcaption>GitHub Repos</figcaption></figure></a></span>
         <br/>
         <div class="row">
             <a th:href="@{'http://ec2-52-206-81-235.compute-1.amazonaws.com:9000'}"

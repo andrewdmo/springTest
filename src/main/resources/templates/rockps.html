@@ -9,16 +9,16 @@
           content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
     <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
 
-    <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/rockps.css}" href="/static/css/rockps.css"/>
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="/static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
+    <link rel="stylesheet" th:href="@{/css/rockps.css}" href="/static/css/rockps.css"/>
 
     <link rel="shortcut icon" href="/static/img/iron-yard-logo.ico"/>
     <link rel="icon" type="image/png" href="/static/img/iron-yard-logo.ico"/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script language="javascript" src="/static/scripts/rockps.js"></script>
+    <script language="javascript" th:src="@{/scripts/rockps.js}" src="/static/scripts/rockps.js"></script>
 </head>
 
 <body>
@@ -55,18 +55,18 @@
     <div id="game" class="row" style="height: 40%">
         <div id="player">
             <div class="score">Player: <span></span></div>
-            <img class="transparent" src="/static/img/transparent.png"/>
+            <img class="transparent" th:src="@{/img/transparent.png}" src="/static/img/transparent.png"/>
         </div>
         <div id="computer">
             <div class="score">Computer: <span></span></div>
-            <img class="transparent" src="/static/img/transparent.png"/>
+            <img class="transparent" th:src="@{/img/transparent.png}" src="/static/img/transparent.png"/>
         </div>
     </div><!--game-->
 
     <!--Nav to main Index:-->
     <div class="row bottom nav primary">
         <a th:href="index.html" href="index.html" rel="#home">
-            <img src="/static/img/adm_nasa_logo.png" class="navlogo"
+            <img th:src="@{/img/adm_nasa_logo.png}" src="/static/img/adm_nasa_logo.png" class="navlogo"
                  alt="ADM logo"/></a>
     </div>
 

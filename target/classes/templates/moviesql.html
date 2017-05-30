@@ -9,9 +9,9 @@
           content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
     <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
 
-    <link rel="stylesheet" th:href="@{../static/css/normalize.css}" href="../static/css/normalize.css"/>
-    <link rel="stylesheet" th:href="@{../static/css/skeleton.css}" href="../static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{../static/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
     <link rel="shortcut icon" href="../static/img/favicon.ico"/>
     <link rel="icon" type="image/png" href="../static/img/favicon.ico"/>
 </head>
@@ -24,11 +24,12 @@
             <H6>A simple pSQL
                 database with linking table.
                 Output formats include
-                <a href="../pubfiles/vyoo_public_movie.json" target="">
+                <a th:href="@{/pubfiles/vyoo_public_movie.json}" href="../pubfiles/vyoo_public_movie.json" target="">
                     <u>JSON</u></a>,
-                <a href="../pubfiles/vyoo_public_studio.xml" target="">
+                <a th:href="@{/pubfiles/vyoo_public_studio.xml}" href="../pubfiles/vyoo_public_studio.xml" target="">
                     <u>XML</u></a>, and
-                <a href="../pubfiles/vyoo_public_dir_genre_link.sql" target="">
+                <a th:href="@{/pubfiles/vyoo_public_dir_genre_link.sql}"
+                   href="../pubfiles/vyoo_public_dir_genre_link.sql" target="">
                     <u>SQL Inserts</u></a>
             </H6>
             <p style="font-size: smaller">
@@ -41,7 +42,8 @@
     <div class="row" style="margin-bottom: 10vh">
         <div class="twelve columns">
             <a th:href="@{http://www.rottentomatoes.com}" href="http://www.rottentomatoes.com">
-                <img src="../static/img/movie_SQLdiagram.png" class="pic" alt="pSQL Movie DB Diagram"/>
+                <img th:src="@{/img/movie_SQLdiagram.png}" src="../static/img/movie_SQLdiagram.png" class="pic"
+                     alt="pSQL Movie DB Diagram"/>
             </a>
         </div><!--R column-->
     </div><!--2nd row-->
@@ -49,7 +51,7 @@
     <!--Nav to main Index:-->
     <div class="row bottom nav primary">
         <a th:href="@{/index.html}" href="index.html" rel="#home">
-            <img src="../static/img/adm_nasa_logo.png" class="navlogo"
+            <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="navlogo"
                  alt="ADM logo"/></a>
     </div>
 

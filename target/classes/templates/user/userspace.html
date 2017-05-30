@@ -1,17 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>Secured User Space</title>
+    <title>Secured UserSpace</title>
 
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="keywords"
-          content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+          content="java, JEE, html, css, spring, boot, security, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
     <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
 
-    <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="/static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="/static/css/demoStyle.css"/>
     <link rel="shortcut icon" href="/static/img/favicon.ico"/>
     <link rel="icon" type="image/png" href="/static/img/favicon.ico"/>
 </head>
@@ -21,7 +21,7 @@
     <div class="row top primary">
         <div class="four columns">
             <a th:href="index.html" href="../index.html" rel="#home">
-                <img src="/static/img/adm_nasa_logo.png" class="logo"
+                <img th:src="@{/img/adm_nasa_logo.png}" src="//img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
         </div><!--four columns-->
