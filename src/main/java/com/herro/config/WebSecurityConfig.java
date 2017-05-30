@@ -20,15 +20,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http
             .authorizeRequests()
-            .antMatchers("/**").permitAll()
+            .antMatchers("/**", "/static/**", "/css/**", "/img/**", "/script/**").permitAll()
             .antMatchers("/user/**").hasRole("USER")
-//            .anyRequest().authenticated()
+            .anyRequest().authenticated()
             .and()
             .formLogin()
             .loginPage("/login")
-            .loginPage("/login").failureUrl("/login-error");
-//            .failureUrl("/login?error");
-//            .permitAll()
+            .failureUrl("/login?error")
+            .permitAll()
+            .successForwardUrl("/userspace");
 //            .and()
 //            .logout()
 //            .logoutSuccessUrl("/login?logout")

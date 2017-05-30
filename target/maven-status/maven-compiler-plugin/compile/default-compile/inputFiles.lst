@@ -4,12 +4,12 @@
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/service/A_UserDetailsService.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/entity/Greeting.java
 /Users/andrewdmo/Projects/springTest/src/main/java/as/v1_2/service/AnimalService.java
+/Users/andrewdmo/Projects/springTest/src/main/java/com/herro/controller/MainController.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/entity/A_UserPrincipal.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/controller/PsController.java
 /Users/andrewdmo/Projects/springTest/src/main/java/as/v1_2/Main.java
 /Users/andrewdmo/Projects/springTest/src/main/java/as/v1_2/entity/Animal.java
 /Users/andrewdmo/Projects/springTest/src/main/java/as/v1_2/repo/AnimalRepository.java
-/Users/andrewdmo/Projects/springTest/src/main/java/com/herro/controller/PrimaryController.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/config/WebSecurityConfig.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/Application.java
 /Users/andrewdmo/Projects/springTest/src/main/java/as/v1_2/service/MenuService.java

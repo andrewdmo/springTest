@@ -18,6 +18,7 @@ public class User implements Serializable {
     @Column
     private String password;
 
+
     public void setId(int id) {
         this.id = id;
     }
