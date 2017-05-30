@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>PaleoSun Error</title>
 
-    <link rel="stylesheet" th:href="@{/static/css/normalize.css}" href="/static/css/normalize.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/skeleton.css}" href="/static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{/static/css/paleoStyle.css}" href="/static/css/paleoStyle.css"/>
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="/static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="/static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/paleoStyle.css}" href="/static/css/paleoStyle.css"/>
     <link rel="icon" type="image/png" href="/static/img/favicon-32x32.png" sizes="32x32"/>
     <link rel="icon" type="image/png" href="/static/img/favicon-194x194.png" sizes="194x194"/>
     <link rel="icon" type="image/png" href="/static/img/favicon-96x96.png" sizes="96x96"/>
@@ -24,9 +24,10 @@
 
 <!--Nav to main Index:-->
 <div class="row bottom nav primary">
-    <a th:href="index.html" href="../index.html" rel="#home">
-        <img src="/static/img/adm_nasa_logo.png" class="navlogo"
-             alt="ADM logo"/></a>
+    <a th:href="@{index}" href="../index.html" rel="#home">
+        <img th:src="@{/img/adm_nasa_logo.png}" src="/static/img/adm_nasa_logo.png" class="navlogo"
+             alt="ADM logo"/></a>src="/static/img/adm_nasa_logo.png" class="navlogo"
+    alt="ADM logo"/></a>
 </div>
 
 </body>

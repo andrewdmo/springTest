@@ -239,10 +239,10 @@ button.button-primary:focus {
     transition: all 0.7s ease-in-out;
 }
 
-input[type=text]:focus {
-    width: 100%;
-    /*z-index: 3;*/
-}
+/*input[type=text]:focus {*/
+/*width: 100%;*/
+/*!*z-index: 3;*!*/
+/*}*/
 
 .top {
     z-index: 1;
