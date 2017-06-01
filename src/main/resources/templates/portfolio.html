@@ -53,10 +53,15 @@
         <div class="row portf">
 
             <div class="row">
-                <a class="button button-primary" th:href="@{psindex}" href="ps/psindex.html">PaleoDemo</a>
+                <div class="six columns"><!--left half-->
+                <a class="button button-primary portf" th:href="@{psindex}" href="ps/psindex.html">PaleoDemo
+                    <br/>
+                    <img th:src="@{/img/paleoPage.png}" src="../static/img/paleoPage.png" class="thumbnails portf"/>
+                </a>
 
                 <a class="button button-primary" th:href="@{animalshelter}" href="animalshelter.html">Animal
                     Shelter</a>
+                </div><!--left half-->
 
 
                 <a class="button button-primary" th:href="@{nori}" href="nori.html">Nori Notification App

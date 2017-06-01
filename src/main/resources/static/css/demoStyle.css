@@ -239,6 +239,18 @@ button.button-primary:focus {
     transition: all 0.7s ease-in-out;
 }
 
+.button.button-primary.portf,
+button.button-primary.portf {
+    height: 10vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.button.button-primary.portf:hover,
+button.button-primary.portf:hover {
+    height: 25vh;
+    transition: all 0.5s ease-in-out;
+}
+
 /*input[type=text]:focus {*/
 /*width: 100%;*/
 /*!*z-index: 3;*!*/
@@ -302,7 +314,16 @@ button.button-primary:focus {
     width: 100%;
     border-radius: 15px;
     overflow: scroll;
+    transition: all 0.5s ease-in-out;
 }
+
+.thumbnails.portf {
+    height: 100%;
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+
 
 .icon {
     height: 10vh;
