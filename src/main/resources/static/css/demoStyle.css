@@ -268,7 +268,7 @@ button.button-primary.portf:hover {
 }
 
 .middle {
-    margin-top: 20vh;
+    margin-top: 25vh;
     width: 100%;
     text-align: center;
     display: inline-block;
@@ -402,7 +402,7 @@ figure,
     }
 
     .middle {
-        margin: 20vh auto 0 auto;
+        margin: 25vh auto 0 auto;
     }
 
     .menubar {

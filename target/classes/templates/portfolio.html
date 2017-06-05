@@ -26,7 +26,7 @@
                 <img th:src="@{/img/adm_nasa_logo.png}" src="/static/img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
-        </div><!--four columns-->
+        </div><!--/four columns-->
         <div class="eight columns">
             <div class="row oneA menubar">
                 <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
@@ -42,60 +42,98 @@
                            name="search"
                            placeholder="'Search'"/>
 
-                </div><!--row oneB-->
-            </div><!--row oneA menubar-->
+                </div><!--/row oneB-->
+            </div><!--/row oneA menubar-->
 
-        </div><!--eight columns-->
-    </div><!--row top (menu)-->
+        </div><!--/eight columns-->
+    </div><!--/row top (menu)-->
+
 
     <div class="row middle">
-
         <div class="row portf">
 
-            <div class="row">
-                <div class="six columns"><!--left half-->
-                <a class="button button-primary portf" th:href="@{psindex}" href="ps/psindex.html">PaleoDemo
-                    <br/>
-                    <img th:src="@{/img/paleoPage.png}" src="../static/img/paleoPage.png" class="thumbnails portf"/>
-                </a>
 
-                <a class="button button-primary" th:href="@{animalshelter}" href="animalshelter.html">Animal
-                    Shelter</a>
-                </div><!--left half-->
+            <div class="row 1portf">
 
+                <div class="six columns"><!--LEFT half 1-->
+                    <a class="button button-primary portf" th:href="@{psindex}" href="ps/psindex.html">PaleoDemo
+                        <br/>
+                        <img th:src="@{/img/paleoPage.png}" src="../static/img/paleoPage.png" class="thumbnails portf"/>
+                    </a>
+                </div><!--/LEFT half 1-->
 
-                <a class="button button-primary" th:href="@{nori}" href="nori.html">Nori Notification App
-                </a>
-
-                <a class="button button-primary" th:href="@{login}" href="login.html">Log on in</a>
-
-
-                <a class="button button-primary" th:href="@{rockps}" href="rockps.html">Rock, Paper,
-                    JavaScript!
-                </a>
+                <div class="six columns"><!--RIGHT half 1-->
+                    <a class="button button-primary portf" th:href="@{login}" href="login.html">Login / Secure
+                        <br/>
+                        <img th:src="@{/img/Spring-Security-logo.png}" src="../static/img/Spring-Security-logo.png"
+                             class="thumbnails portf" width="300" height="225"/>
+                    </a>
+                </div><!--/RIGHT half 1-->
+            </div><!--/row 1portf-->
 
 
-                <a class="button button-primary" th:href="@{restgreeting}" href="//restgreeting">RESTfully Yours
-                </a>
+            <div class="row 2portf">
+                <div class="six columns"><!--LEFT half 2-->
+                    <a class="button button-primary portf" th:href="@{nori}" href="nori.html">Nori Notification App
+                        <br/>
+                        <img th:src="@{/img/noriItem.png}" src="../static/img/noriItem.png" class="thumbnails portf"/>
+                    </a>
+                </div><!--/LEFT half 2-->
+                <div class="six columns"><!--RIGHT half 2-->
+                    <a class="button button-primary portf" th:href="@{restgreeting}" href="">RESTfully Yours
+                        <br/>
+                        <img th:src="@{/img/restfulSign.jpeg}" src="../static/img/restfulSign.jpeg"
+                             class="thumbnails portf" width="180" height="180"/>
+                    </a>
+                </div><!--/RIGHT half 2-->
+            </div><!--/row 2portf-->
 
-                <a class="button button-primary" th:href="@{mvcgreeting}" href="mvcgreeting.html">MVC Query
-                    Demo
-                </a>
-                <a class="button button-primary" th:href="@{moviesql}" href="moviesql.html">Movie SQL: the
-                    Return
-                </a>
 
-                <a class="button button-primary" th:href="@{tiystyle.html}" href="tiystyle.html">Restyled page</a>
+            <div class="row 3portf">
+                <div class="six columns"><!--LEFT half 3-->
+                    <a class="button button-primary portf" th:href="@{mvcgreeting}" href="mvcgreeting.html">MVC Query
+                        Demo
+                        <br/>
+                        <!--<img th:src="@{/img/ PICK LATER -->
+                    </a>
+                </div><!--LEFT half 3-->
+                <div class="six columns"><!--RIGHT half 3-->
+                    <a class="button button-primary portf" th:href="@{moviesql}" href="moviesql.html">Movie SQL: the
+                        Return
+                        <br/>
+                        <!--<img th:src="@{/img/ PICK LATER -->
+                    </a>
+                    <!--</div>row port3-->
+                </div><!--RIGHT half 3-->
+            </div><!--row 3portf-->
 
-                <a class="button button-primary" th:href="@{clojure.html}" href="clojure.html">Coffee is for Clojure</a>
 
-            </div>
+            <div class="row 4portf">
+                <div class="six columns"><!--LEFT half 4-->
+
+                    <a class="button button-primary portf" th:href="@{tiystyle.html}" href="tiystyle.html">Restyled page
+                        <br/>
+                        <!--<img th:src="@{/img/ PICK LATER -->
+                    </a>
+                </div><!--/LEFT half 4-->
+                <div class="six columns"><!--RIGHT half 4-->
+                    <a class="button button-primary portf" th:href="@{clojure.html}" href="clojure.html">Coffee is for
+                        Clojure
+                        <!--<img th:src="@{/img/ PICK LATER -->
+                    </a>
+                </div><!--/RIGHT half 4-->
+            </div><!--/row 4 portf-->
+
+            <a class="button button-primary" th:href="@{rockps}" href="rockps.html">Rock, Paper,
+                JavaScript!
+                <br/>
+                <img th:src="@{/img/rockpsPic.png}" src="../static/img/jsIcon.jpg"
+                     class="thumbnails portf"/>
+            </a>
+
         </div>
     </div><!--middle-->
-
 </div><!--container-->
-
-
 <!--target=_blank (new window) for PS & Nori-->
 
 </body>
