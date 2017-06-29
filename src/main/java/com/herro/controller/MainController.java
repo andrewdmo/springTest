@@ -23,9 +23,9 @@ public class MainController {
     }
 
     //secured:
-    @RequestMapping("/userspace")
+    @RequestMapping("/usersecurespace")
     public String userspace() {
-        return "user/userspace";
+        return "user/usersecurespace";
     }
 
     @RequestMapping("/portfolio")
