@@ -51,12 +51,12 @@
         <div class="row" style="color: #073763"><code>test@test</code><br/><code>test</code></div>
     </h4>
     </p>
-    <p><h5>Will redirect to a <a th:href="@{/usersecurespace}" href="usersecurespace.html">secured page</a> (back here
-    until authorized)</h5></p>
-    <div th:if="${param.error}" class="row" style="color: #901400 ">
+    <p><h5>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace.html">secured page</a> (back
+    here until authorized)</h5></p>
+    <div th:if="${param.error}" class="row portf" style="color: #901400 ">
         Invalid username and/or password!
     </div>
-    <div th:if="${param.logout}" class="row" style="color: #073763">
+    <div th:if="${param.logout}" class="row portf" style="color: #073763">
         You have been logged out.
     </div>
     <br/>

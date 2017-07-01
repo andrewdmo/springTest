@@ -20,18 +20,19 @@
 <div class="container main">
     <div class="row top primary">
         <div class="four columns">
-            <a th:href="index.html" href="index.html" rel="#home">
+            <a th:href="index.html" href="../index.html" rel="#home">
                 <img th:src="@{/img/adm_nasa_logo.png}" src="//img/adm_nasa_logo.png" class="logo"
                      alt="ADM logo"/>
             </a>
         </div><!--four columns-->
         <div class="eight columns">
             <div class="row oneA menubar">
-                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
+                <a th:href="@{/templates/about.html}" href="../about.html" class="menu three columns offset-by-one"
+                   alt="About"
                    name="about">About</a>
-                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Work"
+                <a th:href="@{/templates/portfolio.html}" href="../portfolio.html" class="menu three columns" alt="Work"
                    name="portfolio">Work</a>
-                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
+                <a th:href="@{/templates/contact.html}" href="../contact.html" class="menu three columns" alt="Contact"
                    name="blog">Contact</a>
                 <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
                 <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
@@ -44,12 +45,19 @@
         </div><!--eight columns-->
     </div><!--row top (menu)-->
     <br/>
-    <div class="row middle portf" style="overflow: inherit;">
+    <div class="row middle portf" style="overflow: inherit">
 
-        <p><code>This is a Spring Security-protected page and cannot be accessed except by a pre-registered and
-            authorized
-            user or predetermined test profile (user accounts next release tho database is currently live). You are now
-            authorized to access this URL so long as transient memory persists.</code></p>
+        <p>This is a Spring Security-protected page and cannot be accessed except by a pre-registered and
+            authorized user...
+            <br/>or by a preset test profile (full user accounts next release though database is
+            currently live).
+        </p>
+        <p style="color: #0f6b82">You are now authorized to access this URL so long as transient memory persists.</p>
+    </div>
+    <div>
+        <form action="/logout" th:action="@{/logout}" method="post">
+            <input type="submit" class="button-primary u-pull-right" value="Logout"/>
+        </form>
     </div>
 
 </div><!--container main-->
