@@ -18,14 +18,14 @@ public class MainController {
 
     // change name later:
     @RequestMapping("/login")
-    public String login() {
+    public String login(Model model) {
         return "login";
     }
 
     //secured:
-    @RequestMapping("/usersecurespace")
-    public String userspace() {
-        return "user/usersecurespace";
+    @RequestMapping(value = {"/usersecurespace", "/user/usersecurespace"})
+    public String usersecurespace() {
+        return "/usersecurespace";
     }
 
     @RequestMapping("/portfolio")

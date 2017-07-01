@@ -45,9 +45,14 @@
 </div><!--row top-->
 <br/>
 <div class="row middle primary">
-    <h1>Login page</h1>
-    <p>Example user: test@test / test</p>
-    <p>Will redirect to a secured page, and that's it for now. No session tokens are stored yet.</p>
+    <h2>Login page</h2>
+    <p>
+    <h4>Example user:
+        <div class="row" style="color: #073763"><code>test@test</code><br/><code>test</code></div>
+    </h4>
+    </p>
+    <p><h5>Will redirect to a <a th:href="@{/usersecurespace}" href="usersecurespace.html">secured page</a> (back here
+    until authorized)</h5></p>
     <div th:if="${param.error}" class="row" style="color: #901400 ">
         Invalid username and/or password!
     </div>

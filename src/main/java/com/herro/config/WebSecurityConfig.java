@@ -5,13 +5,11 @@ package com.herro.config;
  */
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
-@Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -19,25 +17,31 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http
+//          .antMatcher("/")
             .authorizeRequests()
-            .antMatchers("/**", "/static/**", "/css/**", "/img/**", "/script/**", "/public/**").permitAll()
-            .antMatchers("/user/**").hasRole("USER")
-            .anyRequest().authenticated()
+            .antMatchers("/usersecurespace", "/user/**").hasRole("USER")
+//          .antMatchers("/", "/index", "/public/**", "/static/**", "/css/**", "/img/**", "/templates/**").permitAll()
+
+            // unsecure!:
+            .anyRequest().permitAll()
+            // re-activate:
+//          .anyRequest().authenticated()
             .and()
+
             .formLogin()
             .loginPage("/login")
             .failureUrl("/login?error")
-            .permitAll();
-//            .successForwardUrl("/usersecurespace")
-//        .and()
+            .successForwardUrl("/usersecurespace")
+            .permitAll()
+//          .and()
+
 //            .exceptionHandling();
-
-
 //            .loginProcessingUrl();
-//            .and()
-//            .logout()
-//            .logoutSuccessUrl("/login?logout")
-//            .permitAll();
+            .and()
+
+            .logout()
+            .logoutSuccessUrl("/login?logout")
+            .permitAll();
     }
 
     @Autowired
