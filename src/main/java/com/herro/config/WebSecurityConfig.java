@@ -20,12 +20,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //          .antMatcher("/")
             .authorizeRequests()
             .antMatchers("/usersecurespace", "/user/**").hasRole("USER")
-//          .antMatchers("/", "/index", "/public/**", "/static/**", "/css/**", "/img/**", "/templates/**").permitAll()
-
+            .antMatchers("/", "/index", "/public/**", "/static/**", "/css/**", "/img/**", "/**.html").permitAll()
+//.requestMatchers("/**.api")
             // unsecure!:
-            .anyRequest().permitAll()
+//            .anyRequest().permitAll()
             // re-activate:
-//          .anyRequest().authenticated()
+            .anyRequest().authenticated()
             .and()
 
             .formLogin()

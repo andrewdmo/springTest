@@ -362,6 +362,7 @@ figure,
     color-rendering: optimizeSpeed;
     display: inline-block;
     width: 100%;
+    height: 100%;
     padding: 1% 0 1% 1%;
     /*height: 100%;*/
     /*border: none;*/
