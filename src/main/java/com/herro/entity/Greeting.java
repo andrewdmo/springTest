@@ -12,6 +12,7 @@ public class Greeting {
         this.id = id;
         this.content = content;
 //        this.description = description;
+
     }
 
     public long getId() {

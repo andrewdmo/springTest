@@ -6,7 +6,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="keywords"
-          content="java, JEE, html, css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+          content="java, JEE, security, html css, spring, boot, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
     <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
 
     <link rel="stylesheet" th:href="@{/css/normalize.css}" href="/static/css/normalize.css"/>
@@ -63,7 +63,7 @@
                 </div><!--/LEFT half 1-->
 
                 <div class="six columns"><!--RIGHT half 1-->
-                    <a class="button button-primary portf" th:href="@{login.html}" href="login.html">Login / Secure
+                    <a class="button button-primary portf" th:href="@{login.html}" href="login.html">Login / Security
                         <br/>
                         <img th:src="@{/img/Spring-Security-logo.png}" src="../static/img/Spring-Security-logo.png"
                              class="thumbnails portf" width="300" height="225"/>
@@ -80,7 +80,7 @@
                     </a>
                 </div><!--/LEFT half 2-->
                 <div class="six columns"><!--RIGHT half 2-->
-                    <a class="button button-primary portf" th:href="@{restgreeting.html}" href="">RESTfully (blocked by security for now)
+                    <a class="button button-primary portf" th:href="@{restgreeting}" href="">RESTfully Responded
                         <br/>
                         <img th:src="@{/img/restfulSign.jpeg}" src="../static/img/restfulSign.jpeg"
                              class="thumbnails portf" width="180" height="180"/>
@@ -91,7 +91,8 @@
 
             <div class="row 3portf">
                 <div class="six columns"><!--LEFT half 3-->
-                    <a class="button button-primary portf" th:href="@{mvcgreeting.html}" href="mvcgreeting.html">MVC Query
+                    <a class="button button-primary portf" th:href="@{mvcgreeting.html}" href="mvcgreeting.html">MVC
+                        Query
                         Demo
                         <br/>
                         <img th:src="@{/img/springMvcLogo.jpeg}" src="../static/img/springMvcLogo.jpeg"
@@ -99,7 +100,8 @@
                     </a>
                 </div><!--LEFT half 3-->
                 <div class="six columns"><!--RIGHT half 3-->
-                    <a class="button button-primary portf" th:href="@{moviesql.html}" href="moviesql.html">Movie SQL: the
+                    <a class="button button-primary portf" th:href="@{moviesql.html}" href="moviesql.html">Movie SQL:
+                        the
                         Return
                         <br/>
                         <img th:src="@{/img/movie_SQLdiagram.png}" src="../static/img/movie_SQLdiagram.png"
