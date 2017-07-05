@@ -2,7 +2,6 @@ package com.herro.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -79,11 +78,12 @@ public class MainController {
         return "clojure";
     }
 
-    @ExceptionHandler
-    //add URL request query feedback later:
-    public String error() {
-        return "error";
-    }
+//    Moved to ExceptionController:
+//    @ExceptionHandler
+//    //add URL request query feedback later:
+//    public String error() {
+//        return "error";
+//    }
 
 //moved to own class:
 //    @RestController

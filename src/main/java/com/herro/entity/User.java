@@ -18,6 +18,10 @@ public class User implements Serializable {
     @Column
     private String password;
 
+    @Column(name = "role"/*, nullable = false*/)
+    @Enumerated(EnumType.STRING)
+    private Role role;
+
 
     public void setId(int id) {
         this.id = id;
@@ -29,6 +33,10 @@ public class User implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
     }
 
     public int getId() {
@@ -43,5 +51,8 @@ public class User implements Serializable {
         return password;
     }
 
-    //standard getters and setters
+    public Role getRole() {
+        return role;
+    }
+
 }

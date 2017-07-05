@@ -20,7 +20,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //          .antMatcher("/")
             .authorizeRequests()
             .antMatchers("/usersecurespace", "/user/**").hasRole("USER")
-            .antMatchers("/", "/index", "/public/**", "/static/**", "/css/**", "/img/**", "/**.html", "/restgreeting").permitAll()
+            .antMatchers("/", "/index", "/public_**", "/css/**", "/img/**", "/**.html", "/restgreeting").permitAll()
 //.requestMatchers("/**.api")
             // unsecure!:
 //            .anyRequest().permitAll()
@@ -33,9 +33,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .failureUrl("/login?error")
             .successForwardUrl("/usersecurespace")
             .permitAll()
-//          .and()
+            .and()
 
-//            .exceptionHandling();
+            .exceptionHandling().accessDeniedPage("/403")
 //            .loginProcessingUrl();
             .and()
 

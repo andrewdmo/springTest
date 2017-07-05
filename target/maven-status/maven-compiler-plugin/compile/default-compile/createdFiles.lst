@@ -1,0 +1,5 @@
+com/herro/Application.class
+com/herro/controller/RestfulController.class
+com/herro/entity/A_UserPrincipal.class
+com/herro/controller/ExceptionController.class
+com/herro/service/A_UserDetailsService.class
