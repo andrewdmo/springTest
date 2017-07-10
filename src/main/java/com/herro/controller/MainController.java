@@ -15,7 +15,7 @@ public class MainController {
         return "index";
     }
 
-    // change name later:
+    // change name later for protection:
     @RequestMapping("/login")
     public String login(Model model) {
         return "login";

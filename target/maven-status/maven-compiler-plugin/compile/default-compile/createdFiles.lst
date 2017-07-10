@@ -1,5 +1,9 @@
+com/herro/controller/PsController.class
 com/herro/Application.class
+as/v1_2/entity/Animal.class
 com/herro/controller/RestfulController.class
 com/herro/entity/A_UserPrincipal.class
+com/herro/entity/Greeting.class
+com/herro/config/WebSecurityConfig.class
+com/herro/config/WebConfig.class
 com/herro/controller/ExceptionController.class
-com/herro/service/A_UserDetailsService.class
