@@ -2,6 +2,7 @@ com/herro/controller/PsController.class
 com/herro/Application.class
 as/v1_2/entity/Animal.class
 com/herro/controller/RestfulController.class
+com/herro/config/WebConfig$1.class
 com/herro/entity/A_UserPrincipal.class
 com/herro/entity/Greeting.class
 com/herro/config/WebSecurityConfig.class

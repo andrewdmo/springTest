@@ -2,6 +2,7 @@ package com.herro.service;
 
 import com.herro.entity.User;
 import com.herro.repo.UserRepo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -13,7 +14,7 @@ public class UserService {
     private UserRepo userRepo;
 
     // AW breaks so turned off:
-    //    @Autowired
+    @Autowired
     public UserService(UserRepo userRepo) {
         this.userRepo = userRepo;
     }
