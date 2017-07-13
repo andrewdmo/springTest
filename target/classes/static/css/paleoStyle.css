@@ -5,22 +5,23 @@
 
 html,
 body {
-    /*default:
-    background: url("../img/page-1-home-compressed.jpg") center fixed no-repeat;
-    /*for thumbnail:
-    /*background: url("../img/paleo1BackgndDEL.png") center;*/
+    width: 100vw;
+    /*default:*/
+    background: url("../img/page-1-home-compressed.jpg") fixed no-repeat;
     background-size: cover;
 }
 
 /*/////////////////-400px/////////////*/
 
 .container {
-    padding: 0 5%;
+    padding: 0 2vw;
+    /*margin: 2vw;*/
     transition: all 0.5s;
 }
 
 .main {
     width: 100vw;
+    margin: 0 auto;
     z-index: 0
 }
 
@@ -241,7 +242,7 @@ input[type=text]:focus {
 
 .thumbnails {
     display: inline-block;
-    /*width: 100%;*/
+    width: 100%;
     border-radius: 15px;
 }
 
