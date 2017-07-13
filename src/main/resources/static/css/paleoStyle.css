@@ -5,7 +5,11 @@
 
 html,
 body {
+    /*default:
     background: url("../img/page-1-home-compressed.jpg") center fixed no-repeat;
+    /*for thumbnail:
+    /*background: url("../img/paleo1BackgndDEL.png") center;*/
+    background-size: cover;
 }
 
 /*/////////////////-400px/////////////*/
@@ -237,7 +241,7 @@ input[type=text]:focus {
 
 .thumbnails {
     display: inline-block;
-    width: 100%;
+    /*width: 100%;*/
     border-radius: 15px;
 }
 
