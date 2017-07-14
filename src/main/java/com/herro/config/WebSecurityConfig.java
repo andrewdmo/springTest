@@ -34,7 +34,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .successForwardUrl("/usersecurespace")
             .permitAll()
             .and()
-
+            //not working:
             .exceptionHandling().accessDeniedPage("/403")
 //            .loginProcessingUrl();
             .and()
