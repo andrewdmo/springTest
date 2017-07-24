@@ -15,7 +15,8 @@ public class MainController {
         return "index";
     }
 
-    // change name later for protection:
+    // maybe change name later for protection:
+    // GET/POST handled by Spring Sec.
     @RequestMapping("/login")
     public String login(Model model) {
         return "login";

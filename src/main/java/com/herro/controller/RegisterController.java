@@ -11,7 +11,6 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
@@ -40,7 +39,7 @@ public class RegisterController {
         return "register";
     }
 
-    // Return registration form template (original):
+    // Return registration form template (original for reference):
 //    @RequestMapping(value = "/register", method = RequestMethod.GET)
 //    public ModelAndView showRegistrationPage(ModelAndView modelAndView, User user) {
 //        modelAndView.addObject("user", user);
@@ -50,7 +49,7 @@ public class RegisterController {
 
     // Process form input data
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public ModelAndView processRegistrationForm(ModelAndView modelAndView, @Valid User user, BindingResult bindingResult, HttpServletRequest request) {
+    public String registerForm(Model model, @Valid User user, BindingResult bindingResult, HttpServletRequest request) {
 
         // Lookup user in database by e-mail
         User userExists = userService.findByUsername(user.getUsername());
@@ -58,13 +57,13 @@ public class RegisterController {
         System.out.println(userExists);
 
         if (userExists != null) {
-            modelAndView.addObject("alreadyRegisteredMessage", "Oops!  There is already a user registered with the email provided.");
-            modelAndView.setViewName("register");
+            model.addAttribute("alreadyRegisteredMessage", "Oops!  There is already a user registered with the email provided.");
+//            model.setViewName("register");
             bindingResult.reject("email");
         }
 
         if (bindingResult.hasErrors()) {
-            modelAndView.setViewName("register");
+//            model.setViewName("register");
         } else { // new user so we create user and send confirmation e-mail
 
             // Disable user until they click on confirmation link in email
@@ -86,11 +85,11 @@ public class RegisterController {
 
             emailService.sendEmail(registrationEmail);
 
-            modelAndView.addObject("confirmationMessage", "A confirmation e-mail has been sent to " + user.getUsername());
-            modelAndView.setViewName("register");
+            model.addAttribute("confirmationMessage", "A confirmation e-mail has been sent to " + user.getUsername());
+            model.addAttribute("register");
         }
 
-        return modelAndView;
+        return "login";
     }
 
     public BCryptPasswordEncoder getbCryptPasswordEncoder() {
