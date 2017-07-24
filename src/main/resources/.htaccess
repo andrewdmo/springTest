@@ -12,7 +12,7 @@ ExpiresByType image/x-icon "access plus 1 year"
 ExpiresByType image/ico "access plus 1 year"
 ExpiresDefault "access plus 2 days"
 </IfModule>
-## EXPIRES CACHING ##
+## //EXPIRES CACHING ##
 
 ##gzip compression:
 

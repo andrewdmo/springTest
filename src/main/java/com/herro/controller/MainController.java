@@ -32,7 +32,7 @@ public class MainController {
         return "portfolio";
     }
 
-    @RequestMapping("/mvcgreeting")
+    @RequestMapping(value = {"/mvcgreeting", "/mvcgreeting.html"})
     public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Pilgrim") String name, Model model) {
         model.addAttribute("name", name);
         return "mvcgreeting";

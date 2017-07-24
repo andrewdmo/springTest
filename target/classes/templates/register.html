@@ -6,63 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="keywords"
           content="java, JEE, security, html css, spring, boot, security, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
-    <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
+    <meta name="description" content="User account registration"/>
+    <meta name="author" content="Andy Moretz"/>
+
 
     <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
     <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
-    <link rel="shortcut icon" href="../static/img/favicon.ico"/>
-    <link rel="icon" type="image/png" href="../static/img/favicon.ico"/>
+    <link rel="shortcut icon" href="../static/img/favicon.ico" th:href="@{/img/favicon.ico}"/>
+    <link rel="icon" type="image/png" href="../static/img/favicon.ico" th:href="@{/img/favicon.ico}"/>
+
+
+    <title>Registration Page</title>
 
 </head>
+
+
 <body>
-<div class="row top primary">
-    <div class="four columns">
-        <a th:href="index.html" href="index.html" rel="#home">
-            <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo"
-                 alt="ADM logo"/>
-        </a>
-    </div><!--four columns-->
-    <div class="eight columns">
-        <div class="row oneA menubar">
-            <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
-               name="about">About</a>
-            <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Work"
-               name="portfolio">Work</a>
-            <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
-               name="blog">Contact</a>
-            <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
-            <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
-            <div class="row oneB">
-                <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
-                       name="search"
-                       placeholder="'Search'"/>
 
-            </div><!--row oneB-->
-        </div><!--row oneA menubar-->
+<div>
+    <div>
 
-    </div><!--eight columns-->
-</div><!--row top-->
-<br/>
-<div class="row middle primary">
-    <h2>User</h2>
-    <br/>
-    <p><h5>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace.html">secured page</a> (back
-    here until authorized)</h5></p>
-    <!--<div th:if="${param.error}" class="row portf" style="color: #901400 ">-->
-    <!--Invalid username and/or password!-->
-    <!--</div>-->
-    <br/>
-    <!--<p th:if="${loginError}" class="error">Wrong user or password</p>-->
-    <form th:action="@{/login}" method="post">
-        <label for="username">Username</label>:
-        <input type="text" id="username" name="username" autofocus="autofocus"/> <br/>
-        <label for="password">Password</label>:
-        <input type="password" id="password" name="password"/> <br/>
-        <input type="submit" value="Log in"/>
-    </form>
-    <p><a th:href="@{/index}" href="index.html">Back to home page</a></p>
-</div><!--row middle-->
+        <h4>New User Registration</h4>
+
+        <form autocomplete="off" action="#" th:action="@{/register}"
+              th:object="${User}" method="post">
+
+            <form th:action="@{/register}" method="post">
+                <label for="username">Username</label>:
+                <input type="text" id="username" name="username" autofocus="autofocus"/> <br/>
+                <label for="password">Password</label>:
+                <input type="password" id="password" name="password"/> <br/>
+                <input type="submit" value="register"/>
+                <input type="hidden" name="role" value="USER"/>
+            </form>
+
+
+        </form>
+
+    </div>
+</div>
 
 </body>
+
 </html>
