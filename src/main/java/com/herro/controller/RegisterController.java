@@ -4,17 +4,11 @@ import com.herro.entity.User;
 import com.herro.service.EmailService;
 import com.herro.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.mail.SimpleMailMessage;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.validation.Valid;
-import java.util.UUID;
 
 @Controller
 public class RegisterController {
@@ -47,50 +41,65 @@ public class RegisterController {
 //        return modelAndView;
 //    }
 
-    // Process form input data
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public String registerForm(Model model, @Valid User user, BindingResult bindingResult, HttpServletRequest request) {
+    public String registerForm(Model model, User user) {
 
-        // Lookup user in database by e-mail
         User userExists = userService.findByUsername(user.getUsername());
 
-        System.out.println(userExists);
-
         if (userExists != null) {
-            model.addAttribute("alreadyRegisteredMessage", "Oops!  There is already a user registered with the email provided.");
-//            model.setViewName("register");
-            bindingResult.reject("email");
+            model.addAttribute("alreadyRegisteredMessage", "You're already registered!");
+            return "login";
         }
 
-        if (bindingResult.hasErrors()) {
-//            model.setViewName("register");
-        } else { // new user so we create user and send confirmation e-mail
-
-            // Disable user until they click on confirmation link in email
-//            user.setEnabled(false);
-
-            // Generate random 36-character string token for confirmation link
-            user.setConfirmationToken(UUID.randomUUID().toString());
-
-            userService.saveUser(user);
-
-            String appUrl = request.getScheme() + "://" + request.getServerName();
-
-            SimpleMailMessage registrationEmail = new SimpleMailMessage();
-            registrationEmail.setTo(user.getUsername());
-            registrationEmail.setSubject("Registration Confirmation");
-            registrationEmail.setText("To confirm your e-mail address, please click the link below:\n"
-                + appUrl + "/confirm?token=" + user.getConfirmationToken());
-            registrationEmail.setFrom("noreply@domain.com");
-
-            emailService.sendEmail(registrationEmail);
-
-            model.addAttribute("confirmationMessage", "A confirmation e-mail has been sent to " + user.getUsername());
-            model.addAttribute("register");
-        }
-
+        
         return "login";
     }
+
+
+    // Process form input data (original):
+//    @RequestMapping(value = "/register", method = RequestMethod.POST)
+//    public String registerForm(Model model, @Valid User user, BindingResult bindingResult, HttpServletRequest request) {
+//
+//        // Lookup user in database by e-mail
+//        User userExists = userService.findByUsername(user.getUsername());
+//
+//        System.out.println(userExists);
+//
+//        if (userExists != null) {
+//            model.addAttribute("alreadyRegisteredMessage", "Oops!  There is already a user registered with the email provided.");
+////            model.setViewName("register");
+//            bindingResult.reject("email");
+//        }
+//
+//        if (bindingResult.hasErrors()) {
+////            model.setViewName("register");
+//        } else { // new user so we create user and send confirmation e-mail
+//
+//            // Disable user until they click on confirmation link in email
+////            user.setEnabled(false);
+//
+//            // Generate random 36-character string token for confirmation link
+//            user.setConfirmationToken(UUID.randomUUID().toString());
+//
+//            userService.saveUser(user);
+//
+//            String appUrl = request.getScheme() + "://" + request.getServerName();
+//
+//            SimpleMailMessage registrationEmail = new SimpleMailMessage();
+//            registrationEmail.setTo(user.getUsername());
+//            registrationEmail.setSubject("Registration Confirmation");
+//            registrationEmail.setText("To confirm your e-mail address, please click the link below:\n"
+//                + appUrl + "/confirm?token=" + user.getConfirmationToken());
+//            registrationEmail.setFrom("noreply@domain.com");
+//
+//            emailService.sendEmail(registrationEmail);
+//
+//            model.addAttribute("confirmationMessage", "A confirmation e-mail has been sent to " + user.getUsername());
+//            model.addAttribute("register");
+//        }
+//
+//        return "login";
+//    }
 
     public BCryptPasswordEncoder getbCryptPasswordEncoder() {
         return bCryptPasswordEncoder;

@@ -45,8 +45,8 @@
     </database>
     <schema id="15" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-07-24.15:48:58.927</IntrospectionTimestamp>
-      <IntrospectionStateNumber>6862</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-07-27.17:47:54.474</IntrospectionTimestamp>
+      <IntrospectionStateNumber>6948</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -66,9 +66,68 @@
       <ObjectId>12349</ObjectId>
     </schema>
     <sequence id="21" parent="15" name="hibernate_sequence">
-      <ObjectId>36764</ObjectId>
-      <StateNumber>6862</StateNumber>
+      <ObjectId>36893</ObjectId>
+      <StateNumber>6946</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
+    <table id="22" parent="15" name="user_accounts">
+      <ObjectId>36895</ObjectId>
+      <StateNumber>6947</StateNumber>
+    </table>
+    <column id="23" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6947</StateNumber>
+    </column>
+    <column id="24" parent="22" name="confirmation_token">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>6947</StateNumber>
+    </column>
+    <column id="25" parent="22" name="enabled">
+      <Position>3</Position>
+      <DataType>boolean|0</DataType>
+      <StateNumber>6947</StateNumber>
+    </column>
+    <column id="26" parent="22" name="password_hash">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6947</StateNumber>
+    </column>
+    <column id="27" parent="22" name="role">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6947</StateNumber>
+    </column>
+    <column id="28" parent="22" name="username">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>6947</StateNumber>
+    </column>
+    <index id="29" parent="22" name="user_accounts_pkey">
+      <ObjectId>36901</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="30" parent="22" name="uk_lxwlgwuy2yrbye2vgs9w9x7mr">
+      <ObjectId>36903</ObjectId>
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="31" parent="22" name="user_accounts_pkey">
+      <ObjectId>36902</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_accounts_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="32" parent="22" name="uk_lxwlgwuy2yrbye2vgs9w9x7mr">
+      <ObjectId>36904</ObjectId>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>uk_lxwlgwuy2yrbye2vgs9w9x7mr</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
