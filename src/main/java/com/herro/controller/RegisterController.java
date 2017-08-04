@@ -10,6 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.validation.Valid;
+
 @Controller
 public class RegisterController {
 
@@ -32,7 +34,7 @@ public class RegisterController {
         model.addAttribute("user", user);
         return "register";
     }
-
+    //   ^^^^^^^^^
     // Return registration form template (original for reference):
 //    @RequestMapping(value = "/register", method = RequestMethod.GET)
 //    public ModelAndView showRegistrationPage(ModelAndView modelAndView, User user) {
@@ -42,17 +44,21 @@ public class RegisterController {
 //    }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public String registerForm(Model model, User user) {
+    public String registerForm(Model model, @Valid User user) {
 
         User userExists = userService.findByUsername(user.getUsername());
 
-        if (userExists != null) {
-            model.addAttribute("alreadyRegisteredMessage", "You're already registered!");
-            return "login";
-        }
+        System.out.println(userExists);
 
-        
-        return "login";
+        if (userExists != null) {
+            model.addAttribute("alreadyRegisteredMessage", "You or someone with the same email already registered!");
+            return "register";
+        } else {
+            userService.saveUser(user);
+            //need auto-fill parameters:
+            return "redirect:/login";
+
+        }
     }
 
 

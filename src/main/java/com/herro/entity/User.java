@@ -79,8 +79,10 @@ public class User implements Serializable {
         this.confirmationToken = confirmationToken;
     }
 
+}
 
-    //different implementation:
+
+//different implementation:
 
 //    @Override
 //    public String toString() {
