@@ -1,97 +1,59 @@
 package com.herro.entity;
 
 import javax.persistence.*;
-import java.io.Serializable;
+import java.util.Set;
 
 @Entity
-@Table(name = "userAccounts")
-public class User implements Serializable {
+@Table(name = "demo_user") //'user' is a pSQL-protected keyword
+public class User {
+    private Long id;
+    private String username;
+    private String password;
+    private String passwordConfirm;
+    private Set<Role> roles;
 
     @Id
-    @Column
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
-
-    @Column(nullable = false, unique = true)
-    private String username;
-
-    @Column(name = "password_hash", nullable = false)
-    private String passwordHash;
-
-    //    @Column(name = "role")
-    @Column(name = "role", nullable = false)
-    @Enumerated(EnumType.STRING)
-    private Role role;
-
-    @Column(name = "confirmation_token")
-    private String confirmationToken;
-
-    @Column(name = "enabled")
-    private boolean enabled;
-
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public void setPassword(String password) {
-        this.passwordHash = password;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
-    }
-
-    public int getId() {
+    public Long getId() {
         return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getUsername() {
         return username;
     }
 
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
     public String getPassword() {
-        return passwordHash;
+        return password;
     }
 
-    public Role getRole() {
-        return role;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public boolean getEnabled() {
-        return enabled;
+    @Transient
+    public String getPasswordConfirm() {
+        return passwordConfirm;
     }
 
-    public void setEnabled(boolean value) {
-        this.enabled = value;
+    public void setPasswordConfirm(String passwordConfirm) {
+        this.passwordConfirm = passwordConfirm;
     }
 
-
-    public String getConfirmationToken() {
-        return confirmationToken;
+    @ManyToMany
+    @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
+    public Set<Role> getRoles() {
+        return roles;
     }
 
-    public void setConfirmationToken(String confirmationToken) {
-        this.confirmationToken = confirmationToken;
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
     }
-
-}
-
-
-//different implementation:
-
-//    @Override
-//    public String toString() {
-//        return "User{" +
-//            "id=" + id +
-//            ", email='" + username.replaceFirst("@.*", "@***") +
-//            ", passwordHash='" + passwordHash.substring(0, 10) +
-//            ", role=" + role +
-//            '}';
-//    }
-
 }

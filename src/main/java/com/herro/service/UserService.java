@@ -3,7 +3,6 @@ package com.herro.service;
 import com.herro.entity.User;
 import com.herro.repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,7 +15,7 @@ public class UserService {
 
     // AW breaks so turned off:
     @Autowired
-    public UserService(@Qualifier("userRepo") UserRepo userRepo) {
+    public UserService() {
         this.userRepo = userRepo;
     }
 
@@ -24,9 +23,9 @@ public class UserService {
         return userRepo.findByUsername(email);
     }
 
-    public User findByConfirmationToken(String confirmationToken) {
-        return userRepo.findByConfirmationToken(confirmationToken);
-    }
+//    public User findByConfirmationToken(String confirmationToken) {
+//        return userRepo.findByConfirmationToken(confirmationToken);
+//    }
 
     public void saveUser(User user) {
         userRepo.save(user);
