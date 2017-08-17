@@ -13,7 +13,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
 @Controller
 public class RegisterController {
 
@@ -76,14 +75,16 @@ public class RegisterController {
         return "redirect:/login";
     }
 
-    //needed?
-//    @RequestMapping(value = "/registration", method = RequestMethod.GET)
-//    public String registration(Model model) {
-//        model.addAttribute("userForm", new User());
-//
-//        return "register";
-//
-//    }
+//    needed?
+    @RequestMapping(value = "/registration", method = RequestMethod.GET)
+    public String registration(Model model) {
+        model.addAttribute("userForm", new User());
+
+        return "register";
+
+    }
+
+
 
 
 
