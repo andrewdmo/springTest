@@ -2,15 +2,17 @@ package com.herro.controller;
 
 import com.herro.entity.User;
 import com.herro.service.EmailService;
+import com.herro.service.SecurityService;
 import com.herro.service.UserService;
+import com.herro.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import javax.validation.Valid;
 
 @Controller
 public class RegisterController {
@@ -29,11 +31,11 @@ public class RegisterController {
     }
 
     // Return registration form template:
-    @RequestMapping(value = "/register", method = RequestMethod.GET)
-    public String register(Model model, User user) {
-        model.addAttribute("user", user);
-        return "register";
-    }
+//    @RequestMapping(value = "/register", method = RequestMethod.GET)
+//    public String register(Model model, User user) {
+//        model.addAttribute("user", user);
+//        return "register";
+//    }
     //   ^^^^^^^^^
     // Return registration form template (original for reference):
 //    @RequestMapping(value = "/register", method = RequestMethod.GET)
@@ -43,23 +45,65 @@ public class RegisterController {
 //        return modelAndView;
 //    }
 
-    @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public String registerForm(Model model, @Valid User user) {
+    @Autowired
+    private UserValidator userValidator;
 
-        User userExists = userService.findByUsername(user.getUsername());
+    @Autowired
+    private SecurityService securityService;
 
-        System.out.println(userExists);
 
-        if (userExists != null) {
-            model.addAttribute("alreadyRegisteredMessage", "You or someone with the same email already registered!");
-            return "register";
-        } else {
-            userService.saveUser(user);
-            //need auto-fill parameters:
-            return "redirect:/login";
 
-        }
+
+    @RequestMapping(value = "/register", method = RequestMethod.GET)
+    public String register(Model model) {
+        model.addAttribute("userForm", new User());
+
+        return "register";
     }
+
+    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    public String register(@ModelAttribute("userForm") User userForm, BindingResult bindingResult, Model model) {
+        userValidator.validate(userForm, bindingResult);
+
+        if (bindingResult.hasErrors()) {
+            return "register";
+        }
+
+        userService.saveUser(userForm);
+
+        securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());
+
+        return "redirect:/login";
+    }
+
+    //needed?
+//    @RequestMapping(value = "/registration", method = RequestMethod.GET)
+//    public String registration(Model model) {
+//        model.addAttribute("userForm", new User());
+//
+//        return "register";
+//
+//    }
+
+
+
+//    @RequestMapping(value = "/register", method = RequestMethod.POST)
+//    public String register(Model model, @Valid User user) {
+//
+//        User userExists = userService.findByUsername(user.getUsername());
+//
+//        System.out.println(userExists);
+//
+//        if (userExists != null) {
+//            model.addAttribute("alreadyRegisteredMessage", "You or someone with the same email already registered!");
+//            return "register";
+//        } else {
+//            userService.saveUser(user);
+//            //need auto-fill parameters:
+//            return "redirect:/login";
+//
+//        }
+//    }
 
 
     // Process form input data (original):

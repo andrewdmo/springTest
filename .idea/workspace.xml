@@ -5,28 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88d3c8d-fc88-47ea-9d89-6cfbd58d0e7e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Untitled" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/herro/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/herro/psControl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/herro/service/UserRegisterForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/herro/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/herro/entity/UserOLD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/e8262154-2300-46cc-a618-f9e6ccecd2d1/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/e8262154-2300-46cc-a618-f9e6ccecd2d1/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/e8262154-2300-46cc-a618-f9e6ccecd2d1/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/e8262154-2300-46cc-a618-f9e6ccecd2d1/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/herro/entity/Role.class" afterPath="$PROJECT_DIR$/target/classes/com/herro/entity/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/herro/repo/UserRepo.class" afterPath="$PROJECT_DIR$/target/classes/com/herro/repo/UserRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/herro/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/herro/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/herro/service/SecurityService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/herro/service/SecurityServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/herro/validator/UserValidator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/herro/service/SecurityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/herro/service/SecurityServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/herro/validator/UserValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/herro/controller/RegisterController.class" afterPath="$PROJECT_DIR$/target/classes/com/herro/controller/RegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/public_ADM17eo.doc" afterPath="$PROJECT_DIR$/target/classes/public/public_ADM17eo.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/public_ADM17eo.pdf" afterPath="$PROJECT_DIR$/target/classes/public/public_ADM17eo.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/favicon.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/faviconNori.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/faviconNori.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/iron-yard-logo.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/iron-yard-logo.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/psfavicon.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/psfavicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/iron-yard-logo.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/iron-yard-logo.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/95bd0d86-5662-4d37-a701-c481e4c6e037.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/95bd0d86-5662-4d37-a701-c481e4c6e037.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/e8262154-2300-46cc-a618-f9e6ccecd2d1.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/e8262154-2300-46cc-a618-f9e6ccecd2d1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/herro/entity/Role.java" afterPath="$PROJECT_DIR$/src/main/java/com/herro/entity/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/herro/repo/UserRepo.java" afterPath="$PROJECT_DIR$/src/main/java/com/herro/repo/UserRepo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/herro/service/UserRegisterForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/herro/service/UserRegisterForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java" afterPath="$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/.htaccess" afterPath="$PROJECT_DIR$/target/classes/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/.htaccess.swp" afterPath="$PROJECT_DIR$/target/classes/.htaccess.swp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -85,54 +84,49 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.516158">
+    <splitter split-orientation="horizontal" split-proportion="0.5475153">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-                  <folding />
+          <file leaf-file-name="demo_user" pinned="false" current-in-tab="false">
+            <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.demo_user">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                <state>
+                  <filtering enabled="true" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
+          <file leaf-file-name="UserValidator.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/validator/UserValidator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-                  <folding />
+                <state relative-caret-position="480">
+                  <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#534#535#0" expanded="true" />
+                    <element signature="e#582#583#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
-                  <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-                  <folding />
+                <state relative-caret-position="240">
+                  <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RestfulController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RestfulController.java">
+          <file leaf-file-name="SecurityServiceImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/SecurityServiceImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+                <state relative-caret-position="240">
+                  <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -143,52 +137,13 @@
           <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/Role.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+                <state relative-caret-position="210">
+                  <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#348#349#0" expanded="true" />
-                    <element signature="e#376#377#0" expanded="true" />
+                    <element signature="e#474#475#0" expanded="true" />
+                    <element signature="e#506#507#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="role" pinned="false" current-in-tab="false">
-            <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.role">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RoleRepo.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/repo/RoleRepo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="demo_user" pinned="false" current-in-tab="true">
-            <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.demo_user">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="user_role" pinned="false" current-in-tab="false">
-            <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.user_role">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
                 </state>
               </provider>
             </entry>
@@ -200,8 +155,8 @@
           <file leaf-file-name="pom.xml" pinned="true" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -210,8 +165,8 @@
           <file leaf-file-name="application.properties" pinned="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -227,25 +182,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserOLD.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/UserOLD.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="19" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="94" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/User.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                <state relative-caret-position="165">
+                  <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#458#459#0" expanded="true" />
-                    <element signature="e#486#487#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -255,7 +198,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserRegisterForm.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
-                  <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+                  <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -264,9 +207,52 @@
           <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state relative-caret-position="390">
+                  <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#488#489#0" expanded="true" />
+                    <element signature="e#541#542#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user_role" pinned="false" current-in-tab="false">
+            <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.user_role">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                <state>
+                  <filtering enabled="true" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="role" pinned="false" current-in-tab="false">
+            <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.role">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                <state>
+                  <filtering enabled="true" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -286,7 +272,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>noah</find>
       <find>dia</find>
       <find>diagram</find>
       <find>paleop</find>
@@ -316,6 +301,7 @@
       <find>.htacces</find>
       <find>.htaccess</find>
       <find>datas</find>
+      <find>.yml</find>
     </findStrings>
     <replaceStrings>
       <replace>tiyStyleImg</replace>
@@ -342,9 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/tiystyle.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/usersecurespace.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/PsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/Greeting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/RestfulController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/404.html" />
@@ -380,19 +363,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/A_UserPrincipal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImplOLD.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/UserOLD.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/service/UserRegisterForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/repo/UserRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/repo/RoleRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/repo/RoleRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/repo/UserRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/validator/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/SecurityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -477,7 +463,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -561,6 +547,15 @@
               <item name="springTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="herro" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -592,9 +587,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1526,11 +1521,16 @@
       <workItem from="1502028102010" duration="2351000" />
       <workItem from="1502037661949" duration="2443000" />
       <workItem from="1502040257589" duration="14000" />
+      <workItem from="1502055947847" duration="3266000" />
+      <workItem from="1502134937382" duration="137000" />
+      <workItem from="1502135188428" duration="2144000" />
+      <workItem from="1502195827072" duration="246000" />
+      <workItem from="1502210019819" duration="1338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195334000" />
+    <option name="totallyTimeSpent" value="202465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1548,37 +1548,40 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35102534" sideWeight="0.2732475" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15319662" sideWeight="0.5858369" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06866953" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="1059" y="211" width="337" height="295" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06866953" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="1059" y="211" width="337" height="295" />
       <window_info id="REPL" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11874106" sideWeight="0.47678572" order="10" side_tool="false" content_ui="tabs" x="1238" y="527" width="177" height="317" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11874106" sideWeight="0.47678572" order="10" side_tool="false" content_ui="tabs" x="1238" y="527" width="177" height="317" />
       <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5214592" order="10" side_tool="true" content_ui="tabs" x="599" y="165" width="212" height="487" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29674307" sideWeight="0.63018596" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31882352" sideWeight="0.49444443" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3920386" sideWeight="0.28898427" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256936" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2870929" sideWeight="0.6309013" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22557297" sideWeight="0.5579399" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810616" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="false" weight="0.32403433" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1544029" sideWeight="0.41201717" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11444921" sideWeight="0.4885404" order="5" side_tool="false" content_ui="combo" x="21" y="32" width="311" height="812" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08583691" sideWeight="0.4885404" order="5" side_tool="false" content_ui="combo" x="21" y="32" width="311" height="812" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2870929" sideWeight="0.36909872" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.080829754" sideWeight="0.5114596" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25452352" sideWeight="0.39842632" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3920386" sideWeight="0.28898427" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="617" />
       <window_info id="Fluid" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1590,12 +1593,9 @@
       <window_info id="Azure Activity Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32810616" sideWeight="0.5665236" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29674307" sideWeight="0.63376254" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="HDInsight Spark Submission" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3920386" sideWeight="0.71101576" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.49713877" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2870929" sideWeight="0.37124464" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35102534" sideWeight="0.2732475" order="15" side_tool="false" content_ui="tabs" />
@@ -1659,7 +1659,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1668,329 +1676,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/cf4cabc8/95bd0d86-5662-4d37-a701-c481e4c6e037/ademo.public.users" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/paleoThmb.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-      <provider editor-type-id="IconImages">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/.htaccess" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/nori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/paleoStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/.htaccess" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ps/psindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="35" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/:Users:andrewdmo:Projects:springTest.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/403.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/404.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/FBprofile.jpg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/IMG_0025.jpg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/Spring-Security-logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/about.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/active-network-logo-7fb24783ae9e06e2f5738fa82d3dd322ea4b0eb081d527f7b1a9d2edc4cf0bb7.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/adm_nasa_logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/ally-bank-logo-32c4ad757ef478e00dc55ec3b0f1c5fa3d70876756b1f40d96e329fcec567fdc.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/amazon-logo-39fa6ad8d708a8ef4c694e986cc360891af4b7aa9c0a695213791eff7141c63a.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/andrew-faircloth-thumb.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/animalshelter.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/att-logo-6865423b147ca9790782ee71db74c5af310a0151b4b9238ddd1274d999048d07.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/benefit-focus-logo-25676a384094eddd8b02e053ccce1d2c555cd57eecabb5e24fd59a2f8ed0df82.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/bi-logo-a04cb666947df1ee103c41b6760bc0b8ea705205ae92ab1ebf872bcdb2e27e60.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/boomtown-logo-03780e64d061e8fa68a21feb0bd3761072edb74f1d13d5030e23108f66a56bd4.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/bronto-logo-0981b976a17e0fec994190158bd1d3a7b5cae2bbb538597783ef0084042feec2.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/chaione-logo-adb99e6f095468e27845616e150e6acf6b791155868e14697547f9747add3e90.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/clojure-syf-x300.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/clojure.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/cloudspace-logo-fe33f4d75cfd176acb0c43bc36a3485e0218a59c4af1a138fb9499268bddb20f.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/coke-logo-3388dc0e1a2246606509b114119f38208cfba066df9c8d23c2b11853ebcf81e2.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/contact.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/diagram.jpg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/emcien-logo-11c4eb39a4314d5cfe36aa94d35c9b06a361f44ec5c5b38c87bc10cf098b5d6c.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/error.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/favicon.ico</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/faviconNori.ico</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/fuzzco-logo-7fd3c1c8e371fad9d103e4c87c3e4ca6a4f2b870cbcc960558a826e8a26ce9ca.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/github-logo-929c17a9176a64a93d7ac68a3e0a519d3e1d89b1b563fcfab1636f98f58fade2.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/gitlogo.png</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_2.1.4_jquery.js</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_feed.mikle.com_js_fw-loader.js</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/ibm-design-logo-9df4a75ac65f365c6b1bb44d8c2fb261f5491200b3bae1677c862ed879988a61.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo.ico</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/iron-yard-logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/jsIcon.jpg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/julie-rich-thumb.jpg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/login.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/mediumIcon.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/microsoft-logo-5a4fb054f062b1bc302c250d3a6e5727920ca528c0439b123b4c5c691d9b85fa.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/movie_SQLdiagram.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/moviesql.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/noahdemopage.jpg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/nori.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/noriDash.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/noriItem.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/noriLogin.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/normalize.css</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/notre-dame-logo-96659b0cc07884e5434aa7b059a53f63ac133760a008294deb51f63105a16683.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/oldWellFav.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/paleoThmb.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/path-logo-69e849c76968c54b1ee1f165412b52a23f1601a7161363038e929d61673544dc.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/pdfIcon.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/play-icon.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/portfolio.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/prismatic-logo-21449ce0f465b277a8667a99b8be981a131b458718e4f941020b214800920bd9.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/ps/psabout.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/ps/psarchives.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/ps/psblog.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/ps/pscontact.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/ps/pserror.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/psfavicon.ico</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/ps/psindex.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/ps/psportfolio.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/redhat-logo-023845ec451a12fa12d3e9d59582a0b84d37d22628896c23deee61a04fff6980.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/register.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/restfulSign.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/rockps.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/skeleton.css</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/sparc-logo-5bf647f856b2cace787dc5bcb3806002bb4b747bef11f8ead5b7d810378ff4f0.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/spoonflower-logo-23105b5432e9e743ce837ddd52b224933c602b66519af0e9b21ad7b959dd1b01.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/springMvcLogo.jpeg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/tiystyle.css</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/tiystyle.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/todo.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/validic-logo-c4d146131b4a8b2f1f443f773c030b12343ede1685e2eebf7ceb1597c4754009.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/wordIcon.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/tiyStyleImg/wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png</node>
-            <node x="" y="">../</node>
-            <node x="" y="">//img/adm_nasa_logo.png</node>
-            <node x="" y="">/static/css/demoStyle.css</node>
-            <node x="" y="">/static/css/normalize.css</node>
-            <node x="" y="">/static/css/paleoStyle.css</node>
-            <node x="" y="">/static/css/rockps.css</node>
-            <node x="" y="">/static/css/skeleton.css</node>
-            <node x="" y="">/static/img/adm_nasa_logo.png</node>
-            <node x="" y="">/static/img/agma_360_360_70_int_c1_small.jpg</node>
-            <node x="" y="">/static/img/android-chrome-192x192.png</node>
-            <node x="" y="">/static/img/animatedResponsive.gif</node>
-            <node x="" y="">/static/img/brmt_360_360_70_int_c1_small.jpg</node>
-            <node x="" y="">/static/img/favicon-16x16.png</node>
-            <node x="" y="">/static/img/favicon-194x194.png</node>
-            <node x="" y="">/static/img/favicon-32x32.png</node>
-            <node x="" y="">/static/img/favicon-96x96.png</node>
-            <node x="" y="">/static/img/favicon.ico</node>
-            <node x="" y="">/static/img/highland-2_360_360_70_int_c1_small.jpg</node>
-            <node x="" y="">/static/img/iron-yard-logo.ico</node>
-            <node x="" y="">/static/img/logo-white2x.png</node>
-            <node x="" y="">/static/img/oldWellFav.png</node>
-            <node x="" y="">/static/img/psfavicon.ico</node>
-            <node x="" y="">/static/img/transparent.png</node>
-            <node x="" y="">/static/img/tutco-farnam-2015_360_360_int_c1_small.png</node>
-            <node x="" y="">/static/img/tweetsie_360_360_70_int_c1_small.jpg</node>
-            <node x="" y="">/static/img/visitcherokeenc_360_360_70_int_c1_small.jpg</node>
-            <node x="" y="">/static/scripts/rockps.js</node>
-            <node x="" y="">https://c6.staticflickr.com/9/8583/28916575965_827258e534_m.jpg</node>
-            <node x="" y="">https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.25860749808722266" x="1851.0" y="1317.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/a.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/.htaccess.swp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/moviesql.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/oldRegister.html">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="82" column="67" lean-forward="false" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.user_account">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e8262154-2300-46cc-a618-f9e6ccecd2d1/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/A_UserPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RestfulController.java">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2022,14 +1707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/UserOLD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="94" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.user_accounts">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -2037,31 +1714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://sequence:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.hibernate_sequence">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserRegisterForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2081,48 +1737,232 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/psControl" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/repo/RoleRepo.java">
       <provider editor-type-id="images">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="475" column="0" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="458" column="0" lean-forward="false" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="531" column="0" lean-forward="false" selection-start-line="531" selection-start-column="0" selection-end-line="531" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/catalina/core/StandardWrapperValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/tomcat/util/net/NioEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="353" column="0" lean-forward="false" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/coyote/AbstractProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="724" column="0" lean-forward="false" selection-start-line="724" selection-start-column="0" selection-end-line="724" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/coyote/AbstractProcessorLight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/coyote/http11/Http11Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="428" column="0" lean-forward="false" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/catalina/core/StandardEngineValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/catalina/valves/ErrorReportValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/catalina/core/StandardHostValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.14/tomcat-embed-core-8.5.14.jar!/org/apache/catalina/core/StandardContextValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/validator/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/SecurityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/UserOLD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="94" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="210">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/SecurityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.demo_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -2134,26 +1974,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.role">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="165">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2164,10 +1991,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.demo_user">
+    <entry file="das://table:/cf4cabc8/e8262154-2300-46cc-a618-f9e6ccecd2d1/ademo.public.role">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java">
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserRegisterForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
