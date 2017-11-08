@@ -1,29 +1,42 @@
 package com.herro.entity;
 
-//import org.springframework.stereotype.Component;
-//
+import javax.persistence.Id;
+
 //@Component
+//@Table(name = "greeting") //don't need
 public class Greeting {
 
-    private final long id;
-    private final String content;
+    private final long id; //not Long
+    private final String name;
+    private final String template;
+    private final String body;
 
-    public Greeting(long id, String content/*, String description*/) {
+    //long from Atomic in controllr:
+    public Greeting(long id, String name) {
+
         this.id = id;
-        this.content = content;
-//        this.description = description;
-
+        this.template = "{ that punk wants to make your day, " + name + "! }";
+        this.name = name;
+        this.body = "{ custom POJO return from GET request :: refresh & Id # persists }{ customizable :: /restgreeting?name=YOURNAME }";
     }
 
-    public long getId() {
+    @Id
+    public Long getId() {
         return id;
+//        @Id
+//        @GeneratedValue(strategy = GenerationType.AUTO) //already fed Atomic id
     }
 
-    public String getContent() {
-        return content;
+    public String getTemplate() {
+        return template;
     }
 
-    public String getDescription() {
-        return " **** JSON data return from a RESTful GET request.  Refresh and note ID increment persisting.  Customize by adding a parameter: /restgreeting?name=YOURNAME **** ";
+    public String getName() {
+        return name;
+    }
+
+    public String getBody() {
+//        return " // Custom JSON POJO return from a GET request\nRefresh and note ID increment persisting\nCustomizable: /restgreeting?name=YOURNAME ";
+        return body;
     }
 }

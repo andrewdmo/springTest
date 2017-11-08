@@ -1,6 +1,7 @@
 /*For build only, can use checkbox in Chrome:*/
 * {
-    /*border: 1px solid black*/
+    /*border: 0.1vh solid black;*/
+    /*box-sizing: content-box;*/
 }
 
 html,
@@ -59,7 +60,7 @@ body {
     z-index: 4;
 }
 
-.navlogo {
+.nav.logo {
     background-color: transparent;
     border: 2px inset transparent;
     border-radius: 15px; /*don't change*/
@@ -74,7 +75,7 @@ body {
     z-index: 2;
 }
 
-.navlogo:hover {
+.nav.logo:hover {
     background-color: transparent;
     border: outset #901400 2px;
     border-radius: 7px;
@@ -83,6 +84,19 @@ body {
     transition: all 0.5s ease-in-out;
     z-index: 4;
 }
+
+.paragraph {
+    background-color: #b9b9b9;
+}
+
+/*.menuBack {*/
+/*background-color: #b9b9b9;*/
+/*border: 2px inset transparent;*/
+/*border-radius: 15px;*/
+/*color: #901400;*/
+/*display: inline-block;*/
+/*opacity: .9;*/
+/*}*/
 
 .menubar {
     background-color: #b9b9b9;
@@ -115,7 +129,7 @@ menu,
     border: 2px inset transparent;
     border-radius: 10px;
     box-sizing: border-box;
-    color: #0f6b82;
+    color: #073763;
     display: inline-block;
     margin: 3px;
     overflow: hidden;
@@ -183,7 +197,7 @@ a {
     color: #901400;
     display: inline-block;
     opacity: .9;
-    padding: 0 2vh;
+    /*padding: 0 2vh;*/
     position: relative;
     text-align: center;
     transition: border 0.5s, border-radius 0.5s, ease-in-out;
@@ -197,16 +211,20 @@ a {
 }
 
 .portf.idx {
-    color: #0f6b82;
+    color: #073763;
     /*width: 100%;*/
     margin: 1vh auto;
     overflow: scroll;
 }
 
+.portf.menuBack {
+    margin: 20vh auto;
+}
+
 .button.button-primary,
 button.button-primary {
     background-color: #901400;
-    border: #0f6b82 inset 2px;
+    border: #073763 inset 2px;
     border-radius: 15px;
     color: #D3D3D3;
     margin: auto;
@@ -222,7 +240,7 @@ button.button-primary {
 
 .button.button-primary:hover,
 button.button-primary:hover {
-    background-color: #0f6b82;
+    background-color: #073763;
     border: 2px outset #D3D3D3;
     border-radius: 6px;
     color: #901400;
@@ -234,7 +252,7 @@ button.button-primary:hover {
 
 .button.button-primary:focus,
 button.button-primary:focus {
-    background-color: #0f6b82;
+    background-color: #073763;
     border: 2px inset #901400;
     transition: all 0.7s ease-in-out;
 }
@@ -243,11 +261,12 @@ button.button-primary:focus {
 button.button-primary.portf {
     height: 10vh;
     transition: all 0.5s ease-in-out;
+    width: 100%;
 }
 
 .button.button-primary.portf:hover,
 button.button-primary.portf:hover {
-    height: 25vh;
+    height: 20vh;
     transition: all 0.5s ease-in-out;
 }
 
@@ -269,7 +288,7 @@ button.button-primary.portf:hover {
 
 .middle {
     display: inline-block;
-    margin-top: 25vh;
+    margin: 25vh auto 0 auto;
     text-align: center;
     width: 100%;
 }
@@ -381,6 +400,7 @@ figure,
 }
 
 .textcopy {
+    background-color: #b9b9b9;
     font-size: 75%;
     height: 100%;
     overflow: scroll;
@@ -403,10 +423,9 @@ figure,
         padding-top: 1%;
     }
 
-    .middle {
-        margin: 25vh auto 0 auto;
-    }
-
+    /*.middle {*/
+    /*margin: 25vh auto 0 auto;*/
+    /*}*/
     .menubar {
         margin-top: 0;
         width: 48%;
@@ -437,11 +456,10 @@ figure,
         padding-top: 2%;
     }
 
-    .middle {
-        /*allow for top fixed:*/
-        margin: 23vh auto 0 auto;
-    }
-
+    /*.middle {*/
+    /*!*allow for top fixed:*!*/
+    /*margin: 23vh auto 0 auto;*/
+    /*}*/
     .bottom {
         bottom: 0;
     }

@@ -22,11 +22,13 @@ public class RegisterController {
 
     //turn AW back on(?):
     @Autowired
-    public RegisterController(BCryptPasswordEncoder bCryptPasswordEncoder, UserService userService, EmailService emailService) {
+    public RegisterController(BCryptPasswordEncoder bCryptPasswordEncoder, UserService userService, EmailService emailService, UserValidator userValidator, SecurityService securityService) {
 
         this.bCryptPasswordEncoder = bCryptPasswordEncoder;
         this.userService = userService;
         this.emailService = emailService;
+        this.userValidator = userValidator;
+        this.securityService = securityService;
     }
 
     // Return registration form template:
@@ -44,11 +46,9 @@ public class RegisterController {
 //        return modelAndView;
 //    }
 
-    @Autowired
-    private UserValidator userValidator;
+    private final UserValidator userValidator;
 
-    @Autowired
-    private SecurityService securityService;
+    private final SecurityService securityService;
 
 
 

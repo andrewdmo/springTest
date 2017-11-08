@@ -15,6 +15,8 @@
     <link rel="shortcut icon" href="/static/img/favicon.ico"/>
     <link rel="icon" type="image/png" href="/static/img/favicon.ico"/>
 
+    <script language="javascript" th:src="@{/scripts/mvcName.js}" src="/static/scripts/mvcName.js"></script>
+
 </head>
 
 
@@ -62,12 +64,20 @@
                 <p th:text="'****A simple Spring MVC controller.'"></p>
             </div>
             <div class="row">
-                    <p th:text="'Like the REST controller, NAME queries are functional:  ****'"></p>
+                <p th:text="'Like the REST controller, NAME queries are functional:  ****'"></p>
             </div>
             <div class="row">
                 <p th:text="'/mvcgreeting?name=YOURNAME'"></p>
             </div>
         </div>
+        <br/>
+
+        <form>
+            <label>Not up yet:</label>
+            <input th:type="text" type="text" placeholder="yourName" id="name"
+                   onclick="mvcName(name, '/mvcgreeting.html?name=' + name);"/>
+            <input th:onforminput="button" type="button" onclick="mvcName(name, '/mvcgreeting.html?name=' + name);"/>
+        </form>
 
     </div><!--middle-->
 </div><!--container-->

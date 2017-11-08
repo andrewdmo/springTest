@@ -11,21 +11,13 @@
 
     <artifactId>A_DeMo</artifactId>
     <name>A_DeMo</name>
-    <version>2.4.1</version>
+    <!--check Final Name below!!-->
+    <version>2.5.1</version>
     <packaging>jar</packaging>
 
 
-    <modules>
-        <!--<module>../bestNoriVersion</module>-->
-        <!--<module>../A_DeMo</module>-->
-        <!--<module>animalShelter-v1.2-json</module>-->
-        <!--<module>../bestNoriVersion/src/main</module>-->
-        <!--<module>../tiy-homework-movie-database</module>-->
-    </modules>
-
-
     <properties>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
 
@@ -71,11 +63,6 @@
             <artifactId>spring-context-support</artifactId>
             <version>4.3.5.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>org.web3j</groupId>
-            <artifactId>core</artifactId>
-            <version>2.3.0</version>
-        </dependency>
     </dependencies>
 
 
@@ -102,7 +89,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <!--<configuration>-->
                 <!--&lt;!&ndash;<mainClass>com.herro.Application</mainClass>&ndash;&gt;-->
-                <!--&lt;!&ndash;<executable>true</executable>&ndash;&gt;-->
+                <!--<executable>true</executable>-->
                 <!--</configuration>-->
             </plugin>
             <plugin>
@@ -110,8 +97,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <!--<version>3.6.1</version>-->
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <!--<plugin>-->
@@ -126,7 +113,7 @@
             <!--</executions>-->
             <!--</plugin>-->
         </plugins>
-        <finalName>A_DeMo-2.4.1</finalName>
+        <finalName>A_DeMo-2.5.1</finalName>
     </build>
 
 

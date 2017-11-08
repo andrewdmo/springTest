@@ -27,7 +27,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             // re-activate:
             .anyRequest().authenticated()
             .and()
-
+            .exceptionHandling().accessDeniedPage("/403")
+            .and()
             .formLogin()
             .loginPage("/login")
             .failureUrl("/login?error")
@@ -50,5 +51,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .inMemoryAuthentication()
             .withUser("test@test").password("test").roles("USER");
     }
+
 
 }

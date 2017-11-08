@@ -1,13 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>Web Dev Work of Andy Moretz</title>
-
+    <title th:text="${'web Dev Demo + ' + name}">andyMoretz</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="keywords"
           content="java, JEE, security, html css, spring, boot, security, responsive, aws, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
-    <meta name="description" content="An exemplary example of a fully responsive Java web stack"/>
+    <meta name="description" content="an exemplary example of a fully responsive Java web stack"/>
 
     <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
@@ -54,40 +53,39 @@
     <div class="row middle primary">
         <div class="row first">
 
-            <h5 class="row portf idx"
-                th:text="'Welcome to the Web Dev Demo of one Andy Moretz' + ${name}">[Name]
+            <h5 class="row portf idx" style="color: #901400"
+                th:text="${'web Dev Demo + ' + name}">andyMoretz
             </h5>
-            <br/>
-            <div class="row portf idx">
-                <span>Status: </span><span style="color: #901400">Unfinished</span>
-            </div>
-            <br/>
-            <div class="row portf idx">
-                <span>Outlook:</span><span style="color: #901400">Unfinished</span>
-                and
-                <span style="color: #B3B100">Sunny</span>
-            </div>
-            <br/>
+            <!--<br/>-->
+            <!--<div class="row portf idx">-->
+            <!--<span>Status: </span><span style="color: #901400">Unfinished</span>-->
+
             <!--add click function!!!-->
 
         </div><!--first row-->
-
         <div class="row second">
             <div class="row twoA">
-                <div class="six columns textcopy">
-                    <h6>Don't know Latin:</h6>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                    nulla nec
-                    risus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula augue.
-                    In at
-                    maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.
+                <div class="six columns portf">
+                    <h5 style="color: #073763">java / Spring Stack dev</h5>
                     <br/>
-                    Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam condimentum
-                    laoreet.
+                    <p>welcome to my main Spring Boot stack. i learned to build it over the past year</p>
+                    <p>front-end: fast and fully responsive</p>
+                    <p>RESTful endpoint, pSQL table, transient Spring Security
+                    </p>
+                    <p>i can read a stacktrace, pretend to load
+                        balance on
+                        AWS, and sudo pkill Linux threads</p>
+                    <p>recently parsing APIs from the
+                        Ethereum
+                        blockchain on a fresh build
+                    </p>
+                    <br/>
+                    <p th:text="'Currently (' + ${#dates.format(#dates.createNow(),'MM/dd/YY HH:mm')} + ') available for a variety of full-time roles, preferably in WNC or remote'">
+                    </p>
                     <br/>
                     <br/>
-                    <a href="portfolio.html" class="button button-primary">Check out my work...</a>
-                </div><!--container six columns-->
+                    <a href="portfolio.html" class="button button-primary">Work I've done...</a>
+                </div><!--six columns textcopy-->
                 <div class="six columns pic">
                     <img th:src="@{/img/smileearthnull.png}"
                          src="../" class="pic"/>
@@ -96,7 +94,7 @@
             <br/>
             <br/>
             <div class="row twoB">
-                <div class="three columns textcopy">
+                <div class="four columns portf">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
                         nulla
                         necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
@@ -107,7 +105,7 @@
                         laoreet.</p>
                 </div>
 
-                <div class="three columns textcopy">
+                <div class="four columns portf">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
                         nulla
                         necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
@@ -118,7 +116,7 @@
                         laoreet.</p>
                 </div>
 
-                <div class="three columns textcopy">
+                <div class="four columns portf">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
                         nulla
                         necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
@@ -129,21 +127,21 @@
                         laoreet.</p>
                 </div>
 
-                <div class="three columns textcopy">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                        nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
-                        augue.
-                        In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
-                        condimentum
-                        laoreet.</p>
-                </div>
+                <!--<div class="three columns portf">-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget-->
+                <!--nulla-->
+                <!--necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula-->
+                <!--augue.-->
+                <!--In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>-->
+                <!--<p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam-->
+                <!--condimentum-->
+                <!--laoreet.</p>-->
+                <!--</div>-->
             </div><!--row twoB-->
 
             <div class="row twoC">
                 <h4 class=" twelve columns">Recent Work</h4>
-                <div class="three columns textcopy" style="margin-left: 0">
+                <div class="three columns portf" style="margin-left: 0">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
                         nulla
                         necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula

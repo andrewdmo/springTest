@@ -11,14 +11,16 @@ import java.util.concurrent.atomic.AtomicLong;
 @RestController("/restgreeting")
 public class RestfulController {
 
-    private static final String template = "That punk wants to make your day, %s!";
+    //Id from server session, not client
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping(path = "/restgreeting", method = RequestMethod.GET)
-    public Greeting restgreeting(@RequestParam(value = "name", defaultValue = "Harry", required = false) String name, String description) {
+    public String restgreeting(@RequestParam(value = "name", defaultValue = "Harry", required = false) String name) {
 
         //ID increases by one every request and pulls from Greeting POJO:
-        return new Greeting(counter.incrementAndGet(),
-            String.format(template, name, description));
+        Greeting greeting = new Greeting(counter.incrementAndGet(), name);
+        return "{ Id :: " + greeting.getId() +" }" + greeting.getTemplate() + greeting.getBody();
+        //old way, ugly String:
+//            String.format(template, name));
     }
 }
