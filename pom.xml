@@ -12,7 +12,7 @@
     <artifactId>A_DeMo</artifactId>
     <name>A_DeMo</name>
     <!--check Final Name below!!-->
-    <version>2.5.1</version>
+    <version>3.1.1</version>
     <packaging>jar</packaging>
 
 
@@ -113,7 +113,7 @@
             <!--</executions>-->
             <!--</plugin>-->
         </plugins>
-        <finalName>A_DeMo-2.5.1</finalName>
+        <finalName>A_DeMo-3.1.1</finalName>
     </build>
 
 

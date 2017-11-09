@@ -19,26 +19,76 @@ body {
 
 /*body border:*/
 #top, #bottom, #left, #right {
-    border: #073763 /*#073763*/ outset 0.2vw;
+    border: rgba(48, 46, 169, 0.85) ridge /*#073763*/ 0.1vw;
     background: #901400;
     position: fixed;
+    box-sizing: border-box;
     z-index: 4;
 }
+
 #left, #right {
-    top: 0; bottom: 0;
-    width: 0.15vw;
+    top: 0;
+    bottom: 0;
+    width: 0.25vw;
 }
-#left { left: 0; }
-#right { right: 0; }
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
 
 #top, #bottom {
-    left: 0; right: 0;
-    height: 0.3vh;
+    left: 0;
+    right: 0;
+    height: 0.5vh;
 }
-#top { top: 0; }
-#bottom { bottom: 0; }
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
+/*viewport:*/
+div.test {
+    /*border: 1px solid;*/
+    /*margin: 10px 0;*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+}
+
+div.vw {
+    /*width: 50vw;*/
+    width: 100vw;
+}
+
+div.vh {
+    width: 100vh;
+}
+
+div.vmin {
+    width: 100vmin;
+}
+
+div.vmax {
+    width: 100vmax;
+}
 
 /*/////////////////-400px/////////////*/
+
+.testBar {
+    position: fixed;
+    opacity: 0.5;
+    bottom: 0;
+    left: 0;
+    /*right: 0;*/
+}
 
 .container {
     padding: 0 5%;
@@ -314,6 +364,10 @@ button.button-primary.portf:hover {
     margin: 25vh auto 0 auto;
     text-align: center;
     width: 100%;
+}
+
+.about {
+    height: 100%;
 }
 
 .bottom {
