@@ -20,7 +20,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //          .antMatcher("/")
             .authorizeRequests()
             .antMatchers("/usersecurespace", "/user/**").hasRole("USER")
-            .antMatchers("/", "/index", "/public_**", "/css/**", "/img/**", "/**.html", "/restgreeting", "/mvc**", "/register").permitAll()
+            .antMatchers("/", "/index", "/public_**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register").permitAll()
 //.requestMatchers("/**.api")
             // unsecure!:
 //            .anyRequest().permitAll()
