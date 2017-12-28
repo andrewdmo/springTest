@@ -5,7 +5,7 @@
     box-sizing: content-box;
     /*box-sizing: */
 
-    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out !important;
 
 }
 
@@ -34,7 +34,7 @@
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     /*body border:*/
@@ -112,15 +112,15 @@
         /*width: 100%;*/
     }
 
-    .container {
-        padding: 0 5%;
+    .blink {
+        animation: blinker 0.5s linear infinite;
     }
 
-    .main {
-        width: 100vw;
-        z-index: 0;
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
     }
-
     .noscroll {
         height: 100vh !important;
     }
@@ -170,10 +170,10 @@
 
     .nav.logo:hover {
         background-color: transparent;
-        border: outset #901400 2px;
-        border-radius: 7px;
+        /*border: outset #901400 2px;*/
+        /*border-radius: 7px;*/
         opacity: .7;
-        transform: scale(1.1);
+        transform: scale(1.3);
         z-index: 4;
     }
 
@@ -280,9 +280,10 @@
     .portf {
         background-color: #b9b9b9;
         border: 2px inset transparent;
-        border-radius: 5px;
+        border-radius: 1vh;
         color: #901400;
         display: inline-block;
+        box-sizing: border-box;
         opacity: .9;
         padding: 0.3em 1em;
         position: relative;
@@ -292,7 +293,7 @@
 
     .portf:hover {
         border: 2px #901400 outset;
-        border-radius: 13px;
+        border-radius: 2vh;
     }
 
     .portf.idx {
@@ -310,7 +311,7 @@
     button.button-primary {
         background-color: #901400;
         border: #073763 inset 2px;
-        border-radius: 15px;
+        border-radius: 1vh;
         color: #D3D3D3;
         margin: auto;
         opacity: .9;
@@ -326,9 +327,8 @@
     button.button-primary:hover {
         background-color: #073763;
         border: 2px outset #D3D3D3;
-        border-radius: 6px;
+        border-radius: 2vh;
         color: #901400;
-        /*z-index: 3;*/
         width: 100%;
     }
 
@@ -340,19 +340,27 @@
 
     .button.button-primary.portf,
     button.button-primary.portf {
+        display: flow;
         height: 10vh;
-        width: 100%;
+        width: 75%;
+        overflow: hidden;
+        z-index: 1;
+        margin: .35vh 0;
     }
 
     .button.button-primary.portf:hover,
     button.button-primary.portf:hover {
-        height: 20vh;
+        height: 23vh;
+        /*z-index: 3;*/
+        /*overflow: visible;*/
     }
 
-    /*input[type=text]:focus {*/
-    /*width: 100%;*/
-    /*!*z-index: 3;*!*/
-    /*}*/
+    .thumbnails {
+        max-height: 15vh;
+        border-radius: 1vh;
+        /*width: 150px;*/
+    }
+
     .top {
         display: inline-block;
         box-sizing: border-box;
@@ -413,20 +421,6 @@
         height: 100%;
     }
 
-    .thumbnails {
-        /*height: 150px;*/
-        border-radius: 15px;
-        /*original:*/
-        /*width: 100%;*/
-        overflow: scroll;
-        width: 150px;
-    }
-
-    .thumbnails.portf {
-        /*height: 100%;*/
-        width: 50%;
-    }
-
     .icon {
         border-radius: 20px !important;
         filter: brightness(90%) blur(0.5px);
@@ -456,24 +450,35 @@
         transform: scale(1.1);
     }
 
+    /*.pic:before {*/
+    /*filter: blur(0.2vh);*/
+    /*}*/
     .pic {
-        border-radius: 5px !important;
-        display: inline-block;
-        filter: blur(0.5px);
-        height: 100%;
+        /*filter: blur(0.2vh);*/
+        border-radius: 5px;
+        border: 2px inset transparent;
+        box-sizing: border-box;
         width: 100%;
         opacity: .9;
-        color-rendering: optimizeSpeed;
+        /*color-rendering: optimizeSpeed;*/
+        display: inline-block;
+        /*position: relative;*/
+        text-align: center;
+        z-index: 0;
+        overflow: hidden;
     }
 
     .pic:hover,
     .thumbnails:hover {
-        border-radius: 13px !important;
-        /*border: none;*/
-        filter: blur(0px);
-        color-rendering: optimizeSpeed;
+        /*border-radius: 13px;*/
+        /*border: 2px #901400 outset;*/
+        /*filter: blur(0vh);*/
     }
 
+    /*.pic:hover:before,*/
+    /*.thumbnails:hover:before {*/
+    /*filter: blur(.2vh);*/
+    /*}*/
     .shadow {
         box-shadow: 1vw 1vh 1vw;
         color: #343434;
@@ -487,6 +492,16 @@
     .shade:hover {
         filter: drop-shadow(1vw 1.5vh 1vw #343434);
         -webkit-filter: drop-shadow(1vw 1.5vh 1vw #343434);
+    }
+
+    .small.shade {
+        filter: drop-shadow(0 0 #343434);
+        -webkit-filter: drop-shadow(0 0 #343434);
+    }
+
+    .small.shade:hover {
+        filter: drop-shadow(2vw 3vh 1vw #343434);
+        -webkit-filter: drop-shadow(2vw 3vh 1vw #343434);
     }
 
     .textcopy {

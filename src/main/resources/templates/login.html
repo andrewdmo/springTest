@@ -49,62 +49,64 @@
             src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
 
 </head>
+
 <body>
-<div class="row top primary">
-    <div class="four columns">
-        <a th:href="index.html" href="index.html" rel="#home">
-            <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo"
-                 alt="ADM logo"/>
-        </a>
-    </div><!--four columns-->
-    <div class="eight columns">
-        <div class="row oneA menubar">
-            <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" alt="About"
-               name="about">About</a>
-            <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns" alt="Work"
-               name="portfolio">Work</a>
-            <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" alt="Contact"
-               name="blog">Contact</a>
-            <!--<a th:href="@{/psarchives.html}" href="psarchives.html" class="menu" alt="Archives" name="archives">Archives</a>-->
-            <!--<a th:href="@{/pscontact.html}" href="pscontact.html" class="menu" alt="Contact" name="contact">Contact</a>-->
-            <div class="row oneB">
-                <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
-                       name="search"
-                       placeholder="'Search'"/>
+<div class="container">
 
-            </div><!--row oneB-->
-        </div><!--row oneA menubar-->
+    <!--standard banner:-->
+    <div class="row top">
+        <div class="four columns">
+            <a th:href="index.html" href="index.html" rel="#home">
+                <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo shade"
+                     alt="ADM logo"/>
+            </a>
+        </div><!--four columns-->
+        <div class="eight columns">
+            <div class="row oneA menubar">
+                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" name="about">About</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns"
+                   name="portfolio">Work</a>
+                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" name="blog">Contact</a>
 
-    </div><!--eight columns-->
-</div><!--row top-->
-<br/>
-<div class="row middle primary">
-    <h2>Login page</h2>
-    <p>
-    <h4>Example user:
-        <div class="row" style="color: #073763"><code>test@test</code><br/><code>test</code></div>
-    </h4>
-    </p>
-    <p><h5>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace.html">secured page</a> (back
-    here until authorized)</h5></p>
-    <div th:if="${param.error}" class="row portf" style="color: #901400 ">
-        Invalid username and/or password!
-    </div>
-    <div th:if="${param.logout}" class="row portf" style="color: #073763">
-        You have been logged out.
-    </div>
+                <div class="row oneB">
+                    <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
+                           name="search"
+                           placeholder="'Search'"/>
+                </div><!--row oneB-->
+            </div><!--row oneA menubar-->
+
+        </div><!--eight columns-->
+    </div><!--row top-->
     <br/>
-    <!--<p th:if="${loginError}" class="error">Wrong user or password</p>-->
-    <form th:action="@{/login}" method="post">
-        <label for="username">Username</label>:
-        <input type="text" id="username" name="username" autofocus="autofocus"/> <br/>
-        <label for="password">Password</label>:
-        <input type="password" id="password" name="password"/> <br/>
-        <input type="submit" value="Log in"/>
-    </form>
-    <!--(link to Registration-->
-    <!--<p><a th:href="@{/index}" href="index.html">Back to home page</a></p>-->
-</div><!--row middle-->
+
+
+    <div class="row middle portf">
+        <h4>Login page</h4>
+        <h2>Example user:</h2>
+        <div class="sp" style="color: #073763"><code>test@test</code><br/><code>test</code></div>
+        <br/>
+        <h2>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace.html">secured page</a>
+            (back here until authorized)</h2>
+        <div th:if="${param.error}" class="row portf blink" style="color: #901400">
+            Invalid username and/or password!
+        </div>
+        <div th:if="${param.logout}" class="row portf" style="color: #073763">
+            You have been logged out.
+        </div>
+        <br/>
+        <!--<p th:if="${loginError}" class="error">Wrong user or password</p>-->
+        <form th:action="@{/login}" method="post">
+            <label for="username">Username</label>:
+            <input type="text" id="username" name="username" autofocus="autofocus"/> <br/>
+            <label for="password">Password</label>:
+            <input type="password" id="password" name="password"/> <br/>
+            <input type="submit" class="button button-primary" value="Log in"/>
+        </form>
+        <!--(link to Registration-->
+        <!--<p><a th:href="@{/index}" href="index.html">Back to home page</a></p>-->
+
+    </div><!--row middle-->
+</div><!--container-->
 
 </body>
 </html>
