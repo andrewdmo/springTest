@@ -84,14 +84,19 @@
 
     <div class="row middle primary">
         <div class="row title A">
-            <h1 class="portf idx" style="color: #901400"
+            <h1 class="portf" style="color: #901400"
                 th:text="${name}">Andy Moretz
             </h1>
         </div>
         <div class="row title B">
-            <h2 class="portf idx" style="color: #901400"
-                th:text="${greeting}">Gentleman + Scholar + freelance Java
-                Developer
+            <h2 class="portf idx">
+                Bohemian gentleman</h2>
+            <h2 class="portf idx">
+                Occasional scholar</h2>
+            <br/>
+            <br/>
+            <h2 class="portf idx" style="color: #901400">
+                Freelance Java developer
             </h2>
         </div><!--2nd title row-->
 
@@ -116,12 +121,11 @@
                     </p>
                     <br/>
                     <br/>
-                    <a href="portfolio.html" class="button button-primary">Work I've done...</a>
+                    <a href="portfolio.html" class="button button-primary">portfolio</a>
                 </div><!--six columns textcopy-->
-                <br/>
                 <div class="six columns portf">
                     <img th:src="@{/img/smileEarthBLUWHT.png}"
-                         src="/static/img/smileEarthBLUWHT.png" class="pic"/>
+                         src="../static/img/smileEarthBLUWHT.png" class="pic"/>
                 </div><!--six columns pic-->
             </div><!--row twoA-->
             <br/>

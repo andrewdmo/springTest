@@ -147,7 +147,7 @@
         overflow: visible;
         padding: .25em;
         opacity: .9;
-        height: 23vh;
+        height: 21vh;
         /*transform: scale(1.1);*/
         z-index: 4;
         color: #343434;
@@ -298,11 +298,10 @@
 
     .portf.idx {
         color: #073763;
-        /*width: 100%;*/
-        margin: 1vh;
+        margin: 0;
+        padding: 0;
         /*overflow: scroll;*/
     }
-
     .portf.menuBack {
         margin: 20vh auto;
     }
