@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class PsController {
 
-    @RequestMapping(value = {"/paleodemo", "/psindex", "/ps"})
+    @RequestMapping(value = {"/paleo**", "/ps**"})
     public String paleodemo() {
         return "ps/psindex";
     }

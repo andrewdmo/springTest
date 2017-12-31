@@ -5,44 +5,53 @@ package com.herro.config;
  */
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
+@Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+
+
+    //FOR MULTPLOGINS:
+//    @Configuration
+//    @Order(1)
+//    public static class App1ConfigurationAdapter extends WebSecurityConfigurerAdapter {
+//        public App1ConfigurationAdapter() {
+//            super();
+//        }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
         http
-//          .antMatcher("/")
             .authorizeRequests()
-            .antMatchers("/usersecurespace", "/user/**").hasRole("USER")
+            .antMatchers("/usersecurespace", "/user/**").hasRole("USER") //orig
             .antMatchers("/", "/index", "/public_**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register").permitAll()
-//.requestMatchers("/**.api")
-            // unsecure!:
-//            .anyRequest().permitAll()
-            // re-activate:
             .anyRequest().authenticated()
-            .and()
-            .exceptionHandling().accessDeniedPage("/403")
-            .and()
-            .formLogin()
-            .loginPage("/login")
-            .failureUrl("/login?error")
-            .successForwardUrl("/usersecurespace")
-            .permitAll()
-            .and()
-            //not working:
-            .exceptionHandling().accessDeniedPage("/403")
-//            .loginProcessingUrl();
-            .and()
 
+            .and()
+            .formLogin() // orig
+            .loginPage("/login") // orig
+            .failureUrl("/login?error") // orig
+            .successForwardUrl("/usersecurespace") // orig
+            .permitAll() // orig
+
+            .and()
             .logout()
             .logoutSuccessUrl("/login?logout")
-            .permitAll();
+            .deleteCookies("JSESSIONID")
+
+            .and()
+            .exceptionHandling()
+            .accessDeniedPage("/403");
+
+//                //good:?
+//                .and()
+//                .csrf().disable();
     }
 
     @Autowired
@@ -53,4 +62,52 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
+    //NOT WORKING:
+//    @Configuration
+//    @Order(2)
+//    public static class App2ConfigurationAdapter extends WebSecurityConfigurerAdapter {
+//
+//        public App2ConfigurationAdapter() {
+//            super();
+//        }
+//
+//        @Override
+//        protected void configure(HttpSecurity http) throws Exception {
+//            http
+//                .authorizeRequests()
+//                .antMatchers("/oddrod", "/oddrod/**").hasRole("MAID") //<3
+//                .anyRequest().authenticated()
+//
+//                .and()
+//                .formLogin()  // <3
+//                .loginPage("/lovin") // <3
+//                .failureUrl("/lovin?error") // <3
+//                .successForwardUrl("/oddrod") // <3
+//                .permitAll() // <3
+//
+//                .and()
+//                .logout()
+////                .logoutUrl("/user_logout")
+//                .logoutSuccessUrl("/lovin?logout")
+//                .deleteCookies("JSESSIONID")
+//
+//                .and()
+//                .exceptionHandling()
+//                .accessDeniedPage("/403");
+//
+//            //good:?
+////                .and()
+////                .csrf().disable();
+//        }
+
+//        @Autowired
+////        public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+////            auth
+////                .inMemoryAuthentication()
+////                //<3
+////                .withUser("eve").password("melon").roles("MAID");
+////
+////
+////        }
+////    }
 }

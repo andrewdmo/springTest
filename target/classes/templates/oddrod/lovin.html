@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>lovin in here</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords"
+          content="java, JEE, security, html, css, spring, boot, responsive, aws, ec2, api, blockchain, bitcoin, ethereum, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+    <meta name="description" content="an exemplary example of a fully responsive Java web stack"/>
+
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../../static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../../static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../../static/css/demoStyle.css"/>
+
+    <link rel="favicon" class="blink"
+          type="image/png" sizes="192x192" th:href="@{/img/android-icon-192x192.png}"
+          href="/static/img/android-icon-192x192.png"/>
+
+    <meta name="theme-color" content="#ffffff"/>
+
+    <script th:src="@{/scripts/viewport.js}" src="../../static/scripts/viewport.js"></script>
+    <!--<script th:src="@{/scripts/jquery-3.2.1.min.js}"-->
+    <!--src="/static/scripts/jquery-3.2.1.min.js"></script>-->
+    <!--<script th:src="@{https://platform.linkedin.c¬om/badges/js/profile.js}"-->
+    <!--src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>-->
+
+</head>
+
+
+<body>
+<div class="container">
+
+    <div class="row bottom nav">
+        <a th:href="index.html" href="//index.html" rel="#home">
+            <img th:src="@{/img/adm_nasa_logo.png}" src="/static/img/adm_nasa_logo.png" class="nav logo small shade"
+                 alt="ADM logo"/></a>
+    </div>
+    <br/>
+
+
+    <div class="row middle">
+        <h4>luv</h4>
+        <h2>Example user:</h2>
+        <div class="sp" style="color: #073763"><code>test@test</code><br/><code>test</code></div>
+        <br/>
+        <h2>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace.html">secured page</a>
+            (back here until authorized)</h2>
+        <div th:if="${param.error}" class="row portf blink" style="color: #901400">
+            Wrong!
+        </div>
+        <div th:if="${param.logout}" class="row portf blink" style="color: #073763">
+            You're logged out. Now get naked w/ Andy FFS
+        </div>
+        <br/>
+        <!--<p th:if="${loginError}" class="error">Wrong user or password</p>-->
+        <form th:action="@{/login}" method="post">
+            <label for="username">Username</label>:
+            <input type="text" id="username" name="username" autofocus="autofocus"/> <br/>
+            <label for="password">Password</label>:
+            <input type="password" id="password" name="password"/> <br/>
+            <input type="submit" class="button button-primary" value="Log in"/>
+        </form>
+        <!--(link to Registration-->
+        <!--<p><a th:href="@{/index}" href="index.html">Back to home page</a></p>-->
+
+    </div><!--row middle-->
+
+</div><!--container-->
+</body>
+</html>

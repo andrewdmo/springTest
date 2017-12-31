@@ -43,10 +43,10 @@
     <meta name="theme-color" content="#ffffff"/>
 
     <script th:src="@{/scripts/viewport.js}" src="../static/scripts/viewport.js"></script>
-    <script th:src="@{/scripts/jquery-3.2.1.min.js}"
-            src="/static/scripts/jquery-3.2.1.min.js"></script>
-    <script th:src="@{https://platform.linkedin.c¬om/badges/js/profile.js}"
-            src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
+    <!--<script th:src="@{/scripts/jquery-3.2.1.min.js}"-->
+    <!--src="/static/scripts/jquery-3.2.1.min.js"></script>-->
+    <!--<script th:src="@{https://platform.linkedin.c¬om/badges/js/profile.js}"-->
+    <!--src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>-->
 
 </head>
 
@@ -80,31 +80,37 @@
     <br/>
 
 
-    <div class="row middle portf">
-        <h4>Login page</h4>
-        <h2>Example user:</h2>
-        <div class="sp" style="color: #073763"><code>test@test</code><br/><code>test</code></div>
-        <br/>
-        <h2>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace.html">secured page</a>
-            (back here until authorized)</h2>
-        <div th:if="${param.error}" class="row portf blink" style="color: #901400">
-            Invalid username and/or password!
-        </div>
-        <div th:if="${param.logout}" class="row portf" style="color: #073763">
-            You have been logged out.
-        </div>
-        <br/>
-        <!--<p th:if="${loginError}" class="error">Wrong user or password</p>-->
-        <form th:action="@{/login}" method="post">
-            <label for="username">Username</label>:
-            <input type="text" id="username" name="username" autofocus="autofocus"/> <br/>
-            <label for="password">Password</label>:
-            <input type="password" id="password" name="password"/> <br/>
-            <input type="submit" class="button button-primary" value="Log in"/>
-        </form>
-        <!--(link to Registration-->
-        <!--<p><a th:href="@{/index}" href="index.html">Back to home page</a></p>-->
+    <div class="row middle">
+        <div class="row portf">
+            <h4>Login page</h4>
+            <br/>
+            <h2>Example user:</h2>
+            <div class="sp" style="color: #073763"><code>test@test</code><br/><code>test</code></div>
+            <br/>
+            <h2>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace">secured
+                page</a>
+                (back here until authorized)</h2>
+            <div th:if="${param.error}" class="row portf blink" style="color: #901400">
+                Invalid username and/or password!
+            </div>
+            <div th:if="${param.logout}" class="row portf blink" style="color: #073763">
+                You have been logged out.
+            </div>
+            <div th:if="${param.redirect}" class="row portf blink" style="color: #073763">
+                (back here)
+            </div>
+            <br/>
+            <form th:action="@{/login}" action="login.html" method="post">
+                <label for="username">Username</label>:
+                <input type="text" id="username" name="username" tabindex="1" autofocus="autofocus"/> <br/>
+                <label for="password">Password</label>:
+                <input type="password" id="password" name="password" tabindex="2"/> <br/>
+                <input type="submit" class="button button-primary" value="Log in" tabindex="3"/>
+            </form>
+            <!--(link to Registration-->
+            <!--<p><a th:href="@{/index}" href="index.html">Back to home page</a></p>-->
 
+        </div><!--portf-->
     </div><!--row middle-->
 </div><!--container-->
 

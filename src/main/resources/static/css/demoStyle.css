@@ -101,7 +101,6 @@
         width: 100vmax;
     }
 
-    /*/////////////////-400px/////////////*/
     .testBar {
         z-index: 3;
         position: fixed;
@@ -109,9 +108,9 @@
         bottom: 0;
         /*left: 0;*/
         right: 0;
-        /*width: 100%;*/
     }
 
+    /*/////////////////-400px/////////////*/
     .blink {
         animation: blinker 0.5s linear infinite;
     }
@@ -302,6 +301,7 @@
         padding: 0;
         /*overflow: scroll;*/
     }
+
     .portf.menuBack {
         margin: 20vh auto;
     }
@@ -517,6 +517,20 @@
     }
 
     .title {
+    }
+
+    .egg {
+        left: 0;
+        bottom: 0;
+        color: #073763;
+        position: fixed;
+        opacity: .15;
+        text-decoration: none;
+    }
+
+    .egg:hover {
+        color: #901400;
+        opacity: .7;
     }
 
     /*/////////////////400+px/////////////*/

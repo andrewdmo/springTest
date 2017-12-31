@@ -17,5 +17,11 @@ public class ExceptionController {
     public String accessDenied() {
         return "403";
     }
-    
+
+    @RequestMapping("/404")
+    public String notFound() {
+        return "404";
+    }
+
+
 }

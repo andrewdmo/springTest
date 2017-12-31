@@ -15,15 +15,17 @@ public class MainController {
     }
 
     // maybe change name later for protection:
-    // GET/POST handled by Spring Sec.
+    // GET/POST/model handled in SecConfig
     @RequestMapping("/login")
-    public String login(Model model) {
+    public String login(@RequestParam(value = "param", required = false) String param, Model model) {
+//        model.addAttribute("param", param);
         return "login";
     }
 
     //secured:
     @RequestMapping(value = {"/usersecurespace", "/user/usersecurespace"})
-    public String usersecurespace() {
+    public String usersecurespace(@RequestParam(value = "redirect", required = false) String redirect, Model model) {
+//        model.addAttribute("redirect", redirect);
         return "user/usersecurespace";
     }
 
@@ -76,6 +78,11 @@ public class MainController {
     @RequestMapping("/clojure")
     public String clojure() {
         return "clojure";
+    }
+
+    @RequestMapping("/lovin")
+    public String lovin() {
+        return "oddrod/lovin";
     }
 
 //    Moved to ExceptionController:
