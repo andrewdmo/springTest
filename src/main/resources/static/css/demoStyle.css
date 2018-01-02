@@ -479,8 +479,19 @@
     /*filter: blur(.2vh);*/
     /*}*/
     .shadow {
-        box-shadow: 1vw 1vh 1vw;
-        color: #343434;
+        filter: drop-shadow(0 0 #343434);
+        -webkit-filter: drop-shadow(0 0 #343434);
+
+        /*box-shadow: #343434 .2vw .2vh .1vmin; !*psy*!*/
+        /*box-shadow: #8e8a2d 1vw 1vh .1vmax; !*mma*!*/
+    }
+
+    .shadow:hover {
+        filter: drop-shadow(1vw 1vh 1vw #343434);
+        -webkit-filter: drop-shadow(1vw 1vh 1vw #343434);
+
+        /*box-shadow: #343434 2vw 2vh 1vmin .1vmin; !*psy*!*/
+        /*box-shadow: #343434 2vw 2vh 1vmin .1vmax; !*mma*!*/
     }
 
     .shade {

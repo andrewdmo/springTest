@@ -30,6 +30,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http
             .authorizeRequests()
             .antMatchers("/usersecurespace", "/user/**").hasRole("USER") //orig
+            .antMatchers("/odd**").hasRole("MAID")
             .antMatchers("/", "/index", "/public_**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register").permitAll()
             .anyRequest().authenticated()
 
@@ -37,7 +38,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .formLogin() // orig
             .loginPage("/login") // orig
             .failureUrl("/login?error") // orig
-            .successForwardUrl("/usersecurespace") // orig
+//            .successForwardUrl("/usersecurespace") // orig
+//            .failureForwardUrl("/login?error")
+
             .permitAll() // orig
 
             .and()
@@ -58,22 +61,24 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth
             .inMemoryAuthentication()
-            .withUser("test@test").password("test").roles("USER");
+            .withUser("test@test").password("test").roles("USER")
+            .and()
+            .withUser("eve").password("melon").roles("MAID", "USER")
+        ;
+
     }
 
 
-    //NOT WORKING:
 //    @Configuration
-//    @Order(2)
-//    public static class App2ConfigurationAdapter extends WebSecurityConfigurerAdapter {
+//    @Order(1)
+//    public static class configureLuv extends WebSecurityConfigurerAdapter {
 //
-//        public App2ConfigurationAdapter() {
-//            super();
-//        }
 //
 //        @Override
 //        protected void configure(HttpSecurity http) throws Exception {
 //            http
+//                .antMatcher("/odd**")
+//
 //                .authorizeRequests()
 //                .antMatchers("/oddrod", "/oddrod/**").hasRole("MAID") //<3
 //                .anyRequest().authenticated()
@@ -98,9 +103,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //            //good:?
 ////                .and()
 ////                .csrf().disable();
-//        }
-
-//        @Autowired
+//
+//
+////        @Autowired
 ////        public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
 ////            auth
 ////                .inMemoryAuthentication()
@@ -110,4 +115,5 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 ////
 ////        }
 ////    }
+//    }
 }
