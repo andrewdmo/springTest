@@ -2,6 +2,15 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
     <title th:text="${'web Dev Demo + ' + name}">Andy Moretz</title>
+
+    <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="preload" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css" as="style"/>
+    <!--preload map, change BODY link too if needed:-->
+    <link rel="preload"
+          th:href="@{'https://www.google.com/maps/embed/v1/place?key='+${gMap}+'&amp;q='+${offAddy}+'&amp;zoom=13'}"
+          href="https://www.google.com/maps/embed/v1/" as="document"/>
+
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="keywords"

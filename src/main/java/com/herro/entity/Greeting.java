@@ -11,7 +11,7 @@ public class Greeting {
     private final String template;
     private final String body;
 
-    //long from Atomic in controllr:
+    //long from Atomic in controller:
     public Greeting(long id, String name) {
 
         this.id = id;

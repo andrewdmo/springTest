@@ -23,8 +23,8 @@ public class MainController {
     }
 
     //secured:
-    @RequestMapping(value = {"/usersecurespace", "/user/usersecurespace"})
-    public String usersecurespace(@RequestParam(value = "redirect", required = false) String redirect, Model model) {
+    @RequestMapping(value = {"/usersecurespace", "/user/usersecurespace"}) //user** ??
+    public String usersecurespace(@RequestParam(value = "param", required = false) String redirect, Model model) {
 //        model.addAttribute("redirect", redirect);
         return "user/usersecurespace";
     }
@@ -81,9 +81,15 @@ public class MainController {
     }
 
     @RequestMapping("/lovin")
-    public String lovin() {
+    public String lovin(@RequestParam(value = "param", required = false) String param, Model model) {
         return "oddrod/lovin";
     }
+
+    @RequestMapping("/oddrod")
+    public String oddrodd() {
+        return "oddrod/oddrod";
+    }
+
 
 //    Moved to ExceptionController:
 //    @ExceptionHandler
