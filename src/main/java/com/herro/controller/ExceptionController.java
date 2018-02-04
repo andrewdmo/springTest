@@ -1,16 +1,19 @@
 package com.herro.controller;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
+@ControllerAdvice
 public class ExceptionController {
 
     @ExceptionHandler
-    //add URL request query feedback later:
-    public String error() {
-        return "error";
+    public String error(Exception e, Model model) {
+        model.addAttribute("exception", e);
+        System.out.println("Error: " + e);
+        System.out.println(model);
+        return "error?main";
     }
 
     @RequestMapping("/403")
@@ -23,5 +26,6 @@ public class ExceptionController {
         return "404";
     }
 
+    //add URL request query feedback later
 
 }

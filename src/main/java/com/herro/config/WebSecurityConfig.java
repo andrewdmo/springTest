@@ -26,7 +26,7 @@ public class WebSecurityConfig {
                 .authorizeRequests()
                 .antMatchers("/usersecurespace", "/user/**")
                 .hasRole("USER") //orig
-                .antMatchers("/", "/index", "/public/**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register")
+                .antMatchers("/", "/index", "/public/**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register", "/error")
                 .permitAll()
 //            .antMatchers("/odd**").hasRole("MAID")
                 .anyRequest()
@@ -46,7 +46,7 @@ public class WebSecurityConfig {
 
                 .and()
                 .exceptionHandling()
-                .accessDeniedPage("/403");
+                .accessDeniedPage("/error?access");
 
 //                //good:?
 //                .and()
@@ -64,48 +64,49 @@ public class WebSecurityConfig {
         }
     }
 
-    @Configuration
-    @Order(2)
-    public static class configureLuv extends WebSecurityConfigurerAdapter {
-
-        @Override
-        protected void configure(HttpSecurity http) throws Exception {
-            http
-                .authorizeRequests()
-                .antMatchers("/oddrod/**").hasRole("MAID") //<3
-                .antMatchers("/lovin").permitAll()
-                .anyRequest().authenticated()
-
-                .and()
-                .formLogin()  // <3
-                .loginPage("/lovin") // <3
-                .failureUrl("/lovin?error") // <3
-                .successForwardUrl("/oddrod") // <3
-                .permitAll() // <3
-
-                .and()
-                .logout()
-//                .logoutUrl("/user_logout")
-                .logoutSuccessUrl("/lovin?logout")
-                .deleteCookies("JSESSIONID")
-
-                .and()
-                .exceptionHandling()
-                .accessDeniedPage("/403");
+//    @Configuration
+//    @Order(2)
+//    public static class configureLuv extends WebSecurityConfigurerAdapter {
+//
+//        @Override
+//        protected void configure(HttpSecurity http) throws Exception {
+//            http
+//                .authorizeRequests()
+//                .antMatchers("/oddrod/**").hasRole("MAID") //<3
+//                .antMatchers("/lovin").permitAll()
+//                .anyRequest().authenticated()
+//
+//                .and()
+//                .formLogin()  // <3
+//                .loginPage("/lovin") // <3
+//                .failureUrl("/lovin?error") // <3
+//                .successForwardUrl("/oddrod") // <3
+//                .permitAll() // <3
+//
+//                .and()
+//                .logout()
+////                .logoutUrl("/user_logout")
+//                .logoutSuccessUrl("/lovin?logout")
+//                .deleteCookies("JSESSIONID")
+//
+//                .and()
+//                .exceptionHandling()
+//                .accessDeniedPage("/403");
 
 //                good:?
 //                .and()
 //                    .csrf().disable();
 
-        }
+//        }
 
-        @Autowired
-        public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-            auth
-                .inMemoryAuthentication()
-                //<3
-                .withUser("eve").password("melon").roles("MAID");
-        }
+//        @Autowired
+//        public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+//            auth
+//                .inMemoryAuthentication()
+//                //<3
+//                .withUser("eve").password("melon").roles("MAID");
+//        }
 
-    }
+//    }
+
 }

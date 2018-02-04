@@ -52,9 +52,12 @@
 
 <body>
 <div class="container">
-    <div class="row" style="margin: auto">
-        <div class="12 columns" style="text-align: center">
-            [Generalized Error]
+    <div class="row middle">
+        <div class="12 columns" style="text-align: center; height: 70vh">
+            <p>err'd</p>
+            <p th:text="#{exception}"></p>
+            <div th:if="${param.access}">access</div>
+            <div th:if="${param.main}">main</div>
         </div>
     </div>
 

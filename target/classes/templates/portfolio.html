@@ -106,18 +106,20 @@
                     <br/>
                     <img th:src="@{/img/mmaThmb.png}" src="../static/img/mmaThmb.png" class="thumbnails"/>
                 </a>
-            </div>
+            </div><!--mma-->
         </div><!--/TOP 0-->
 
 
         <div class="row 1">
+
             <div class="six columns">
-                <a class="button button-primary portf" th:href="@{/psindex.html}" href="ps/psindex.html">paleoDemo
+                <a class="button button-primary portf"
+                   th:href="@{http://portocall-85395118.us-east-1.elb.amazonaws.com:8081/ck}"
+                   href="http://portocall-85395118.us-east-1.elb.amazonaws.com:8081/ck">freelancing
                     <br/>
-                    <img th:src="@{/img/paleoThmb.png}" src="../static/img/paleoThmb.png"
-                         class="thumbnails"/>
+                    <img th:src="@{/img/claudetteThmb.png}" src="../static/img/claudetteThmb.png" class="thumbnails"/>
                 </a>
-            </div><!--/LEFT half 1-->
+            </div>
 
             <div class="six columns">
                 <a class="button button-primary portf" th:href="@{login.html}" href="login.html">login /
@@ -150,15 +152,15 @@
 
 
         <div class="row 3">
-            <div class="six columns"><!--LEFT half 3-->
-                <a class="button button-primary portf" th:href="@{mvcgreeting.html}" href="mvcgreeting.html">MVC
-                    Query
-                    Demo
+
+            <div class="six columns">
+                <a class="button button-primary portf" th:href="@{/psindex.html}" href="ps/psindex.html">paleoDemo
                     <br/>
-                    <img th:src="@{/img/springMvcLogo.jpeg}" src="../static/img/springMvcLogo.jpeg"
+                    <img th:src="@{/img/paleoThmb.png}" src="../static/img/paleoThmb.png"
                          class="thumbnails"/>
                 </a>
-            </div><!--LEFT half 3-->
+            </div><!--paleoDemo-->
+
             <div class="six columns"><!--RIGHT half 3-->
                 <a class="button button-primary portf" th:href="@{moviesql.html}" href="moviesql.html">Movie
                     SQL:
@@ -190,6 +192,16 @@
                          class="thumbnails"/>
                 </a>
             </div><!--/RIGHT half 4-->
+
+            <div class="six columns"><!--LEFT half 3-->
+                <a class="button button-primary portf" th:href="@{mvcgreeting.html}" href="mvcgreeting.html">MVC
+                    Query
+                    Demo
+                    <br/>
+                    <img th:src="@{/img/springMvcLogo.jpeg}" src="../static/img/springMvcLogo.jpeg"
+                         class="thumbnails"/>
+                </a>
+            </div><!--MVC-->
         </div><!--/row 4 portf-->
 
         <a th:href="@{//127.0.0.1:7500}" href="//127.0.0.1:7500">
