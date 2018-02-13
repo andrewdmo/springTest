@@ -287,6 +287,8 @@
         display: inline-block;
         box-sizing: border-box;
         opacity: .9;
+        margin-top: 1vmax;
+        margin-bottom: 1vmax;
         padding: 0.3em 1em;
         position: relative;
         text-align: center;

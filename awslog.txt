@@ -1,4 +1,4 @@
 Andy's first shell script
 which should pipe in to:
-ec2-user@ec2-52-206-81-235.compute-1.amazonaws.com
+ec2-user@ec2-54-156-212-170.compute-1.amazonaws.com
 That just cost you money

@@ -45,14 +45,14 @@
     <script th:src="@{/scripts/viewport.js}" src="../static/scripts/viewport.js"></script>
     <script th:src="@{/scripts/jquery-3.2.1.min.js}"
             src="/static/scripts/jquery-3.2.1.min.js"></script>
-    <script th:src="@{https://platform.linkedin.c¬om/badges/js/profile.js}"
+    <script th:src="@{https://platform.linkedin.com/badges/js/profile.js}"
             src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
 
 </head>
 
 <!--body border:-->
 <div id="left"></div>
-<div id="right"></div>
+<div id="right"></div>7
 <div id="top"></div>
 <div id="bottom"></div>
 
@@ -64,7 +64,7 @@
     <div class="row top">
         <div class="four columns">
             <a th:href="index.html" href="index.html" rel="#home">
-                <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo shade"
+                <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo shadow"
                      alt="ADM logo"/>
             </a>
         </div><!--four columns-->
@@ -101,8 +101,8 @@
 
             <div class="six columns">
                 <a class="button button-primary portf"
-                   th:href="@{http://portocall-85395118.us-east-1.elb.amazonaws.com:8081/}"
-                   href="http://portocall-85395118.us-east-1.elb.amazonaws.com:8081/">freelancing
+                   th:href="@{http://ec2-54-156-212-170.compute-1.amazonaws.com:8081/}"
+                   href="http://ec2-54-156-212-170.compute-1.amazonaws.com:8081/">freelancing
                     <br/>
                     <img th:src="@{/img/mmaThmb.png}" src="../static/img/mmaThmb.png" class="thumbnails"/>
                 </a>
@@ -114,8 +114,8 @@
 
             <div class="six columns">
                 <a class="button button-primary portf"
-                   th:href="@{http://portocall-85395118.us-east-1.elb.amazonaws.com:8081/ck}"
-                   href="http://portocall-85395118.us-east-1.elb.amazonaws.com:8081/ck">freelancing
+                   th:href="@{http://ec2-54-156-212-170.compute-1.amazonaws.com:8081/ck}"
+                   href="http://ec2-54-156-212-170.compute-1.amazonaws.com:8081/ck">freelancing
                     <br/>
                     <img th:src="@{/img/claudetteThmb.png}" src="../static/img/claudetteThmb.png" class="thumbnails"/>
                 </a>
@@ -204,20 +204,26 @@
             </div><!--MVC-->
         </div><!--/row 4 portf-->
 
-        <a th:href="@{//127.0.0.1:7500}" href="//127.0.0.1:7500">
-            ovijive @ //127.0.0.1:7500
+
+        <a th:href="@{//ip-172-31-22-99.ec2.internal:8081}" href="//ip-172-31-22-99.ec2.internal:8081">
+            mma @ //ip-172-31-22-99.ec2.internal:8081
+        </a>
+        <br/>
+
+        <a th:href="@{//ip-172-31-22-99.ec2.internal:7500}" href="//ip-172-31-22-99.ec2.internal:7500">
+            ovijive @ //ip-172-31-22-99.ec2.internal:7500
         </a>
 
         <br/>
-        <a th:href="@{//localhost:7500}" href="//localhost:7500/">
-            ovijive @ //localhost:7500
-        </a>
-        <br/>
-        <br/>
 
-        <a th:href="@{//127.0.0.1:8081}" href="//127.0.0.1:8081">
-            mma @ //127.0.0.1:8081
+        <a th:href="@{http://ec2-54-156-212-170.compute-1.amazonaws.com:8081}">
+            http://ec2-54-156-212-170.compute-1.amazonaws.com:8081/
         </a>
+
+        <a th:href="@{http://ec2-54-156-212-170.compute-1.amazonaws.com:7500}">
+            http://ec2-54-156-212-170.compute-1.amazonaws.com:7500/
+        </a>
+
         <br/>
 
         <a th:href="@{//localhost:8081}" href="//localhost:8081/">
@@ -226,8 +232,8 @@
         <br/>
         <br/>
 
-        <a th:href="@{//127.0.0.1:8081/ckindex}" href="//127.0.0.1:8081/ckindex">
-            ck @ //127.0.0.1:8081/ckindex
+        <a th:href="@{//ip-172-31-22-99.ec2.internal:8081/ckindex}" href="//ip-172-31-22-99.ec2.internal:8081/ckindex">
+            ck @ //ip-172-31-22-99.ec2.internal:8081/ckindex
         </a>
 
         <br/>
