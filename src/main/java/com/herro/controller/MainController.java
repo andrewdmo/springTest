@@ -8,10 +8,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
-    @RequestMapping(value = {"/", "/index"})
-    public String index(@RequestParam(value = "name", required = false, defaultValue = "Andy Moretz") String name, Model model) {
-        model.addAttribute("name", name);
-        return "index";
+    @RequestMapping(value = {"/", "/index*"})
+    public String index(@RequestParam(value = "param", required = false) String param, Model model) {
+        if (param == "static") {
+            model.addAttribute(param);
+            System.out.println(param);
+            return "index";
+        }
+        {
+            model.addAttribute("iframe");
+            return "index";
+        }
     }
 
     // maybe change name later for protection:
@@ -35,7 +42,8 @@ public class MainController {
     }
 
     @RequestMapping(value = {"/mvcgreeting", "/mvcgreeting.html"})
-    public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Pilgrim") String name, Model model) {
+    public String greeting(@RequestParam(value = "name", required = false, defaultValue = "Pilgrim") String
+                               name, Model model) {
         model.addAttribute("name", name);
         return "mvcgreeting";
     }

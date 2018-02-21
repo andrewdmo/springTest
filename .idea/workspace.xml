@@ -5,51 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88d3c8d-fc88-47ea-9d89-6cfbd58d0e7e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/awslog.txt" afterPath="$PROJECT_DIR$/awslog.txt" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animalshelter.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/animalshelter.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/clojure.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/clojure.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/nori.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/nori.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" />
-      <change beforePath="$PROJECT_DIR$/target/A_DeMo-3.2.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/A_DeMo-3.2.1.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.htaccess" afterPath="$PROJECT_DIR$/target/classes/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.htaccess.swp" afterPath="$PROJECT_DIR$/target/classes/.htaccess.swp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/public_ADM17eo2.doc" afterPath="$PROJECT_DIR$/target/classes/public/public_ADM17eo2.doc" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/public_ADM17eo2.pdf" afterPath="$PROJECT_DIR$/target/classes/public/public_ADM17eo2.pdf" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/.htaccess" afterPath="$PROJECT_DIR$/target/classes/static/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/.htaccess" afterPath="$PROJECT_DIR$/target/classes/static/css/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/demoStyle.css" afterPath="$PROJECT_DIR$/target/classes/static/css/demoStyle.css" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/.htaccess" afterPath="$PROJECT_DIR$/target/classes/static/img/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/favicon.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/faviconNori.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/faviconNori.ico" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/iron-yard-logo.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/iron-yard-logo.ico" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/psfavicon.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/psfavicon.ico" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/.htaccess" afterPath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/iron-yard-logo.ico" afterPath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/iron-yard-logo.ico" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/.htaccess" afterPath="$PROJECT_DIR$/target/classes/static/scripts/.htaccess" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/animalshelter.html" afterPath="$PROJECT_DIR$/target/classes/templates/animalshelter.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/clojure.html" afterPath="$PROJECT_DIR$/target/classes/templates/clojure.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/contact.html" afterPath="$PROJECT_DIR$/target/classes/templates/contact.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/controller/MainController.class" afterPath="$PROJECT_DIR$/target/classes/com/herro/controller/MainController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/mvcgreeting.html" afterPath="$PROJECT_DIR$/target/classes/templates/mvcgreeting.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/nori.html" afterPath="$PROJECT_DIR$/target/classes/templates/nori.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/portfolio.html" afterPath="$PROJECT_DIR$/target/classes/templates/portfolio.html" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/toaws.sh" afterPath="$PROJECT_DIR$/toaws.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,17 +71,18 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7416667">
+    <splitter split-orientation="horizontal" split-proportion="0.4652778">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+                <state relative-caret-position="180">
+                  <caret line="158" column="33" lean-forward="true" selection-start-line="158" selection-start-column="33" selection-end-line="158" selection-end-column="33" />
                   <folding>
+                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h2#2;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#iframe#0;n#div#2;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -155,19 +120,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1410">
-                  <caret line="94" column="18" lean-forward="false" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
-                  <folding>
-                    <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -183,8 +135,8 @@
           <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -210,11 +162,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
+          <file leaf-file-name="mvcgreeting.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="810">
-                  <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+                <state relative-caret-position="1230">
+                  <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -227,7 +179,7 @@
           <file leaf-file-name="pom.xml" pinned="true" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="354">
+                <state relative-caret-position="360">
                   <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
                   <folding>
                     <marker date="1514945505987" expanded="true" signature="2559:2590" ph="..." />
@@ -249,8 +201,8 @@
           <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+                <state relative-caret-position="105">
+                  <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -258,12 +210,43 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="demoStyle.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="demoStyle.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="267">
+                <state relative-caret-position="4305">
                   <caret line="287" column="27" lean-forward="false" selection-start-line="287" selection-start-column="27" selection-end-line="287" selection-end-column="27" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#1358#1359#0" expanded="true" />
+                    <element signature="e#1392#1393#0" expanded="true" />
+                    <element signature="e#1763#1764#0" expanded="true" />
+                    <element signature="e#1796#1797#0" expanded="true" />
+                    <element signature="e#1857#1858#0" expanded="true" />
+                    <element signature="e#1888#1889#0" expanded="true" />
+                    <element signature="e#1947#1948#0" expanded="true" />
+                    <element signature="e#1977#1978#0" expanded="true" />
+                    <element signature="e#2042#2043#0" expanded="true" />
+                    <element signature="e#2075#2076#0" expanded="true" />
+                    <element signature="e#2132#2133#0" expanded="true" />
+                    <element signature="e#2161#2162#0" expanded="true" />
+                    <element signature="e#2224#2225#0" expanded="true" />
+                    <element signature="e#2256#2257#0" expanded="true" />
+                    <element signature="e#2331#2332#0" expanded="true" />
+                    <element signature="e#2369#2370#0" expanded="true" />
+                    <element signature="e#2432#2433#0" expanded="true" />
+                    <element signature="e#2464#2465#0" expanded="true" />
+                    <element signature="e#2696#2697#0" expanded="true" />
+                    <element signature="e#2734#2735#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -290,12 +273,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PsController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/PsController.java">
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-                  <folding />
+                <state relative-caret-position="1275">
+                  <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+                  <folding>
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -437,10 +423,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/PsController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/403.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/404.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/clojure.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/oddrod/lovin.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/Greeting.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/skeleton.css" />
@@ -449,9 +433,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/error.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" />
       </list>
     </option>
   </component>
@@ -538,9 +524,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -655,6 +640,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1692,12 +1678,14 @@
       <workItem from="1518446739571" duration="216000" />
       <workItem from="1518449583621" duration="395000" />
       <workItem from="1518535063711" duration="317000" />
-      <workItem from="1518537149594" duration="1942000" />
+      <workItem from="1518537149594" duration="2129000" />
+      <workItem from="1518735235645" duration="4933000" />
+      <workItem from="1519137636366" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391765000" />
+    <option name="totallyTimeSpent" value="397046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1714,7 +1702,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35102534" sideWeight="0.2732475" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3917647" sideWeight="0.7153076" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059722222" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1059" y="211" width="337" height="295" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.059722222" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1059" y="211" width="337" height="295" />
       <window_info id="REPL" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1726,11 +1714,10 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29647058" sideWeight="0.62708336" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31882352" sideWeight="0.49444443" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39058822" sideWeight="0.27986112" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256936" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29647058" sideWeight="0.37291667" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39058822" sideWeight="0.72152776" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22557297" sideWeight="0.5579399" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810616" sideWeight="0.45207438" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="false" weight="0.32403433" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1746,6 +1733,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39058822" sideWeight="0.27847221" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="617" />
@@ -1897,13 +1885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -2003,17 +1984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" column="18" lean-forward="false" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -2028,14 +1998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2177,16 +2139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/skeleton.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2229,14 +2181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/oddrod/lovin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -2247,7 +2191,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="360">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <marker date="1514945505987" expanded="true" signature="2559:2590" ph="..." />
@@ -2257,19 +2201,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="4305">
           <caret line="287" column="27" lean-forward="false" selection-start-line="287" selection-start-column="27" selection-end-line="287" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2369#2370#0" expanded="true" />
+            <element signature="e#2432#2433#0" expanded="true" />
+            <element signature="e#2464#2465#0" expanded="true" />
+            <element signature="e#2696#2697#0" expanded="true" />
+            <element signature="e#2734#2735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="158" column="33" lean-forward="true" selection-start-line="158" selection-start-column="33" selection-end-line="158" selection-end-column="33" />
           <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#2;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

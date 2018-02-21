@@ -96,8 +96,7 @@
 
     <div class="row middle primary">
         <div class="row title A">
-            <h1 class="portf" style="color: #901400"
-                th:text="${name}">Andy Moretz
+            <h1 class="portf" style="color: #901400">Andy Moretz
             </h1>
         </div>
         <div class="row title B">
@@ -133,23 +132,28 @@
                     </p>
                     <br/>
                     <br/>
-                    <a href="portfolio.html" class="button button-primary">portfolio</a>
+                    <a th:href="@{portfolio}" href="portfolio.html" class="button button-primary">portfolio</a>
                 </div><!--six columns textcopy-->
 
-                <div class="six columns portf">
+                <!--STATIC PIC:-->
+                <div th:if="${param.static}" class="six columns portf">
+                    <img th:src="@{/img/smileEarthBLUWHT.png}"
+                         src="../static/img/smileEarthBLUWHT.png" class="pic"/>
+                </div><!--six columns pic-->
+
+                <!--iframe-->
+                <div th:if="${param.iframe}" class="six columns portf">
                     <iframe frameborder="0" style="border:0" width="100%" height="400px"
                             th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
                             src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"
                             title="external js iframe">
                         <p>Your browser does not support iframes.</p>
                     </iframe>
+                    <p>{this map, however awesome, burns up system resources like unclean coal}</p>
+                    <p>{switch to the static version <a th:href="@{/index.html(param=static)}" href="/index.html?static"
+                                                        class="blink">here</a>
+                    </p>
                 </div>
-
-                <!--&lt;!&ndash;STATIC PIC:&ndash;&gt;-->
-                <!--<div class="six columns portf">-->
-                <!--<img th:src="@{/img/smileEarthBLUWHT.png}"-->
-                <!--src="../static/img/smileEarthBLUWHT.png" class="pic"/>-->
-                <!--</div>&lt;!&ndash;six columns pic&ndash;&gt;-->
 
 
             </div><!--row twoA-->
