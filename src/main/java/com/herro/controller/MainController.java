@@ -9,16 +9,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class MainController {
 
     @RequestMapping(value = {"/", "/index*"})
-    public String index(@RequestParam(value = "param", required = false) String param, Model model) {
-        if (param == "static") {
-            model.addAttribute(param);
-            System.out.println(param);
-            return "index";
-        }
-        {
-            model.addAttribute("iframe");
-            return "index";
-        }
+    public String index(@RequestParam(value = "param", required = false, defaultValue = "iframe") String param, Model model) {
+        model.addAttribute(param);
+        System.out.println(param);
+        return "index";
+    }
+
+    //remove later:
+    @RequestMapping("/index2*")
+    public String index2() {
+        return "index2";
     }
 
     // maybe change name later for protection:

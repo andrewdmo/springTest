@@ -26,7 +26,7 @@ public class WebSecurityConfig {
                 .authorizeRequests()
                 .antMatchers("/usersecurespace", "/user/**")
                 .hasRole("USER") //orig
-                .antMatchers("/", "/index", "/public/**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register", "/error")
+                .antMatchers("/", "/index*", "/public/**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register", "/error")
                 .permitAll()
 //            .antMatchers("/odd**").hasRole("MAID")
                 .anyRequest()

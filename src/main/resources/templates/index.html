@@ -21,22 +21,40 @@
     <meta name="description" content="an exemplary example of a fully responsive Java web stack"/>
 
 
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/img/apple-touch-icon-144x144.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/img/apple-touch-icon-152x152.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png"/>
-    <meta name="application-name" content="&nbsp;"/>
-    <meta name="msapplication-TileColor" content="#000000"/>
-    <meta name="msapplication-TileImage" content="mstile-144x144.png"/>
-
-
     <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
     <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png"/>
-    <!--<link rel="manifest" href="/static/img/manifest.json">-->
-    <link rel="mask-icon" href="/static/img/safari-pinned-tab.svg" color="#5bbad5"/>
-    <!--<meta name="theme-color" content="#ffffff">-->
+
+    <link rel="apple-touch-icon" sizes="57x57" th:href="@{/img/apple-icon-57x57.png}"
+          href="/static/img/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" th:href="@{/img/apple-icon-60x60.png}"
+          href="/static/img/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" th:href="@{/img/apple-icon-72x72.png}"
+          href="/static/img/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" th:href="@{/img/apple-icon-76x76.png}"
+          href="/static/img/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" th:href="@{/img/apple-icon-114x114.png}"
+          href="/static/img/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" th:href="@{/img/apple-icon-120x120.png}"
+          href="/static/img/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" th:href="@{/img/apple-icon-144x144.png}"
+          href="/static/img/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" th:href="@{/img/apple-icon-152x152.png}"
+          href="/static/img/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" th:href="@{/img/apple-icon-152x152.png}"
+          href="/static/img/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" th:href="@{/img/android-icon-192x192.png}"
+          href="/static/img/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" th:href="@{/img/favicon-32x32.png}"
+          href="/static/img/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" th:href="@{/img/favicon-96x96.png}"
+          href="/static/img/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" th:href="@{/img/favicon-16x16.png}"
+          href="/static/img/favicon-16x16.png"/>
+    <link rel="manifest" href="/static/img/manifest.json"/>
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
 
     <script th:src="@{/scripts/viewport.js}" src="../static/scripts/viewport.js"></script>
     <!--<script th:src="@{/scripts/jquery-3.2.1.min.js}"-->
@@ -118,7 +136,7 @@
                     <h1 style="color: #073763">Spring Boot Stack</h1>
                     <br/>
                     <p>Welcome to my main Java 1.8 stack. I learned to build it over the past year (and a half)</p>
-                    <p>Front-end: fast and fully responsive</p>
+                    <p>responsive preloaded Front end</p>
                     <p>RESTful endpoint, pSQL table, transient Spring Security
                     </p>
                     <p>i can scan a stacktrace, juggle load
@@ -135,25 +153,36 @@
                     <a th:href="@{portfolio}" href="portfolio.html" class="button button-primary">portfolio</a>
                 </div><!--six columns textcopy-->
 
-                <!--STATIC PIC:-->
-                <div th:if="${param.static}" class="six columns portf">
-                    <img th:src="@{/img/smileEarthBLUWHT.png}"
-                         src="../static/img/smileEarthBLUWHT.png" class="pic"/>
-                </div><!--six columns pic-->
 
                 <!--iframe-->
-                <div th:if="${param.iframe}" class="six columns portf">
+                <div class=" six columns portf">
                     <iframe frameborder="0" style="border:0" width="100%" height="400px"
                             th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
                             src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"
                             title="external js iframe">
-                        <p>Your browser does not support iframes.</p>
+                        <p>Your br"owser does not support iframes.</p>
                     </iframe>
-                    <p>{this map, however awesome, burns up system resources like unclean coal}</p>
-                    <p>{switch to the static version <a th:href="@{/index.html(param=static)}" href="/index.html?static"
-                                                        class="blink">here</a>
+                    <p>{this element, however awesome, taxes system resources}</p>
+                    <p>{switch to the static version <a th:href="@{index2}" href="index2.html"
+                                                        class="blink">here</a>}
                     </p>
-                </div>
+                    <!--<p>{this element, however awesome, taxes system resources}</p>-->
+                    <!--<p>{switch to the static version <a th:href="@{/index.html(param=static)}" href="/index.html?static"-->
+                    <!--class="blink">here</a>}-->
+                    <!--</p>-->
+
+                </div><!--six columns iframe-->
+
+
+                <!--&lt;!&ndash;STATIC PIC:&ndash;&gt;-->
+                <!--<div th:if="${param.static}" class="six columns portf">-->
+                <!--<img th:src="@{/img/smileEarthBLUWHT.png}"-->
+                <!--src="../static/img/smileEarthBLUWHT.png" class="pic"/>-->
+                <!--<p>{switch to the animated version <a th:href="@{/index.html(param=iframe)}"-->
+                <!--href="/index.html?iframe"-->
+                <!--class="blink">here</a>}-->
+                <!--</p>-->
+                <!--</div>&lt;!&ndash;six columns static&ndash;&gt;-->
 
 
             </div><!--row twoA-->

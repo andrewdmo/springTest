@@ -154,35 +154,15 @@
                 </div><!--six columns textcopy-->
 
 
-                <!--iframe-->
-                <div class=" six columns portf">
-                    <iframe frameborder="0" style="border:0" width="100%" height="400px"
-                            th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
-                            src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"
-                            title="external js iframe">
-                        <p>Your br"owser does not support iframes.</p>
-                    </iframe>
-                    <p>{this element, however awesome, taxes system resources}</p>
-                    <p>{switch to the static version <a th:href="@{index2}" href="index2.html"
-                                                        class="blink">here</a>}
-                    </p>
-                    <!--<p>{this element, however awesome, taxes system resources}</p>-->
-                    <!--<p>{switch to the static version <a th:href="@{/index.html(param=static)}" href="/index.html?static"-->
-                    <!--class="blink">here</a>}-->
-                    <!--</p>-->
-
-                </div><!--six columns iframe-->
-
-
-                <!--&lt;!&ndash;STATIC PIC:&ndash;&gt;-->
+                <!--STATIC PIC:-->
                 <!--<div th:if="${param.static}" class="six columns portf">-->
-                <!--<img th:src="@{/img/smileEarthBLUWHT.png}"-->
-                <!--src="../static/img/smileEarthBLUWHT.png" class="pic"/>-->
-                <!--<p>{switch to the animated version <a th:href="@{/index.html(param=iframe)}"-->
-                <!--href="/index.html?iframe"-->
-                <!--class="blink">here</a>}-->
-                <!--</p>-->
-                <!--</div>&lt;!&ndash;six columns static&ndash;&gt;-->
+                <div class="six columns portf">
+                <img th:src="@{/img/smileEarthBLUWHT.png}"
+                         src="../static/img/smileEarthBLUWHT.png" class="pic"/>
+                    <p>{switch to the animated version <a th:href="@{index}" href="index.html"
+                                                          class="blink">here</a>}
+                    </p>
+                </div><!--six columns static-->
 
 
             </div><!--row twoA-->
