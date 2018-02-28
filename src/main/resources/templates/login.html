@@ -2,51 +2,42 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>login in here</title>
+
+    <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="preload" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css" as="style"/>
+    <!--preload map, change BODY link too if needed:-->
+    <link rel="preload"
+          th:href="@{'https://www.google.com/maps/embed/v1/place?key='+${gMap}+'&amp;q='+${offAddy}+'&amp;zoom=13'}"
+          href="https://www.google.com/maps/embed/v1/" as="document"/>
+    <link rel="preload"
+          th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
+          src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"/>
+
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="keywords"
-          content="java, JEE, security, html, css, spring, boot, responsive, aws, ec2, api, blockchain, bitcoin, ethereum, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, UNC, Asheville, candidate, portfolio, available"/>
+          content="java, JEE, security, html, css, spring, boot, responsive, aws, ec2, api, blockchain, bitcoin, ethereum, ovijive, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, freelance, UNC, Asheville, candidate, portfolio, available"/>
     <meta name="description" content="an exemplary example of a fully responsive Java web stack"/>
+
 
     <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
     <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
     <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
-    <link rel="apple-touch-icon" sizes="57x57" th:href="@{/img/apple-icon-57x57.png}"
-          href="/static/img/apple-icon-57x57.png"/>
-    <link rel="apple-touch-icon" sizes="60x60" th:href="@{/img/apple-icon-60x60.png}"
-          href="/static/img/apple-icon-60x60.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" th:href="@{/img/apple-icon-72x72.png}"
-          href="/static/img/apple-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" th:href="@{/img/apple-icon-76x76.png}"
-          href="/static/img/apple-icon-76x76.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" th:href="@{/img/apple-icon-114x114.png}"
-          href="/static/img/apple-icon-114x114.png"/>
-    <link rel="apple-touch-icon" sizes="120x120" th:href="@{/img/apple-icon-120x120.png}"
-          href="/static/img/apple-icon-120x120.png"/>
-    <link rel="apple-touch-icon" sizes="144x144" th:href="@{/img/apple-icon-144x144.png}"
-          href="/static/img/apple-icon-144x144.png"/>
-    <link rel="apple-touch-icon" sizes="152x152" th:href="@{/img/apple-icon-152x152.png}"
-          href="/static/img/apple-icon-152x152.png"/>
-    <link rel="apple-touch-icon" sizes="180x180" th:href="@{/img/apple-icon-152x152.png}"
-          href="/static/img/apple-icon-180x180.png"/>
-    <link rel="icon" type="image/png" sizes="192x192" th:href="@{/img/android-icon-192x192.png}"
-          href="/static/img/android-icon-192x192.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" th:href="@{/img/favicon-32x32.png}"
-          href="/static/img/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="96x96" th:href="@{/img/favicon-96x96.png}"
-          href="/static/img/favicon-96x96.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" th:href="@{/img/favicon-16x16.png}"
-          href="/static/img/favicon-16x16.png"/>
-    <link rel="manifest" href="/static/img/manifest.json"/>
-    <meta name="msapplication-TileColor" content="#ffffff"/>
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
-    <meta name="theme-color" content="#ffffff"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png"/>
+    <link rel="manifest" href="../static/img/site.webmanifest"/>
+    <link rel="mask-icon" href="../static/img/safari-pinned-tab.svg" color="#b0c4de"/>
+    <meta name="msapplication-TileColor" content="#b0c4de"/>
+    <meta name="theme-color" content="#b0c4de"/>
 
     <script th:src="@{/scripts/viewport.js}" src="../static/scripts/viewport.js"></script>
     <!--<script th:src="@{/scripts/jquery-3.2.1.min.js}"-->
     <!--src="/static/scripts/jquery-3.2.1.min.js"></script>-->
-    <!--<script th:src="@{https://platform.linkedin.c¬om/badges/js/profile.js}"-->
-    <!--src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>-->
+    <script th:src="@{https://platform.linkedin.com/badges/js/profile.js}"
+            src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
 
 </head>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title th:text="${'web Dev Demo + ' + name}">Andy Moretz</title>
+    <title>Andy M.'s Java stack</title>
 
     <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
     <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
@@ -25,36 +25,13 @@
     <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
     <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
 
-    <link rel="apple-touch-icon" sizes="57x57" th:href="@{/img/apple-icon-57x57.png}"
-          href="/static/img/apple-icon-57x57.png"/>
-    <link rel="apple-touch-icon" sizes="60x60" th:href="@{/img/apple-icon-60x60.png}"
-          href="/static/img/apple-icon-60x60.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" th:href="@{/img/apple-icon-72x72.png}"
-          href="/static/img/apple-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" th:href="@{/img/apple-icon-76x76.png}"
-          href="/static/img/apple-icon-76x76.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" th:href="@{/img/apple-icon-114x114.png}"
-          href="/static/img/apple-icon-114x114.png"/>
-    <link rel="apple-touch-icon" sizes="120x120" th:href="@{/img/apple-icon-120x120.png}"
-          href="/static/img/apple-icon-120x120.png"/>
-    <link rel="apple-touch-icon" sizes="144x144" th:href="@{/img/apple-icon-144x144.png}"
-          href="/static/img/apple-icon-144x144.png"/>
-    <link rel="apple-touch-icon" sizes="152x152" th:href="@{/img/apple-icon-152x152.png}"
-          href="/static/img/apple-icon-152x152.png"/>
-    <link rel="apple-touch-icon" sizes="180x180" th:href="@{/img/apple-icon-152x152.png}"
-          href="/static/img/apple-icon-180x180.png"/>
-    <link rel="icon" type="image/png" sizes="192x192" th:href="@{/img/android-icon-192x192.png}"
-          href="/static/img/android-icon-192x192.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" th:href="@{/img/favicon-32x32.png}"
-          href="/static/img/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="96x96" th:href="@{/img/favicon-96x96.png}"
-          href="/static/img/favicon-96x96.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" th:href="@{/img/favicon-16x16.png}"
-          href="/static/img/favicon-16x16.png"/>
-    <link rel="manifest" href="/static/img/manifest.json"/>
-    <meta name="msapplication-TileColor" content="#ffffff"/>
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
-    <meta name="theme-color" content="#ffffff"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png"/>
+    <link rel="manifest" href="../static/img/site.webmanifest"/>
+    <link rel="mask-icon" href="../static/img/safari-pinned-tab.svg" color="#b0c4de"/>
+    <meta name="msapplication-TileColor" content="#b0c4de"/>
+    <meta name="theme-color" content="#b0c4de"/>
 
     <script th:src="@{/scripts/viewport.js}" src="../static/scripts/viewport.js"></script>
     <!--<script th:src="@{/scripts/jquery-3.2.1.min.js}"-->
@@ -74,16 +51,16 @@
 <body>
 <div class="container">
 
-    <!--//viewport dims:-->
-    <div class="row testBar">
-        <div class="three columns offset-by-eight"><!--at bottom right:-->
-            //live JS viewport size:
-            <div class="test vw">vw:</div>
-            <div class="test vh">vh:</div>
-            <div class="test vmin">vmin:</div>
-            <div class="test vmax">vmax:</div>
-        </div>
-    </div><!--row testBar-->
+    <!--&lt;!&ndash;//viewport dims:&ndash;&gt;-->
+    <!--<div class="row testBar">-->
+    <!--<div class="three columns offset-by-eight">&lt;!&ndash;at bottom right:&ndash;&gt;-->
+    <!--//live JS viewport size:-->
+    <!--<div class="test vw">vw:</div>-->
+    <!--<div class="test vh">vh:</div>-->
+    <!--<div class="test vmin">vmin:</div>-->
+    <!--<div class="test vmax">vmax:</div>-->
+    <!--</div>-->
+    <!--</div>&lt;!&ndash;row testBar&ndash;&gt;-->
 
 
     <!--standard banner:-->
@@ -117,6 +94,7 @@
             <h1 class="portf" style="color: #901400">Andy Moretz
             </h1>
         </div>
+        <br/>
         <div class="row title B">
             <h2 class="portf idx">
                 Bohemian gentleman</h2>
@@ -136,14 +114,12 @@
                     <h1 style="color: #073763">Spring Boot Stack</h1>
                     <br/>
                     <p>Welcome to my main Java 1.8 stack. I learned to build it over the past year (and a half)</p>
-                    <p>responsive preloaded Front end</p>
-                    <p>RESTful endpoint, pSQL table, transient Spring Security
-                    </p>
-                    <p>i can scan a stacktrace, juggle load
-                        balancing, and sudo kill Linux threads</p>
-                    <p>recently parsing APIs from the
-                        Ethereum
-                        blockchain on a fresh build
+                    <p>Front end: Responsive + preloaded crafted HTML/CSS with MVC templating</p>
+                    <p>Back end: Tomcat RESTful endpoint, pSQL, MVC, transient Spring Security</p>
+                    <p>I can scan a Stacktrace, juggle Load
+                        Balancing, and sudo kill Linux threads</p>
+                    <p>Recently parsing APIs from the
+                        Ethereum Blockchain on a fresh build
                     </p>
                     <br/>
                     <p th:text="'Currently (' + ${#dates.format(#dates.createNow(),'MM/dd/YY HH:mm')} + ') available for a variety of full-time roles, preferably in WNC or remote'">
@@ -160,9 +136,11 @@
                             th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
                             src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"
                             title="external js iframe">
-                        <p>Your br"owser does not support iframes.</p>
+                        <p>Your browser does not support iframes.</p>
                     </iframe>
-                    <p>{this element, however awesome, taxes system resources}</p>
+                    <br/>
+                    <p>{this .js-based iframe of Precipitable Water &amp; ~mid-atmosphere air flow, however amazing, taxes
+                        system resources}</p>
                     <p>{switch to the static version <a th:href="@{index2}" href="index2.html"
                                                         class="blink">here</a>}
                     </p>
