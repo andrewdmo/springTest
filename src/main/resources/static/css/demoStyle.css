@@ -290,6 +290,7 @@
         position: relative;
         text-align: center;
         z-index: 0;
+        overflow: hidden;
     }
 
     .portf:hover {
@@ -298,10 +299,16 @@
     }
 
     .portf.idx {
+        border: 0;
         color: #073763;
         margin: 0;
         padding: 0;
         /*overflow: scroll;*/
+    }
+
+    .portf.idx:hover {
+        /*border: 2px transparent;*/
+        border-radius: 0;
     }
 
     .portf.menuBack {
@@ -352,14 +359,15 @@
     .button.button-primary.portf:hover,
     button.button-primary.portf:hover {
         height: 23vh;
-        /*z-index: 3;*/
+        z-index: 9;
         /*overflow: visible;*/
     }
 
     .thumbnails {
-        max-height: 15vh;
+        /*height: 15vh;*/
         border-radius: 1vh;
-        /*width: 150px;*/
+        width: 75%;
+        /*overflow: hidden;*/
     }
 
     .top {

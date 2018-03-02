@@ -15,9 +15,9 @@ public class Greeting {
     public Greeting(long id, String name) {
 
         this.id = id;
-        this.template = "{ that punk wants to make your day, " + name + "! }";
+        this.template = "{ That punk wants to make your day, " + name + "! }";
         this.name = name;
-        this.body = "{ custom POJO return from GET request :: refresh & Id # persists }{ customizable :: /restgreeting?name=YOURNAME }";
+        this.body = "\r\n{ Data object return from GET request :: Refresh & ID number persists }{ Customizable :: /restgreeting?name=YOURNAME }";
     }
 
     @Id

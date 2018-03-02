@@ -74,29 +74,34 @@
 
     <div class="row middle">
 
-        <div class="row portf">
-            <!--test TL:-->
-            <div class="row">
-                <p th:text="'MVC Greetings, ' + ${name} + '!'">name=[MVC default]</p>
-            </div>
-            <div class="row">
-                <p th:text="'****A simple Spring MVC controller.'"></p>
-            </div>
-            <div class="row">
-                <p th:text="'Like the REST controller, NAME queries are functional:  ****'"></p>
-            </div>
-            <div class="row">
-                <p th:text="'/mvcgreeting?name=YOURNAME'"></p>
-            </div>
+        <div class="twelve columns portf">
+                <p>MVC Greetings, </p>
+                <p th:text="${name}" style="color: #073763">{defaultName}</p>
         </div>
-        <br/>
 
-        <form>
-            <label>Not up yet:</label>
-            <input th:type="text" type="text" placeholder="yourName" id="name"
-                   onclick="mvcName(name, '/mvcgreeting.html?name=' + name);"/>
-            <input th:onforminput="button" type="button" onclick="mvcName(name, '/mvcgreeting.html?name=' + name);"/>
-        </form>
+        <div class="twelve columns portf">
+            <div class="twelve columns">
+
+                <div class="row">
+                    <p th:text="'****A simple Spring MVC controller.'"></p>
+                </div>
+                <div class="row">
+                    <p th:text="'Like the REST controller, NAME queries are functional:  ****'"></p>
+                </div>
+                <div class="row">
+                    <p th:text="'/mvcgreeting?name=YOURNAME'"></p>
+                </div>
+            </div>
+            <br/>
+
+            <form>
+                <label>Not up yet:</label>
+                <input th:type="text" type="text" placeholder="yourName" id="name"
+                       onclick="mvcName(name, '/mvcgreeting.html?name=' + name);"/>
+                <input th:onforminput="button" type="button"
+                       onclick="mvcName(name, '/mvcgreeting.html?name=' + name);"/>
+            </form>
+        </div>
 
     </div><!--middle-->
 

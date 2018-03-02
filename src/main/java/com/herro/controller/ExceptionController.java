@@ -12,7 +12,7 @@ public class ExceptionController {
     public String error(Exception e, Model model) {
         model.addAttribute("exception", e);
         System.out.println("Error: " + e);
-        System.out.println(model);
+//        System.out.println(model);
         return "error?main";
     }
 
