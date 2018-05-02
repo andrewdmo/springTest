@@ -1,7 +1,5 @@
 package com.herro.entity;
 
-import javax.persistence.Id;
-
 //@Component
 //@Table(name = "greeting") //don't need
 public class Greeting {
@@ -20,7 +18,7 @@ public class Greeting {
         this.body = "\r\n{ Data object return from GET request :: Refresh & ID number persists }{ Customizable :: /restgreeting?name=YOURNAME }";
     }
 
-    @Id
+    //    @Id
     public Long getId() {
         return id;
 //        @Id

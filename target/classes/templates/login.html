@@ -72,7 +72,8 @@
 
 
     <div class="row middle">
-        <div class="row portf">
+        <div class="six columns offset-by-three blink">Due to a no-longer-free Amazon RDS bill, this demo is busted until it's fixed with an embedded DB, looking at Mongo</div>
+        <div class="row portf" style="opacity: .7 !important;">
             <h4>Login page</h4>
             <br/>
             <h2>Example user:</h2>
@@ -81,14 +82,14 @@
             <h2>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace">secured
                 page</a>
                 (back here until authorized)</h2>
-            <div th:if="${param.error}" class="row portf blink" style="color: #901400">
-                Invalid username and/or password!
-            </div>
-            <div th:if="${param.logout}" class="row portf blink" style="color: #073763">
-                You have been logged out.
-            </div>
-            <div th:if="${param.redirect}" class="row portf blink" style="color: #073763">
-                (back here)
+            <div th:switch="${param.error}" style="color: #901400">
+                <p class="row portf" style="color: #901400">
+                    Invalid username and/or password!</p>
+                <!--ADD BLINK:-->
+                <div th:case="${param.logout}"><p class="row portf" style="color: #073763">
+                    You have been logged out.</p></div>
+                <div th:case="${param.redirect}"><p class="row portf blink" style="color: #073763">
+                    (back here)</p></div>
             </div>
             <br/>
             <form th:action="@{/login}" action="login.html" method="post">

@@ -51,16 +51,19 @@
 <body>
 <div class="container">
 
-    <!--&lt;!&ndash;//viewport dims:&ndash;&gt;-->
-    <!--<div class="row testBar">-->
-    <!--<div class="three columns offset-by-eight">&lt;!&ndash;at bottom right:&ndash;&gt;-->
-    <!--//live JS viewport size:-->
-    <!--<div class="test vw">vw:</div>-->
-    <!--<div class="test vh">vh:</div>-->
-    <!--<div class="test vmin">vmin:</div>-->
-    <!--<div class="test vmax">vmax:</div>-->
-    <!--</div>-->
-    <!--</div>&lt;!&ndash;row testBar&ndash;&gt;-->
+    <!--//viewport dims:-->
+    <div class="row testBar">
+        <div class="cornerBar" th:text="${'Drag a corner for responsiveness...'}"></div>
+
+        <!--<div class="three columns offset-by-eight">&lt;!&ndash;at bottom right:&ndash;&gt;-->
+        <!--//live JS viewport size:-->
+        <!--</div>-->
+
+        <!--<div class="test vw">vw:</div>-->
+        <!--<div class="test vh">vh:</div>-->
+        <!--<div class="test vmin">vmin:</div>-->
+        <!--<div class="test vmax">vmax:</div>-->
+    </div><!--row testBar-->
 
 
     <!--standard banner:-->
@@ -139,7 +142,8 @@
                         <p>Your browser does not support iframes.</p>
                     </iframe>
                     <br/>
-                    <p>{this .js-based iframe of Precipitable Water &amp; ~mid-atmosphere air flow, however amazing, taxes
+                    <p>{this .js-based iframe of Precipitable Water &amp; ~mid-atmosphere air flow, however amazing,
+                        taxes
                         system resources}</p>
                     <p>{switch to the static version <a th:href="@{index2}" href="index2.html"
                                                         class="blink">here</a>}
@@ -167,53 +171,56 @@
             <br/>
             <br/>
             <div class="row twoB">
-                <div class="four columns portf">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                        nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
-                        augue.
-                        In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
-                        condimentum
-                        laoreet.</p>
-                </div>
-
-                <div class="four columns portf">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                        nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
-                        augue.
-                        In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
-                        condimentum
-                        laoreet.</p>
-                </div>
-
-                <div class="four columns portf">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                        nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
-                        augue.
-                        In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
-                        condimentum
-                        laoreet.</p>
-                </div>
-
-                <!--<div class="three columns portf">-->
-                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget-->
-                <!--nulla-->
-                <!--necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula-->
-                <!--augue.-->
-                <!--In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>-->
-                <!--<p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam-->
-                <!--condimentum-->
-                <!--laoreet.</p>-->
-                <!--</div>-->
+                <h1 class="twelve columns" style="color: #073763">Responsiveness:</h1>
+                <br/>
             </div><!--row twoB-->
 
             <div class="row twoC">
-                <h4 class=" twelve columns">Recent Work</h4>
+
+                <div class="four columns portf">
+                    <img th:src="@{/img/iPhoneXScreenOptz.png}" src="/static/img/iPhoneXScreenOptz.png" class="pic"/>
+                    <br/>
+                    <br/>
+                    <p style="color: #073763">iPhone X</p>
+                    <p style="color: #073763">(375 x 812)</p>
+
+                </div>
+
+                <div class="eight columns portf">
+                    <img th:src="@{/img/widescreenScreenOptz.png}" src="/static/img/widescreenScreenOptz.png"
+                         class="pic"/>
+                    <br/>
+                    <br/>
+                    <p style="color: #073763">MacBook Pro 15"</p>
+                    <p style="color: #073763">(2880 x 1800)</p>
+                </div>
+            </div><!--row twoC-->
+
+            <div class="row twoD">
+                <h2 class="twelve columns portf idx">...all from hand-tuned CSS stylesheets and a single
+                    HTML page...without bulky frameworks (Bootstrap, WordPress, etc) or Javascript!!</h2>
+            </div><!--row twoD-->
+            <br/>
+
+            <div class="row twoE">
+
+                <h2 class="twelve columns portf idx" style="color: #901400; font-style: italic">Desktop: Resize (drag
+                    the
+                    corner of) your browser window</h2>
+                <br/>
+                <h2 class="twelve columns portf idx" style="color: #901400; font-style: italic">Mobile: Request Desktop
+                    Site
+                    from browser menu</h2>
+                <br/>
+            </div><!--row twoE-->
+            <br/>
+            <br/>
+
+            <div class="row three">
+                <div class="row threeA">
+                    <h1 class="twelve columns" style="color: #073763">Recent work:</h1>
+                    <br/>
+                </div><!--row threeA-->
                 <div class="three columns portf" style="margin-left: 0">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
                         nulla
@@ -263,7 +270,7 @@
                         <!--</div>-->
                     </div><!--twoC bottom pic row-->
                 </div><!--nine columns-->
-            </div>
+            </div><!--row 2C-->
             <!--<div class="row u-max-full-width portf idx">-->
             <!--<code style="background-color: #B9B9B9">-->
             <!--&lt;!&ndash;http://ec2-54-156-212-170.compute-1.amazonaws.com:9000/index.html?name=YOURNAME</code>&ndash;&gt;-->

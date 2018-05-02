@@ -9,6 +9,7 @@
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/controller/ExceptionController.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/service/UserRegisterForm.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/service/UserDetailsServiceImpl.java
+/Users/andrewdmo/Projects/springTest/src/main/java/com/herro/service/Nitrate.java
 /Users/andrewdmo/Projects/springTest/src/main/java/as/v1_2/service/AnimalService.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/entity/UserOLD.java
 /Users/andrewdmo/Projects/springTest/src/main/java/as/v1_2/Main.java
@@ -18,7 +19,10 @@
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/config/WebConfig.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/repo/RoleRepo.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/controller/MainController.java
+/Users/andrewdmo/Projects/springTest/src/main/java/com/herro/config/DataSource.java
+/Users/andrewdmo/Projects/springTest/src/main/java/com/herro/config/NitrateConfig.java
 /Users/andrewdmo/Projects/springTest/src/main/java/as/v1_2/service/MenuService.java
+/Users/andrewdmo/Projects/springTest/src/main/java/com/herro/config/MongoConfig.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/service/UserService.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/controller/RegisterController.java
 /Users/andrewdmo/Projects/springTest/src/main/java/com/herro/service/SecurityServiceImpl.java

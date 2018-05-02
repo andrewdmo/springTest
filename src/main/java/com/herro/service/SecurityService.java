@@ -1,7 +1,7 @@
-package com.herro.service;
-
-public interface SecurityService {
-    String findLoggedInUsername();
-
-    void autologin(String username, String password);
-}
+//package com.herro.service;
+//
+//public interface SecurityService {
+//    String findLoggedInUsername();
+//
+//    void autologin(String username, String password);
+//}

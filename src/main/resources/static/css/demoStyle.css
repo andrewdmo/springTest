@@ -4,7 +4,7 @@
     /*border: 0.1vh solid black;*/
     box-sizing: border-box;
     /*box-sizing: */
-    transition: all 0.5s !important;
+    transition: all 0.25s !important;
 }
 
 @supports (height: 100vh) {

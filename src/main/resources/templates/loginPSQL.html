@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>login in here</title>
+
+    <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="preload" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css" as="style"/>
+    <!--preload map, change BODY link too if needed:-->
+    <link rel="preload"
+          th:href="@{'https://www.google.com/maps/embed/v1/place?key='+${gMap}+'&amp;q='+${offAddy}+'&amp;zoom=13'}"
+          href="https://www.google.com/maps/embed/v1/" as="document"/>
+    <link rel="preload"
+          th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
+          src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"/>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords"
+          content="java, JEE, security, html, css, spring, boot, responsive, aws, ec2, api, blockchain, bitcoin, ethereum, ovijive, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, freelance, UNC, Asheville, candidate, portfolio, available"/>
+    <meta name="description" content="an exemplary example of a fully responsive Java web stack"/>
+
+
+    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
+    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png"/>
+    <link rel="manifest" href="../static/img/site.webmanifest"/>
+    <link rel="mask-icon" href="../static/img/safari-pinned-tab.svg" color="#b0c4de"/>
+    <meta name="msapplication-TileColor" content="#b0c4de"/>
+    <meta name="theme-color" content="#b0c4de"/>
+
+    <script th:src="@{/scripts/viewport.js}" src="../static/scripts/viewport.js"></script>
+    <!--<script th:src="@{/scripts/jquery-3.2.1.min.js}"-->
+    <!--src="/static/scripts/jquery-3.2.1.min.js"></script>-->
+    <script th:src="@{https://platform.linkedin.com/badges/js/profile.js}"
+            src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
+
+</head>
+
+<body>
+<div class="container">
+
+    <!--standard banner:-->
+    <div class="row top">
+        <div class="four columns">
+            <a th:href="index.html" href="index.html" rel="#home">
+                <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo shadow"
+                     alt="ADM logo"/>
+            </a>
+        </div><!--four columns-->
+        <div class="eight columns">
+            <div class="row oneA menubar">
+                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" name="about">About</a>
+                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns"
+                   name="portfolio">Work</a>
+                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" name="blog">Contact</a>
+
+                <div class="row oneB">
+                    <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
+                           name="search"
+                           placeholder="'Search'"/>
+                </div><!--row oneB-->
+            </div><!--row oneA menubar-->
+
+        </div><!--eight columns-->
+    </div><!--row top-->
+    <br/>
+
+
+    <div class="row middle">
+        <div class="row portf">
+            <h4>Login page</h4>
+            <br/>
+            <h2>Example user:</h2>
+            <div class="sp" style="color: #073763"><code>test@test</code><br/><code>test</code></div>
+            <br/>
+            <h2>Will redirect to a <a th:href="@{/usersecurespace}" href="user/usersecurespace">secured
+                page</a>
+                (back here until authorized)</h2>
+            <div th:switch="${param.error}" style="color: #901400">
+                <p class="row portf blink" style="color: #901400">
+                    Invalid username and/or password!</p>
+                <div th:case="${param.logout}"><p  class="row portf blink" style="color: #073763">
+                    You have been logged out.</p></div>
+                <div th:case="${param.redirect}"><p class="row portf blink" style="color: #073763">
+                    (back here)</p></div>
+            </div>
+            <br/>
+            <form th:action="@{/login}" action="login.html" method="post">
+                <label for="username">Username</label>:
+                <input type="text" id="username" name="username" tabindex="1" autofocus="autofocus"/> <br/>
+                <label for="password">Password</label>:
+                <input type="password" id="password" name="password" tabindex="2"/> <br/>
+                <input type="submit" class="button button-primary" value="Log in" tabindex="3"/>
+            </form>
+            <!--(link to Registration-->
+            <!--<p><a th:href="@{/index}" href="index.html">Back to home page</a></p>-->
+
+        </div><!--portf-->
+    </div><!--row middle-->
+</div><!--container-->
+
+</body>
+</html>

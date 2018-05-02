@@ -25,7 +25,6 @@ public class MainController {
     // GET/POST/model handled in SecConfig
     @RequestMapping("/login")
     public String login(@RequestParam(value = "param", required = false) String param, Model model) {
-//        model.addAttribute("param", param);
         return "login";
     }
 
