@@ -24,11 +24,29 @@ public class MainController {
     // maybe change name later for protection:
     // GET/POST/model handled in SecConfig
     @RequestMapping("/login")
-    public String login(@RequestParam(value = "param", required = false) String param, Model model) {
+    public String login(Model model) {
         return "login";
     }
 
-    //secured:
+    @RequestMapping("/login-error")
+    public String loginError(Model model) {
+        model.addAttribute("loginError", true);
+        return "login";
+    }
+
+    @RequestMapping("/login-logout")
+    public String loginLogout(Model model) {
+        model.addAttribute("loginLogout", true);
+        return "login";
+    }
+
+    @RequestMapping("/login-redirect")
+    public String loginRedirect(Model model) {
+        model.addAttribute("loginRedirect", true);
+        return "login";
+    }
+
+    //SECURE:
     @RequestMapping(value = {"/usersecurespace", "/user/usersecurespace"}) //user** ??
     public String usersecurespace(@RequestParam(value = "param", required = false) String redirect, Model model) {
 //        model.addAttribute("redirect", redirect);

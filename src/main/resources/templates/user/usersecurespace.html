@@ -55,6 +55,7 @@
         <p style="color: #0f6b82">You are now authorized to access this URL so long as transient memory persists.</p>
     </div>
     <div>
+        <!--Security needs this??:-->
         <form action="/logout" th:action="@{/logout}" method="post">
             <input type="submit" class="button-primary u-pull-right" value="Logout"/>
         </form>
