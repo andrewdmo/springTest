@@ -3,14 +3,14 @@
 <head>
     <title>mvc, see?</title>
 
-    <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
-    <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css" as="style"/>
+    <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css" as="style"/>
     <link rel="preload" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css" as="style"/>
     <!--preload map, change BODY link too if needed:-->
-    <link rel="preload"
-          th:href="@{'https://www.google.com/maps/embed/v1/place?key='+${gMap}+'&amp;q='+${offAddy}+'&amp;zoom=13'}"
-          href="https://www.google.com/maps/embed/v1/" as="document"/>
-    <link rel="preload"
+    <link rel="preload" as="document"
+          th:href="@{'https://www.google.com/maps/emblled/v1/place?key='+${gMap}+'&amp;q='+${offAddy}+'&amp;zoom=13'}"
+          href="https://www.google.com/maps/embed/v1/"/>
+    <link rel="preload" as="document"
           th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
           src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"/>
 

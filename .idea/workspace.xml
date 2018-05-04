@@ -6,34 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="d88d3c8d-fc88-47ea-9d89-6cfbd58d0e7e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_DeMo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A_DeMo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/403.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animalshelter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animalshelter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/clojure.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/clojure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/oddrod/lovin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/oddrod/lovin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/nori.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/nori.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/rockps.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/rockps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/A_DeMo-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/A_DeMo-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/A_DeMo-3.2.1.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/A_DeMo-3.2.1.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/herro/controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/demoStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/demoStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/403.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/moviesql.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/moviesql.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/oddrod/lovin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/oddrod/lovin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/rockps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/rockps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/usersecurespace.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user/usersecurespace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,14 +94,17 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6426983">
+    <splitter split-orientation="horizontal" split-proportion="0.7381151">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="642">
-                  <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
+                <state relative-caret-position="349">
+                  <caret line="152" selection-start-line="152" selection-end-line="152" />
+                  <folding>
+                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -151,12 +142,14 @@
           <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="41" selection-start-line="41" selection-end-line="41" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#830#831#0" expanded="true" />
-                    <element signature="e#860#861#0" expanded="true" />
+                    <element signature="e#902#903#0" expanded="true" />
+                    <element signature="e#933#934#0" expanded="true" />
+                    <element signature="e#1093#1094#0" expanded="true" />
+                    <element signature="e#1123#1124#0" expanded="true" />
                     <element signature="e#1581#1582#0" expanded="true" />
                     <element signature="e#1615#1616#0" expanded="true" />
                   </folding>
@@ -164,11 +157,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="227">
-                  <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -182,8 +175,8 @@
           <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+                <state relative-caret-position="855">
+                  <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
                   <folding>
                     <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h1#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -201,6 +194,15 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-45">
+                  <caret line="120" column="53" lean-forward="true" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -208,8 +210,8 @@
           <file leaf-file-name="pom.xml" pinned="true" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="223">
-                  <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+                <state relative-caret-position="227">
+                  <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
                   <folding>
                     <marker date="1525378747773" expanded="true" signature="3714:3752" ph="..." />
                   </folding>
@@ -247,19 +249,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="demoStyle.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="demoStyle.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-4051">
-                  <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+                <state relative-caret-position="435">
+                  <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="248">
+                <state relative-caret-position="222">
                   <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -283,7 +285,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>portf</find>
       <find>bottom</find>
       <find>logo</find>
       <find>n</find>
@@ -313,6 +314,7 @@
       <find>blink</find>
       <find>shade</find>
       <find>transition</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>tiyStyleImg</replace>
@@ -323,6 +325,7 @@
       <replace>logo shadow</replace>
       <replace />
       <replace>shadow</replace>
+      <replace>as=&quot;document&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -388,14 +391,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/herro/config/MongoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/service/EmailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/service/SecurityService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -594,7 +597,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1612,12 +1615,12 @@
       <workItem from="1525266136897" duration="53000" />
       <workItem from="1525266214641" duration="2467000" />
       <workItem from="1525301893178" duration="2884000" />
-      <workItem from="1525378249359" duration="3391000" />
+      <workItem from="1525378249359" duration="7969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="453834000" />
+    <option name="totallyTimeSpent" value="458412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1630,11 +1633,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Amazon EC2" order="15" sideWeight="0.2732475" weight="0.35102534" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.7153076" side_tool="true" weight="0.3917647" />
-      <window_info anchor="right" x="1059" y="211" width="337" height="295" id="Maven Projects" order="6" visible="true" weight="0.05937053" />
+      <window_info anchor="right" x="1059" y="211" width="337" height="295" id="Maven Projects" order="6" visible="true" weight="0.057638887" />
       <window_info anchor="bottom" id="Database Changes" order="22" />
       <window_info anchor="right" id="Mongo Explorer" order="18" />
       <window_info anchor="right" id="Designer" order="7" />
@@ -1651,12 +1655,12 @@
       <window_info id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.3293124" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49427754" weight="0.3256936" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.7246066" side_tool="true" visible="true" weight="0.38935912" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.7246066" side_tool="true" visible="true" weight="0.29599056" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.5579399" weight="0.22557297" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.45207438" weight="0.32810616" />
       <window_info anchor="right" auto_hide="true" id="Jenkins" internal_type="SLIDING" order="15" show_stripe_button="false" type="SLIDING" weight="0.32403433" />
       <window_info anchor="bottom" id="Problems" order="21" sideWeight="0.41201717" weight="0.1544029" />
-      <window_info content_ui="combo" x="21" y="32" width="311" height="812" id="Project" order="5" sideWeight="0.4885404" visible="true" weight="0.113018595" />
+      <window_info content_ui="combo" x="21" y="32" width="311" height="812" id="Project" order="5" sideWeight="0.4885404" visible="true" weight="0.038194444" />
       <window_info anchor="right" id="Bean Validation" order="1" weight="0.3297568" />
       <window_info id="Web" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.3625" weight="0.28" />
@@ -1841,13 +1845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -2087,10 +2084,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1964">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        <state relative-caret-position="227">
+          <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
           <folding>
             <marker date="1525378747773" expanded="true" signature="3714:3752" ph="..." />
           </folding>
@@ -2099,40 +2144,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4051">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="435">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1964">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="-45">
+          <caret line="120" column="53" lean-forward="true" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -2145,37 +2165,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
             <element signature="e#1581#1582#0" expanded="true" />
             <element signature="e#1615#1616#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+        <state relative-caret-position="349">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

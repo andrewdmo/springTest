@@ -8,9 +8,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
-    @RequestMapping(value = {"/", "/index*"})
-    public String index(@RequestParam(value = "param", required = false, defaultValue = "iframe") String param, Model model) {
-        model.addAttribute(param);
+    @RequestMapping(value = {"/", "/index"})
+    public String index(@RequestParam(value = "pic", required = false, defaultValue = "iframe") String param, Model model) {
+        model.addAttribute("pic", param);
+        System.out.println(param);
+        return "index";
+    }
+
+    @RequestMapping("/index-static")
+    public String indexStatic(@RequestParam(value = "pic", required = false, defaultValue = "static") String param, Model model) {
+        model.addAttribute("pic", param);
         System.out.println(param);
         return "index";
     }

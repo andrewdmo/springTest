@@ -3,14 +3,14 @@
 <head>
     <title>Andy M.'s Java stack</title>
 
-    <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
-    <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
+    <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css" as="style"/>
+    <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css" as="style"/>
     <link rel="preload" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css" as="style"/>
     <!--preload map, change BODY link too if needed:-->
-    <link rel="preload"
+    <link rel="preload" as="document"
           th:href="@{'https://www.google.com/maps/emblled/v1/place?key='+${gMap}+'&amp;q='+${offAddy}+'&amp;zoom=13'}"
-          href="https://www.google.com/maps/embed/v1/" as="document"/>
-    <link rel="preload"
+          href="https://www.google.com/maps/embed/v1/"/>
+    <link rel="preload" as="document"
           th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
           src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"/>
 
@@ -116,7 +116,7 @@
                 <div class="six columns portf">
                     <h1 style="color: #073763">Spring Boot Stack</h1>
                     <br/>
-                    <p>Welcome to my main Java 1.8 stack. I learned to build it over the past year (and a half)</p>
+                    <p>Welcome to my main Java 1.8 stack. I learned to build it over the past two years</p>
                     <p>Front end: Responsive + preloaded crafted HTML/CSS with MVC templating</p>
                     <p>Back end: Tomcat RESTful endpoint, pSQL, MVC, transient Spring Security</p>
                     <p>I can scan a Stacktrace, juggle Load
@@ -125,7 +125,7 @@
                         Ethereum Blockchain on a fresh build
                     </p>
                     <br/>
-                    <p th:text="'Currently (' + ${#dates.format(#dates.createNow(),'MM/dd/YY HH:mm')} + ') available for a variety of full-time roles, preferably in WNC or remote'">
+                    <p th:text="'Currently (' + ${#dates.format(#dates.createNow(),'MM/dd/YY HH:mm')} + ') available for a variety of full-time roles and freelancing, preferably in WNC or remote'">
                     </p>
                     <br/>
                     <br/>
@@ -134,7 +134,7 @@
 
 
                 <!--iframe-->
-                <div class=" six columns portf">
+                <div th:if="${pic} == 'iframe'" class="six columns portf">
                     <iframe frameborder="0" style="border:0" width="100%" height="400px"
                             th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
                             src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"
@@ -145,26 +145,22 @@
                     <p>{this .js-based iframe of Precipitable Water &amp; ~mid-atmosphere air flow, however amazing,
                         taxes
                         system resources}</p>
-                    <p>{switch to the static version <a th:href="@{index2}" href="index2.html"
+                    <p>{switch to the static version <a th:href="@{'index-static'}" href="index.html"
                                                         class="blink">here</a>}
                     </p>
-                    <!--<p>{this element, however awesome, taxes system resources}</p>-->
-                    <!--<p>{switch to the static version <a th:href="@{/index.html(param=static)}" href="/index.html?static"-->
-                    <!--class="blink">here</a>}-->
-                    <!--</p>-->
 
                 </div><!--six columns iframe-->
 
 
-                <!--&lt;!&ndash;STATIC PIC:&ndash;&gt;-->
-                <!--<div th:if="${param.static}" class="six columns portf">-->
-                <!--<img th:src="@{/img/smileEarthBLUWHT.png}"-->
-                <!--src="../static/img/smileEarthBLUWHT.png" class="pic"/>-->
-                <!--<p>{switch to the animated version <a th:href="@{/index.html(param=iframe)}"-->
-                <!--href="/index.html?iframe"-->
-                <!--class="blink">here</a>}-->
-                <!--</p>-->
-                <!--</div>&lt;!&ndash;six columns static&ndash;&gt;-->
+                <!--STATIC PIC:-->
+                <div th:if="${pic} == 'static'" class="six columns portf">
+                    <img th:src="@{/img/smileEarthBLUWHT.png}"
+                         src="../static/img/smileEarthBLUWHT.png" class="pic"/>
+                    <p>{switch to the animated version <a th:href="@{index}"
+                                                          href="index.html"
+                                                          class="blink">here</a>
+                    </p>
+                </div><!--six columns static-->
 
 
             </div><!--row twoA-->
