@@ -1,261 +1,261 @@
-<!DOCTYPE HTML>
-<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
-<head>
-    <title th:text="${'web Dev Demo + ' + name}">Andy Moretz</title>
+<!--<!DOCTYPE HTML>-->
+<!--<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">-->
+<!--<head>-->
+    <!--<title th:text="${'web Dev Demo + ' + name}">Andy Moretz</title>-->
 
-    <link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css" as="style"/>
-    <link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css" as="style"/>
-    <link rel="preload" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css" as="style"/>
-    <!--preload map, change BODY link too if needed:-->
-    <link rel="preload" as="document"
-          th:href="@{'https://www.google.com/maps/emblled/v1/place?key='+${gMap}+'&amp;q='+${offAddy}+'&amp;zoom=13'}"
-          href="https://www.google.com/maps/embed/v1/"/>
-    <link rel="preload" as="document"
-          th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"
-          src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"/>
+    <!--<link rel="preload" th:href="@{/css/normalize.css}" href="../static/css/normalize.css" as="style"/>-->
+    <!--<link rel="preload" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css" as="style"/>-->
+    <!--<link rel="preload" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css" as="style"/>-->
+    <!--&lt;!&ndash;preload map, change BODY link too if needed:&ndash;&gt;-->
+    <!--<link rel="preload" as="document"-->
+          <!--th:href="@{'https://www.google.com/maps/emblled/v1/place?key='+${gMap}+'&amp;q='+${offAddy}+'&amp;zoom=13'}"-->
+          <!--href="https://www.google.com/maps/embed/v1/"/>-->
+    <!--<link rel="preload" as="document"-->
+          <!--th:src="@{https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142}"-->
+          <!--src="https://earth.nullschool.net/#2018/02/13/1800Z/wind/isobaric/850hPa/overlay=total_precipitable_water/orthographic=-49.04,17.14,142"/>-->
 
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="keywords"
-          content="java, JEE, security, html, css, spring, boot, responsive, aws, ec2, api, blockchain, bitcoin, ethereum, ovijive, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, freelance, UNC, Asheville, candidate, portfolio, available"/>
-    <meta name="description" content="an exemplary example of a fully responsive Java web stack"/>
-
-
-    <link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>
-    <link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>
-    <link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png"/>
-    <link rel="manifest" href="../static/img/site.webmanifest"/>
-    <link rel="mask-icon" href="../static/img/safari-pinned-tab.svg" color="#b0c4de"/>
-    <meta name="msapplication-TileColor" content="#b0c4de"/>
-    <meta name="theme-color" content="#b0c4de"/>
-
-    <script th:src="@{/scripts/viewport.js}" src="../static/scripts/viewport.js"></script>
-    <!--<script th:src="@{/scripts/jquery-3.2.1.min.js}"-->
-    <!--src="/static/scripts/jquery-3.2.1.min.js"></script>-->
-    <script th:src="@{https://platform.linkedin.com/badges/js/profile.js}"
-            src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>
-
-</head>
+    <!--<meta charset="UTF-8"/>-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1"/>-->
+    <!--<meta name="keywords"-->
+          <!--content="java, JEE, security, html, css, spring, boot, responsive, aws, ec2, api, blockchain, bitcoin, ethereum, ovijive, sql, mvc, maven, thymeleaf, skeleton, mobile, restful, tomcat, javascript, web, developer, programmer, freelance, UNC, Asheville, candidate, portfolio, available"/>-->
+    <!--<meta name="description" content="an exemplary example of a fully responsive Java web stack"/>-->
 
 
-<!--//body border:-->
-<div id="left"></div>
-<div id="right"></div>
-<div id="top"></div>
-<div id="bottom"></div>
+    <!--<link rel="stylesheet" th:href="@{/css/normalize.css}" href="../static/css/normalize.css"/>-->
+    <!--<link rel="stylesheet" th:href="@{/css/skeleton.css}" href="../static/css/skeleton.css"/>-->
+    <!--<link rel="stylesheet" th:href="@{/css/demoStyle.css}" href="../static/css/demoStyle.css"/>-->
 
-<body>
-<div class="container">
+    <!--<link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-touch-icon.png"/>-->
+    <!--<link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png"/>-->
+    <!--<link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png"/>-->
+    <!--<link rel="manifest" href="../static/img/site.webmanifest"/>-->
+    <!--<link rel="mask-icon" href="../static/img/safari-pinned-tab.svg" color="#b0c4de"/>-->
+    <!--<meta name="msapplication-TileColor" content="#b0c4de"/>-->
+    <!--<meta name="theme-color" content="#b0c4de"/>-->
 
-    <!--//viewport dims:-->
-    <!--<div class="row testBar">-->
-        <!--<div class="three columns offset-by-eight">&lt;!&ndash;at bottom right:&ndash;&gt;-->
-            <!--//live JS viewport size:-->
-            <!--<div class="test vw">vw:</div>-->
-            <!--<div class="test vh">vh:</div>-->
-            <!--<div class="test vmin">vmin:</div>-->
-            <!--<div class="test vmax">vmax:</div>-->
+    <!--<script th:src="@{/scripts/viewport.js}" src="../static/scripts/viewport.js"></script>-->
+    <!--&lt;!&ndash;<script th:src="@{/scripts/jquery-3.2.1.min.js}"&ndash;&gt;-->
+    <!--&lt;!&ndash;src="/static/scripts/jquery-3.2.1.min.js"></script>&ndash;&gt;-->
+    <!--<script th:src="@{https://platform.linkedin.com/badges/js/profile.js}"-->
+            <!--src="https://platform.linkedin.com/badges/js/profile.js" async="defer"></script>-->
+
+<!--</head>-->
+
+
+<!--&lt;!&ndash;//body border:&ndash;&gt;-->
+<!--<div id="left"></div>-->
+<!--<div id="right"></div>-->
+<!--<div id="top"></div>-->
+<!--<div id="bottom"></div>-->
+
+<!--<body>-->
+<!--<div class="container">-->
+
+    <!--&lt;!&ndash;//viewport dims:&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="row testBar">&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="three columns offset-by-eight">&lt;!&ndash;at bottom right:&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;//live JS viewport size:&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="test vw">vw:</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="test vh">vh:</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="test vmin">vmin:</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="test vmax">vmax:</div>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&lt;!&ndash;row testBar&ndash;&gt;&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;standard banner:&ndash;&gt;-->
+    <!--<div class="row top">-->
+        <!--<div class="four columns">-->
+            <!--<a th:href="@{index.html}" href="index.html" rel="#home">-->
+                <!--<img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo shadow"-->
+                     <!--alt="ADM logo"/>-->
+            <!--</a>-->
+        <!--</div>&lt;!&ndash;four columns&ndash;&gt;-->
+        <!--<div class="eight columns">-->
+            <!--<div class="row oneA menubar">-->
+                <!--<a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" name="about">About</a>-->
+                <!--<a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns"-->
+                   <!--name="portfolio">Work</a>-->
+                <!--<a th:href="@{/contact.html}" href="contact.html" class="menu three columns" name="blog">Contact</a>-->
+
+                <!--<div class="row oneB">-->
+                    <!--<input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"-->
+                           <!--name="search"-->
+                           <!--placeholder="'Search'"/>-->
+                <!--</div>&lt;!&ndash;row oneB&ndash;&gt;-->
+            <!--</div>&lt;!&ndash;row oneA menubar&ndash;&gt;-->
+
+        <!--</div>&lt;!&ndash;eight columns&ndash;&gt;-->
+    <!--</div>&lt;!&ndash;row top&ndash;&gt;-->
+    <!--<br/>-->
+
+    <!--<div class="row middle primary">-->
+        <!--<div class="row title A">-->
+            <!--<h1 class="portf" style="color: #901400">Andy Moretz-->
+            <!--</h1>-->
         <!--</div>-->
-    <!--</div>&lt;!&ndash;row testBar&ndash;&gt;-->
+        <!--<div class="row title B">-->
+            <!--<h2 class="portf idx">-->
+                <!--Bohemian gentleman</h2>-->
+            <!--<h2 class="portf idx">-->
+                <!--Occasional scholar</h2>-->
+            <!--<br/>-->
+            <!--<br/>-->
+            <!--<h2 class="portf idx" style="color: #901400">-->
+                <!--Freelance Java developer-->
+            <!--</h2>-->
+        <!--</div>&lt;!&ndash;2nd title row&ndash;&gt;-->
 
 
-    <!--standard banner:-->
-    <div class="row top">
-        <div class="four columns">
-            <a th:href="@{index.html}" href="index.html" rel="#home">
-                <img th:src="@{/img/adm_nasa_logo.png}" src="../static/img/adm_nasa_logo.png" class="logo shadow"
-                     alt="ADM logo"/>
-            </a>
-        </div><!--four columns-->
-        <div class="eight columns">
-            <div class="row oneA menubar">
-                <a th:href="@{/about.html}" href="about.html" class="menu three columns offset-by-one" name="about">About</a>
-                <a th:href="@{/portfolio.html}" href="portfolio.html" class="menu three columns"
-                   name="portfolio">Work</a>
-                <a th:href="@{/contact.html}" href="contact.html" class="menu three columns" name="blog">Contact</a>
-
-                <div class="row oneB">
-                    <input type="text" class="searchfield u-pull-right" style="border-radius: 15px" alt="Search"
-                           name="search"
-                           placeholder="'Search'"/>
-                </div><!--row oneB-->
-            </div><!--row oneA menubar-->
-
-        </div><!--eight columns-->
-    </div><!--row top-->
-    <br/>
-
-    <div class="row middle primary">
-        <div class="row title A">
-            <h1 class="portf" style="color: #901400">Andy Moretz
-            </h1>
-        </div>
-        <div class="row title B">
-            <h2 class="portf idx">
-                Bohemian gentleman</h2>
-            <h2 class="portf idx">
-                Occasional scholar</h2>
-            <br/>
-            <br/>
-            <h2 class="portf idx" style="color: #901400">
-                Freelance Java developer
-            </h2>
-        </div><!--2nd title row-->
+        <!--<div class="row second">-->
+            <!--<div class="row twoA">-->
+                <!--<div class="six columns portf">-->
+                    <!--<h1 style="color: #073763">Spring Boot Stack</h1>-->
+                    <!--<br/>-->
+                    <!--<p>Welcome to my main Java 1.8 stack. I learned to build it over the past year (and a half)</p>-->
+                    <!--<p>responsive preloaded Front end</p>-->
+                    <!--<p>RESTful endpoint, pSQL table, transient Spring Security-->
+                    <!--</p>-->
+                    <!--<p>i can scan a stacktrace, juggle load-->
+                        <!--balancing, and sudo kill Linux threads</p>-->
+                    <!--<p>recently parsing APIs from the-->
+                        <!--Ethereum-->
+                        <!--blockchain on a fresh build-->
+                    <!--</p>-->
+                    <!--<br/>-->
+                    <!--<p th:text="'Currently (' + ${#dates.format(#dates.createNow(),'MM/dd/YY HH:mm')} + ') available for a variety of full-time roles, preferably in WNC or remote'">-->
+                    <!--</p>-->
+                    <!--<br/>-->
+                    <!--<br/>-->
+                    <!--<a th:href="@{portfolio.html}" href="portfolio.html" class="button button-primary">portfolio</a>-->
+                <!--</div>&lt;!&ndash;six columns textcopy&ndash;&gt;-->
 
 
-        <div class="row second">
-            <div class="row twoA">
-                <div class="six columns portf">
-                    <h1 style="color: #073763">Spring Boot Stack</h1>
-                    <br/>
-                    <p>Welcome to my main Java 1.8 stack. I learned to build it over the past year (and a half)</p>
-                    <p>responsive preloaded Front end</p>
-                    <p>RESTful endpoint, pSQL table, transient Spring Security
-                    </p>
-                    <p>i can scan a stacktrace, juggle load
-                        balancing, and sudo kill Linux threads</p>
-                    <p>recently parsing APIs from the
-                        Ethereum
-                        blockchain on a fresh build
-                    </p>
-                    <br/>
-                    <p th:text="'Currently (' + ${#dates.format(#dates.createNow(),'MM/dd/YY HH:mm')} + ') available for a variety of full-time roles, preferably in WNC or remote'">
-                    </p>
-                    <br/>
-                    <br/>
-                    <a th:href="@{portfolio.html}" href="portfolio.html" class="button button-primary">portfolio</a>
-                </div><!--six columns textcopy-->
+                <!--&lt;!&ndash;STATIC PIC:&ndash;&gt;-->
+                <!--&lt;!&ndash;<div th:if="${param.static}" class="six columns portf">&ndash;&gt;-->
+                <!--<div class="six columns portf">-->
+                <!--<img th:src="@{/img/smileEarthBLUWHT.png}"-->
+                         <!--src="../static/img/smileEarthBLUWHT.png" class="pic"/>-->
+                    <!--<p>{switch to the animated version <a th:href="@{index}" href="index.html"-->
+                                                          <!--class="blink">here</a>}-->
+                    <!--</p>-->
+                <!--</div>&lt;!&ndash;six columns static&ndash;&gt;-->
 
 
-                <!--STATIC PIC:-->
-                <!--<div th:if="${param.static}" class="six columns portf">-->
-                <div class="six columns portf">
-                <img th:src="@{/img/smileEarthBLUWHT.png}"
-                         src="../static/img/smileEarthBLUWHT.png" class="pic"/>
-                    <p>{switch to the animated version <a th:href="@{index}" href="index.html"
-                                                          class="blink">here</a>}
-                    </p>
-                </div><!--six columns static-->
-
-
-            </div><!--row twoA-->
-            <br/>
-            <br/>
-            <div class="row twoB">
-                <div class="four columns portf">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                        nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
-                        augue.
-                        In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
-                        condimentum
-                        laoreet.</p>
-                </div>
-
-                <div class="four columns portf">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                        nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
-                        augue.
-                        In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
-                        condimentum
-                        laoreet.</p>
-                </div>
-
-                <div class="four columns portf">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                        nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
-                        augue.
-                        In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
-                        condimentum
-                        laoreet.</p>
-                </div>
-
-                <!--<div class="three columns portf">-->
-                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget-->
-                <!--nulla-->
-                <!--necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula-->
-                <!--augue.-->
-                <!--In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>-->
-                <!--<p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam-->
-                <!--condimentum-->
-                <!--laoreet.</p>-->
+            <!--</div>&lt;!&ndash;row twoA&ndash;&gt;-->
+            <!--<br/>-->
+            <!--<br/>-->
+            <!--<div class="row twoB">-->
+                <!--<div class="four columns portf">-->
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget-->
+                        <!--nulla-->
+                        <!--necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula-->
+                        <!--augue.-->
+                        <!--In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>-->
+                    <!--<p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam-->
+                        <!--condimentum-->
+                        <!--laoreet.</p>-->
                 <!--</div>-->
-            </div><!--row twoB-->
 
-            <div class="row twoC">
-                <h4 class=" twelve columns">Recent Work</h4>
-                <div class="three columns portf" style="margin-left: 0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget
-                        nulla
-                        necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula
-                        augue.
-                        In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>
-                    <p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam
-                        condimentum
-                        laoreet.</p>
-                </div><!--three columns-->
+                <!--<div class="four columns portf">-->
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget-->
+                        <!--nulla-->
+                        <!--necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula-->
+                        <!--augue.-->
+                        <!--In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>-->
+                    <!--<p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam-->
+                        <!--condimentum-->
+                        <!--laoreet.</p>-->
+                <!--</div>-->
 
-                <div class="nine columns portf">
-                    <div class="row u-max-full-width" style="height:50%"><!--twoC top pic row-->
-                        <div class="six columns">
-                            <a th:href="@{/nori.html}" href="nori.html">
-                                <img th:src="@{/img/noriItem.png}" src="../static/img/noriItem.png"
-                                     class="thumbnails"/>
-                            </a>
-                        </div>
-                        <div class="six columns pic">
-                            <img th:src="@{/img/IMG_0025.jpg}" src="../static/img/IMG_0025.jpg" class="thumbnails"/>
-                        </div>
-                    </div><!--twoC top pic row-->
+                <!--<div class="four columns portf">-->
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget-->
+                        <!--nulla-->
+                        <!--necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula-->
+                        <!--augue.-->
+                        <!--In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>-->
+                    <!--<p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam-->
+                        <!--condimentum-->
+                        <!--laoreet.</p>-->
+                <!--</div>-->
 
-                    <div class=" row u-max-full-width"><!--twoC bottom pic row-->
+                <!--&lt;!&ndash;<div class="three columns portf">&ndash;&gt;-->
+                <!--&lt;!&ndash;<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget&ndash;&gt;-->
+                <!--&lt;!&ndash;nulla&ndash;&gt;-->
+                <!--&lt;!&ndash;necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula&ndash;&gt;-->
+                <!--&lt;!&ndash;augue.&ndash;&gt;-->
+                <!--&lt;!&ndash;In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;<p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam&ndash;&gt;-->
+                <!--&lt;!&ndash;condimentum&ndash;&gt;-->
+                <!--&lt;!&ndash;laoreet.</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--</div>&lt;!&ndash;row twoB&ndash;&gt;-->
 
-                        <div class="six columns pic">
-                            <a th:href="@{/animalshelter.html}"
-                               href="animalshelter.html">
-                                <img th:src="@{/img/noahdemopage.jpg}" src="../static/img/noahdemopage.jpg"
-                                     class="thumbnails"
-                                     style="max-height: inherit"/>
-                            </a>
-                        </div>
-                        <div class="six columns pic">
-                            <a th:href="@{psindex.html}" href="ps/psindex.html">
-                                <img th:src="@{/img/paleoThmb.png}" src="../static/img/paleoThmb.png"
-                                     class="thumbnails"/>
-                            </a>
-                        </div>
-                        <!--<div class="six columns pic">-->
-                        <!--<a th:href="@{https://www.highlandbrewing.com/}"-->
-                        <!--href="https://www.highlandbrewing.com/">-->
-                        <!--<img src="../static/img/highland-2_360_360_70_int_c1_small.jpg"-->
-                        <!--class="thumbnails"/>-->
-                        <!--</a>-->
+            <!--<div class="row twoC">-->
+                <!--<h4 class=" twelve columns">Recent Work</h4>-->
+                <!--<div class="three columns portf" style="margin-left: 0">-->
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut odio mi. Praesent eget-->
+                        <!--nulla-->
+                        <!--necrisus maximus fermentum. Nulla nec pulvinar elit. Morbi a euismod metus, non vehicula-->
+                        <!--augue.-->
+                        <!--In at maximus ex. Praesent nec neque in felis sagittis tincidunt sed sed neque.</p>-->
+                    <!--<p>Cras eget lorem tincidunt enim ullamcorper cursus. Maecenas tempus tortor a diam-->
+                        <!--condimentum-->
+                        <!--laoreet.</p>-->
+                <!--</div>&lt;!&ndash;three columns&ndash;&gt;-->
+
+                <!--<div class="nine columns portf">-->
+                    <!--<div class="row u-max-full-width" style="height:50%">&lt;!&ndash;twoC top pic row&ndash;&gt;-->
+                        <!--<div class="six columns">-->
+                            <!--<a th:href="@{/nori.html}" href="nori.html">-->
+                                <!--<img th:src="@{/img/noriItem.png}" src="../static/img/noriItem.png"-->
+                                     <!--class="thumbnails"/>-->
+                            <!--</a>-->
                         <!--</div>-->
-                    </div><!--twoC bottom pic row-->
-                </div><!--nine columns-->
-            </div>
-            <!--<div class="row u-max-full-width portf idx">-->
-            <!--<code style="background-color: #B9B9B9">-->
-            <!--&lt;!&ndash;http://ec2-54-156-212-170.compute-1.amazonaws.com:9000/index.html?name=YOURNAME</code>&ndash;&gt;-->
-            <!--</div>&lt;!&ndash;row twoC&ndash;&gt;-->
-        </div><!--second row-->
-    </div><!--row middle primary-->
+                        <!--<div class="six columns pic">-->
+                            <!--<img th:src="@{/img/IMG_0025.jpg}" src="../static/img/IMG_0025.jpg" class="thumbnails"/>-->
+                        <!--</div>-->
+                    <!--</div>&lt;!&ndash;twoC top pic row&ndash;&gt;-->
 
-    <!--Nav to main Index:-->
-    <!--<div class="row bottom nav primary">-->
-    <!--<a th:href="index" href="index.html" rel="#home">-->
-    <!--<img src="../static/public_adm_nasa_logo.png.png" class="navlogo"-->
-    <!--alt="ADM logo"/></a>-->
+                    <!--<div class=" row u-max-full-width">&lt;!&ndash;twoC bottom pic row&ndash;&gt;-->
 
-</div><!--container main-->
-</body>
-</html>
+                        <!--<div class="six columns pic">-->
+                            <!--<a th:href="@{/animalshelter.html}"-->
+                               <!--href="animalshelter.html">-->
+                                <!--<img th:src="@{/img/noahdemopage.jpg}" src="../static/img/noahdemopage.jpg"-->
+                                     <!--class="thumbnails"-->
+                                     <!--style="max-height: inherit"/>-->
+                            <!--</a>-->
+                        <!--</div>-->
+                        <!--<div class="six columns pic">-->
+                            <!--<a th:href="@{psindex.html}" href="ps/psindex.html">-->
+                                <!--<img th:src="@{/img/paleoThmb.png}" src="../static/img/paleoThmb.png"-->
+                                     <!--class="thumbnails"/>-->
+                            <!--</a>-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash;<div class="six columns pic">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<a th:href="@{https://www.highlandbrewing.com/}"&ndash;&gt;-->
+                        <!--&lt;!&ndash;href="https://www.highlandbrewing.com/">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<img src="../static/img/highland-2_360_360_70_int_c1_small.jpg"&ndash;&gt;-->
+                        <!--&lt;!&ndash;class="thumbnails"/>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</a>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--</div>&lt;!&ndash;twoC bottom pic row&ndash;&gt;-->
+                <!--</div>&lt;!&ndash;nine columns&ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash;<div class="row u-max-full-width portf idx">&ndash;&gt;-->
+            <!--&lt;!&ndash;<code style="background-color: #B9B9B9">&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;http://ec2-54-156-212-170.compute-1.amazonaws.com:9000/index.html?name=YOURNAME</code>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&lt;!&ndash;row twoC&ndash;&gt;&ndash;&gt;-->
+        <!--</div>&lt;!&ndash;second row&ndash;&gt;-->
+    <!--</div>&lt;!&ndash;row middle primary&ndash;&gt;-->
+
+    <!--&lt;!&ndash;Nav to main Index:&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="row bottom nav primary">&ndash;&gt;-->
+    <!--&lt;!&ndash;<a th:href="index" href="index.html" rel="#home">&ndash;&gt;-->
+    <!--&lt;!&ndash;<img src="../static/public_adm_nasa_logo.png.png" class="navlogo"&ndash;&gt;-->
+    <!--&lt;!&ndash;alt="ADM logo"/></a>&ndash;&gt;-->
+
+<!--</div>&lt;!&ndash;container main&ndash;&gt;-->
+<!--</body>-->
+<!--</html>-->
