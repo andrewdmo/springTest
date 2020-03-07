@@ -23,13 +23,13 @@ public class WebSecurityConfig {
         @Override
         protected void configure(HttpSecurity http) throws Exception {
             http
-                .exceptionHandling()
-                .accessDeniedPage("/login-redirect")
-                .and()
+//                .exceptionHandling()
+//                .accessDeniedPage("/login-redirect")
+//                .and()
                 .authorizeRequests()
                 .antMatchers("/usersecurespace", "/user/**")
                 .hasRole("USER") //orig
-                .antMatchers("/", "/index*", "/public**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register", "/error")
+                .antMatchers("/", "/index**", "/public**", "/css/**", "/img/**", "/scripts/**", "/**.html", "/restgreeting", "/mvc**", "/register", "/error")
                 .permitAll()
 //            .antMatchers("/odd**").hasRole("MAID")
                 .anyRequest()

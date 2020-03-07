@@ -5,45 +5,369 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88d3c8d-fc88-47ea-9d89-6cfbd58d0e7e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26973e35-a965-478a-bb13-6ef5af80c70d/_metadata_/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26973e35-a965-478a-bb13-6ef5af80c70d/_metadata_/metadata.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26973e35-a965-478a-bb13-6ef5af80c70d/_metadata_/metadata.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26973e35-a965-478a-bb13-6ef5af80c70d/_metadata_/metadata.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26973e35-a965-478a-bb13-6ef5af80c70d/_metadata_/metadata.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26973e35-a965-478a-bb13-6ef5af80c70d/_metadata_/metadata_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26973e35-a965-478a-bb13-6ef5af80c70d/_metadata_/metadata_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/26973e35-a965-478a-bb13-6ef5af80c70d/storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5c8cff-7e31-4b2f-b085-66e48daca2cc/_metadata_/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5c8cff-7e31-4b2f-b085-66e48daca2cc/_metadata_/metadata.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5c8cff-7e31-4b2f-b085-66e48daca2cc/_metadata_/metadata.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5c8cff-7e31-4b2f-b085-66e48daca2cc/_metadata_/metadata.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5c8cff-7e31-4b2f-b085-66e48daca2cc/_metadata_/metadata.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5c8cff-7e31-4b2f-b085-66e48daca2cc/_metadata_/metadata_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5c8cff-7e31-4b2f-b085-66e48daca2cc/_metadata_/metadata_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5c8cff-7e31-4b2f-b085-66e48daca2cc/storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95bd0d86-5662-4d37-a701-c481e4c6e037.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/95bd0d86-5662-4d37-a701-c481e4c6e037.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bcf936cb-8ac5-4a71-a5d4-43bbba6a1b56/_metadata_/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bcf936cb-8ac5-4a71-a5d4-43bbba6a1b56/_metadata_/metadata.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bcf936cb-8ac5-4a71-a5d4-43bbba6a1b56/_metadata_/metadata.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bcf936cb-8ac5-4a71-a5d4-43bbba6a1b56/_metadata_/metadata.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bcf936cb-8ac5-4a71-a5d4-43bbba6a1b56/_metadata_/metadata.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bcf936cb-8ac5-4a71-a5d4-43bbba6a1b56/_metadata_/metadata_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bcf936cb-8ac5-4a71-a5d4-43bbba6a1b56/_metadata_/metadata_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bcf936cb-8ac5-4a71-a5d4-43bbba6a1b56/storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8262154-2300-46cc-a618-f9e6ccecd2d1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e8262154-2300-46cc-a618-f9e6ccecd2d1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_mvstore_1_4_196.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dizitart_nitrite_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_2_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__uk_co_jemos_podam_podam_7_1_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A_DeMo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A_DeMo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complete/production/cssRespTalk/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herro/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/controller/ExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herro/controller/ExceptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/controller/PsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herro/controller/PsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/herro/controller/RestfulController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/herro/controller/RestfulController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/public_ADM18eo2.doc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/public_ADM18eo2.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/public_ADM18eo2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/public_ADM18eo2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/img/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/oddrod/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/oddrod/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/ps/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/A_DeMo-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/A_DeMo-3.2.1.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.htaccess.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/as/v1_2/entity/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/as/v1_2/service/MenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/config/WebSecurityConfig$configureReg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/controller/ExceptionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/controller/PsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/controller/RestfulController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/herro/entity/Greeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/.~lock.ADM17eo.xml#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/public_ADM18eo2.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/public_ADM18eo2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/public_adm_nasa_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/public_vyoo_dir_genre_link.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/public_vyoo_movie.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/public_vyoo_studio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/demoStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/paleoStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/rockps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/skeleton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/tiystyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/:Users:andrewdmo:Projects:springTest.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/FBprofile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/IMG_0025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/IMG_20150923_192336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/Linux_Distribution_Timeline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/Spring-Security-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/TIYpage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/active-network-logo-7fb24783ae9e06e2f5738fa82d3dd322ea4b0eb081d527f7b1a9d2edc4cf0bb7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/adm_nasa_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/agma_360_360_70_int_c1_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/ally-bank-logo-32c4ad757ef478e00dc55ec3b0f1c5fa3d70876756b1f40d96e329fcec567fdc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/amazon-logo-39fa6ad8d708a8ef4c694e986cc360891af4b7aa9c0a695213791eff7141c63a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/amy-home-web2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/andrew-faircloth-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/android-chrome-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/animatedResponsive.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/att-logo-6865423b147ca9790782ee71db74c5af310a0151b4b9238ddd1274d999048d07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/benefit-focus-logo-25676a384094eddd8b02e053ccce1d2c555cd57eecabb5e24fd59a2f8ed0df82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/bi-logo-a04cb666947df1ee103c41b6760bc0b8ea705205ae92ab1ebf872bcdb2e27e60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/boomtown-logo-03780e64d061e8fa68a21feb0bd3761072edb74f1d13d5030e23108f66a56bd4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/brmt_360_360_70_int_c1_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/bronto-logo-0981b976a17e0fec994190158bd1d3a7b5cae2bbb538597783ef0084042feec2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/chaione-logo-adb99e6f095468e27845616e150e6acf6b791155868e14697547f9747add3e90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/claudetteThmb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clojure-syf-x300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clojureShot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/close-video.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/cloudspace-logo-fe33f4d75cfd176acb0c43bc36a3485e0218a59c4af1a138fb9499268bddb20f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/coke-logo-3388dc0e1a2246606509b114119f38208cfba066df9c8d23c2b11853ebcf81e2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/diagram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/emcien-logo-11c4eb39a4314d5cfe36aa94d35c9b06a361f44ec5c5b38c87bc10cf098b5d6c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/employers-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/favicon-194x194.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/faviconNori.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/fuzzco-logo-7fd3c1c8e371fad9d103e4c87c3e4ca6a4f2b870cbcc960558a826e8a26ce9ca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/github-logo-929c17a9176a64a93d7ac68a3e0a519d3e1d89b1b563fcfab1636f98f58fade2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/gitlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/highland-2_360_360_70_int_c1_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/html.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/iPhoneXScreenOptz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/ibm-design-logo-9df4a75ac65f365c6b1bb44d8c2fb261f5491200b3bae1677c862ed879988a61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/iron-yard-logo.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/iron-yard-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/jsIcon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/julie-rich-thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/light_burst_effect_vector_530599.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/logo-white2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/mavenDiagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/mavendiag.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/mediumIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/microsoft-logo-5a4fb054f062b1bc302c250d3a6e5727920ca528c0439b123b4c5c691d9b85fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/mmaThmb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/movie_SQLdiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/noahdemopage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/noriDash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/noriItem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/noriLogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/notre-dame-logo-96659b0cc07884e5434aa7b059a53f63ac133760a008294deb51f63105a16683.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/oldWellFav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/oviThmb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/page-1-home-compressed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/paleoBackDEL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/paleoPage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/paleoThmb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/paper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/path-logo-69e849c76968c54b1ee1f165412b52a23f1601a7161363038e929d61673544dc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/pdfIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/play-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/prismatic-logo-21449ce0f465b277a8667a99b8be981a131b458718e4f941020b214800920bd9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/psfavicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/public_adm_nasa_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/questionMark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/redhat-logo-023845ec451a12fa12d3e9d59582a0b84d37d22628896c23deee61a04fff6980.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/responsive.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/restfulSign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/rock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/rockpsPic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/scissors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/scliff031817.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/smileEarthBLUWHT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/smileearthnull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/sparc-logo-5bf647f856b2cace787dc5bcb3806002bb4b747bef11f8ead5b7d810378ff4f0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/spoonflower-logo-23105b5432e9e743ce837ddd52b224933c602b66519af0e9b21ad7b959dd1b01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/springMvcLogo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/active-network-logo-7fb24783ae9e06e2f5738fa82d3dd322ea4b0eb081d527f7b1a9d2edc4cf0bb7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/ally-bank-logo-32c4ad757ef478e00dc55ec3b0f1c5fa3d70876756b1f40d96e329fcec567fdc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/amazon-logo-39fa6ad8d708a8ef4c694e986cc360891af4b7aa9c0a695213791eff7141c63a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/amy-home-web2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/andrew-faircloth-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/att-logo-6865423b147ca9790782ee71db74c5af310a0151b4b9238ddd1274d999048d07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/benefit-focus-logo-25676a384094eddd8b02e053ccce1d2c555cd57eecabb5e24fd59a2f8ed0df82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/bi-logo-a04cb666947df1ee103c41b6760bc0b8ea705205ae92ab1ebf872bcdb2e27e60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/boomtown-logo-03780e64d061e8fa68a21feb0bd3761072edb74f1d13d5030e23108f66a56bd4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/bronto-logo-0981b976a17e0fec994190158bd1d3a7b5cae2bbb538597783ef0084042feec2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/chaione-logo-adb99e6f095468e27845616e150e6acf6b791155868e14697547f9747add3e90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/close-video.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/cloudspace-logo-fe33f4d75cfd176acb0c43bc36a3485e0218a59c4af1a138fb9499268bddb20f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/coke-logo-3388dc0e1a2246606509b114119f38208cfba066df9c8d23c2b11853ebcf81e2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/emcien-logo-11c4eb39a4314d5cfe36aa94d35c9b06a361f44ec5c5b38c87bc10cf098b5d6c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/employers-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/fuzzco-logo-7fd3c1c8e371fad9d103e4c87c3e4ca6a4f2b870cbcc960558a826e8a26ce9ca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/github-logo-929c17a9176a64a93d7ac68a3e0a519d3e1d89b1b563fcfab1636f98f58fade2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/ibm-design-logo-9df4a75ac65f365c6b1bb44d8c2fb261f5491200b3bae1677c862ed879988a61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/iron-yard-logo.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/iron-yard-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/julie-rich-thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/microsoft-logo-5a4fb054f062b1bc302c250d3a6e5727920ca528c0439b123b4c5c691d9b85fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/notre-dame-logo-96659b0cc07884e5434aa7b059a53f63ac133760a008294deb51f63105a16683.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/path-logo-69e849c76968c54b1ee1f165412b52a23f1601a7161363038e929d61673544dc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/play-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/prismatic-logo-21449ce0f465b277a8667a99b8be981a131b458718e4f941020b214800920bd9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/redhat-logo-023845ec451a12fa12d3e9d59582a0b84d37d22628896c23deee61a04fff6980.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/sparc-logo-5bf647f856b2cace787dc5bcb3806002bb4b747bef11f8ead5b7d810378ff4f0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/spoonflower-logo-23105b5432e9e743ce837ddd52b224933c602b66519af0e9b21ad7b959dd1b01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/validic-logo-c4d146131b4a8b2f1f443f773c030b12343ede1685e2eebf7ceb1597c4754009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tiyStyleImg/wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tutco-farnam-2015_360_360_int_c1_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/tweetsie_360_360_70_int_c1_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/validic-logo-c4d146131b4a8b2f1f443f773c030b12343ede1685e2eebf7ceb1597c4754009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/visitcherokeenc_360_360_70_int_c1_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/widescreenScreenOptz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/wordIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/mvcName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/rockps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/velocity.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/viewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/animalshelter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/clojure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/loginPSQL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/moviesql.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/mvcgreeting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/nori.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/oddrod/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/oddrod/lovin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/oddrod/oddrod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/oldRegister.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/psabout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/psarchives.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/psblog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/pscontact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/pserror.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/psindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ps/psportfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/rockps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/tiystyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/todo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/usersecurespace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -103,224 +427,6 @@
       <favorite_root url="file://$PROJECT_DIR$/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44444445">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2310">
-                  <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
-                  <folding>
-                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/Application.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="18" selection-start-line="18" selection-end-line="18" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserRegisterForm.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserRegisterForm.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="245">
-                  <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="855">
-                  <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
-                  <folding>
-                    <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="usersecurespace.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1725">
-                  <caret line="115" column="43" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="pom.xml" pinned="true" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1650">
-                  <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-                  <folding>
-                    <marker date="1525526893271" expanded="true" signature="3782:3820" ph="..." />
-                    <marker date="1525526893271" expanded="true" signature="4416:4454" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="application.properties" pinned="true" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/Role.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserRepo.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/repo/UserRepo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="3" selection-end-line="17" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#0#461#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="47" column="45" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="47" selection-end-column="45" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RoleRepo.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/repo/RoleRepo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#261#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserOLD.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/UserOLD.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#2128#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Greeting.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/Greeting.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="A_UserPrincipal.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/A_UserPrincipal.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -330,54 +436,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>bottom</find>
-      <find>logo</find>
-      <find>n</find>
-      <find>first</find>
-      <find>menu</find>
-      <find>calc</find>
-      <find>primary</find>
-      <find>idx</find>
-      <find>testbar</find>
-      <find>testBar</find>
-      <find>nav</find>
-      <find>shadow</find>
-      <find>border</find>
-      <find>hov</find>
-      <find>hover</find>
-      <find>ec2-52-206-81-235</find>
-      <find>portocall-85395118.us-east-1.elb.amazonaws.com</find>
-      <find>springTest</find>
-      <find>logo shade</find>
-      <find>ec2-52</find>
-      <find>&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;57x57&quot; th:href=&quot;@{/img/apple-icon-57x57.png}&quot;          href=&quot;/static/img/apple-icon-57x57.png&quot;/&gt;    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;60x60&quot; th:href=&quot;@{/img/apple-icon-60x60.png}&quot;          href=&quot;/static/img/apple-icon-60x60.png&quot;/&gt;    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;72x72&quot; th:href=&quot;@{/img/apple-icon-72x72.png}&quot;          href=&quot;/static/img/apple-icon-72x72.png&quot;/&gt;    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;76x76&quot; th:href=&quot;@{/img/apple-icon-76x76.png}&quot;          href=&quot;/static/img/apple-icon-76x76.png&quot;/&gt;    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;114x114&quot; th:href=&quot;@{/img/apple-icon-114x114.png}&quot;          href=&quot;/static/img/apple-icon-114x114.png&quot;/&gt;    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;120x120&quot; th:href=&quot;@{/img/apple-icon-120x120.png}&quot;          href=&quot;/static/img/apple-icon-120x120.png&quot;/&gt;    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;144x144&quot; th:href=&quot;@{/img/apple-icon-144x144.png}&quot;          href=&quot;/static/img/apple-icon-144x144.png&quot;/&gt;    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;152x152&quot; th:href=&quot;@{/img/apple-icon-152x152.png}&quot;          href=&quot;/static/img/apple-icon-152x152.png&quot;/&gt;    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; th:href=&quot;@{/img/apple-icon-152x152.png}&quot;          href=&quot;/static/img/apple-icon-180x180.png&quot;/&gt;    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;192x192&quot; th:href=&quot;@{/img/android-icon-192x192.png}&quot;          href=&quot;/static/img/android-icon-192x192.png&quot;/&gt;    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; th:href=&quot;@{/img/favicon-32x32.png}&quot;          href=&quot;/static/img/favicon-32x32.png&quot;/&gt;    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;96x96&quot; th:href=&quot;@{/img/favicon-96x96.png}&quot;          href=&quot;/static/img/favicon-96x96.png&quot;/&gt;    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; th:href=&quot;@{/img/favicon-16x16.png}&quot;          href=&quot;/static/img/favicon-16x16.png&quot;/&gt;    &lt;link rel=&quot;manifest&quot; href=&quot;/static/img/manifest.json&quot;/&gt;    &lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#ffffff&quot;/&gt;    &lt;meta name=&quot;msapplication-TileImage&quot; content=&quot;/ms-icon-144x144.png&quot;/&gt;    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot;/&gt;</find>
-      <find>&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;../static/img/apple-touch-icon.png&quot;&gt;    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;../static/img/favicon-32x32.png&quot;&gt;    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;../static/img/favicon-16x16.png&quot;&gt;    &lt;link rel=&quot;manifest&quot; href=&quot;../static/img/site.webmanifest&quot;&gt;    &lt;link rel=&quot;mask-icon&quot; href=&quot;../static/img/safari-pinned-tab.svg&quot; color=&quot;#b0c4de&quot;&gt;    &lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#b0c4de&quot;&gt;    &lt;meta name=&quot;theme-color&quot; content=&quot;#b0c4de&quot;&gt;</find>
-      <find>&lt;</find>
-      <find>button</find>
-      <find>u</find>
-      <find>&lt;div th:switch=&quot;${param.error}&quot; class=&quot;row portf blink&quot; style=&quot;color: #901400&quot;&gt;</find>
-      <find>blink</find>
-      <find>shade</find>
-      <find>transition</find>
-      <find />
-    </findStrings>
-    <replaceStrings>
-      <replace>tiyStyleImg</replace>
-      <replace>paleopage.png</replace>
-      <replace>JEE, security, html</replace>
-      <replace>ec2-54-156-212-170</replace>
-      <replace>ec2-54-156-212-170.compute-1.amazonaws.com</replace>
-      <replace>logo shadow</replace>
-      <replace />
-      <replace>shadow</replace>
-      <replace>as=&quot;document&quot;</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -385,104 +443,31 @@
     <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/login.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/static/css/skeleton.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/login.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/resources/static/css/skeleton.css" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/index.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/ps/psblog.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/ps/pscontact.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/ps/pserror.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/ps/psindex.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/ps/psportfolio.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/rockps.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/PsController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/oddrod/lovin.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/skeleton.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/oddrod/oddrod.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/animalshelter.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/clojure.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/error.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/moviesql.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/403.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/404.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/register.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/nori.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/ExceptionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/RestfulController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/contact.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/validator/UserValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/repo/RoleRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/nitrate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/Greeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/config/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/config/NitrateConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/entity/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/repo/UserRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/Nitrate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/SecurityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/config/MongoConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/EmailService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/service/SecurityService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/portfolio.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index2.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenProjectNavigator">
-    <option name="alwaysShowArtifactId" value="true" />
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="A_DeMo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="A_DeMo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="PhpServers">
-    <servers />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectId" id="1YKErWNn7qeWpCzrVBX7K3Z7KYJ" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -520,147 +505,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <autoscrollToSource ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="herro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="herro" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="herro" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="herro" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="herro" type="462c0819:PsiDirectoryNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="herro" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A_DeMo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -674,12 +522,19 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;Sqlite (Xerial)&#10;DDL Data Source" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
+    <property name="show.unlinked.gradle.project.popup" value="false" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html" />
   </component>
   <component name="RecentsManager">
@@ -704,135 +559,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="A_DeMo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="A_DeMo" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="org.jetbrains.fluid.java.FluidRunConfigurationExtension" fluid.enabledBundledTracers="false" fluid.enabledBundledTracers.list="" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.herro.Application" />
-      <option name="PROGRAM_PARAMETERS" value="run" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -860,297 +587,95 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
       </option>
-      <envs />
-      <patterns />
-      <method />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Local">
-      <setting name="replType" value="1" />
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
       <module name="" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
-      <method />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
       <module name="" />
-      <setting name="path" value="" />
-      <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="" />
-      <method />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="A_DeMo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="A_DeMo" />
-      <envs />
-      <method />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -1158,309 +683,99 @@
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="A_DeMo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="A_DeMo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+    <configuration name="A_DeMo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="A_DeMo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="A_DeMo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
+      <extension name="org.jetbrains.fluid.java.FluidRunConfigurationExtension" fluid.enabledBundledTracers="false" fluid.enabledBundledTracers.list="" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.herro.Application" />
+      <option name="PROGRAM_PARAMETERS" value="run" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="A_DeMo" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="A_DeMo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="A_DeMo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="A_DeMo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpringBeansView">
     <option name="showFiles" value="false" />
@@ -1704,11 +1019,16 @@
       <workItem from="1525789425967" duration="587000" />
       <workItem from="1525878707647" duration="717000" />
       <workItem from="1525899720028" duration="3864000" />
+      <workItem from="1527518773127" duration="1018000" />
+      <workItem from="1582683089222" duration="1194000" />
+      <workItem from="1582684764953" duration="380000" />
+      <workItem from="1582685175405" duration="107000" />
+      <workItem from="1582685309688" duration="1098000" />
+      <workItem from="1583457509335" duration="1865000" />
+      <workItem from="1583536888272" duration="2664000" />
+      <workItem from="1583591068323" duration="3610000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1719,131 +1039,75 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Amazon EC2" order="15" sideWeight="0.2732475" weight="0.35102534" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.7153076" side_tool="true" weight="0.3917647" />
-      <window_info anchor="right" x="1059" y="211" width="337" height="295" id="Maven Projects" order="6" visible="true" weight="0.05937053" />
-      <window_info anchor="bottom" id="Database Changes" order="22" />
-      <window_info anchor="right" id="Mongo Explorer" order="18" />
-      <window_info anchor="right" id="Designer" order="7" />
-      <window_info anchor="bottom" id="Docker" order="23" show_stripe_button="false" />
-      <window_info id="Colour Chooser" order="12" />
-      <window_info anchor="right" x="1238" y="527" width="177" height="317" id="Database" order="11" sideWeight="0.47678572" weight="0.0851216" />
-      <window_info anchor="bottom" x="599" y="165" width="212" height="487" id="Structure" order="10" sideWeight="0.5214592" side_tool="true" weight="0.3293124" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.24964234" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.62708336" weight="0.29647058" />
-      <window_info anchor="bottom" id="TODO" order="4" sideWeight="0.49444443" weight="0.31882352" />
-      <window_info anchor="right" id="SvgViewer" order="0" />
-      <window_info id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.3293124" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.725" side_tool="true" weight="0.38089624" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49427754" weight="0.3256936" />
-      <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.5579399" weight="0.22557297" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.45207438" weight="0.32810616" />
-      <window_info anchor="right" auto_hide="true" id="Jenkins" internal_type="SLIDING" order="15" show_stripe_button="false" type="SLIDING" weight="0.32403433" />
-      <window_info active="true" content_ui="combo" x="21" y="32" width="311" height="812" id="Project" order="5" sideWeight="0.4885404" visible="true" weight="0.10801145" />
-      <window_info anchor="bottom" id="Problems" order="21" sideWeight="0.41201717" weight="0.1544029" />
-      <window_info anchor="right" id="Bean Validation" order="1" weight="0.3297568" />
-      <window_info id="Web" order="11" side_tool="true" />
-      <window_info id="Favorites" order="4" sideWeight="0.5114596" side_tool="true" weight="0.080829754" />
-      <window_info anchor="bottom" id="Application Servers" order="13" sideWeight="0.39842632" weight="0.25452352" />
-      <window_info id="Leiningen" order="6" weight="0.3295129" />
-      <window_info anchor="right" id="Remote Host" order="14" weight="0.3297568" />
-      <window_info anchor="bottom" id="Database Console" order="20" sideWeight="0.40701002" visible="true" weight="0.32889965" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
-      <window_info anchor="right" id="Properties" order="12" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" sideWeight="0.5665236" weight="0.32810616" />
-      <window_info anchor="right" x="100" y="123" width="1240" height="617" id="Documentation" order="10" type="FLOATING" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info id="Image Layers" order="9" />
-      <window_info anchor="bottom" id="Fluid" order="19" side_tool="true" />
-      <window_info anchor="right" id="Data View" order="16" />
-      <window_info id="Nl-Palette" order="8" />
-      <window_info anchor="bottom" id="HDInsight Spark Submission" order="17" show_stripe_button="false" />
-      <window_info anchor="right" id="SciView" order="17" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.275" weight="0.21226415" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="JavaEE:App" order="0" side_tool="true" />
-      <window_info id="Azure Explorer" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="13" />
-      <window_info anchor="bottom" id="Azure Activity Log" order="18" />
-      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.328125" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.3625" weight="0.28" />
-      <window_info id="REPL" order="7" side_tool="true" weight="0.32932693" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="9" />
-      <window_info anchor="bottom" id="Application Servers" order="13" sideWeight="0.39842632" weight="0.25452352" />
-      <window_info anchor="right" id="Designer" order="7" />
-      <window_info anchor="bottom" id="Amazon EC2" order="15" sideWeight="0.2732475" weight="0.35102534" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Remote Host" order="14" weight="0.3297568" />
-      <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.5579399" weight="0.22557297" />
-      <window_info anchor="bottom" id="Database Console" order="20" sideWeight="0.40701002" visible="true" weight="0.32889965" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49427754" weight="0.3256936" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.24964234" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Web" order="11" side_tool="true" />
-      <window_info anchor="right" id="Properties" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.45207438" weight="0.32810616" />
-      <window_info anchor="bottom" id="Docker" order="23" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" sideWeight="0.5665236" weight="0.32810616" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.7153076" side_tool="true" weight="0.3917647" />
-      <window_info anchor="right" x="100" y="123" width="1240" height="617" id="Documentation" order="10" type="FLOATING" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.3625" weight="0.28" />
-      <window_info anchor="right" x="1238" y="527" width="177" height="317" id="Database" order="11" sideWeight="0.47678572" weight="0.0851216" />
-      <window_info id="Favorites" order="4" sideWeight="0.5114596" side_tool="true" weight="0.080829754" />
-      <window_info anchor="bottom" id="Problems" order="21" sideWeight="0.41201717" weight="0.1544029" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.3293124" />
-      <window_info anchor="right" id="Bean Validation" order="1" weight="0.3297568" />
-      <window_info anchor="bottom" id="Database Changes" order="22" />
-      <window_info anchor="right" id="Data View" order="16" />
-      <window_info id="Nl-Palette" order="8" />
-      <window_info anchor="right" x="1059" y="211" width="337" height="295" id="Maven Projects" order="6" visible="true" weight="0.059722222" />
-      <window_info anchor="bottom" id="HDInsight Spark Submission" order="17" show_stripe_button="false" />
-      <window_info anchor="right" auto_hide="true" id="Jenkins" internal_type="SLIDING" order="15" show_stripe_button="false" type="SLIDING" weight="0.32403433" />
-      <window_info id="Azure Explorer" order="10" />
-      <window_info id="JavaEE:App" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Fluid" order="19" side_tool="true" />
-      <window_info content_ui="combo" x="21" y="32" width="311" height="812" id="Project" order="5" sideWeight="0.4885404" visible="true" weight="0.13611111" />
-      <window_info anchor="right" id="SciView" order="17" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.27539343" weight="0.38089624" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Leiningen" order="6" weight="0.3295129" />
-      <window_info anchor="bottom" id="TODO" order="4" sideWeight="0.49444443" weight="0.31882352" />
-      <window_info id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="13" />
-      <window_info anchor="bottom" x="599" y="165" width="212" height="487" id="Structure" order="10" sideWeight="0.5214592" side_tool="true" weight="0.3293124" />
-      <window_info anchor="right" id="Mongo Explorer" order="18" />
-      <window_info id="Colour Chooser" order="12" />
-      <window_info anchor="bottom" id="Azure Activity Log" order="18" />
-      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.328125" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.62708336" weight="0.29647058" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.7246066" side_tool="true" weight="0.3903302" />
-      <window_info id="REPL" order="7" side_tool="true" weight="0.32932693" />
-      <window_info anchor="right" id="SvgViewer" order="0" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1583597347201">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583597347201" />
+    <state width="1440" height="245" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1583593285782" />
+    <state width="1440" height="331" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1583596619254" />
+    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1583597347200">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="279" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583597347200" />
+    <state width="1440" height="245" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1583593285780" />
+    <state width="1440" height="331" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1583596619253" />
+    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1583597347200">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="279" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583597347200" />
+    <state width="1440" height="245" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1583593285780" />
+    <state width="1440" height="331" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1583596619252" />
+    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1583597347201">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="279" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583597347201" />
+    <state width="1440" height="245" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1583593285781" />
+    <state width="1440" height="331" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1583596619253" />
+    <state width="1398" height="279" key="GridCell.Tab.1.bottom" timestamp="1583597190502">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="279" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583597190502" />
+    <state width="1440" height="245" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1583593285784" />
+    <state width="1440" height="331" key="GridCell.Tab.1.bottom/0.23.1440.824@0.23.1440.824" timestamp="1583596619256" />
+    <state width="1398" height="279" key="GridCell.Tab.1.center" timestamp="1583597190501">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="279" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583597190501" />
+    <state width="1440" height="245" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1583593285782" />
+    <state width="1440" height="331" key="GridCell.Tab.1.center/0.23.1440.824@0.23.1440.824" timestamp="1583596619255" />
+    <state width="1398" height="279" key="GridCell.Tab.1.left" timestamp="1583597190501">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="279" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583597190501" />
+    <state width="1440" height="245" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1583593285782" />
+    <state width="1440" height="331" key="GridCell.Tab.1.left/0.23.1440.824@0.23.1440.824" timestamp="1583596619254" />
+    <state width="1398" height="279" key="GridCell.Tab.1.right" timestamp="1583597190501">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="279" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583597190501" />
+    <state width="1440" height="245" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1583593285783" />
+    <state width="1440" height="331" key="GridCell.Tab.1.right/0.23.1440.824@0.23.1440.824" timestamp="1583596619255" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1582684118773">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1582684118773" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1582685284029">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582685284029" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1583591110055">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583591110055" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1582685193421" />
+    <state x="378" y="207" width="876" height="601" key="find.popup" timestamp="1583539255805">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="207" width="876" height="601" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1583539255805" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1851,432 +1115,14 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java</url>
           <line>93</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/nori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/andrewdmo/Projects/springTest/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/main/resources/templates/index.html</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/IMG_0025.jpg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/adm_nasa_logo.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/apple-touch-icon.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/favicon-16x16.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/favicon-32x32.png</node>
-            <node x="" y="">$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_platform.linkedin.com_badges_js_profile.js</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/noahdemopage.jpg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/noriItem.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/normalize.css</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/paleoThmb.png</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/safari-pinned-tab.svg</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/img/site.webmanifest</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/css/skeleton.css</node>
-            <node x="" y="">$PROJECT_DIR$/src/main/resources/static/scripts/viewport.js</node>
-            <node x="" y="">/static/img/iPhoneXScreenOptz.png</node>
-            <node x="" y="">/static/img/widescreenScreenOptz.png</node>
-            <node x="" y="">https://www.google.com/maps/embed/v1/</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8331441543700341" x="431.0" y="352.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mvcgreeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/skeleton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/moviesql.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e8262154-2300-46cc-a618-f9e6ccecd2d1/database/ademo/schema/public/table/demo_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/XADataSourceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/1.5.3.RELEASE/spring-boot-devtools-1.5.3.RELEASE-sources.jar!/org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.2.RELEASE/spring-security-config-4.2.2.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/loginPSQL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/MongoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/NitrateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/validator/UserValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImplOLD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/SecurityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="49" selection-start-column="2" selection-end-line="43" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/SecurityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-column="2" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/Nitrate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RestfulController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/PsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="2171" column="35" selection-start-line="2171" selection-start-column="35" selection-end-line="2171" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1964">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/demoStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="43" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-          <folding>
-            <marker date="1525526893271" expanded="true" signature="3782:3820" ph="..." />
-            <marker date="1525526893271" expanded="true" signature="4416:4454" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/ExceptionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/service/UserRegisterForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/repo/UserRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/repo/RoleRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/UserOLD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/Greeting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/entity/A_UserPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/usersecurespace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="47" column="45" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="47" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/herro/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

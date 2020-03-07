@@ -36,9 +36,4 @@ public class PsController {
         return "ps/psportfolio";
     }
 
-//    @ExceptionHandler
-//    //add URL request query feedback later:
-//    public String error() {
-//        return "error";
-//    }
 }

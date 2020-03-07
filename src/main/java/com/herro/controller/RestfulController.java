@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-@RestController("/restgreeting")
+@RestController("/rest*")
 public class RestfulController {
 
     //Id from server session, not client
@@ -25,7 +25,7 @@ public class RestfulController {
 
 //return g.toJson(greeting);
 
-        return "{ ID :: \r\n" + greeting.getId() +" }" + greeting.getTemplate() + greeting.getBody();
+        return "{ ID :: \r\n" + greeting.getId() + " }" + greeting.getTemplate() + greeting.getBody();
 
         //old way, ugly String:
 //            String.format(template, name));
